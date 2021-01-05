@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd">
+    <graph id="python">
+        <node id="python" label="Python"/>
+
+        <!--Python-->
+        <node id="python_types" label="Built-in Types"/>
+        <edge id="edge_python_types" source="python" target="python_types"/>
+
+        <node id="python_functions" label="Functions"/>
+        <edge id="edge_python_functions" source="python" target="python_functions"/>
+
+        <node id="python_parallelism" label="Concurrent Execution"/>
+        <edge id="edge_python_parallelism" source="python" target="python_parallelism"/>
+
+        <node id="python_import_system" label="The Import System"/>
+        <edge id="edge_python_import_system" source="python" target="python_import_system"/>
+
+        <node id="python_testing" label="Testing"/>
+        <edge id="edge_python_testing" source="python" target="python_testing"/>
+
+        <node id="python_debugging" label="Debugging and Profiling"/>
+        <edge id="edge_python_debugging" source="python" target="python_debugging"/>
+
+        <node id="python_standard_library" label="Standard Library"/>
+        <edge id="edge_python_standard_library" source="python" target="python_standard_library"/>
+
+        <!--Built-in Types-->
+        <node id="python_types_text" label="Text"/>
+        <edge id="edge_python_types_text" source="python_types" target="python_types_text"/>
+
+        <node id="python_types_boolean" label="Boolean"/>
+        <edge id="edge_python_types_boolean" source="python_types" target="python_types_boolean"/>
+
+        <node id="python_types_numeric" label="Numeric"/>
+        <edge id="edge_python_types_numeric" source="python_types" target="python_types_numeric"/>
+
+        <node id="python_types_sequence" label="Sequence"/>
+        <edge id="edge_python_types_sequence" source="python_types" target="python_types_sequence"/>
+
+        <node id="python_types_binary_sequence" label="Binary Sequence"/>
+        <edge id="edge_python_types_binary_sequence" source="python_types" target="python_types_binary_sequence"/>
+
+        <node id="python_types_set" label="Set"/>
+        <edge id="edge_python_types_set" source="python_types" target="python_types_set"/>
+
+        <node id="python_types_dict" label="Dictionary"/>
+        <edge id="edge_python_types_dict" source="python_types" target="python_types_dict"/>
+
+        <node id="python_types_iterator" label="Iterator"/>
+        <edge id="edge_python_types_iterator" source="python_types" target="python_types_iterator"/>
+
+        <node id="python_types_context" label="Context Manager"/>
+        <edge id="edge_python_types_context" source="python_types" target="python_types_context"/>
+
+        <!--Functions-->
+        <node id="python_functions_lambdas" label="Lambdas"/>
+        <edge id="edge_python_functions_lambdas" source="python_functions" target="python_functions_lambdas"/>
+
+        <node id="python_functions_itertools" label="Functions creating iterators"/>
+        <edge id="edge_python_functions_itertools" source="python_functions" target="python_functions_itertools"/>
+
+        <node id="python_functions_functools" label="Higher-order functions"/>
+        <edge id="edge_python_functions_functools" source="python_functions" target="python_functions_functools"/>
+
+        <node id="python_functions_operator" label="Standard operators as functions"/>
+        <edge id="edge_python_functions_operator" source="python_functions" target="python_functions_operator"/>
+
+        <!--Concurrent Execution-->
+        <node id="python_parallelism_coroutines" label="Coroutines"/>
+        <edge id="edge_python_parallelism_coroutines" source="python_parallelism" target="python_parallelism_coroutines"/>
+
+        <node id="python_parallelism_threading" label="Thread-based"/>
+        <edge id="edge_python_parallelism_threading" source="python_parallelism" target="python_parallelism_threading"/>
+
+        <node id="python_parallelism_multiprocessing" label="multiprocessing"/>
+        <edge id="edge_python_parallelism_multiprocessing" source="python_parallelism" target="python_parallelism_multiprocessing"/>
+
+        <!--Debugging and Profiling-->
+        <node id="python_debugging_bdb" label="Debugger Framework"/>
+        <edge id="edge_python_debugging_bdb" source="python_debugging" target="python_debugging_bdb"/>
+
+        <node id="python_debugging_faulthandler" label="Dump the Python traceback"/>
+        <edge id="edge_python_debugging_faulthandler" source="python_debugging" target="python_debugging_faulthandler"/>
+
+        <node id="python_debugging_pdb" label="The Python Debugger"/>
+        <edge id="edge_python_debugging_pdb" source="python_debugging" target="python_debugging_pdb"/>
+
+        <node id="python_debugging_profilers" label="The Python Profilers"/>
+        <edge id="edge_python_debugging_profilers" source="python_debugging" target="python_debugging_profilers"/>
+
+        <node id="python_debugging_timeit" label="Measure execution time"/>
+        <edge id="edge_python_debugging_timeit" source="python_debugging" target="python_debugging_timeit"/>
+
+        <node id="python_debugging_trace_execution" label="Trace statement execution"/>
+        <edge id="edge_python_debugging_trace_execution" source="python_debugging" target="python_debugging_trace_execution"/>
+
+        <node id="python_debugging_trace_allocations" label="Trace memory allocations"/>
+        <edge id="edge_python_debugging_trace_allocations" source="python_debugging" target="python_debugging_trace_allocations"/>
+
+        <!--Testing-->
+        <node id="python_testing_regression" label="Regression tests"/>
+        <edge id="edge_python_testing_regression" source="python_testing" target="python_testing_regression"/>
+
+        <node id="python_testing_unittest" label="Unit testing framework"/>
+        <edge id="edge_python_testing_unittest" source="python_testing" target="python_testing_unittest"/>
+
+        <!--Standard Library-->
+        <node id="python_standard_library_files" label="File and Directory Access"/>
+        <edge id="edge_python_standard_library_files" source="python_standard_library" target="python_standard_library_files"/>
+
+        <node id="python_standard_library_binary" label="Binary Data Services"/>
+        <edge id="edge_python_standard_library_binary" source="python_standard_library" target="python_standard_library_binary"/>
+
+        <node id="python_standard_library_text" label="Text Processing Services"/>
+        <edge id="edge_python_standard_library_text" source="python_standard_library" target="python_standard_library_text"/>
+
+        <node id="python_standard_library_numeric" label="Numeric and Mathematical Modules"/>
+        <edge id="edge_python_standard_library_numeric" source="python_standard_library" target="python_standard_library_numeric"/>
+
+        <node id="python_standard_library_cryptographic" label="Cryptographic Services"/>
+        <edge id="edge_python_standard_library_cryptographic" source="python_standard_library" target="python_standard_library_cryptographic"/>
+
+        <node id="python_standard_library_markup" label="Structured Markup Processing Tools"/>
+        <edge id="edge_python_standard_library_markup" source="python_standard_library" target="python_standard_library_markup"/>
+
+        <node id="python_standard_library_internationalization" label="Internationalization"/>
+        <edge id="edge_python_standard_library_internationalization" source="python_standard_library" target="python_standard_library_internationalization"/>
+    </graph>
+</xmlgraph>
