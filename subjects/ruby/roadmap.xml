@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd">
+    <graph id="ruby">
+        <node id="ruby" label="Ruby"/>
+
+        <!-- Ruby -->
+        <node id="ruby_types" label="Datatypes and Objects"/>
+        <edge id="edge_ruby_types" source="ruby" target="ruby_types"/>
+
+        <node id="ruby_expressions" label="Expressions and Operators"/>
+        <edge id="edge_ruby_expressions" source="ruby" target="ruby_expressions"/>
+
+        <node id="ruby_statements" label="Statements and Control Structures"/>
+        <edge id="edge_ruby_statements" source="ruby" target="ruby_statements"/>
+
+        <node id="ruby_functions" label="Metods, Procs, Lambdas, and Closures"/>
+        <edge id="edge_ruby_functions" source="ruby" target="ruby_functions"/>
+
+        <node id="ruby_oop" label="Classes and Modules"/>
+        <edge id="edge_ruby_oop" source="ruby" target="ruby_oop"/>
+
+        <node id="ruby_reflection" label="Reflection and Metaprogramming"/>
+        <edge id="edge_ruby_reflection" source="ruby" target="ruby_reflection"/>
+
+        <node id="ruby_platform" label="The Ruby Platform"/>
+        <edge id="edge_ruby_platform" source="ruby" target="ruby_platform"/>
+
+        <node id="ruby_rails" label="Rails"/>
+        <edge id="edge_ruby_rails" source="ruby" target="ruby_rails"/>
+
+        <!-- Datatypes and Objects -->
+        <node id="ruby_types_numbers" label="Numbers"/>
+        <edge id="edge_ruby_types_numbers" source="ruby_types" target="ruby_types_numbers"/>
+
+        <node id="ruby_types_text" label="Text"/>
+        <edge id="edge_ruby_types_text" source="ruby_types" target="ruby_types_text"/>
+
+        <node id="ruby_types_arrays" label="Arrays"/>
+        <edge id="edge_ruby_types_arrays" source="ruby_types" target="ruby_types_arrays"/>
+
+        <node id="ruby_types_hashes" label="Hashes"/>
+        <edge id="edge_ruby_types_hashes" source="ruby_types" target="ruby_types_hashes"/>
+
+        <node id="ruby_types_ranges" label="Ranges"/>
+        <edge id="edge_ruby_types_ranges" source="ruby_types" target="ruby_types_ranges"/>
+
+        <node id="ruby_types_symbols" label="Symbols"/>
+        <edge id="edge_ruby_types_symbols" source="ruby_types" target="ruby_types_symbols"/>
+
+        <node id="ruby_types_boolean" label="Boolean and Nil"/>
+        <edge id="edge_ruby_types_boolean" source="ruby_types" target="ruby_types_boolean"/>
+
+        <node id="ruby_types_objects" label="Objects"/>
+        <edge id="edge_ruby_types_objects" source="ruby_types" target="ruby_types_objects"/>
+
+        <!-- Expressions and Operators -->
+        <node id="ruby_expressions_literals" label="Literals and Keyword Literals"/>
+        <edge id="edge_ruby_expressions_literals" source="ruby_expressions" target="ruby_expressions_literals"/>
+
+        <node id="ruby_expressions_variable_references" label="Variable References"/>
+        <edge id="edge_ruby_expressions_variable_references" source="ruby_expressions" target="ruby_expressions_variable_references"/>
+
+        <node id="ruby_expressions_constant_references" label="Constant References"/>
+        <edge id="edge_ruby_expressions_constant_references" source="ruby_expressions" target="ruby_expressions_constant_references"/>
+
+        <node id="ruby_expressions_method_invocations" label="Method Invocations"/>
+        <edge id="edge_ruby_expressions_method_invocations" source="ruby_expressions" target="ruby_expressions_method_invocations"/>
+
+        <node id="ruby_expressions_assigments" label="Assigments"/>
+        <edge id="edge_ruby_expressions_assigments" source="ruby_expressions" target="ruby_expressions_assigments"/>
+
+        <node id="ruby_expressions_operators" label="Operators"/>
+        <edge id="edge_ruby_expressions_operators" source="ruby_expressions" target="ruby_expressions_operators"/>
+
+        <!-- Statements and Control Structures -->
+        <node id="ruby_statements_conditionals" label="Conditionals"/>
+        <edge id="edge_ruby_statements_conditionals" source="ruby_statements" target="ruby_statements_conditionals"/>
+
+        <node id="ruby_statements_loops" label="Loops"/>
+        <edge id="edge_ruby_statements_loops" source="ruby_statements" target="ruby_statements_loops"/>
+
+        <node id="ruby_statements_iterators" label="Iterators and Enumerable Objects"/>
+        <edge id="edge_ruby_statements_iterators" source="ruby_statements" target="ruby_statements_iterators"/>
+
+        <node id="ruby_statements_blocks" label="Blocks"/>
+        <edge id="edge_ruby_statements_blocks" source="ruby_statements" target="ruby_statements_blocks"/>
+
+        <node id="ruby_statements_control_flow" label="Altering Control Flow"/>
+        <edge id="edge_ruby_statements_control_flow" source="ruby_statements" target="ruby_statements_control_flow"/>
+
+        <node id="ruby_statements_control_exceptions" label="Exceptions and Exception Handling"/>
+        <edge id="edge_ruby_statements_control_exceptions" source="ruby_statements" target="ruby_statements_control_exceptions"/>
+
+        <node id="ruby_statements_begin_end" label="BEGIN and END"/>
+        <edge id="edge_ruby_statements_begin_end" source="ruby_statements" target="ruby_statements_begin_end"/>
+
+        <node id="ruby_statements_concurrency" label="Threads, Fibers, and Continuations"/>
+        <edge id="edge_ruby_statements_concurrency" source="ruby_statements" target="ruby_statements_concurrency"/>
+
+        <!-- Metods, Procs, Lambdas, and Closures -->
+        <node id="ruby_functions_defining" label="Defining Simple Methods"/>
+        <edge id="edge_ruby_functions_defining" source="ruby_functions" target="ruby_functions_defining"/>
+
+        <node id="ruby_functions_methods" label="Methods"/>
+        <edge id="edge_ruby_functions_methods" source="ruby_functions" target="ruby_functions_methods"/>
+
+        <node id="ruby_functions_lambdas" label="Procs and Lambdas"/>
+        <edge id="edge_ruby_functions_lambdas" source="ruby_functions" target="ruby_functions_lambdas"/>
+
+        <node id="ruby_functions_closures" label="Closures"/>
+        <edge id="edge_ruby_functions_closures" source="ruby_functions" target="ruby_functions_closures"/>
+
+        <node id="ruby_functions_method_objects" label="Method Objects"/>
+        <edge id="edge_ruby_functions_method_objects" source="ruby_functions" target="ruby_functions_method_objects"/>
+
+        <node id="ruby_functions_programming" label="Functional Programming"/>
+        <edge id="edge_ruby_functions_programming" source="ruby_functions" target="ruby_functions_programming"/>
+
+        <!-- Classes and Modules -->
+        <node id="ruby_oop_visibility" label="Method Visibility"/>
+        <edge id="edge_ruby_oop_visibility" source="ruby_oop" target="ruby_oop_visibility"/>
+
+        <node id="ruby_oop_inheritance" label="Subclassing and Inheritance"/>
+        <edge id="edge_ruby_oop_inheritance" source="ruby_oop" target="ruby_oop_inheritance"/>
+
+        <node id="ruby_oop_initialization" label="Object Creation and Initialization"/>
+        <edge id="edge_ruby_oop_initialization" source="ruby_oop" target="ruby_oop_initialization"/>
+
+        <node id="ruby_oop_modules" label="Modules"/>
+        <edge id="edge_ruby_oop_modules" source="ruby_oop" target="ruby_oop_modules"/>
+
+        <node id="ruby_oop_loading" label="Loading and Requiring Modules"/>
+        <edge id="edge_ruby_oop_loading" source="ruby_oop" target="ruby_oop_loading"/>
+
+        <node id="ruby_oop_singleton" label="Singleton Methods and the Eigenclass"/>
+        <edge id="edge_ruby_oop_singleton" source="ruby_oop" target="ruby_oop_singleton"/>
+
+        <node id="ruby_oop_method_lookup" label="Method Lookup"/>
+        <edge id="edge_ruby_oop_method_lookup" source="ruby_oop" target="ruby_oop_method_lookup"/>
+
+        <node id="ruby_oop_constant_lookup" label="Constant Lookup"/>
+        <edge id="edge_ruby_oop_constant_lookup" source="ruby_oop" target="ruby_oop_constant_lookup"/>
+
+        <!-- Reflection and Metaprogramming -->
+        <node id="ruby_reflection_types" label="Types, Classes and Modules"/>
+        <edge id="edge_ruby_reflection_types" source="ruby_reflection" target="ruby_reflection_types"/>
+
+        <node id="ruby_reflection_blocks" label="Evaluating Strings and Blocks"/>
+        <edge id="edge_ruby_reflection_blocks" source="ruby_reflection" target="ruby_reflection_blocks"/>
+
+        <node id="ruby_reflection_variables" label="Variables and Constants"/>
+        <edge id="edge_ruby_reflection_variables" source="ruby_reflection" target="ruby_reflection_variables"/>
+
+        <node id="ruby_reflection_methods" label="Methods and Parentheses"/>
+        <edge id="edge_ruby_reflection_methods" source="ruby_reflection" target="ruby_reflection_methods"/>
+
+        <node id="ruby_reflection_hooks" label="Hooks"/>
+        <edge id="edge_ruby_reflection_hooks" source="ruby_reflection" target="ruby_reflection_hooks"/>
+
+        <node id="ruby_reflection_tracing" label="Tracing"/>
+        <edge id="edge_ruby_reflection_tracing" source="ruby_reflection" target="ruby_reflection_tracing"/>
+
+        <node id="ruby_reflection_objectspace" label="ObjectSpace and GC"/>
+        <edge id="edge_ruby_reflection_objectspace" source="ruby_reflection" target="ruby_reflection_objectspace"/>
+
+        <node id="ruby_reflection_custom_control" label="Custom Control Structures"/>
+        <edge id="edge_ruby_reflection_custom_control" source="ruby_reflection" target="ruby_reflection_custom_control"/>
+
+        <node id="ruby_reflection_missing" label="Missing Methods and Missing Constants"/>
+        <edge id="edge_ruby_reflection_missing" source="ruby_reflection" target="ruby_reflection_missing"/>
+
+        <node id="ruby_reflection_dynamically" label="Dynamically Creating Methods"/>
+        <edge id="edge_ruby_reflection_dynamically" source="ruby_reflection" target="ruby_reflection_dynamically"/>
+
+        <node id="ruby_reflection_alias_chaining" label="Alias Chaining"/>
+        <edge id="edge_ruby_reflection_alias_chaining" source="ruby_reflection" target="ruby_reflection_alias_chaining"/>
+
+        <node id="ruby_reflection_domain" label="Domain-Specific Languages"/>
+        <edge id="edge_ruby_reflection_domain" source="ruby_reflection" target="ruby_reflection_domain"/>
+
+        <!-- The Ruby Platform -->
+        <node id="ruby_platform_strings" label="Strings"/>
+        <edge id="edge_ruby_platform_strings" source="ruby_platform" target="ruby_platform_strings"/>
+
+        <node id="ruby_platform_regexp" label="Regular Expressions"/>
+        <edge id="edge_ruby_platform_regexp" source="ruby_platform" target="ruby_platform_regexp"/>
+
+        <node id="ruby_platform_math" label="Numbers and Math"/>
+        <edge id="edge_ruby_platform_math" source="ruby_platform" target="ruby_platform_math"/>
+
+        <node id="ruby_platform_date" label="Dates and Times"/>
+        <edge id="edge_ruby_platform_date" source="ruby_platform" target="ruby_platform_date"/>
+
+        <node id="ruby_platform_colleactions" label="Colleactions"/>
+        <edge id="edge_ruby_platform_colleactions" source="ruby_platform" target="ruby_platform_colleactions"/>
+
+        <node id="ruby_platform_files" label="Files and Directories"/>
+        <edge id="edge_ruby_platform_files" source="ruby_platform" target="ruby_platform_files"/>
+
+        <node id="ruby_platform_io" label="Inpit/Output"/>
+        <edge id="edge_ruby_platform_io" source="ruby_platform" target="ruby_platform_io"/>
+
+        <node id="ruby_platform_networking" label="Networking"/>
+        <edge id="edge_ruby_platform_networking" source="ruby_platform" target="ruby_platform_networking"/>
+
+        <node id="ruby_platform_concurrency" label="Threads and Concurrency / Parralellism in Ruby"/>
+        <edge id="edge_ruby_platform_concurrency" source="ruby_platform" target="ruby_platform_concurrency"/>
+
+        <!-- Rails -->
+        <node id="ruby_rails_models" label="Models"/>
+        <edge id="edge_ruby_rails_models" source="ruby_rails" target="ruby_rails_models"/>
+
+        <node id="ruby_rails_views" label="Views"/>
+        <edge id="edge_ruby_rails_views" source="ruby_rails" target="ruby_rails_views"/>
+
+        <node id="ruby_rails_controllers" label="Controllers"/>
+        <edge id="edge_ruby_rails_controllers" source="ruby_rails" target="ruby_rails_controllers"/>
+
+        <node id="ruby_rails_components" label="Components"/>
+        <edge id="edge_ruby_rails_components" source="ruby_rails" target="ruby_rails_components"/>
+    </graph>
+</xmlgraph>

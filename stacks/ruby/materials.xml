@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
+    <include filepath="subjects/cs/materials.xml"/>
+    <include filepath="subjects/db/materials.xml"/>
+    <include filepath="subjects/dev/materials.xml"/>
+    <include filepath="subjects/net/materials.xml"/>
+    <include filepath="subjects/ruby/materials.xml"/>
+</materials>

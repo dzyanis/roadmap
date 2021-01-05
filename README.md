@@ -26,6 +26,7 @@ Skill Matrix allows to compile a roadmap in a XML syntax, visualize it in form o
 - A collection of Stack Roadmaps, which specify relevant subjects for the stacks:
   - [Go](#golang)
   - [Java](#java)
+  - [Ruby](#ruby)
   - [PHP](#php)
 
 ### A collection of Tools
@@ -59,6 +60,13 @@ Adding sets of interview questions for subjects and skills (similar to materials
 - [Materials](stacks/java/data/roadmap.md)
 - [DOT](stacks/java/data/roadmap.dot) version
 - [XML](stacks/java/roadmap.xml)
+
+### Ruby
+
+- [SVG](stacks/ruby/data/roadmap.svg) and [PNG](stacks/ruby/data/roadmap.png) maps
+- [Materials](stacks/ruby/data/roadmap.md)
+- [DOT](stacks/ruby/data/roadmap.dot) version
+- [XML](stacks/ruby/roadmap.xml)
 
 ### PHP
 
