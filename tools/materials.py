@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 from collections import defaultdict
-import xml.etree.ElementTree as Et
+
+from xmlincludes import load_xml
 
 
 class Material:
-    def __init__(self):
+    def __init__(self, filepath):
+        self.filepath = filepath
         self.type = ''
         self.title = ''
         self.url = ''
@@ -12,15 +14,14 @@ class Material:
         self.translate_url = ''
 
 
-def parsexml(filepath):
-    tree = Et.parse(filepath)
-    root = tree.getroot()
+def parsexml(filepath, ancestors=()):
+    root, ancestors = load_xml(filepath, ancestors)
     materials = defaultdict(lambda: [])
     for mat_desc in root:
         if mat_desc.tag == 'include':
-            materials.update(parsexml(mat_desc.attrib['filepath']))
+            materials.update(parsexml(mat_desc.attrib['filepath'], ancestors))
             continue
-        material = Material()
+        material = Material(filepath)
         material.type = mat_desc.tag
         for item in mat_desc:
             if item.tag == 'title':

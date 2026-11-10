@@ -40,3 +40,7 @@ cs:
 .PHONY: test
 test:
 	python3 -m unittest discover -s tests -v
+
+.PHONY: check
+check:
+	python3 tools/validate.py

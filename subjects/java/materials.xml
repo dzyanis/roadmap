@@ -114,7 +114,7 @@
         <title>Java Persistence API i Hibernate</title>
         <url>https://www.amazon.com/Java-Persistence-API-i-Hibernate/dp/597060674X</url>
         <tags>
-            <tag>edge_java_persistence_jpa_hibernate</tag>
+            <tag>java_persistence_jpa_hibernate</tag>
         </tags>
     </book>
 
@@ -122,17 +122,15 @@
         <title>Hibernate Getting Started Guide</title>
         <url>https://docs.jboss.org/hibernate/orm/4.2/devguide/en-US/html_single/#d5e58</url>
         <tags>
-            <tag>edge_java_persistence_jpa_hibernate</tag>
+            <tag>java_persistence_jpa_hibernate</tag>
         </tags>
     </article>
 
     <book lang="en">
         <title>Hibernate in Action</title>
-        <url>
-            https://www.amazon.com/Hibernate-Action-Christian-Bauer/dp/193239415X
-        </url>
+        <url>https://www.amazon.com/Hibernate-Action-Christian-Bauer/dp/193239415X</url>
         <tags>
-            <tag>edge_java_persistence_jpa_hibernate</tag>
+            <tag>java_persistence_jpa_hibernate</tag>
         </tags>
     </book>
 </materials>

@@ -212,8 +212,6 @@
 
 #### Virtual Memory
 
-#### Virtual Memory
-
 ### File system
 
 - video: [Files and File Systems: Crash Course Computer Science #20](https://www.youtube.com/watch?v=KN8YgJnShPM)
@@ -490,6 +488,9 @@
 #### Strings/Runes/Bytes
 
 - article: [The Go Blog - Strings, bytes, runes and characters in Go](https://blog.golang.org/strings)
+- article: [How to efficiently concatenate strings in Go?](https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go)
+- article: [How do you write multiline strings in Go?](https://stackoverflow.com/questions/7933460/how-do-you-write-multiline-strings-in-go)
+- article: [Format a Go string without printing?](https://stackoverflow.com/questions/11123865/format-a-go-string-without-printing)
 
 
 #### Integers/Unsigned/Floating-point
@@ -498,7 +499,18 @@
 
 #### Array/Slice
 
+- article: [The Go Blog - Go Slices: usage and internals](https://blog.golang.org/go-slices-usage-and-internals)
+- article: [Delete element in a slice](https://stackoverflow.com/questions/25025409/delete-element-in-a-slice)
+- article: [The Go Blog - Share Memory By Communicating](https://blog.golang.org/share-memory-by-communicating)
+- article: [The Go Blog - Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)
+- article: [Concatenate two slices in Go](https://stackoverflow.com/questions/16248241/concatenate-two-slices-in-go)
+
+
 #### Maps
+
+- article: [The Go Blog - Go maps in action](https://blog.golang.org/go-maps-in-action)
+- article: [How to check if a map contains a key in Go?](https://stackoverflow.com/questions/2050391/how-to-check-if-a-map-contains-a-key-in-go)
+
 
 #### Interface
 
@@ -526,6 +538,9 @@
 
 #### init/main
 
+- article: [When is the init() function run?](https://stackoverflow.com/questions/24790175/when-is-the-init-function-run)
+
+
 #### Closure/Recursion
 
 #### Panic
@@ -539,6 +554,9 @@
 
 
 #### Panic/Recover/Defer
+
+- article: [The Go Blog - Defer, Panic, and Recover](https://blog.golang.org/defer-panic-and-recover)
+
 
 #### First-class function
 
@@ -621,6 +639,10 @@
 
 ##### mod
 
+- article: [Modules](https://github.com/golang/go/wiki/Modules)
+- article: [The Go Blog - Using Go Modules](https://blog.golang.org/using-go-modules)
+
+
 ##### dep
 
 #### Linters (GolangCI, golint and etc)
@@ -643,7 +665,15 @@
 
 #### Garbage Collector
 
+- article: [Modern garbage collection](https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e)[[ru](https://habr.com/ru/company/mailru/blog/318504/)]
+- article: [The Go Blog - Go GC: Prioritizing low latency and simplicity](https://blog.golang.org/go15gc)
+- article: [The Go Blog - Getting to Go: The Journey of Go's Garbage Collector](https://blog.golang.org/ismmkeynote)
+
+
 #### Scheduler
+
+- article: [Go scheduler: Ms, Ps & Gs](https://povilasv.me/go-scheduler/)
+
 
 #### Package unsafe
 
@@ -652,6 +682,10 @@
 ### Application
 
 #### Errors handling
+
+- article: [The Go Blog - Error handling and Go](https://blog.golang.org/error-handling-and-go)
+- article: [The Go Blog - Errors are values](https://blog.golang.org/errors-are-values)
+
 
 #### Templates
 

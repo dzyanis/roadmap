@@ -23,4 +23,7 @@ if __name__ == '__main__':
     parser.add_argument('--dot', help='DOT filename')
     args = parser.parse_args()
 
-    convert_dot(args.xmlg, args.dot)
+    try:
+        convert_dot(args.xmlg, args.dot)
+    except ValueError as error:
+        parser.exit(1, f'{error}\n')

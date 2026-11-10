@@ -212,8 +212,6 @@
 
 #### Virtual Memory
 
-#### Virtual Memory
-
 ### File system
 
 - video: [Files and File Systems: Crash Course Computer Science #20](https://www.youtube.com/watch?v=KN8YgJnShPM)

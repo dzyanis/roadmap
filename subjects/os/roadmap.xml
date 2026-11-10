@@ -27,10 +27,6 @@
         <node id="os_shell" label="Command Language"/>
         <edge id="edge_os_shell" source="os" target="os_shell"/>
 
-        <!-- I/O -->
-        <node id="os_memory_virtual" label="Virtual Memory"/>
-        <edge id="edge_os_memory_virtual" source="os_memory" target="os_memory_virtual"/>
-
         <!-- Memory Management -->
         <node id="os_memory_virtual" label="Virtual Memory"/>
         <edge id="edge_os_memory_virtual" source="os_memory" target="os_memory_virtual"/>
