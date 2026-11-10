@@ -11,12 +11,12 @@ The issue here is that every developer, regardless of the programming language h
 
 ## Vision
 
-For developers, Skill Matrix is a module that allows to create and collaborate on knowledge roadmaps. A roadmap is compiled from several subject areas, which are described in separate XML files. This allows to reuse components and to populate a change made in one subject into all roadmaps using it.
-Skill Matrix allows to compile a roadmap in a XML syntax, visualize it in form of graph, and convert it to Markdown file and spreadsheet, thus covering all desirable representation formats. As a git project, it establishes an adaptable process for change and collaboration.
+Roadmap Core helps developers create and collaborate on knowledge roadmaps. Each stack combines subject areas stored in separate XML files. A change to a shared subject flows into every stack that includes it.
+The build renders the assembled graph as SVG, PNG, and DOT, and produces a Markdown guide with learning resources.
 
 ## Scope of Initial Release
 
-### Skill Matrix includes
+### Roadmap Core includes
 
 - A collection of Subject Roadmaps, described in custom XMLgraph notation.
 - A collection of learning Materials for subjects, described in XMLgraph notation.
@@ -26,21 +26,23 @@ Skill Matrix allows to compile a roadmap in a XML syntax, visualize it in form o
   - [Ruby](#ruby)
   - [PHP](#php)
   - [Python](#python)
+  - [Computer Science](#computer-science)
 
 ### A collection of Tools
 
 - [xmlg2dot](tools/xmlg2dot.py) is a tool for converting Roadmap.xml files to DOT syntax. Uses xmlgraph.py
-- [xmlg2md](tools/xmlg2md.py) is a tool for converting Materials.xml files to DOT syntax. Uses xmlgraph.py and materials.py
+- [xmlg2md](tools/xmlg2md.py) combines a roadmap and its materials into Markdown.
 - [Makefile](Makefile) is a major tool that generates Stack Roadmaps and saves them as PNG, SVG, DOT and generated Materials maps and saves them as MD. Uses all tools above.
 - [xmlgraph.py](tools/xmlgraph.py) is a library for parsing Roadmap files
 - [materials.py](tools/materials.py) is a library for parsing Materials files
+- [Renderer comparison](docs/renderer-comparison/README.md) evaluates Graphviz, Mermaid, and D2 on this project's XML.
 
 ## Scope of Future Releases
 
 For future development of the project the following options are considered:
 Elaboration on roadmaps structure, adding learning materials.
 Creating a tool to check errors in files, such as invalid links in materials files.
-Creating roadmaps for other stacks: Python, Ruby, Java Script, .NET C#, Scala, etc.
+Creating roadmaps for other stacks such as JavaScript, .NET, and Scala.
 Adding sets of interview questions for subjects and skills (similar to materials).
 
 ## Roadmaps
@@ -77,8 +79,15 @@ Adding sets of interview questions for subjects and skills (similar to materials
 
 - [SVG](stacks/python/data/roadmap.svg) and [PNG](stacks/python/data/roadmap.png) maps
 - [Materials](stacks/python/data/roadmap.md)
-- [DOT](stacks/php/python/roadmap.dot) version
+- [DOT](stacks/python/data/roadmap.dot) version
 - [XML](stacks/python/roadmap.xml)
+
+### Computer Science
+
+- [SVG](stacks/cs/data/roadmap.svg) and [PNG](stacks/cs/data/roadmap.png) maps
+- [Materials](stacks/cs/data/roadmap.md)
+- [DOT](stacks/cs/data/roadmap.dot) version
+- [XML](stacks/cs/roadmap.xml)
 
 ## For developers
 
@@ -92,12 +101,15 @@ Before you continue, ensure you meet the following requirements:
 
 ### Work
 
-All changes should be developed in your own feature branch and merge throw the merge request.
-Also, you should update the project each time you change any XML file by:
+Develop changes on a feature branch and merge them through a pull request.
+Resolve XML include paths relative to the file that declares them. After editing XML, rebuild the affected outputs with:
 
 ```bash
 make all
 ```
+
+Run `make go` to build only Go. Use `make clean && make all` to remove and
+regenerate all checked-in roadmap outputs.
 
 ### Validation and tests
 

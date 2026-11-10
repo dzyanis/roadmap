@@ -15,7 +15,7 @@
         <edge id="edge_cs_systems" source="cs" target="cs_systems"/>
 
         <node id="cs_ai" label="Artificial Intelligence and Machine Learning"/>
-        <edge id="edge_cs_testing" source="cs" target="cs_ai"/>
+        <edge id="edge_cs_ai" source="cs" target="cs_ai"/>
 
         <node id="cs_hardware" label="Hardware"/>
         <edge id="edge_cs_hardware" source="cs" target="cs_hardware"/>
@@ -49,7 +49,7 @@
         <edge id="edge_cs_architecture_func" source="cs_architecture" target="cs_architecture_func"/>
 
         <node id="cs_architecture_distributed" label="Distributed Systems"/>
-        <edge id="edge_cs_cs_architecture_distributed" source="cs_architecture" target="cs_architecture_distributed"/>
+        <edge id="edge_cs_architecture_distributed" source="cs_architecture" target="cs_architecture_distributed"/>
 
         <!--Object-Oriented Programming-->
         <node id="cs_architecture_oop_encapsulation" label="Encapsulation"/>

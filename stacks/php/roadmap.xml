@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd">
-    <include filepath="subjects/cs/roadmap.xml"/>
-    <include filepath="subjects/db/roadmap.xml"/>
-    <include filepath="subjects/net/roadmap.xml"/>
-    <include filepath="subjects/os/roadmap.xml"/>
-    <include filepath="subjects/dev/roadmap.xml"/>
-    <include filepath="subjects/dsa/roadmap.xml"/>
-    <include filepath="subjects/php/roadmap.xml"/>
+    <include filepath="../../subjects/cs/roadmap.xml"/>
+    <include filepath="../../subjects/db/roadmap.xml"/>
+    <include filepath="../../subjects/net/roadmap.xml"/>
+    <include filepath="../../subjects/os/roadmap.xml"/>
+    <include filepath="../../subjects/dev/roadmap.xml"/>
+    <include filepath="../../subjects/dsa/roadmap.xml"/>
+    <include filepath="../../subjects/php/roadmap.xml"/>
 
     <graph id="roadmap">
         <node id="backend" label="PHP Software Engineer"/>

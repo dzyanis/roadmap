@@ -15,13 +15,13 @@ class MaterialsCoverageTests(unittest.TestCase):
         for roadmap in STACKS:
             materials_file = roadmap.with_name('materials.xml')
             included_materials = {
-                (REPOSITORY / include.get('filepath')).resolve()
+                (materials_file.parent / include.get('filepath')).resolve()
                 for include in ET.parse(materials_file).getroot().findall('include')
             }
             for include in ET.parse(roadmap).getroot().findall('include'):
-                subject = REPOSITORY / include.get('filepath')
-                available_materials = subject.with_name('materials.xml')
-                with self.subTest(stack=roadmap.parent.name, subject=subject.parent.name):
+                subject_roadmap = (roadmap.parent / include.get('filepath')).resolve()
+                available_materials = subject_roadmap.with_name('materials.xml')
+                with self.subTest(stack=roadmap.parent.name, subject=subject_roadmap.parent.name):
                     if available_materials.is_file():
                         self.assertIn(available_materials.resolve(), included_materials,
                                       f'{materials_file} omits {available_materials}')
@@ -40,7 +40,7 @@ class MaterialsCoverageTests(unittest.TestCase):
         self.assertTrue(resources, 'No OS materials found')
 
         os_stacks = [roadmap for roadmap in STACKS
-                     if any(include.get('filepath') == 'subjects/os/roadmap.xml'
+                     if any((roadmap.parent / include.get('filepath')).resolve() == subject / 'roadmap.xml'
                             for include in ET.parse(roadmap).getroot().findall('include'))]
         self.assertTrue(os_stacks, 'No stacks include the OS subject')
         for roadmap in os_stacks:

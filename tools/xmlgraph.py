@@ -59,7 +59,8 @@ class Roadmap:
         root, ancestors = load_xml(filepath, ancestors)
         for child in root:
             if child.tag == 'include':
-                self._load_from_file(child.attrib['filepath'], ancestors, nodes, edges)
+                include = ancestors[-1].parent / child.attrib['filepath']
+                self._load_from_file(include, ancestors, nodes, edges)
                 continue
             for element in child:
                 element_id = element.get('id')

@@ -12,17 +12,18 @@ done
 STACK=$1
 ROADMAPFILE="stacks/${STACK}/roadmap.xml"
 MATERIALS="stacks/${STACK}/materials.xml"
-DOTFILE="stacks/${STACK}/data/roadmap.dot"
-SVGFILE="stacks/${STACK}/data/roadmap.svg"
-PNGFILE="stacks/${STACK}/data/roadmap.png"
-MDFILE="stacks/${STACK}/data/roadmap.md"
+OUTDIR="stacks/${STACK}/data"
+mkdir -p "$OUTDIR"
+staging=$(mktemp -d "$OUTDIR/.roadmap.XXXXXX")
+trap 'rm -rf "$staging"' 0
+trap 'exit 1' HUP INT TERM
 
-python3 ./tools/xmlg2dot.py --xmlg="${ROADMAPFILE}" --dot="${DOTFILE}"
-echo "Check ${DOTFILE}"
-dot -Tsvg "${DOTFILE}" -o "${SVGFILE}"
-echo "Check ${SVGFILE}"
-dot -Tpng "${DOTFILE}" -o "${PNGFILE}"
-echo "Check ${PNGFILE}"
+python3 ./tools/xmlg2dot.py --xmlg="$ROADMAPFILE" --dot="$staging/roadmap.dot"
+dot -Tsvg "$staging/roadmap.dot" -o "$staging/roadmap.svg"
+dot -Tpng "$staging/roadmap.dot" -o "$staging/roadmap.png"
+python3 ./tools/xmlg2md.py --xmlg="$ROADMAPFILE" --materials="$MATERIALS" --root=backend > "$staging/roadmap.md"
 
-python3 ./tools/xmlg2md.py --xmlg="${ROADMAPFILE}" --materials="${MATERIALS}" --root="backend" > "${MDFILE}"
-echo "Check ${MDFILE}"
+for extension in dot svg png md; do
+  mv "$staging/roadmap.$extension" "$OUTDIR/roadmap.$extension"
+  echo "Check $OUTDIR/roadmap.$extension"
+done

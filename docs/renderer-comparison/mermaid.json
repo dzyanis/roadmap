@@ -1,0 +1,7 @@
+{
+  "layout": "dagre",
+  "securityLevel": "loose",
+  "deterministicIds": true,
+  "deterministicIDSeed": "roadmap-comparison",
+  "htmlLabels": false
+}

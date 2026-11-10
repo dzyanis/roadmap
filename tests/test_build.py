@@ -49,6 +49,18 @@ class BuildTests(unittest.TestCase):
                     self.assertGreater(width, 0)
                     self.assertGreater(height, 0)
 
+            up_to_date = subprocess.check_output(['make', '-n', 'all'], cwd=workspace, text=True)
+            self.assertNotIn('sh tools/build.sh', up_to_date)
+            stack = stacks[0].parent
+            (stack / 'data' / 'roadmap.svg').unlink()
+            rebuild = subprocess.check_output(['make', '-n', 'all'], cwd=workspace, text=True)
+            self.assertEqual([line for line in rebuild.splitlines() if 'sh tools/build.sh' in line],
+                             [f'sh tools/build.sh {stack.name}'])
+
+            subprocess.run(['make', 'clean'], cwd=workspace, check=True, capture_output=True)
+            for roadmap in stacks:
+                self.assertEqual(list((roadmap.parent / 'data').iterdir()), [])
+
 
 if __name__ == '__main__':
     unittest.main()
