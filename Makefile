@@ -1,5 +1,5 @@
 .PHONY: all
-all: golang java ruby php python
+all: golang java ruby php python cs
 
 	@echo "Done"
 
@@ -27,12 +27,15 @@ php:
 	sh tools/build.sh php
 	@echo "finish php"
 
-
 .PHONY: python
 python:
 	@echo "start python"
 	sh tools/build.sh python
 	@echo "finish python"
+
+.PHONY: cs
+cs:
+	sh tools/build.sh cs
 
 .PHONY: test
 test:

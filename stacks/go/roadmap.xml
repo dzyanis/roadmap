@@ -6,6 +6,7 @@
     <include filepath="subjects/net/roadmap.xml"/>
     <include filepath="subjects/os/roadmap.xml"/>
     <include filepath="subjects/dev/roadmap.xml"/>
+    <include filepath="subjects/dsa/roadmap.xml"/>
 
     <graph id="roadmap">
         <node id="backend" label="Golang Software Engineer"/>
@@ -14,6 +15,7 @@
         <edge id="backend_net" source="backend" target="net"/>
         <edge id="backend_os" source="backend" target="os"/>
         <edge id="backend_dev" source="backend" target="dev"/>
+        <edge id="backend_dsa" source="backend" target="dsa"/>
         <edge id="backend_go" source="backend" target="go"/>
     </graph>
 </xmlgraph>

@@ -9,38 +9,6 @@
     </book>
     
     <book lang="en">
-        <title>Algorithms, 4th Edition</title>
-        <url>https://algs4.cs.princeton.edu/home/</url>
-        <tags>
-            <tag>cs_algorithms</tag>
-        </tags>
-    </book>
-    
-    <course lang="en">
-        <title>Algorithms, Part I</title>
-        <url>https://www.coursera.org/learn/algorithms-part1</url>
-        <tags>
-            <tag>cs_algorithms</tag>
-        </tags>
-    </course>
-
-    <course lang="en">
-        <title>Algorithms, Part II</title>
-        <url>https://www.coursera.org/learn/algorithms-part2</url>
-        <tags>
-            <tag>cs_algorithms</tag>
-        </tags>
-    </course>
-
-    <book lang="en">
-        <title>Introduction to Algorithms, Third Edition</title>
-        <url>https://mitpress.mit.edu/books/introduction-algorithms-third-edition</url>
-        <tags>
-            <tag>cs_algorithms</tag>
-        </tags>
-    </book>
-    
-    <book lang="en">
         <title>Design Patterns: Elements of Reusable Object-Oriented Software</title>
         <url>
             https://www.oreilly.com/library/view/design-patterns-elements/0201633612/

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd">
+    <!-- <include filepath="subjects/cs/roadmap.xml"/>
+    <include filepath="subjects/db/roadmap.xml"/>
+    <include filepath="subjects/net/roadmap.xml"/>
+    <include filepath="subjects/os/roadmap.xml"/>
+    <include filepath="subjects/dev/roadmap.xml"/> -->
+    <include filepath="subjects/dsa/roadmap.xml"/>
+
+    <graph id="roadmap">
+        <node id="backend" label="Computer Science"/>
+        <!-- <edge id="edge_all_cs" source="backend" target="cs"/>
+        <edge id="edge_all_db" source="backend" target="db"/>
+        <edge id="edge_all_net" source="backend" target="net"/>
+        <edge id="edge_all_os" source="backend" target="os"/>
+        <edge id="edge_all_dev" source="backend" target="dev"/> -->
+        <edge id="edge_all_dsa" source="backend" target="dsa"/>
+    </graph>
+</xmlgraph>

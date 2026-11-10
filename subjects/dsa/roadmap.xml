@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd"
+>
+    <graph id="dsa">
+        <node id="dsa" label="Data Structures and Algorithms"/>
+
+        <!-- Data Structures and Algorithms -->
+        <node id="dsa_algorithms" label="Algorithms"/>
+        <edge id="edge_dsa_algorithms" source="dsa" target="dsa_algorithms"/>
+
+        <node id="dsa_data" label="Data Structures"/>
+        <edge id="edge_dsa_data" source="dsa" target="dsa_data"/>
+
+        <node id="dsa_analysis" label="Analysis"/>
+        <edge id="edge_dsa_analysis" source="dsa" target="dsa_analysis"/>
+
+        <!-- Algorithms -->
+        <node id="dsa_algorithms_sorting" label="Sorting Algorithms"/>
+        <edge id="edge_dsa_algorithms_sorting" source="dsa_algorithms" target="dsa_algorithms_sorting"/>
+
+        <node id="dsa_algorithms_searching" label="Searching Algorithms"/>
+        <edge id="edge_dsa_algorithms_searching" source="dsa_algorithms" target="dsa_algorithms_searching"/>
+ 
+        <!-- Data Structures -->
+        <node id="dsa_data_linear" label="Linear Data Structures"/>
+        <edge id="edge_dsa_data_linear" source="dsa_data" target="dsa_data_linear"/>
+
+        <node id="dsa_data_nonlinear" label="Non-Linear Data Structures"/>
+        <edge id="edge_dsa_data_nonlinear" source="dsa_data" target="dsa_data_nonlinear"/>
+
+        <!-- Sorting Algorithms -->
+        <node id="dsa_algorithms_sorting_comparison" label="Comparison-based Sorting Algorithms"/>
+        <edge id="edge_dsa_algorithms_sorting_comparison" source="dsa_algorithms_sorting" target="dsa_algorithms_sorting_comparison"/>
+
+        <node id="dsa_algorithms_sorting_noncomparison" label="Non-comparison-based Sorting Algorithms"/>
+        <edge id="edge_dsa_algorithms_sorting_noncomparison" source="dsa_algorithms_sorting" target="dsa_algorithms_sorting_noncomparison"/>
+
+        <!-- Searching Algorithms -->
+        <node id="dsa_algorithms_searching_sequential" label="Sequential Searching Algorithms"/>
+        <edge id="edge_dsa_algorithms_searching_sequential" source="dsa_algorithms_searching" target="dsa_algorithms_searching_sequential"/>
+
+        <node id="dsa_algorithms_searching_efficient" label="Efficient Searching Algorithms"/>
+        <edge id="edge_dsa_algorithms_searching_efficient" source="dsa_algorithms_searching" target="dsa_algorithms_searching_efficient"/>
+
+        <!-- Linear Data Structures -->
+        <node id="dsa_data_linear_arrays" label="Arrays"/>
+        <edge id="edge_dsa_data_linear_arrays" source="dsa_data_linear" target="dsa_data_linear_arrays"/>
+
+        <node id="dsa_data_linear_lists" label="Linked Lists"/>
+        <edge id="edge_dsa_data_linear_lists" source="dsa_data_linear" target="dsa_data_linear_lists"/>
+
+        <node id="dsa_data_linear_stacks" label="Stacks"/>
+        <edge id="edge_dsa_data_linear_stacks" source="dsa_data_linear" target="dsa_data_linear_stacks"/>
+
+        <node id="dsa_data_linear_queues" label="Queues"/>
+        <edge id="edge_dsa_data_linear_queues" source="dsa_data_linear" target="dsa_data_linear_queues"/>
+
+        <!-- Non-Linear Data Structures -->
+        <node id="dsa_data_nonlinear_trees" label="Trees"/>
+        <edge id="edge_dsa_data_nonlinear_trees" source="dsa_data_nonlinear" target="dsa_data_nonlinear_trees"/>
+
+        <node id="dsa_data_nonlinear_graphs" label="Graphs"/>
+        <edge id="edge_dsa_data_nonlinear_graphs" source="dsa_data_nonlinear" target="dsa_data_nonlinear_graphs"/>
+
+        <node id="dsa_data_nonlinear_heaps" label="Heaps"/>
+        <edge id="edge_dsa_data_nonlinear_heaps" source="dsa_data_nonlinear" target="dsa_data_nonlinear_heaps"/>
+
+        <!-- Comparison-based Sorting Algorithms -->
+        <node id="dsa_algorithms_sorting_comparison_bubble" label="Bubble Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_comparison_bubble" source="dsa_algorithms_sorting_comparison" target="dsa_algorithms_sorting_comparison_bubble"/>
+
+        <node id="dsa_algorithms_sorting_comparison_selection" label="Selection Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_comparison_selection" source="dsa_algorithms_sorting_comparison" target="dsa_algorithms_sorting_comparison_selection"/>
+
+        <node id="dsa_algorithms_sorting_comparison_insertion" label="Insertion Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_comparison_insertion" source="dsa_algorithms_sorting_comparison" target="dsa_algorithms_sorting_comparison_insertion"/>
+        
+        <node id="dsa_algorithms_sorting_comparison_merge" label="Merge Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_comparison_merge" source="dsa_algorithms_sorting_comparison" target="dsa_algorithms_sorting_comparison_merge"/>
+
+        <node id="dsa_algorithms_sorting_comparison_quick" label="Quick Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_comparison_quick" source="dsa_algorithms_sorting_comparison" target="dsa_algorithms_sorting_comparison_quick"/>
+    
+        <!-- Non-comparison-based Sorting Algorithms -->
+        <node id="dsa_algorithms_sorting_noncomparison_counting" label="Counting Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_noncomparison_counting" source="dsa_algorithms_sorting_noncomparison" target="dsa_algorithms_sorting_noncomparison_counting"/>
+
+        <node id="dsa_algorithms_sorting_noncomparison_radix" label="Radix Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_noncomparison_radix" source="dsa_algorithms_sorting_noncomparison" target="dsa_algorithms_sorting_noncomparison_radix"/>
+
+        <node id="dsa_algorithms_sorting_noncomparison_bucket" label="Bucket Sort"/>
+        <edge id="edge_dsa_algorithms_sorting_noncomparison_bucket" source="dsa_algorithms_sorting_noncomparison" target="dsa_algorithms_sorting_noncomparison_bucket"/>
+    
+        <!-- Sequential Searching Algorithms -->
+        <node id="dsa_algorithms_searching_sequential_linear" label="Linear Search"/>
+        <edge id="edge_dsa_algorithms_searching_sequential_linear" source="dsa_algorithms_searching_sequential" target="dsa_algorithms_searching_sequential_linear"/>
+
+        <!-- Efficient Searching Algorithms -->
+        <node id="dsa_algorithms_searching_efficient_binary" label="Binary Search"/>
+        <edge id="edge_dsa_algorithms_searching_efficient_binary" source="dsa_algorithms_searching_efficient" target="dsa_algorithms_searching_efficient_binary"/>
+
+        <node id="dsa_algorithms_searching_efficient_hashing" label="Hashing"/>
+        <edge id="edge_dsa_algorithms_searching_efficient_hashing" source="dsa_algorithms_searching_efficient" target="dsa_algorithms_searching_efficient_hashing"/>
+
+        <!-- Arrays -->
+        <node id="dsa_data_linear_arrays_static" label="Static Arrays"/>
+        <edge id="edge_dsa_data_linear_arrays_static" source="dsa_data_linear_arrays" target="dsa_data_linear_arrays_static"/>
+
+        <node id="dsa_data_linear_arrays_dynamic" label="Dynamic Arrays"/>
+        <edge id="edge_dsa_data_linear_arrays_dynamic" source="dsa_data_linear_arrays" target="dsa_data_linear_arrays_dynamic"/>
+
+        <!-- Linked Lists -->
+        <node id="dsa_data_linear_lists_singly" label="Singly Linked Lists"/>
+        <edge id="edge_dsa_data_linear_lists_singly" source="dsa_data_linear_lists" target="dsa_data_linear_lists_singly"/>
+
+        <node id="dsa_data_linear_lists_doubly" label="Doubly Linked Lists"/>
+        <edge id="edge_dsa_data_linear_lists_doubly" source="dsa_data_linear_lists" target="dsa_data_linear_lists_doubly"/>
+
+        <node id="dsa_data_linear_lists_circular" label="Circular Linked Lists"/>
+        <edge id="edge_dsa_data_linear_lists_circular" source="dsa_data_linear_lists" target="dsa_data_linear_lists_circular"/>
+
+        <!-- Stacks -->
+        <node id="dsa_data_linear_stacks_array" label="Array-based Stack"/>
+        <edge id="edge_dsa_data_linear_stacks_array" source="dsa_data_linear_stacks" target="dsa_data_linear_stacks_array"/>
+
+        <node id="dsa_data_linear_stacks_list" label="Linked List-based Stack"/>
+        <edge id="edge_dsa_data_linear_stacks_list" source="dsa_data_linear_stacks" target="dsa_data_linear_stacks_list"/>
+
+        <!-- Queues -->
+        <node id="dsa_data_linear_queues_array" label="Array-based Queue"/>
+        <edge id="edge_dsa_data_linear_queues_array" source="dsa_data_linear_queues" target="dsa_data_linear_queues_array"/>
+
+        <node id="dsa_data_linear_queues_list" label="Linked List-based Queue"/>
+        <edge id="edge_dsa_data_linear_queues_list" source="dsa_data_linear_queues" target="dsa_data_linear_queues_list"/>
+
+        <!-- Trees -->
+        <node id="dsa_data_nonlinear_trees_binary" label="Binary Trees"/>
+        <edge id="edge_dsa_data_nonlinear_trees_binary" source="dsa_data_nonlinear_trees" target="dsa_data_nonlinear_trees_binary"/>
+
+        <node id="dsa_data_nonlinear_trees_avl" label="AVL Trees"/>
+        <edge id="edge_dsa_data_nonlinear_trees_avl" source="dsa_data_nonlinear_trees" target="dsa_data_nonlinear_trees_avl"/>
+
+        <node id="dsa_data_nonlinear_trees_b" label="B-trees"/>
+        <edge id="edge_dsa_data_nonlinear_trees_b" source="dsa_data_nonlinear_trees" target="dsa_data_nonlinear_trees_b"/>
+
+        <!-- Graphs -->
+        <node id="dsa_data_nonlinear_graphs_directed" label="Directed Graphs"/>
+        <edge id="edge_dsa_data_nonlinear_graphs_directed" source="dsa_data_nonlinear_graphs" target="dsa_data_nonlinear_graphs_directed"/>
+
+        <node id="dsa_data_nonlinear_graphs_undirected" label="Undirected Graphs"/>
+        <edge id="edge_dsa_data_nonlinear_graphs_undirected" source="dsa_data_nonlinear_graphs" target="dsa_data_nonlinear_graphs_undirected"/>
+
+        <node id="dsa_data_nonlinear_graphs_weighted" label="Weighted Graphs"/>
+        <edge id="edge_dsa_data_nonlinear_graphs_weighted" source="dsa_data_nonlinear_graphs" target="dsa_data_nonlinear_graphs_weighted"/>
+
+        <!-- Heaps -->
+        <node id="dsa_data_nonlinear_heaps_min" label="Min Heap"/>
+        <edge id="edge_dsa_data_nonlinear_heaps_min" source="dsa_data_nonlinear_heaps" target="dsa_data_nonlinear_heaps_min"/>
+
+        <node id="dsa_data_nonlinear_heaps_max" label="Max Heap"/>
+        <edge id="edge_dsa_data_nonlinear_heaps_max" source="dsa_data_nonlinear_heaps" target="dsa_data_nonlinear_heaps_max"/>
+    </graph>
+</xmlgraph>

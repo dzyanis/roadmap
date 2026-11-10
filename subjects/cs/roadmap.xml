@@ -11,9 +11,6 @@
         <node id="code" label="Code Standards and Code Review Process"/>
         <edge id="edge_cs_code" source="cs" target="code"/>
 
-        <node id="cs_algorithms" label="Algorithms and data structures"/>
-        <edge id="edge_cs_algorithms" source="cs" target="cs_algorithms"/>
-
         <node id="cs_systems" label="Systems Programming"/>
         <edge id="edge_cs_systems" source="cs" target="cs_systems"/>
 
@@ -28,42 +25,6 @@
 
         <node id="cs_blockchain" label="Blockchain and Cryptocurrency"/>
         <edge id="edge_cs_blockchain" source="cs" target="cs_blockchain"/>
-
-        <!-- Algorithms and data structures -->
-        <node id="cs_algorithms_analysis" label="Analysis"/>
-        <edge id="edge_cs_algorithms_analysis" source="cs_algorithms" target="cs_algorithms_analysis"/>
-
-        <node id="cs_algorithms_structures" label="Data Structures"/>
-        <edge id="edge_cs_algorithms_structures" source="cs_algorithms" target="cs_algorithms_structures"/>
-
-        <node id="cs_algorithms_algorithms" label="Algorithms"/>
-        <edge id="edge_cs_algorithms_algorithms" source="cs_algorithms" target="cs_algorithms_algorithms"/>
-
-        <!--Data Structures-->
-        <node id="cs_algorithms_structures_lists" label="Lists"/>
-        <edge id="edge_cs_algorithms_structures_lists" source="cs_algorithms_structures" target="cs_algorithms_structures_lists"/>
-
-        <node id="cs_algorithms_structures_stacks" label="Stacks"/>
-        <edge id="edge_cs_algorithms_structures_stacks" source="cs_algorithms_structures" target="cs_algorithms_structures_stacks"/>
-
-        <node id="cs_algorithms_structures_queues" label="Queues"/>
-        <edge id="edge_cs_algorithms_structures_queues" source="cs_algorithms_structures" target="cs_algorithms_structures_queues"/>
-
-        <node id="cs_algorithms_structures_trees" label="Trees"/>
-        <edge id="edge_cs_algorithms_structures_trees" source="cs_algorithms_structures" target="cs_algorithms_structures_trees"/>
-
-        <node id="cs_algorithms_structures_heaps" label="Heaps"/>
-        <edge id="edge_cs_algorithms_structures_heaps" source="cs_algorithms_structures" target="cs_algorithms_structures_heaps"/>
-
-        <node id="cs_algorithms_structures_graphs" label="Graphs"/>
-        <edge id="edge_cs_algorithms_structures_graphs" source="cs_algorithms_structures" target="cs_algorithms_structures_graphs"/>
-
-        <!--Algorithms-->
-        <node id="cs_algorithms_structures_sorting" label="Sorting algoritms"/>
-        <edge id="edge_cs_algorithms_structures_sorting" source="cs_algorithms_algorithms" target="cs_algorithms_structures_sorting"/>
-
-        <node id="cs_algorithms_structures_research" label="Reasearch algoritms"/>
-        <edge id="edge_cs_algorithms_structures_research" source="cs_algorithms_algorithms" target="cs_algorithms_structures_research"/>
 
         <!--Architecture knowledge-->
         <node id="cs_architecture_microservices" label="Microservices"/>
