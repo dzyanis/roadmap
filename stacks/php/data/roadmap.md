@@ -182,6 +182,12 @@
 
 ## Operating System
 
+- book: [Modern Operating Systems (4th Edition)](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
+- book: [Operating System Concepts, Tenth Edition](http://os-book.com/OS10/index.html)
+- book: [Operating Systems, 3rd Edition](https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274)
+- book: [Operating Systems, 3rd Edition](https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274)
+
+
 ### Types
 
 #### Batch
@@ -210,6 +216,9 @@
 
 ### File system
 
+- video: [Files and File Systems: Crash Course Computer Science #20](https://www.youtube.com/watch?v=KN8YgJnShPM)
+
+
 ### I/O
 
 ### Virtualization
@@ -217,6 +226,9 @@
 #### OS-level Virtualisation
 
 ##### Docker
+
+- book: [Docker in Action](https://pepa.holla.cz/wp-content/uploads/2016/10/Docker-in-Action.pdf)
+
 
 #### x86 Virtualization
 

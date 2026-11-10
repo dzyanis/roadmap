@@ -99,6 +99,18 @@ Also, you should update the project each time you change any XML file by:
 make all
 ```
 
+### Tests
+
+With Python 3, Graphviz, and Make installed, run:
+
+```bash
+make test
+```
+
+The tests rebuild every stack from XML in a temporary directory and check the DOT,
+SVG, PNG, and Markdown outputs. GitHub Actions runs the same command on every push
+and pull request.
+
 ## Links
 
 - [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/)

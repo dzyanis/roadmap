@@ -32,3 +32,7 @@ python:
 	@echo "start python"
 	sh tools/build.sh python
 	@echo "finish python"
+
+.PHONY: test
+test:
+	python3 -m unittest discover -s tests -v
