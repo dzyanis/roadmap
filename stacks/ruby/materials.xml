@@ -4,5 +4,6 @@
     <include filepath="subjects/db/materials.xml"/>
     <include filepath="subjects/dev/materials.xml"/>
     <include filepath="subjects/net/materials.xml"/>
+    <include filepath="subjects/os/materials.xml"/>
     <include filepath="subjects/ruby/materials.xml"/>
 </materials>
