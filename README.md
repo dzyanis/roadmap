@@ -1,132 +1,110 @@
 # Roadmap Core
 
-This project was created by engineers which were motivated by the idea to describe the graphs of the main knowledge/skills
-of different types of engineers which in turn provides a way to develop these graphs
-by the community and by the approach which engineers prefer.
+Roadmap Core is a collection of software engineering knowledge maps and learning resources, maintained as code. It combines reusable subject graphs into roadmaps for Go, Java, PHP, Python, Ruby, and Computer Science, then generates diagrams and Markdown guides.
 
-## Need
+The project helps developers plan their learning and gives mentors and teams a shared reference for discussing skills. Common subjects—such as databases, networking, and operating systems—live in one place. Updating a shared subject and rebuilding updates every roadmap that includes it, so teams can review changes through Git and pull requests.
 
-In development teams with official mentoring and level assessments it's important to have a shared understanding of the process. To handle it, teams usually create knowledge roadmaps if form of spreadsheet with subjects and skills for a particular stack, and store it in a cloud.
-The issue here is that every developer, regardless of the programming language he uses, has to cover common subject areas, such as computer science, databases, etc. For 10+ stacks changing one skill in a common subject area means you have to manually edit 10+ spreadsheets. That prompts loss of uniformity of content and structure. For developers, who are used to a well-established change process, it discourages further collaboration and improvement of the roadmaps.
+## Explore the roadmaps
 
-## Vision
+Open a diagram to browse the topics, or a learning guide to find resources attached to them. Generated files are included in the repository; no installation is needed to read them.
 
-Roadmap Core helps developers create and collaborate on knowledge roadmaps. Each stack combines subject areas stored in separate XML files. A change to a shared subject flows into every stack that includes it.
-The build renders the assembled graph as SVG, PNG, and DOT, and produces a Markdown guide with learning resources.
+| Roadmap | Diagram | Learning guide | Source |
+| --- | --- | --- | --- |
+| Go | [SVG](stacks/go/data/roadmap.svg) · [PNG](stacks/go/data/roadmap.png) | [Materials](stacks/go/data/roadmap.md) | [XML](stacks/go/roadmap.xml) · [DOT](stacks/go/data/roadmap.dot) |
+| Java | [SVG](stacks/java/data/roadmap.svg) · [PNG](stacks/java/data/roadmap.png) | [Materials](stacks/java/data/roadmap.md) | [XML](stacks/java/roadmap.xml) · [DOT](stacks/java/data/roadmap.dot) |
+| PHP | [SVG](stacks/php/data/roadmap.svg) · [PNG](stacks/php/data/roadmap.png) | [Materials](stacks/php/data/roadmap.md) | [XML](stacks/php/roadmap.xml) · [DOT](stacks/php/data/roadmap.dot) |
+| Python | [SVG](stacks/python/data/roadmap.svg) · [PNG](stacks/python/data/roadmap.png) | [Materials](stacks/python/data/roadmap.md) | [XML](stacks/python/roadmap.xml) · [DOT](stacks/python/data/roadmap.dot) |
+| Ruby | [SVG](stacks/ruby/data/roadmap.svg) · [PNG](stacks/ruby/data/roadmap.png) | [Materials](stacks/ruby/data/roadmap.md) | [XML](stacks/ruby/roadmap.xml) · [DOT](stacks/ruby/data/roadmap.dot) |
+| Computer Science (DSA) | [SVG](stacks/cs/data/roadmap.svg) · [PNG](stacks/cs/data/roadmap.png) | [Materials](stacks/cs/data/roadmap.md) | [XML](stacks/cs/roadmap.xml) · [DOT](stacks/cs/data/roadmap.dot) |
 
-## Scope of Initial Release
+The Computer Science stack currently covers data structures and algorithms. The language stacks combine language-specific topics with shared engineering subjects. Learning resources include books, articles, courses, and videos; coverage and resource languages vary by topic.
 
-### Roadmap Core includes
+## How it works
 
-- A collection of Subject Roadmaps, described in custom XMLgraph notation.
-- A collection of learning Materials for subjects, described in XMLgraph notation.
-- A collection of Stack Roadmaps, which specify relevant subjects for the stacks:
-  - [Go](#golang)
-  - [Java](#java)
-  - [Ruby](#ruby)
-  - [PHP](#php)
-  - [Python](#python)
-  - [Computer Science](#computer-science)
+Each subject defines topics and their connections in `roadmap.xml`, plus learning resources in `materials.xml`. Resource tags refer to topic IDs. A stack includes the subjects it needs and connects them beneath its root topic.
 
-### A collection of Tools
+The Python tools assemble these XML files into a graph and generate:
 
-- [xmlg2dot](tools/xmlg2dot.py) is a tool for converting Roadmap.xml files to DOT syntax. Uses xmlgraph.py
-- [xmlg2md](tools/xmlg2md.py) combines a roadmap and its materials into Markdown.
-- [Makefile](Makefile) is a major tool that generates Stack Roadmaps and saves them as PNG, SVG, DOT and generated Materials maps and saves them as MD. Uses all tools above.
-- [xmlgraph.py](tools/xmlgraph.py) is a library for parsing Roadmap files
-- [materials.py](tools/materials.py) is a library for parsing Materials files
-- [Renderer comparison](docs/renderer-comparison/README.md) evaluates Graphviz, Mermaid, and D2 on this project's XML.
+- **DOT**, the graph description used by Graphviz.
+- **SVG and PNG**, diagrams rendered by Graphviz.
+- **Markdown**, a topic outline with links to learning resources.
 
-## Scope of Future Releases
+```text
+subjects/<subject>/
+  roadmap.xml       Topics and connections shared across stacks
+  materials.xml     Resources tagged with topic IDs
+stacks/<stack>/
+  roadmap.xml       Subject includes and stack-level connections
+  materials.xml     Includes for the stack's learning resources
+  data/roadmap.*    Generated DOT, SVG, PNG, and Markdown
+tools/             XML schemas, parsers, validation, and build tools
+tests/             Automated validation and build tests
+```
 
-For future development of the project the following options are considered:
-Elaboration on roadmaps structure, adding learning materials.
-Creating a tool to check errors in files, such as invalid links in materials files.
-Creating roadmaps for other stacks such as JavaScript, .NET, and Scala.
-Adding sets of interview questions for subjects and skills (similar to materials).
+XML include paths are relative to the file that declares them. For example, the Go stack includes the shared database roadmap using `../../subjects/db/roadmap.xml`.
 
-## Roadmaps
+## Build locally
 
-### Golang
+### Requirements
 
-- [SVG](stacks/go/data/roadmap.svg) and [PNG](stacks/go/data/roadmap.png) maps
-- [Materials](stacks/go/data/roadmap.md)
-- [DOT](stacks/go/data/roadmap.dot) version
-- [XML](stacks/go/roadmap.xml)
+- Python **3.9 or newer**; the tools use only the standard library.
+- Graphviz, with `dot` available on `PATH`.
+- GNU Make and a POSIX shell.
+- `xmllint` for validation and tests (`libxml2-utils` on Ubuntu).
+- Git to clone the repository and contribute changes.
 
-### Java
-
-- [SVG](stacks/java/data/roadmap.svg) and [PNG](stacks/java/data/roadmap.png) maps
-- [Materials](stacks/java/data/roadmap.md)
-- [DOT](stacks/java/data/roadmap.dot) version
-- [XML](stacks/java/roadmap.xml)
-
-### Ruby
-
-- [SVG](stacks/ruby/data/roadmap.svg) and [PNG](stacks/ruby/data/roadmap.png) maps
-- [Materials](stacks/ruby/data/roadmap.md)
-- [DOT](stacks/ruby/data/roadmap.dot) version
-- [XML](stacks/ruby/roadmap.xml)
-
-### PHP
-
-- [SVG](stacks/php/data/roadmap.svg) and [PNG](stacks/php/data/roadmap.png) maps
-- [Materials](stacks/php/data/roadmap.md)
-- [DOT](stacks/php/data/roadmap.dot) version
-- [XML](stacks/php/roadmap.xml)
-
-### Python
-
-- [SVG](stacks/python/data/roadmap.svg) and [PNG](stacks/python/data/roadmap.png) maps
-- [Materials](stacks/python/data/roadmap.md)
-- [DOT](stacks/python/data/roadmap.dot) version
-- [XML](stacks/python/roadmap.xml)
-
-### Computer Science
-
-- [SVG](stacks/cs/data/roadmap.svg) and [PNG](stacks/cs/data/roadmap.png) maps
-- [Materials](stacks/cs/data/roadmap.md)
-- [DOT](stacks/cs/data/roadmap.dot) version
-- [XML](stacks/cs/roadmap.xml)
-
-## For developers
-
-### Prerequisites
-
-Before you continue, ensure you meet the following requirements:
-
-- You have installed the latest version of [Python 3](https://www.python.org/downloads/)
-- You also have installed [Graphviz](https://www.graphviz.org/download/)
-- And you have a basic understanding of graph theory
-
-### Work
-
-Develop changes on a feature branch and merge them through a pull request.
-Resolve XML include paths relative to the file that declares them. After editing XML, rebuild the affected outputs with:
+On Ubuntu, install the build and validation dependencies with:
 
 ```bash
+sudo apt-get update
+sudo apt-get install python3 graphviz make libxml2-utils
+```
+
+Clone the repository and build all six roadmaps:
+
+```bash
+git clone https://github.com/dzyanis/roadmap.git
+cd roadmap
 make all
 ```
 
-Run `make go` to build only Go. Use `make clean && make all` to remove and
-regenerate all checked-in roadmap outputs.
+Outputs are written to `stacks/<stack>/data/`. Builds are incremental: unchanged outputs are skipped, and missing outputs are regenerated. Shared subject changes trigger rebuilds across stacks.
 
-### Validation and tests
+To build one stack, use `make go`, `make java`, `make php`, `make python`, `make ruby`, or `make cs`. `make golang` is an alias for `make go`.
 
-Install Python 3, Graphviz, Make, and `xmllint` (`libxml2-utils` on Ubuntu), then run:
+To remove the generated outputs and rebuild everything:
+
+```bash
+make clean && make all
+```
+
+### Validate and test
 
 ```bash
 make check
 make test
 ```
 
-`make check` validates the XML schemas, assembled graphs, and material tags.
-`make test` also rebuilds every stack in a temporary directory and checks the DOT,
-SVG, PNG, and Markdown outputs. GitHub Actions runs both commands on pushes and
-pull requests.
+`make check` validates the XML against the schemas and checks assembled graphs for duplicate IDs, missing edge endpoints, cycles, and material tags that do not match a topic. It checks structure and references within the roadmaps; it does not check whether external resource URLs are still available.
 
-## Links
+`make test` runs the automated tests, including building every stack in a temporary directory and checking the generated DOT, SVG, PNG, and Markdown. GitHub Actions runs both commands on pushes and pull requests.
 
-- [Programmer Competency Matrix](http://sijinjoseph.com/programmer-competency-matrix/)
-- [Roadmaps for Developers: Backend Developer](https://roadmap.sh/backend)
-- [Roadmap to becoming a Software Engineer 2018 Edition with Industry Insights: Back-end Roadmap](https://github.com/fauzanbaig/software-engineer-roadmap#-back-end-roadmap)
+## Contribute
+
+Contributions can improve topic coverage, correct connections, add learning resources, or improve the build tools.
+
+1. Create a feature branch, or fork the repository if you do not have write access.
+2. Edit the relevant files in `subjects/`. For stack-specific composition changes, edit the includes and connections in `stacks/`.
+3. Keep node and edge IDs unique within each assembled roadmap, keep the graph acyclic, and use existing topic IDs in material tags. When adding a subject to a stack, include its roadmap and materials and connect it to the stack's graph.
+4. Run `make check`, `make test`, and `make all`. Inspect the affected diagrams and learning guides.
+5. Commit the XML or tool changes together with any updated files in `stacks/*/data/`, then open a pull request explaining the change.
+
+Generated files are committed so readers can browse roadmaps directly on GitHub. Edit their XML sources and regenerate them to keep diagrams and guides consistent.
+
+## Tools and design notes
+
+- [XML graph parser](tools/xmlgraph.py) and [materials parser](tools/materials.py): load and combine source files.
+- [DOT converter](tools/xmlg2dot.py) and [Markdown converter](tools/xmlg2md.py): generate graph descriptions and learning guides.
+- [Validator](tools/validate.py), [graph schema](tools/xmlgraph.xsd), and [materials schema](tools/materials.xsd): define and check the input format.
+- [Makefile](Makefile) and [build script](tools/build.sh): coordinate generation of all four output formats.
+- [Renderer comparison](docs/renderer-comparison/README.md): evaluates Graphviz, Mermaid, and D2 using this project's graphs. Graphviz remains the renderer used by the build.
