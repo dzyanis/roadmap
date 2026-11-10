@@ -235,7 +235,7 @@ digraph roadmap {
 	dsa_algorithms_sorting_noncomparison->dsa_algorithms_sorting_noncomparison_counting;	
 	dsa_algorithms_sorting_noncomparison->dsa_algorithms_sorting_noncomparison_radix;	
 	dsa_algorithms_sorting_noncomparison->dsa_algorithms_sorting_noncomparison_bucket;	
-	dsa_algorithms_searching_sequential_linear->dsa_algorithms_searching_sequential_linear;	
+	dsa_algorithms_searching_sequential->dsa_algorithms_searching_sequential_linear;	
 	dsa_algorithms_searching_efficient->dsa_algorithms_searching_efficient_binary;	
 	dsa_algorithms_searching_efficient->dsa_algorithms_searching_efficient_hashing;	
 	dsa_data_linear_arrays->dsa_data_linear_arrays_static;	

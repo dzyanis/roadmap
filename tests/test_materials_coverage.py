@@ -39,7 +39,11 @@ class MaterialsCoverageTests(unittest.TestCase):
                                   material.findtext('url')))
         self.assertTrue(resources, 'No OS materials found')
 
-        for roadmap in STACKS:
+        os_stacks = [roadmap for roadmap in STACKS
+                     if any(include.get('filepath') == 'subjects/os/roadmap.xml'
+                            for include in ET.parse(roadmap).getroot().findall('include'))]
+        self.assertTrue(os_stacks, 'No stacks include the OS subject')
+        for roadmap in os_stacks:
             result = subprocess.run(
                 [sys.executable, str(REPOSITORY / 'tools' / 'xmlg2md.py'),
                  '--xmlg', str(roadmap),

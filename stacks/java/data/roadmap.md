@@ -381,6 +381,14 @@
 
 ## Data Structures and Algorithms
 
+- book: [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/)
+- course: [Algorithms, Part I](https://www.coursera.org/learn/algorithms-part1)
+- course: [Algorithms, Part II](https://www.coursera.org/learn/algorithms-part2)
+- book: [Introduction to Algorithms, Third Edition](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
+- book: [Data Structures and Algorithms in Java, 2nd Edition](https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539)
+- book: [Grokking Algorithms: An illustrated guide for programmers and other curious people](https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230)
+
+
 ### Algorithms
 
 #### Sorting Algorithms
@@ -408,6 +416,8 @@
 #### Searching Algorithms
 
 ##### Sequential Searching Algorithms
+
+###### Linear Search
 
 ##### Efficient Searching Algorithms
 

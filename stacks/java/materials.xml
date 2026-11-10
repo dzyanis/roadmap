@@ -5,6 +5,7 @@
     <include filepath="subjects/dev/materials.xml"/>
     <include filepath="subjects/net/materials.xml"/>
     <include filepath="subjects/os/materials.xml"/>
+    <include filepath="subjects/dsa/materials.xml"/>
     <include filepath="subjects/java/materials.xml"/>
     
     <article lang="ru">
@@ -35,7 +36,7 @@
         <title>Data Structures and Algorithms in Java, 2nd Edition</title>
         <url>https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539</url>
         <tags>
-            <tag>cs_algorithms</tag>
+            <tag>dsa</tag>
         </tags>
     </book>
     
@@ -43,7 +44,7 @@
         <title>Grokking Algorithms: An illustrated guide for programmers and other curious people</title>
         <url>https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230</url>
         <tags>
-            <tag>cs_algorithms</tag>
+            <tag>dsa</tag>
         </tags>
     </book>
     
