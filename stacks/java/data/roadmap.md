@@ -18,10 +18,7 @@
 
 #### Design Patterns
 
-- book: [Design patterns : elements of reusable object-oriented software](https://www.worldcat.org/title/design-patterns-elements-of-reusable-object-oriented-software/oclc/31171684)
-- book: [Design Patterns: Elements of Reusable Object-Oriented Software](
-            https://www.oreilly.com/library/view/design-patterns-elements/0201633612/
-        )
+- book: [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-software-9780201633610)
 - book: [Head First Design Patterns](http://shop.oreilly.com/product/9780596007126.do)
 - book: [Реактивные шаблоны проектирования](https://www.piter.com/product/reaktivnye-shablony-proektirovaniya)
 - book: [Professional Java EE Design Patterns](https://www.amazon.com/Professional-Java-EE-Design-Patterns/dp/111884341X)
@@ -186,7 +183,6 @@
 - book: [Modern Operating Systems (4th Edition)](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
 - book: [Operating System Concepts, Tenth Edition](http://os-book.com/OS10/index.html)
 - book: [Operating Systems, 3rd Edition](https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274)
-- book: [Operating Systems, 3rd Edition](https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274)
 
 
 ### Types
@@ -254,9 +250,7 @@
 
 - book: [Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
 - article: [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- article: [How deep are your unit tests?](
-            https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests
-        )
+- article: [How deep are your unit tests?](https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests)
 - book: [Practical Unit Testing with JUnit and Mockito](https://www.amazon.com/Practical-Unit-Testing-JUnit-Mockito/dp/8393489393)
 
 
@@ -522,16 +516,10 @@
 
 - video: [JUGLviv meetup: Spring Boot the Ripper](https://www.youtube.com/watch?v=8xa0RWMwAOE)
 - video: [Евгений Борисов — Spring-потрошитель, часть 1](https://www.youtube.com/watch?v=BmBr5diz8WA)
-- book: [Cloud Native Java: Designing Resilient Systems with Spring Boot,
-            Spring Cloud, and Cloud Foundry
-        ](
-            https://www.amazon.com/Cloud-Native-Java-Designing-Resilient/dp/1449374646
-        )
+- book: [Cloud Native Java: Designing Resilient Systems with Spring Boot, Spring Cloud, and Cloud Foundry](https://www.amazon.com/Cloud-Native-Java-Designing-Resilient/dp/1449374646)
 - book: [Spring 4 для профессионалов | Шефер Крис, Хо Кларенс](https://www.ozon.ru/context/detail/id/33056979/)
-- book: [Spring in Action 5th Edition](https://www.amazon.com/Spring-Action-Craig-Walls/dp/1617294942
-        )
-- book: [Pro Spring](https://www.amazon.com/Pro-Spring-Clarence-Ho-ebook/dp/B014P9HJ0A
-        )
+- book: [Spring in Action 5th Edition](https://www.amazon.com/Spring-Action-Craig-Walls/dp/1617294942)
+- book: [Pro Spring](https://www.amazon.com/Pro-Spring-Clarence-Ho-ebook/dp/B014P9HJ0A)
 
 
 #### Core

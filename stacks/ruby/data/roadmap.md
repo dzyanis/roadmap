@@ -18,10 +18,7 @@
 
 #### Design Patterns
 
-- book: [Design patterns : elements of reusable object-oriented software](https://www.worldcat.org/title/design-patterns-elements-of-reusable-object-oriented-software/oclc/31171684)
-- book: [Design Patterns: Elements of Reusable Object-Oriented Software](
-            https://www.oreilly.com/library/view/design-patterns-elements/0201633612/
-        )
+- book: [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-software-9780201633610)
 - book: [Head First Design Patterns](http://shop.oreilly.com/product/9780596007126.do)
 - book: [Реактивные шаблоны проектирования](https://www.piter.com/product/reaktivnye-shablony-proektirovaniya)
 
@@ -185,7 +182,6 @@
 - book: [Modern Operating Systems (4th Edition)](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
 - book: [Operating System Concepts, Tenth Edition](http://os-book.com/OS10/index.html)
 - book: [Operating Systems, 3rd Edition](https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274)
-- book: [Operating Systems, 3rd Edition](https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274)
 
 
 ### Types
@@ -253,9 +249,7 @@
 
 - book: [Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
 - article: [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- article: [How deep are your unit tests?](
-            https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests
-        )
+- article: [How deep are your unit tests?](https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests)
 
 
 #### Test-driven development

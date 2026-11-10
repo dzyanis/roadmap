@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import shutil
 import subprocess
 import tempfile
 import unittest
@@ -18,7 +19,8 @@ class BuildScriptTests(unittest.TestCase):
         self.data = self.root / 'stacks' / 'go' / 'data'
         self.data.mkdir(parents=True)
         self.markdown = self.data / 'roadmap.md'
-        self.markdown.write_text('Existing materials\n')
+        for extension in ('dot', 'svg', 'png', 'md'):
+            (self.data / f'roadmap.{extension}').write_text(f'Existing {extension}\n')
         self.log = self.root / 'calls.log'
 
     def tool(self, name, script):
@@ -27,6 +29,8 @@ class BuildScriptTests(unittest.TestCase):
         path.chmod(0o755)
 
     def install_tools(self):
+        for name in ('mkdir', 'mktemp', 'mv', 'rm'):
+            (self.bin / name).symlink_to(shutil.which(name))
         self.tool('python3', '''
 printf 'python3 %s\n' "$*" >> "$BUILD_TEST_LOG"
 case "$1" in
@@ -34,10 +38,15 @@ case "$1" in
   ./tools/xmlg2md.py) stage=markdown-converter ;;
 esac
 if [ "$BUILD_TEST_FAIL" = "$stage" ]; then exit 7; fi
+case "$stage" in
+  dot-converter) printf 'New DOT\n' > "${3#--dot=}" ;;
+  markdown-converter) printf 'New Markdown\n' ;;
+esac
 ''')
         self.tool('dot', '''
 printf 'dot %s\n' "$*" >> "$BUILD_TEST_LOG"
 if [ "$BUILD_TEST_FAIL" = "$1" ]; then exit 7; fi
+printf 'New image\n' > "$4"
 ''')
 
     def build(self, fail=''):
@@ -58,7 +67,7 @@ if [ "$BUILD_TEST_FAIL" = "$1" ]; then exit 7; fi
                 self.assertNotEqual(result.returncode, 0)
                 self.assertIn(f"required tool '{missing}'", result.stderr)
                 self.assertIn('Install Python 3 and Graphviz', result.stderr)
-                self.assertEqual(self.markdown.read_text(), 'Existing materials\n')
+                self.assertEqual(self.markdown.read_text(), 'Existing md\n')
                 self.assertFalse(self.log.exists())
 
     def test_each_failed_step_stops_the_build(self):
@@ -71,6 +80,10 @@ if [ "$BUILD_TEST_FAIL" = "$1" ]; then exit 7; fi
                 self.assertEqual(result.returncode, 7)
                 self.assertEqual(len(self.log.read_text().splitlines()), expected_calls)
                 self.assertNotIn('Check stacks/go/data/roadmap.md', result.stdout)
+                for extension in ('dot', 'svg', 'png', 'md'):
+                    self.assertEqual((self.data / f'roadmap.{extension}').read_text(),
+                                     f'Existing {extension}\n')
+                self.assertFalse(list(self.data.glob('.roadmap.*')))
 
     def test_success_runs_every_step_in_order(self):
         self.install_tools()
@@ -83,6 +96,7 @@ if [ "$BUILD_TEST_FAIL" = "$1" ]; then exit 7; fi
         self.assertTrue(calls[2].startswith('dot -Tpng '))
         self.assertTrue(calls[3].startswith('python3 ./tools/xmlg2md.py '))
         self.assertIn('Check stacks/go/data/roadmap.md', result.stdout)
+        self.assertEqual(self.markdown.read_text(), 'New Markdown\n')
 
 
 if __name__ == '__main__':

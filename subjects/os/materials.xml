@@ -31,14 +31,6 @@
             <tag>os</tag>
         </tags>
     </book>
-
-    <book lang="en">
-        <title>Operating Systems, 3rd Edition</title>
-        <url>https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274</url>
-        <tags>
-            <tag>os</tag>
-        </tags>
-    </book>
     
     <video lang="en">
         <title>Files and File Systems: Crash Course Computer Science #20</title>

@@ -1,41 +1,29 @@
-.PHONY: all
-all: golang java ruby php python cs
+STACKS := $(notdir $(patsubst %/,%,$(dir $(wildcard stacks/*/roadmap.xml))))
+# Watch shared XML and directory changes, including additions or removals of includes.
+SUBJECT_INPUTS := $(shell find subjects -type d -o -name '*.xml')
+BUILD_TOOLS := $(wildcard tools/*.py) tools/build.sh Makefile
+outputs = $(addprefix stacks/$(1)/data/roadmap.,dot svg png md)
+stamp = stacks/$(1)/data/.roadmap-built
 
-	@echo "Done"
+.PHONY: all golang $(STACKS)
+all: $(STACKS)
+golang: go
 
-.PHONY: golang
-golang:
-	@echo "start golang"
-	sh tools/build.sh go
-	@echo "finish golang"
+# Rebuild a stack if any member of its output set is missing.
+define stack_rule
+$(1): $(call stamp,$(1))
+$(call stamp,$(1)): stacks/$(1)/roadmap.xml stacks/$(1)/materials.xml $(SUBJECT_INPUTS) $(BUILD_TOOLS) $(if $(filter-out $(wildcard $(call outputs,$(1))),$(call outputs,$(1))),force)
+	sh tools/build.sh $(1)
+	touch $$@
+endef
 
-.PHONY: java
-java:
-	@echo "start java"
-	sh tools/build.sh java
-	@echo "finish java"
+$(foreach stack,$(STACKS),$(eval $(call stack_rule,$(stack))))
 
-.PHONY: ruby
-ruby:
-	@echo "start ruby"
-	sh tools/build.sh ruby
-	@echo "finish ruby"
+.PHONY: force clean
+force:
 
-.PHONY: php
-php:
-	@echo "start php"
-	sh tools/build.sh php
-	@echo "finish php"
-
-.PHONY: python
-python:
-	@echo "start python"
-	sh tools/build.sh python
-	@echo "finish python"
-
-.PHONY: cs
-cs:
-	sh tools/build.sh cs
+clean:
+	rm -f $(foreach stack,$(STACKS),$(call outputs,$(stack)) $(call stamp,$(stack)))
 
 .PHONY: test
 test:

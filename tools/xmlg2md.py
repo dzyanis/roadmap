@@ -1,8 +1,19 @@
 #!/usr/bin/env python3
 
 import argparse
+import re
+from urllib.parse import quote
 import materials as mt
 from xmlgraph import Roadmap
+
+
+def markdown_text(value):
+    return re.sub(r'([\\\[\]`*_<>~&!])', r'\\\1', value)
+
+
+def markdown_link(title, url):
+    destination = quote(url, safe=":/?#[]@!$&'*+,;=%").replace('&', '&amp;')
+    return f'[{markdown_text(title)}]({destination})'
 
 
 def walk(roadmap, nodeid, level, materials):
@@ -10,13 +21,14 @@ def walk(roadmap, nodeid, level, materials):
 
     if level > 6:
         level = 6
-    print('#'*level + ' ' + node.label + '\n')
+    label = markdown_text(node.label).replace('#', r'\#')
+    print('#'*level + ' ' + label + '\n')
 
     node_mat = materials[nodeid]
     for m in node_mat:
-        print("- {}: [{}]({})".format(m.type, m.title, m.url) +
-              ('' if m.translate_url == '' else
-               "[[{}]({})]".format(m.translate_lang, m.translate_url)))
+        link = markdown_link(m.title, m.url)
+        translation = f'[{markdown_link(m.translate_lang, m.translate_url)}]' if m.translate_url else ''
+        print(f'- {m.type}: {link}{translation}')
 
     if len(node_mat) > 0:
         print('\n')
