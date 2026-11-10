@@ -1,6 +1,6 @@
 # Roadmap Core
 
-Roadmap Core is a collection of software engineering knowledge maps and learning resources, maintained as code. It combines reusable subject graphs into roadmaps for Go, Java, PHP, Python, Ruby, and Computer Science, then generates diagrams and Markdown guides.
+Roadmap Core is a collection of software engineering knowledge maps and learning resources, maintained as code. It combines reusable subject graphs into roadmaps for Go, Java, PHP, Python, Ruby, DevOps, and Computer Science, then generates diagrams and Markdown guides.
 
 The project helps developers plan their learning and gives mentors and teams a shared reference for discussing skills. Common subjects—such as databases, networking, and operating systems—live in one place. Updating a shared subject and rebuilding updates every roadmap that includes it, so teams can review changes through Git and pull requests.
 
@@ -15,9 +15,10 @@ Open a diagram to browse the topics, or a learning guide to find resources attac
 | PHP | [SVG](stacks/php/data/roadmap.svg) · [PNG](stacks/php/data/roadmap.png) | [Materials](stacks/php/data/roadmap.md) | [XML](stacks/php/roadmap.xml) · [DOT](stacks/php/data/roadmap.dot) |
 | Python | [SVG](stacks/python/data/roadmap.svg) · [PNG](stacks/python/data/roadmap.png) | [Materials](stacks/python/data/roadmap.md) | [XML](stacks/python/roadmap.xml) · [DOT](stacks/python/data/roadmap.dot) |
 | Ruby | [SVG](stacks/ruby/data/roadmap.svg) · [PNG](stacks/ruby/data/roadmap.png) | [Materials](stacks/ruby/data/roadmap.md) | [XML](stacks/ruby/roadmap.xml) · [DOT](stacks/ruby/data/roadmap.dot) |
+| DevOps | [SVG](stacks/devops/data/roadmap.svg) · [PNG](stacks/devops/data/roadmap.png) | [Materials](stacks/devops/data/roadmap.md) | [XML](stacks/devops/roadmap.xml) · [DOT](stacks/devops/data/roadmap.dot) |
 | Computer Science (DSA) | [SVG](stacks/cs/data/roadmap.svg) · [PNG](stacks/cs/data/roadmap.png) | [Materials](stacks/cs/data/roadmap.md) | [XML](stacks/cs/roadmap.xml) · [DOT](stacks/cs/data/roadmap.dot) |
 
-The Computer Science stack currently covers data structures and algorithms. The language stacks combine language-specific topics with shared engineering subjects. Learning resources include books, articles, courses, and videos; coverage and resource languages vary by topic.
+The Computer Science stack currently covers data structures and algorithms. The language stacks combine language-specific topics with shared engineering subjects. The DevOps stack combines operating systems, networking, databases, and development processes with automation, containers, infrastructure as code, delivery pipelines, cloud infrastructure, observability, reliability, and security. Learning resources include books, articles, courses, and videos; coverage and resource languages vary by topic.
 
 ## How it works
 
@@ -60,7 +61,7 @@ sudo apt-get update
 sudo apt-get install python3 graphviz make libxml2-utils
 ```
 
-Clone the repository and build all six roadmaps:
+Clone the repository and build all seven roadmaps:
 
 ```bash
 git clone https://github.com/dzyanis/roadmap.git
@@ -70,7 +71,7 @@ make all
 
 Outputs are written to `stacks/<stack>/data/`. Builds are incremental: unchanged outputs are skipped, and missing outputs are regenerated. Shared subject changes trigger rebuilds across stacks.
 
-To build one stack, use `make go`, `make java`, `make php`, `make python`, `make ruby`, or `make cs`. `make golang` is an alias for `make go`.
+To build one stack, use `make go`, `make java`, `make php`, `make python`, `make ruby`, `make devops`, or `make cs`. `make golang` is an alias for `make go`.
 
 To remove the generated outputs and rebuild everything:
 
