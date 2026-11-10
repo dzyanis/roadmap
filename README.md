@@ -99,17 +99,19 @@ Also, you should update the project each time you change any XML file by:
 make all
 ```
 
-### Tests
+### Validation and tests
 
-With Python 3, Graphviz, and Make installed, run:
+Install Python 3, Graphviz, Make, and `xmllint` (`libxml2-utils` on Ubuntu), then run:
 
 ```bash
+make check
 make test
 ```
 
-The tests rebuild every stack from XML in a temporary directory and check the DOT,
-SVG, PNG, and Markdown outputs. GitHub Actions runs the same command on every push
-and pull request.
+`make check` validates the XML schemas, assembled graphs, and material tags.
+`make test` also rebuilds every stack in a temporary directory and checks the DOT,
+SVG, PNG, and Markdown outputs. GitHub Actions runs both commands on pushes and
+pull requests.
 
 ## Links
 

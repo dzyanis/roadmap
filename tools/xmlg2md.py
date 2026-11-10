@@ -25,9 +25,20 @@ def walk(roadmap, nodeid, level, materials):
         walk(roadmap, childid, level+1, materials)
 
 
-def convert_md(graphml, xmlmaterials, rootid):
+def load_stack(graphml, xmlmaterials, rootid):
     roadmap = Roadmap(graphml)
+    if rootid not in roadmap.nodes:
+        raise ValueError(f'{graphml}: unknown root node {rootid!r}')
     materials = mt.parsexml(xmlmaterials)
+    unknown_tags = [f'{entries[0].filepath}: material tag {tag!r} has no node in {graphml}'
+                    for tag, entries in materials.items() if tag not in roadmap.nodes]
+    if unknown_tags:
+        raise ValueError('\n'.join(unknown_tags))
+    return roadmap, materials
+
+
+def convert_md(graphml, xmlmaterials, rootid):
+    roadmap, materials = load_stack(graphml, xmlmaterials, rootid)
     walk(roadmap, rootid, 1, materials)
 
 
@@ -38,4 +49,7 @@ if __name__ == '__main__':
     parser.add_argument('--root', default='backend', help='Root element id')
     args = parser.parse_args()
 
-    convert_md(args.xmlg, args.materials, args.root)
+    try:
+        convert_md(args.xmlg, args.materials, args.root)
+    except ValueError as error:
+        parser.exit(1, f'{error}\n')

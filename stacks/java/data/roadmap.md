@@ -213,8 +213,6 @@
 
 #### Virtual Memory
 
-#### Virtual Memory
-
 ### File system
 
 - video: [Files and File Systems: Crash Course Computer Science #20](https://www.youtube.com/watch?v=KN8YgJnShPM)
@@ -563,6 +561,11 @@
 #### JPA
 
 ##### Hibernate
+
+- book: [Java Persistence API i Hibernate](https://www.amazon.com/Java-Persistence-API-i-Hibernate/dp/597060674X)
+- article: [Hibernate Getting Started Guide](https://docs.jboss.org/hibernate/orm/4.2/devguide/en-US/html_single/#d5e58)
+- book: [Hibernate in Action](https://www.amazon.com/Hibernate-Action-Christian-Bauer/dp/193239415X)
+
 
 ##### EclipseLink
 

@@ -28,7 +28,7 @@
         <title>The Go Blog - Go Slices: usage and internals</title>
         <url>https://blog.golang.org/go-slices-usage-and-internals</url>
         <tags>
-            <tag>go_types_slice</tag>
+            <tag>go_types_array</tag>
         </tags>
     </article>
 
@@ -36,7 +36,7 @@
         <title>Delete element in a slice</title>
         <url>https://stackoverflow.com/questions/25025409/delete-element-in-a-slice</url>
         <tags>
-            <tag>go_types_slice</tag>
+            <tag>go_types_array</tag>
         </tags>
     </article>
 
@@ -53,7 +53,7 @@
         <title>The Go Blog - Go maps in action</title>
         <url>https://blog.golang.org/go-maps-in-action</url>
         <tags>
-        <tag>go_types_collections_map</tag>
+        <tag>go_types_maps</tag>
         </tags>
     </article>
 
@@ -77,7 +77,7 @@
         <title>Modules</title>
         <url>https://github.com/golang/go/wiki/Modules</url>
         <tags>
-            <tag>go_tool_modules</tag>
+            <tag>go_tool_dependencies_mod</tag>
         </tags>
     </article>
 
@@ -85,7 +85,7 @@
         <title>The Go Blog - Using Go Modules</title>
         <url>https://blog.golang.org/using-go-modules</url>
         <tags>
-            <tag>go_tool_modules</tag>
+            <tag>go_tool_dependencies_mod</tag>
         </tags>
     </article>
 
@@ -110,7 +110,7 @@
         <title>The Go Blog - Share Memory By Communicating</title>
         <url>https://blog.golang.org/share-memory-by-communicating</url>
         <tags>
-            <tag>go_types_slice</tag>
+            <tag>go_types_array</tag>
         </tags>
     </article>
 
@@ -118,7 +118,7 @@
         <title>The Go Blog - Arrays, slices (and strings): The mechanics of 'append'</title>
         <url>https://blog.golang.org/slices</url>
         <tags>
-            <tag>go_types_slice</tag>
+            <tag>go_types_array</tag>
         </tags>
     </article>
 
@@ -127,7 +127,7 @@
         <url>https://blog.golang.org/defer-panic-and-recover</url>
         <tags>
             <tag>go_function_recover</tag>
-            <tag>go_function_defer</tag>
+            <tag>go_function_behavior</tag>
             <tag>go_function_panic</tag>
         </tags>
     </article>
@@ -203,7 +203,7 @@
         <url>https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e</url>
         <translate lang="ru" url="https://habr.com/ru/company/mailru/blog/318504/"/>
         <tags>
-            <tag>go_realtime_gc</tag>
+            <tag>go_runtime_gc</tag>
         </tags>
     </article>
 
@@ -228,7 +228,7 @@
         <title>The Go Blog - Error handling and Go</title>
         <url>https://blog.golang.org/error-handling-and-go</url>
         <tags>
-            <tag>go_types_error</tag>
+            <tag>go_app_errors</tag>
         </tags>
     </article>
 
@@ -244,7 +244,7 @@
         <title>The Go Blog - Errors are values</title>
         <url>https://blog.golang.org/errors-are-values</url>
         <tags>
-            <tag>go_types_error</tag>
+            <tag>go_app_errors</tag>
         </tags>
     </article>
 
@@ -252,7 +252,7 @@
         <title>The Go Blog - Go GC: Prioritizing low latency and simplicity</title>
         <url>https://blog.golang.org/go15gc</url>
         <tags>
-            <tag>go_realtime_gc</tag>
+            <tag>go_runtime_gc</tag>
         </tags>
     </article>
 
@@ -260,7 +260,7 @@
         <title>Go scheduler: Ms, Ps &amp; Gs</title>
         <url>https://povilasv.me/go-scheduler/</url>
         <tags>
-            <tag>go_realtime_scheduler</tag>
+            <tag>go_runtime_scheduler</tag>
         </tags>
     </article>
 
@@ -284,7 +284,7 @@
         <title>The Go Blog - Getting to Go: The Journey of Go's Garbage Collector</title>
         <url>https://blog.golang.org/ismmkeynote</url>
         <tags>
-            <tag>go_realtime_gc</tag>
+            <tag>go_runtime_gc</tag>
         </tags>
     </article>
 
@@ -300,7 +300,7 @@
         <title>How to efficiently concatenate strings in Go?</title>
         <url>https://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go</url>
         <tags>
-            <tag>go_types_text_strings</tag>
+            <tag>go_types_text</tag>
         </tags>
     </article>
 
@@ -308,7 +308,7 @@
         <title>How to check if a map contains a key in Go?</title>
         <url>https://stackoverflow.com/questions/2050391/how-to-check-if-a-map-contains-a-key-in-go</url>
         <tags>
-            <tag>go_types_collections_map</tag>
+            <tag>go_types_maps</tag>
         </tags>
     </article>
 
@@ -316,7 +316,7 @@
         <title>How do you write multiline strings in Go?</title>
         <url>https://stackoverflow.com/questions/7933460/how-do-you-write-multiline-strings-in-go</url>
         <tags>
-            <tag>go_types_text_strings</tag>
+            <tag>go_types_text</tag>
         </tags>
     </article>
 
@@ -332,7 +332,7 @@
         <title>Concatenate two slices in Go</title>
         <url>https://stackoverflow.com/questions/16248241/concatenate-two-slices-in-go</url>
         <tags>
-            <tag>go_types_slice</tag>
+            <tag>go_types_array</tag>
         </tags>
     </article>
 
@@ -340,7 +340,7 @@
         <title>When is the init() function run?</title>
         <url>https://stackoverflow.com/questions/24790175/when-is-the-init-function-run</url>
         <tags>
-            <tag>go_function_init</tag>
+            <tag>go_function_special</tag>
         </tags>
     </article>
 
@@ -348,7 +348,7 @@
         <title>Format a Go string without printing?</title>
         <url>https://stackoverflow.com/questions/11123865/format-a-go-string-without-printing</url>
         <tags>
-            <tag>go_types_text_strings</tag>
+            <tag>go_types_text</tag>
         </tags>
     </article>
 
