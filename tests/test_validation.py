@@ -27,14 +27,14 @@ class ValidationTests(unittest.TestCase):
 
     def test_schema_errors_name_file_and_missing_field(self):
         for schema, content, field in (
-            ('xmlgraph.xsd', '<xmlgraph><graph id="g"><node id="a"/></graph></xmlgraph>', 'label'),
+            ('roadmap.xsd', '<xmlgraph><graph id="g"><node id="a"/></graph></xmlgraph>', 'label'),
             ('materials.xsd', '<materials><book lang="en"><title>A</title>'
              '<tags><tag>a</tag></tags></book></materials>', 'url'),
         ):
             with self.subTest(schema=schema):
                 path = self.write_xml('invalid.xml', content)
                 with self.assertRaises(ValueError) as failure:
-                    validate_schema(TOOLS / schema, [path])
+                    validate_schema(TOOLS.parent / 'schemas' / schema, [path])
                 self.assertIn(str(path), str(failure.exception))
                 self.assertIn(field, str(failure.exception))
 

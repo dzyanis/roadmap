@@ -6,13 +6,13 @@ import xml.etree.ElementTree as ET
 
 
 REPOSITORY = Path(__file__).resolve().parents[1]
-STACKS = sorted((REPOSITORY / 'stacks').glob('*/roadmap.xml'))
+ROADMAPS = sorted((REPOSITORY / 'roadmaps').glob('*/*/roadmap.xml'))
 
 
 class MaterialsCoverageTests(unittest.TestCase):
-    def test_stack_subjects_include_available_materials(self):
-        self.assertTrue(STACKS, 'No stack roadmaps found')
-        for roadmap in STACKS:
+    def test_roadmap_subjects_include_available_materials(self):
+        self.assertTrue(ROADMAPS, 'No roadmap roadmaps found')
+        for roadmap in ROADMAPS:
             materials_file = roadmap.with_name('materials.xml')
             included_materials = {
                 (materials_file.parent / include.get('filepath')).resolve()
@@ -21,13 +21,13 @@ class MaterialsCoverageTests(unittest.TestCase):
             for include in ET.parse(roadmap).getroot().findall('include'):
                 subject_roadmap = (roadmap.parent / include.get('filepath')).resolve()
                 available_materials = subject_roadmap.with_name('materials.xml')
-                with self.subTest(stack=roadmap.parent.name, subject=subject_roadmap.parent.name):
+                with self.subTest(roadmap=roadmap.parent.name, subject=subject_roadmap.parent.name):
                     if available_materials.is_file():
                         self.assertIn(available_materials.resolve(), included_materials,
                                       f'{materials_file} omits {available_materials}')
 
     def test_os_resources_appear_under_their_matching_headings(self):
-        subject = REPOSITORY / 'subjects' / 'os'
+        subject = REPOSITORY / 'subjects' / 'operating-systems'
         labels = {
             node.get('id'): node.get('label')
             for node in ET.parse(subject / 'roadmap.xml').iter('node')
@@ -39,11 +39,11 @@ class MaterialsCoverageTests(unittest.TestCase):
                                   material.findtext('url')))
         self.assertTrue(resources, 'No OS materials found')
 
-        os_stacks = [roadmap for roadmap in STACKS
+        os_roadmap_paths = [roadmap for roadmap in ROADMAPS
                      if any((roadmap.parent / include.get('filepath')).resolve() == subject / 'roadmap.xml'
                             for include in ET.parse(roadmap).getroot().findall('include'))]
-        self.assertTrue(os_stacks, 'No stacks include the OS subject')
-        for roadmap in os_stacks:
+        self.assertTrue(os_roadmap_paths, 'No roadmaps include the OS subject')
+        for roadmap in os_roadmap_paths:
             result = subprocess.run(
                 [sys.executable, str(REPOSITORY / 'tools' / 'xmlg2md.py'),
                  '--xmlg', str(roadmap),
@@ -60,7 +60,7 @@ class MaterialsCoverageTests(unittest.TestCase):
                 elif heading is not None:
                     sections[heading].append(line)
             for heading, title, url in resources:
-                with self.subTest(stack=roadmap.parent.name, resource=title):
+                with self.subTest(roadmap=roadmap.parent.name, resource=title):
                     self.assertIn(f'[{title}]({url})', '\n'.join(sections.get(heading, [])))
 
 

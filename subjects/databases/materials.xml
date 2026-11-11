@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
+    <article lang="en">
+        <title>NOSQL</title>
+        <url>https://martinfowler.com/nosql.html</url>
+        <tags>
+            <tag>db_nosql</tag>
+        </tags>
+    </article>
+
+    <book lang="en">
+        <title>NoSQL Distilled</title>
+        <url>https://martinfowler.com/books/nosql.html</url>
+        <tags>
+            <tag>db_nosql</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>SQL Bible</title>
+        <url>https://www.amazon.com/SQL-Bible-Alex-Kriegel/dp/0470229063</url>
+        <tags>
+            <tag>db_sql</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Oracle PL/SQL Programming: Covers Versions Through Oracle Database 12c</title>
+        <url>https://www.amazon.com/Oracle-PL-SQL-Programming-Versions/dp/1449324452</url>
+        <tags>
+            <tag>db_relational_oracle</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Kubernetes in Action</title>
+        <url>https://www.manning.com/books/kubernetes-in-action</url>
+        <tags>
+            <tag>dev_orchestration_k8s</tag>
+        </tags>
+    </book>
+</materials>

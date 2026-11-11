@@ -26,7 +26,7 @@ def convert_dot(graphml, dot):
     with open(dot, 'w', encoding='utf-8') as output:
         output.write('digraph roadmap {\n\trankdir=LR;\n')
         for edge in roadmap.edges.values():
-            output.write(f'\t{dot_id(edge.source)}->{dot_id(edge.target)};\t\n')
+            output.write(f'\t{dot_id(edge.source)}->{dot_id(edge.target)};\n')
         for node in roadmap.nodes.values():
             output.write(f'\t{dot_id(node.id)} [ label={dot_string(node.label)} ];\n')
         output.write('}\n')

@@ -22,5 +22,5 @@ jobs:
           sudo apt-get install --yes --no-install-recommends graphviz libxml2-utils
       - name: Validate roadmap and materials XML
         run: make check
-      - name: Run tests and build all stacks
+      - name: Run tests and build all roadmaps
         run: make test

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
     <article lang="en">
         <title>Get started with Docker</title>
         <url>https://docs.docker.com/get-started/</url>

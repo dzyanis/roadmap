@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
     <book lang="en">
         <title>Oracle Certified Associate Java SE 8 Programmer I Study Guide (2015)</title>
         <url>https://www.amazon.com/OCA-Certified-Associate-Programmer-1Z0-808/dp/1118957407</url>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
     <course lang="ru">
         <title>Разработка веб-сервисов на Go - основы языка</title>
         <url>https://www.coursera.org/learn/golang-webservices-1</url>

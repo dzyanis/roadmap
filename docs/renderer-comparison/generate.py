@@ -33,8 +33,9 @@ def export(xml, output, grouped):
     for group, nodes in groups.items():
         indent = '  ' if group else ''
         if group:
-            dot.extend([f'  subgraph cluster_{group} {{', f'    label="{group}";'])
-            mermaid.append(f'  subgraph subject_{group}["{group}"]')
+            group_id = group.replace('-', '_')
+            dot.extend([f'  subgraph cluster_{group_id} {{', f'    label="{group}";'])
+            mermaid.append(f'  subgraph subject_{group_id}["{group}"]')
             d2.append(f'{group}: {{')
         for identifier, label, url in nodes:
             attributes = f'label={dot_string(label)}'
@@ -79,8 +80,8 @@ def main():
     parser.add_argument('output_directory', type=Path)
     output = parser.parse_args().output_directory
     output.mkdir(parents=True, exist_ok=True)
-    export(REPOSITORY / 'subjects/dsa/roadmap.xml', output / 'dsa', grouped=False)
-    export(REPOSITORY / 'stacks/go/roadmap.xml', output / 'go', grouped=True)
+    export(REPOSITORY / 'subjects/data-structures-algorithms/roadmap.xml', output / 'dsa', grouped=False)
+    export(REPOSITORY / 'roadmaps/roles/go-engineer/roadmap.xml', output / 'go', grouped=True)
 
 
 if __name__ == '__main__':

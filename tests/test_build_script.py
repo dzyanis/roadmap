@@ -16,11 +16,15 @@ class BuildScriptTests(unittest.TestCase):
         self.root = Path(self.directory.name)
         self.bin = self.root / 'bin'
         self.bin.mkdir()
-        self.data = self.root / 'stacks' / 'go' / 'data'
+        self.data = self.root / 'generated' / 'roles' / 'go-engineer'
         self.data.mkdir(parents=True)
-        self.markdown = self.data / 'roadmap.md'
+        self.markdown = self.data / 'guide.md'
         for extension in ('dot', 'svg', 'png', 'md'):
-            (self.data / f'roadmap.{extension}').write_text(f'Existing {extension}\n')
+            (self.data / ('guide.md' if extension == 'md' else f'roadmap.{extension}')).write_text(f'Existing {extension}\n')
+        source = self.root / 'roadmaps' / 'roles' / 'go-engineer'
+        source.mkdir(parents=True)
+        for filename in ('roadmap.xml', 'materials.xml'):
+            (source / filename).touch()
         self.log = self.root / 'calls.log'
 
     def tool(self, name, script):
@@ -52,7 +56,7 @@ printf 'New image\n' > "$4"
     def build(self, fail=''):
         environment = dict(os.environ, PATH=str(self.bin),
                            BUILD_TEST_LOG=str(self.log), BUILD_TEST_FAIL=fail)
-        return subprocess.run(['/bin/sh', str(BUILD_SCRIPT), 'go'],
+        return subprocess.run(['/bin/sh', str(BUILD_SCRIPT), 'roles/go-engineer'],
                               cwd=self.root, env=environment,
                               capture_output=True, text=True)
 
@@ -79,9 +83,9 @@ printf 'New image\n' > "$4"
                 result = self.build(fail=stage)
                 self.assertEqual(result.returncode, 7)
                 self.assertEqual(len(self.log.read_text().splitlines()), expected_calls)
-                self.assertNotIn('Check stacks/go/data/roadmap.md', result.stdout)
+                self.assertNotIn('Check generated/roles/go-engineer/guide.md', result.stdout)
                 for extension in ('dot', 'svg', 'png', 'md'):
-                    self.assertEqual((self.data / f'roadmap.{extension}').read_text(),
+                    self.assertEqual((self.data / ('guide.md' if extension == 'md' else f'roadmap.{extension}')).read_text(),
                                      f'Existing {extension}\n')
                 self.assertFalse(list(self.data.glob('.roadmap.*')))
 
@@ -95,7 +99,7 @@ printf 'New image\n' > "$4"
         self.assertTrue(calls[1].startswith('dot -Tsvg '))
         self.assertTrue(calls[2].startswith('dot -Tpng '))
         self.assertTrue(calls[3].startswith('python3 ./tools/xmlg2md.py '))
-        self.assertIn('Check stacks/go/data/roadmap.md', result.stdout)
+        self.assertIn('Check generated/roles/go-engineer/guide.md', result.stdout)
         self.assertEqual(self.markdown.read_text(), 'New Markdown\n')
 
 

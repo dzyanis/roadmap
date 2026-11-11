@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd"
+>
+    <graph id="dev">
+        <node id="dev" label="Software Development Processes"/>
+
+        <!--Software Development Processes-->
+        <node id="dev_testing" label="Testing"/>
+        <edge id="edge_dev_testing" source="dev" target="dev_testing"/>
+
+        <node id="dev_build" label="Build Systems"/>
+        <edge id="edge_dev_build" source="dev" target="dev_build"/>
+
+        <node id="dev_trackers" label="Bug tracking systems"/>
+        <edge id="edge_dev_trackers" source="dev" target="dev_trackers"/>
+
+        <node id="dev_version" label="Version Control"/>
+        <edge id="edge_dev_version" source="dev" target="dev_version"/>
+
+        <node id="dev_deployment" label="Deployment"/>
+        <edge id="edge_dev_deployment" source="dev" target="dev_deployment"/>
+
+        <node id="dev_estimation" label="Estimations"/>
+        <edge id="edge_dev_estimation" source="dev" target="dev_estimation"/>
+
+        <node id="dev_debugging" label="Debugging"/>
+        <edge id="edge_dev_debugging" source="dev" target="dev_debugging"/>
+
+        <node id="dev_orchestration" label="Orchestration"/>
+        <edge id="edge_dev_orchestration" source="dev" target="dev_orchestration"/>
+
+        <node id="dev_management" label="Management"/>
+        <edge id="edge_dev_management" source="dev" target="dev_management"/>
+
+        <!--Orchestration-->
+        <node id="dev_orchestration_ansible" label="Ansible"/>
+        <edge id="edge_dev_orchestration_ansible" source="dev_orchestration" target="dev_orchestration_ansible"/>
+
+        <node id="dev_orchestration_puppet" label="Puppet"/>
+        <edge id="edge_dev_orchestration_puppet" source="dev_orchestration" target="dev_orchestration_puppet"/>
+
+        <node id="dev_orchestration_k8s" label="Kubernetes"/>
+        <edge id="edge_dev_orchestration_k8s" source="dev_orchestration" target="dev_orchestration_k8s"/>
+
+        <!--Debugging-->
+        <node id="dev_debugging_troubleshooting" label="Troubleshooting"/>
+        <edge id="edge_dev_debugging_troubleshooting" source="dev_debugging" target="dev_debugging_troubleshooting"/>
+
+        <node id="dev_debugging_logging" label="Logging"/>
+        <edge id="edge_dev_debugging_logging" source="dev_debugging" target="dev_debugging_logging"/>
+
+        <node id="dev_debugging_monitoring" label="Monitoring"/>
+        <edge id="edge_dev_debugging_monitoring" source="dev_debugging" target="dev_debugging_monitoring"/>
+
+        <!--Testing-->
+        <node id="dev_testing_tdd" label="Test-driven development"/>
+        <edge id="edge_dev_testing_tdd" source="dev_testing" target="dev_testing_tdd"/>
+
+        <node id="dev_testing_bdd" label="Behavior-driven development"/>
+        <edge id="edge_dev_testing_bdd" source="dev_testing" target="dev_testing_bdd"/>
+
+        <!--Bug tracking systems-->
+        <node id="dev_trackers_jira" label="Jira"/>
+        <edge id="edge_dev_trackers_jira" source="dev_trackers" target="dev_trackers_jira"/>
+
+        <node id="dev_trackers_redmine" label="Redmine"/>
+        <edge id="edge_dev_trackers_redmine" source="dev_trackers" target="dev_trackers_redmine"/>
+
+        <node id="dev_trackers_tfs" label="TFS"/>
+        <edge id="edge_dev_trackers_tfs" source="dev_trackers" target="dev_trackers_tfs"/>
+
+        <!--Version Control-->
+        <node id="dev_version_git" label="Git"/>
+        <edge id="edge_dev_version_git" source="dev_version" target="dev_version_git"/>
+
+        <!--Deployment-->
+        <node id="dev_deployment_ci" label="Continuous Integration"/>
+        <edge id="edge_dev_deployment_ci" source="dev_deployment" target="dev_deployment_ci"/>
+
+        <node id="dev_deployment_cd" label="Continuous Delivery"/>
+        <edge id="edge_dev_deployment_cd" source="dev_deployment" target="dev_deployment_cd"/>
+
+        <!-- Management -->
+        <node id="dev_methodologies" label="Methodologies and Frameworks"/>
+        <edge id="edge_dev_methodologies" source="dev_management" target="dev_methodologies"/>
+
+        <node id="dev_paradigms" label="Paradigms and Models"/>
+        <edge id="edge_dev_paradigms" source="dev_management" target="dev_paradigms"/>
+
+        <node id="management_time" label="Time Management"/>
+        <edge id="edge_management_time" source="dev_management" target="management_time"/>
+
+        <!--Paradigms and models-->
+        <node id="management_paradigms_agile" label="Agile"/>
+        <edge id="edge_management_paradigms_agile" source="dev_paradigms" target="management_paradigms_agile"/>
+
+        <node id="management_paradigms_waterfall" label="Waterfall"/>
+        <edge id="edge_management_paradigms_waterfall" source="dev_paradigms" target="management_paradigms_waterfall"/>
+
+        <!--Time Management-->
+        <node id="management_time_pareto" label="Pareto analysis"/>
+        <edge id="edge_management_time_pareto" source="management_time" target="management_time_pareto"/>
+
+        <node id="management_time_gtd" label="Getting Things Done"/>
+        <edge id="edge_management_time_gtd" source="management_time" target="management_time_gtd"/>
+
+        <node id="management_time_pomodoro" label="Pomodoro"/>
+        <edge id="edge_management_time_pomodoro" source="management_time" target="management_time_pomodoro"/>
+
+        <!--Methodologies and frameworks-->
+        <node id="dev_methodologies_scrum" label="SCRUM"/>
+        <edge id="edge_dev_methodologies_scrum" source="dev_methodologies" target="dev_methodologies_scrum"/>
+
+        <node id="dev_methodologies_kanban" label="Kanban"/>
+        <edge id="edge_dev_methodologies_kanban" source="dev_methodologies" target="dev_methodologies_kanban"/>
+
+        <node id="dev_methodologies_xp" label="Extreme Programming"/>
+        <edge id="edge_dev_methodologies_xp" source="dev_methodologies" target="dev_methodologies_xp"/>
+
+        <node id="dev_methodologies_12factors" label="The Twelve-Factor App"/>
+        <edge id="edge_dev_methodologies_12factors" source="dev_methodologies" target="dev_methodologies_12factors"/>
+
+        <!--Estimations-->
+        <node id="management_estimation_poker" label="Planning Poker"/>
+        <edge id="edge_management_estimation_poker" source="dev_estimation" target="management_estimation_poker"/>
+
+        <!--Build Systems-->
+        <node id="dev_build_make" label="Make"/>
+        <edge id="edge_dev_build_make" source="dev_build" target="dev_build_make"/>
+
+        <node id="dev_build_maven" label="Maven"/>
+        <edge id="edge_dev_build_maven" source="dev_build" target="dev_build_maven"/>
+
+        <node id="dev_build_ant" label="Ant"/>
+        <edge id="edge_dev_build_ant" source="dev_build" target="dev_build_ant"/>
+
+        <node id="dev_build_gradle" label="Gradle"/>
+        <edge id="edge_dev_build_gradle" source="dev_build" target="dev_build_gradle"/>
+    </graph>
+</xmlgraph>
