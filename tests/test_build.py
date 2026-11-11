@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 import shutil
 import struct
 import subprocess
@@ -12,7 +13,7 @@ REPOSITORY = Path(__file__).resolve().parents[1]
 
 class BuildTests(unittest.TestCase):
     def test_all_roadmaps_build_from_xml(self):
-        for tool in ('python3', 'dot', 'make'):
+        for tool in ('python3', 'dot', 'make', 'xmllint'):
             self.assertIsNotNone(shutil.which(tool),
                                  f'Install {tool} before running the build tests')
 
@@ -41,6 +42,20 @@ class BuildTests(unittest.TestCase):
                         self.assertGreater(output.stat().st_size, 0, str(output))
                     self.assertTrue((data / 'roadmap.dot').read_text().startswith('digraph roadmap {'))
                     self.assertTrue((data / 'guide.md').read_text().startswith('# '))
+                    graph = json.loads((data / 'graph.json').read_text())
+                    self.assertEqual(graph['schema_version'], 1)
+                    self.assertEqual(graph['roadmap']['id'], roadmap.parent.relative_to(workspace / 'roadmaps').as_posix())
+                    self.assertEqual(graph['roadmap']['root'], 'backend')
+                    topics = {topic['id'] for topic in graph['topics']}
+                    self.assertIn('backend', topics)
+                    for edge in graph['edges']:
+                        self.assertIn(edge['source'], topics)
+                        self.assertIn(edge['target'], topics)
+                    # Text exporters must agree with the committed generated artifacts.
+                    committed = REPOSITORY / 'generated' / roadmap.parent.relative_to(workspace / 'roadmaps')
+                    if committed.is_dir():
+                        for filename in ('roadmap.dot', 'guide.md'):
+                            self.assertEqual((data / filename).read_bytes(), (committed / filename).read_bytes())
                     svg = ET.parse(data / 'roadmap.svg').getroot()
                     self.assertEqual(svg.tag, '{http://www.w3.org/2000/svg}svg')
                     png = (data / 'roadmap.png').read_bytes()
@@ -58,7 +73,7 @@ class BuildTests(unittest.TestCase):
             up_to_date = subprocess.check_output(['make', '-n', 'all'], cwd=workspace, text=True)
             self.assertNotIn('sh tools/build.sh', up_to_date)
             key = roadmaps[0].parent.relative_to(workspace / 'roadmaps')
-            (workspace / 'generated' / key / 'roadmap.svg').unlink()
+            (workspace / 'generated' / key / 'graph.json').unlink()
             rebuild = subprocess.check_output(['make', '-n', 'all'], cwd=workspace, text=True)
             self.assertEqual([line for line in rebuild.splitlines() if 'sh tools/build.sh' in line],
                              [f'sh tools/build.sh {key}'])

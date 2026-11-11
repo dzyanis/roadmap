@@ -10,6 +10,8 @@ class Material:
         self.type = ''
         self.title = ''
         self.url = ''
+        self.language = ''
+        self.description = ''
         self.translate_lang = ''
         self.translate_url = ''
 
@@ -18,17 +20,19 @@ def normalize_url(url):
     return ''.join(line.strip() for line in url.splitlines())
 
 
-def parsexml(filepath, ancestors=()):
-    root, ancestors = load_xml(filepath, ancestors)
+def parsexml(filepath, ancestors=(), validator=None):
+    root, ancestors = load_xml(filepath, ancestors, validator)
     materials = defaultdict(list)
     for mat_desc in root:
         if mat_desc.tag == 'include':
             include = ancestors[-1].parent / mat_desc.attrib['filepath']
-            for tag, entries in parsexml(include, ancestors).items():
+            for tag, entries in parsexml(include, ancestors, validator).items():
                 materials[tag].extend(entries)
             continue
         material = Material(filepath)
         material.type = mat_desc.tag
+        material.language = mat_desc.get('lang', '').strip()
+        material.description = ' '.join(mat_desc.findtext('description', '').split())
         material.title = ' '.join(mat_desc.findtext('title', '').split())
         material.url = normalize_url(mat_desc.findtext('url', ''))
         if not material.title or not material.url:

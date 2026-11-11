@@ -5,7 +5,8 @@ inputs, exported PNG directly, and already fits the build. Mermaid is a useful
 option for smaller diagrams embedded in Markdown. D2's styling and containers
 are worth revisiting if there is demand for a separate presentation format.
 
-The experiment exports the same nodes and edges from the DSA subject and the
+The experiment uses the [shared validated model](../graph-pipeline.md) to export
+the same nodes and edges from the DSA subject and the
 full Go Engineer roadmap. It groups the Go nodes by source subject and attaches the first
 available learning resource to each node. The production build uses its
 existing ungrouped Graphviz layout. Both inputs retain their original labels.
@@ -50,7 +51,7 @@ as a single inline image. Subject diagrams are a better fit for inline use.
 ## Reproduce
 
 The samples were rendered with Graphviz 16.1.1, Mermaid CLI 12.2.0, and D2 0.9.0.
-Install Graphviz and D2, and use Node.js with the Mermaid CLI. Puppeteer can use
+Install Graphviz, xmllint, and D2, and use Node.js with the Mermaid CLI. Puppeteer can use
 its downloaded Chromium or an installed Chrome via `PUPPETEER_EXECUTABLE_PATH`.
 Run these commands from the repository root:
 

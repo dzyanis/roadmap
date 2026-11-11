@@ -9,22 +9,19 @@ import sys
 REPOSITORY = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPOSITORY / 'tools'))
 
-from materials import parsexml
+from pipeline import load_roadmap
 from xmlg2dot import dot_string
-from xmlgraph import Roadmap
 
 
 def export(xml, output, grouped):
-    roadmap = Roadmap(xml)
-    resources = parsexml(xml.with_name('materials.xml'))
+    roadmap = load_roadmap(xml, xml.with_name('materials.xml'))
     groups = defaultdict(list)
     ids = {}
     for number, node in enumerate(roadmap.nodes.values(), start=1):
-        source = Path(node.filepath)
-        group = source.parent.name if grouped and source.parent.parent.name == 'subjects' else ''
+        group = node.subjects[0] if grouped and node.subjects else ''
         identifier = f'n{number}'
         ids[node.id] = (group, identifier)
-        url = resources[node.id][0].url if resources[node.id] else ''
+        url = node.resources[0].url if node.resources else ''
         groups[group].append((identifier, node.label, url))
 
     dot = ['digraph roadmap {', '  rankdir=LR;']
