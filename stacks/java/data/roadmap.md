@@ -178,64 +178,178 @@
 
 #### Cookie
 
-## Operating System
+## Operating Systems
 
-- book: [Modern Operating Systems (4th Edition)](https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X)
-- book: [Operating System Concepts, Tenth Edition](http://os-book.com/OS10/index.html)
-- book: [Operating Systems, 3rd Edition](https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274)
+- book: [Modern Operating Systems, Fifth Edition](https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295/9780137618880)
+- book: [Operating System Concepts, Tenth Edition](https://os-book.com/OS10/)
+- book: [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 
-### Types
+### Kernel and User Space
 
-#### Batch
+- article: [OSTEP: Limited Direct Execution](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)
 
-#### Time-Sharing
 
-#### Distributed
+#### Privilege Levels and System Calls
 
-#### Network
-
-#### Real-Time
+#### Interrupts, Exceptions, and Timers
 
 ### Processes and Threads
 
-#### Threads
+- article: [OSTEP: Processes](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
 
-#### Scheduling
 
-#### Multi-Threading
+#### Thread Lifecycle and Shared Address Space
+
+#### CPU Scheduling and Context Switching
+
+#### Concurrency and Parallelism
+
+- article: [OSTEP: Concurrency and Threads](https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
+
+
+##### Locks, Semaphores, and Condition Variables
+
+##### Race Conditions and Deadlocks
+
+#### Process Creation, Execution, and Exit
+
+#### IPC: Pipes, Shared Memory, and Message Queues
+
+#### Signals and Process Termination
 
 ### Memory Management
 
+- article: [OSTEP: Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
+
+
 #### Virtual Memory
 
-### File system
+##### Address Spaces and Memory Mapping
+
+##### Paging, Page Faults, and Swapping
+
+##### Page Tables and Translation Lookaside Buffers
+
+#### Allocation: Stack and Heap
+
+### File Systems and Persistence
 
 - video: [Files and File Systems: Crash Course Computer Science #20](https://www.youtube.com/watch?v=KN8YgJnShPM)
+- article: [OSTEP: Files and Directories](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)
 
 
-### I/O
+#### Files, Directories, Mounts, and Links
+
+#### File Ownership and Permissions
+
+#### Writeback, Journaling, and Crash Recovery
+
+### Input and Output
+
+- article: [OSTEP: I/O Devices](https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf)
+
+
+#### File Descriptors and Device I/O
+
+#### Buffering and Caching
+
+#### Blocking, Nonblocking I/O, and Readiness
+
+### Protection and Access Control
+
+- article: [OSTEP: Access Control](https://pages.cs.wisc.edu/~remzi/OSTEP/security-access.pdf)
+
+
+#### Users, Groups, and Least Privilege
+
+#### Process Isolation and Access Checks
 
 ### Virtualization
 
-#### OS-level Virtualisation
+- article: [QEMU System Emulation Introduction](https://www.qemu.org/docs/master/system/introduction.html)
+
+
+#### OS-Level Virtualization and Containers
+
+- article: [Docker: What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/)
+
+
+##### Linux Namespaces
+
+- article: [Linux namespaces manual](https://man7.org/linux/man-pages/man7/namespaces.7.html)
+
+
+##### Linux Control Groups
+
+- article: [Linux kernel: Control Group v2](https://docs.kernel.org/admin-guide/cgroup-v2.html)
+
 
 ##### Docker
 
-- book: [Docker in Action](https://pepa.holla.cz/wp-content/uploads/2016/10/Docker-in-Action.pdf)
+- book: [Docker in Action, Second Edition](https://www.manning.com/books/docker-in-action-second-edition)
+- article: [Docker: What is a container?](https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/)
 
 
-#### x86 Virtualization
+#### Hardware Virtualization and Hypervisors
+
+- article: [QEMU System Emulation Introduction](https://www.qemu.org/docs/master/system/introduction.html)
+
+
+##### Hosts, Guests, and Virtual Hardware
 
 ##### VirtualBox
 
-##### VMware
+##### VMware ESXi
 
-### Command Language
+### Shells and Command-Line Fundamentals
+
+- article: [Bash Reference Manual](https://www.gnu.org/software/bash/manual/)
+
+
+#### Quoting, Expansion, and Environment Variables
+
+#### Pipelines and Redirection
+
+#### Exit Status, Signals, and Job Control
 
 #### Bash
 
+- article: [Bash Reference Manual](https://www.gnu.org/software/bash/manual/)
+
+
 #### Zsh
+
+### Linux Administration and Diagnostics
+
+- article: [systemctl reference](https://www.freedesktop.org/software/systemd/man/latest/systemctl.html)
+
+
+#### Service Lifecycle and Logs (systemd)
+
+- article: [systemctl reference](https://www.freedesktop.org/software/systemd/man/latest/systemctl.html)
+
+
+#### Process and CPU Inspection (ps, top)
+
+#### Memory, Disk Space, and I/O (vmstat, df, du, iostat)
+
+#### System Call Tracing (strace)
+
+### Operating System Characteristics
+
+- book: [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+
+#### Workload: Batch Processing
+
+#### Workload: Interactive Time-Sharing
+
+#### Coordination: Distributed Systems
+
+#### Connectivity: Network Operating Systems
+
+#### Timing: Real-Time Guarantees
 
 ## Software Development Processes
 

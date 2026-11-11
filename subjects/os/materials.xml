@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
     <book lang="en">
-        <title>Docker in Action</title>
-        <url>https://pepa.holla.cz/wp-content/uploads/2016/10/Docker-in-Action.pdf</url>
+        <title>Docker in Action, Second Edition</title>
+        <url>https://www.manning.com/books/docker-in-action-second-edition</url>
         <tags>
             <tag>os_virtualization_level_docker</tag>
         </tags>
     </book>
-    
+
     <book lang="en">
-        <title>Modern Operating Systems (4th Edition)</title>
-        <url>https://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/013359162X</url>
-        <tags>
-            <tag>os</tag>
-        </tags>
-    </book>
-    
-    <book lang="en">
-        <title>Operating System Concepts, Tenth Edition</title>
-        <url>http://os-book.com/OS10/index.html</url>
+        <title>Modern Operating Systems, Fifth Edition</title>
+        <url>https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295/9780137618880</url>
         <tags>
             <tag>os</tag>
         </tags>
     </book>
 
     <book lang="en">
-        <title>Operating Systems, 3rd Edition</title>
-        <url>https://www.amazon.com/Operating-Systems-3rd-Harvey-Deitel/dp/0131828274</url>
+        <title>Operating System Concepts, Tenth Edition</title>
+        <url>https://os-book.com/OS10/</url>
         <tags>
             <tag>os</tag>
         </tags>
     </book>
-    
+
     <video lang="en">
         <title>Files and File Systems: Crash Course Computer Science #20</title>
         <url>https://www.youtube.com/watch?v=KN8YgJnShPM</url>
@@ -39,4 +31,121 @@
             <tag>os_filesystem</tag>
         </tags>
     </video>
+
+    <book lang="en">
+        <title>Operating Systems: Three Easy Pieces</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/</url>
+        <tags>
+            <tag>os</tag>
+            <tag>os_types</tag>
+        </tags>
+    </book>
+
+    <article lang="en">
+        <title>OSTEP: Limited Direct Execution</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf</url>
+        <tags>
+            <tag>os_foundations</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>OSTEP: Processes</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf</url>
+        <tags>
+            <tag>os_processes</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>OSTEP: Concurrency and Threads</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf</url>
+        <tags>
+            <tag>os_processes_multithreading</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>OSTEP: Address Spaces</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf</url>
+        <tags>
+            <tag>os_memory</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>OSTEP: Files and Directories</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf</url>
+        <tags>
+            <tag>os_filesystem</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>OSTEP: I/O Devices</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf</url>
+        <tags>
+            <tag>os_io</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>OSTEP: Access Control</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/security-access.pdf</url>
+        <tags>
+            <tag>os_protection</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>QEMU System Emulation Introduction</title>
+        <url>https://www.qemu.org/docs/master/system/introduction.html</url>
+        <tags>
+            <tag>os_virtualization</tag>
+            <tag>os_virtualization_x86</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Docker: What is a container?</title>
+        <url>https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/</url>
+        <tags>
+            <tag>os_virtualization_level</tag>
+            <tag>os_virtualization_level_docker</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Linux namespaces manual</title>
+        <url>https://man7.org/linux/man-pages/man7/namespaces.7.html</url>
+        <tags>
+            <tag>os_virtualization_namespaces</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Linux kernel: Control Group v2</title>
+        <url>https://docs.kernel.org/admin-guide/cgroup-v2.html</url>
+        <tags>
+            <tag>os_virtualization_cgroups</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>Bash Reference Manual</title>
+        <url>https://www.gnu.org/software/bash/manual/</url>
+        <tags>
+            <tag>os_shell</tag>
+            <tag>os_shell_bash</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>systemctl reference</title>
+        <url>https://www.freedesktop.org/software/systemd/man/latest/systemctl.html</url>
+        <tags>
+            <tag>os_linux</tag>
+            <tag>os_linux_services</tag>
+        </tags>
+    </article>
 </materials>
