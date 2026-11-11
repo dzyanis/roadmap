@@ -24,11 +24,12 @@ The foundation roadmap covers data structures and algorithms, not a complete Com
 
 Each subject defines topics and their connections in `roadmap.xml`, plus learning resources in `materials.xml`. Resource tags refer to topic IDs. A roadmap includes the subjects it needs and connects them beneath its root topic.
 
-The Python tools assemble these XML files into a graph and generate:
+The Python tools validate and assemble these XML files into one shared graph and generate:
 
 - **DOT**, the graph description used by Graphviz.
 - **SVG and PNG**, diagrams rendered by Graphviz.
 - **Markdown**, a topic outline with links to learning resources.
+- **JSON**, versioned website data with stable topic IDs, edges, subjects, and resources.
 
 ```text
 subjects/<subject>/                   Reusable knowledge and resources
@@ -41,6 +42,7 @@ schemas/                             XML schemas
 generated/<category>/<name>/          Generated, committed outputs
   roadmap.dot / roadmap.svg / roadmap.png
   guide.md
+  graph.json
 tools/                               XML loading, validation, and exporters
 tests/                               Validation and build tests
 ```
@@ -54,7 +56,7 @@ XML include paths are relative to the file that declares them. For example, the 
 - Python **3.9 or newer**; the tools use only the standard library.
 - Graphviz, with `dot` available on `PATH`.
 - GNU Make and a POSIX shell.
-- `xmllint` for validation and tests (`libxml2-utils` on Ubuntu).
+- `xmllint` for validation, builds, and tests (`libxml2-utils` on Ubuntu).
 - Git to clone the repository and contribute changes.
 
 On Ubuntu, install the build and validation dependencies with:
@@ -91,7 +93,7 @@ make test
 
 `make check` validates the XML against the schemas and checks assembled graphs for duplicate IDs, missing edge endpoints, cycles, and material tags that do not match a topic. It checks structure and references within the roadmaps; it does not check whether external resource URLs are still available.
 
-`make test` runs the automated tests, including building every roadmap in a temporary directory and checking the generated DOT, SVG, PNG, and Markdown. GitHub Actions runs both commands on pushes and pull requests.
+`make test` runs the automated tests, including building every roadmap in a temporary directory and checking the generated DOT, SVG, PNG, Markdown, and JSON. GitHub Actions runs both commands on pushes and pull requests. Builds validate included XML and resource references before publishing any outputs.
 
 ## Contribute
 
@@ -108,7 +110,8 @@ Generated files are committed so readers can browse roadmaps directly on GitHub.
 ## Tools and design notes
 
 - [XML graph parser](tools/xmlgraph.py) and [materials parser](tools/materials.py): load and combine source files.
+- [Shared graph loader](tools/pipeline.py), [JSON schema](schemas/graph-v1.schema.json), and [pipeline/exporter guide](docs/graph-pipeline.md): define the validated model, versioned JSON contract, and how to add exporters.
 - [DOT converter](tools/xmlg2dot.py) and [Markdown converter](tools/xmlg2md.py): generate graph descriptions and learning guides.
 - [Validator](tools/validate.py), [graph schema](schemas/roadmap.xsd), and [materials schema](schemas/materials.xsd): define and check the input format.
-- [Makefile](Makefile) and [build script](tools/build.sh): coordinate generation of all four output formats.
+- [Makefile](Makefile), [export driver](tools/export.py), and [build script](tools/build.sh): coordinate generation of all five output formats from one assembled model.
 - [Renderer comparison](docs/renderer-comparison/README.md): evaluates Graphviz, Mermaid, and D2 using this project's graphs. Graphviz remains the renderer used by the build.

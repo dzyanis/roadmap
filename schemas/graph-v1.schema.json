@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Roadmap graph, version 1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "roadmap", "subjects", "topics", "edges"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "roadmap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "root"],
+      "properties": {
+        "id": {"type": "string"},
+        "label": {"type": "string"},
+        "root": {"type": "string"}
+      }
+    },
+    "subjects": {"$ref": "#/$defs/ids"},
+    "topics": {"type": "array", "items": {"$ref": "#/$defs/topic"}},
+    "edges": {"type": "array", "items": {"$ref": "#/$defs/edge"}}
+  },
+  "$defs": {
+    "ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "topic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "subjects", "resources"],
+      "properties": {
+        "id": {"type": "string"},
+        "label": {"type": "string"},
+        "subjects": {"$ref": "#/$defs/ids"},
+        "resources": {"type": "array", "items": {"$ref": "#/$defs/resource"}}
+      }
+    },
+    "edge": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "source", "target", "type"],
+      "properties": {
+        "id": {"type": "string"},
+        "source": {"type": "string"},
+        "target": {"type": "string"},
+        "type": {"const": "contains"}
+      }
+    },
+    "resource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "title", "url", "language", "description", "translation"],
+      "properties": {
+        "type": {"enum": ["article", "book", "course", "video"]},
+        "title": {"type": "string"},
+        "url": {"type": "string"},
+        "language": {"type": "string"},
+        "description": {"type": "string"},
+        "translation": {
+          "oneOf": [
+            {"type": "null"},
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["language", "url"],
+              "properties": {"language": {"type": "string"}, "url": {"type": "string"}}
+            }
+          ]
+        }
+      }
+    }
+  }
+}

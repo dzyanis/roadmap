@@ -3,8 +3,8 @@
 import argparse
 import re
 from urllib.parse import quote
-import materials as mt
-from xmlgraph import Roadmap
+import sys
+from pipeline import load_roadmap
 
 
 def markdown_text(value):
@@ -16,42 +16,36 @@ def markdown_link(title, url):
     return f'[{markdown_text(title)}]({destination})'
 
 
-def walk(roadmap, nodeid, level, materials):
+def walk(roadmap, nodeid, level, output):
     node = roadmap.nodes[nodeid]
 
     if level > 6:
         level = 6
     label = markdown_text(node.label).replace('#', r'\#')
-    print('#'*level + ' ' + label + '\n')
+    print('#'*level + ' ' + label + '\n', file=output)
 
-    node_mat = materials[nodeid]
+    node_mat = node.resources
     for m in node_mat:
         link = markdown_link(m.title, m.url)
         translation = f'[{markdown_link(m.translate_lang, m.translate_url)}]' if m.translate_url else ''
-        print(f'- {m.type}: {link}{translation}')
+        print(f'- {m.type}: {link}{translation}', file=output)
 
     if len(node_mat) > 0:
-        print('\n')
+        print('\n', file=output)
 
     for childid in node.childrenids:
-        walk(roadmap, childid, level+1, materials)
+        walk(roadmap, childid, level+1, output)
 
 
-def load_roadmap(graphml, xmlmaterials, rootid):
-    roadmap = Roadmap(graphml)
-    if rootid not in roadmap.nodes:
-        raise ValueError(f'{graphml}: unknown root node {rootid!r}')
-    materials = mt.parsexml(xmlmaterials)
-    unknown_tags = [f'{entries[0].filepath}: material tag {tag!r} has no node in {graphml}'
-                    for tag, entries in materials.items() if tag not in roadmap.nodes]
-    if unknown_tags:
-        raise ValueError('\n'.join(unknown_tags))
-    return roadmap, materials
+def write_md(roadmap, output):
+    if roadmap.root not in roadmap.nodes:
+        raise ValueError('Markdown export requires a valid root topic')
+    walk(roadmap, roadmap.root, 1, output)
 
 
 def convert_md(graphml, xmlmaterials, rootid):
-    roadmap, materials = load_roadmap(graphml, xmlmaterials, rootid)
-    walk(roadmap, rootid, 1, materials)
+    roadmap = load_roadmap(graphml, xmlmaterials, rootid)
+    write_md(roadmap, sys.stdout)
 
 
 if __name__ == '__main__':

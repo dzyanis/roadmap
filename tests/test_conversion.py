@@ -77,7 +77,7 @@ class ConversionTests(unittest.TestCase):
             <node id="backend" label="&lt;Root&gt; #"/>
         </graph></xmlgraph>''')
         materials = self.write('materials.xml', '''<materials>
-            <article><title>Guide [v2] (updated) &amp; *details*</title>
+            <article lang="en"><title>Guide [v2] (updated) &amp; *details*</title>
                 <url>https://example.org/a(b) c?x=1&amp;y=2</url>
                 <translate lang="en[US]" url="https://example.org/(translation)"/>
                 <tags><tag>backend</tag></tags>

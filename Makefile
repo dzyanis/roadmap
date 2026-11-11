@@ -1,8 +1,8 @@
 # Roadmap keys include their category; directory names are stable public slugs.
 ROADMAPS := $(patsubst roadmaps/%/roadmap.xml,%,$(wildcard roadmaps/*/*/roadmap.xml))
 SUBJECT_INPUTS := $(shell find subjects -type d -o -name '*.xml')
-BUILD_TOOLS := $(wildcard tools/*.py) tools/build.sh Makefile
-outputs = $(addprefix generated/$(1)/roadmap.,dot svg png) generated/$(1)/guide.md
+BUILD_TOOLS := $(wildcard tools/*.py schemas/*.xsd schemas/*.json) tools/build.sh Makefile
+outputs = $(addprefix generated/$(1)/roadmap.,dot svg png) generated/$(1)/guide.md generated/$(1)/graph.json
 stamp = generated/$(1)/.roadmap-built
 
 .PHONY: all

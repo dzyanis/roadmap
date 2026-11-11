@@ -11,6 +11,7 @@ class Edge:
         self.source = source
         self.target = target
         self.filepath = filepath
+        self.type = 'contains'
 
 
 class Node:
@@ -22,9 +23,10 @@ class Node:
 
 
 class Roadmap:
-    def __init__(self, filepath):
+    def __init__(self, filepath, validator=None):
         self.edges = {}
         self.nodes = {}
+        self.validator = validator
         self.add_from_file(filepath)
 
     def add_from_file(self, filepath):
@@ -56,7 +58,7 @@ class Roadmap:
         self.edges = edges
 
     def _load_from_file(self, filepath, ancestors, nodes, edges):
-        root, ancestors = load_xml(filepath, ancestors)
+        root, ancestors = load_xml(filepath, ancestors, self.validator)
         for child in root:
             if child.tag == 'include':
                 include = ancestors[-1].parent / child.attrib['filepath']

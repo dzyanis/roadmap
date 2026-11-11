@@ -1,0 +1,4174 @@
+{
+  "schema_version": 1,
+  "roadmap": {
+    "id": "roles/python-engineer",
+    "label": "Python Engineer",
+    "root": "backend"
+  },
+  "subjects": [
+    "computer-science",
+    "data-structures-algorithms",
+    "databases",
+    "networking",
+    "operating-systems",
+    "python",
+    "software-development"
+  ],
+  "topics": [
+    {
+      "id": "backend",
+      "label": "Python Engineer",
+      "subjects": [],
+      "resources": []
+    },
+    {
+      "id": "code",
+      "label": "Code Standards and Code Review Process",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs",
+      "label": "Computer Science",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_ai",
+      "label": "Artificial Intelligence and Machine Learning",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture",
+      "label": "Architecture knowledge",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Designing Data-Intensive Applications",
+          "url": "http://shop.oreilly.com/product/0636920032175.do",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Создание архитектуры программы или как проектировать табуретку",
+          "url": "https://habr.com/ru/post/276593/",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Clean Architecture",
+          "url": "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Patterns of Enterprise Application Architecture",
+          "url": "https://www.martinfowler.com/books/eaa.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "cs_architecture_ddd",
+      "label": "Domain-Driven Design",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_distributed",
+      "label": "Distributed Systems",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Designing Distributed Systems",
+          "url": "https://www.amazon.com/gp/product/1491983647",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "cs_architecture_event",
+      "label": "Event Sourcing",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_func",
+      "label": "Functional Programming",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_microservices",
+      "label": "Microservices",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_oop",
+      "label": "Object-Oriented Programming",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_oop_encapsulation",
+      "label": "Encapsulation",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_oop_inheritance",
+      "label": "Inheritance",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_oop_polymorphism",
+      "label": "Polymorphism",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_architecture_patterns",
+      "label": "Design Patterns",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+          "url": "https://www.informit.com/store/design-patterns-elements-of-reusable-object-oriented-software-9780201633610",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Head First Design Patterns",
+          "url": "http://shop.oreilly.com/product/9780596007126.do",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Реактивные шаблоны проектирования",
+          "url": "https://www.piter.com/product/reaktivnye-shablony-proektirovaniya",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "cs_architecture_solid",
+      "label": "SOLID",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_blockchain",
+      "label": "Blockchain and Cryptocurrency",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_hardware",
+      "label": "Hardware",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_security",
+      "label": "Security and Encryption",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "cs_systems",
+      "label": "Systems Programming",
+      "subjects": [
+        "computer-science"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db",
+      "label": "Databases",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_indexes",
+      "label": "Indexes",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_message_broker",
+      "label": "Message Broker",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_message_broker_awssqs",
+      "label": "Amazon Simple Queue Service",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_message_broker_kafka",
+      "label": "Kafka",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_message_broker_rabbit",
+      "label": "RabbitMQ",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_mysql",
+      "label": "MySQL",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql",
+      "label": "NOSQL",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "NOSQL",
+          "url": "https://martinfowler.com/nosql.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "NoSQL Distilled",
+          "url": "https://martinfowler.com/books/nosql.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_nosql_base",
+      "label": "BASE",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_cap",
+      "label": "CAP Theorem",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_clickhouse",
+      "label": "ClickHouse",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_colbase",
+      "label": "Column base",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_colwidebase",
+      "label": "Wide column base",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_doc",
+      "label": "Document base",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_graph",
+      "label": "Graph database",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_mongo",
+      "label": "MongoDB",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_neo4j",
+      "label": "Neo4j",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_orient",
+      "label": "OrientDB",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_redis",
+      "label": "Redis",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_nosql_time",
+      "label": "Time series",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_principles",
+      "label": "Principles",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_relational",
+      "label": "Relational",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_relational_acid",
+      "label": "ACID",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_relational_blocking",
+      "label": "Blocking",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_relational_firebird",
+      "label": "Firebird",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_relational_mvcc",
+      "label": "Multiversion Concurrency Control",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_relational_oo",
+      "label": "Object-oriented",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_relational_oracle",
+      "label": "Oracle",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Oracle PL/SQL Programming: Covers Versions Through Oracle Database 12c",
+          "url": "https://www.amazon.com/Oracle-PL-SQL-Programming-Versions/dp/1449324452",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_relational_postgres",
+      "label": "PostgreSQL",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_search",
+      "label": "Search Engines",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_search_elasticseaerch",
+      "label": "Elasticseaerch",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_search_sphinx",
+      "label": "Sphinx",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "db_sql",
+      "label": "SQL",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "SQL Bible",
+          "url": "https://www.amazon.com/SQL-Bible-Alex-Kriegel/dp/0470229063",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_transactions",
+      "label": "Transactions",
+      "subjects": [
+        "databases"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev",
+      "label": "Software Development Processes",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Working Effectively with Legacy Code",
+          "url": "https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Refactoring: Improving the Design of Existing Code",
+          "url": "https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "The Pragmatic Programmer: From Journeyman to Master",
+          "url": "https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Code Complete: A Practical Handbook of Software Construction",
+          "url": "https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+          "url": "https://www.amazon.com/gp/product/0132350882",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_build",
+      "label": "Build Systems",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_build_ant",
+      "label": "Ant",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_build_gradle",
+      "label": "Gradle",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Gradle in Action",
+          "url": "http://barbra-coco.dyndns.org/student/Gradle%20in%20Action.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_build_make",
+      "label": "Make",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_build_maven",
+      "label": "Maven",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Системы сборки проектов Maven",
+          "url": "http://www.apache-maven.ru/",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Идеальный мавен. Часть 2: структура проекта",
+          "url": "https://habr.com/ru/post/344480/",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_debugging",
+      "label": "Debugging",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_debugging_logging",
+      "label": "Logging",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Введение в ELK: собираем, фильтруем и анализируем большие данные",
+          "url": "https://mkdev.me/posts/vvedenie-v-elk-sobiraem-filtruem-i-analiziruem-bolshie-dannye",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_debugging_monitoring",
+      "label": "Monitoring",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_debugging_troubleshooting",
+      "label": "Troubleshooting",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_deployment",
+      "label": "Deployment",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_deployment_cd",
+      "label": "Continuous Delivery",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Continuous delivery. Практика непрерывных апдейтов",
+          "url": "https://www.piter.com/product_by_id/87629352",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_deployment_ci",
+      "label": "Continuous Integration",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_estimation",
+      "label": "Estimations",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_management",
+      "label": "Management",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Goal: A Process of Ongoing Improvement",
+          "url": "https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_methodologies",
+      "label": "Methodologies and Frameworks",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Ещё раз про семь основных методологий разработки",
+          "url": "https://habr.com/ru/company/edison/blog/269789/",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_methodologies_12factors",
+      "label": "The Twelve-Factor App",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "The Twelve-Factor App",
+          "url": "https://12factor.net",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_methodologies_kanban",
+      "label": "Kanban",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_methodologies_scrum",
+      "label": "SCRUM",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_methodologies_xp",
+      "label": "Extreme Programming",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_orchestration",
+      "label": "Orchestration",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_orchestration_ansible",
+      "label": "Ansible",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_orchestration_k8s",
+      "label": "Kubernetes",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Kubernetes in Action",
+          "url": "https://www.manning.com/books/kubernetes-in-action",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_orchestration_puppet",
+      "label": "Puppet",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_paradigms",
+      "label": "Paradigms and Models",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_testing",
+      "label": "Testing",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Test Driven Development: By Example",
+          "url": "https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "The Practical Test Pyramid",
+          "url": "https://martinfowler.com/articles/practical-test-pyramid.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "How deep are your unit tests?",
+          "url": "https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_testing_bdd",
+      "label": "Behavior-driven development",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_testing_tdd",
+      "label": "Test-driven development",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_trackers",
+      "label": "Bug tracking systems",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_trackers_jira",
+      "label": "Jira",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_trackers_redmine",
+      "label": "Redmine",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_trackers_tfs",
+      "label": "TFS",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dev_version",
+      "label": "Version Control",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "4 книги о системах контроля версий, которые дадут о них полное представление",
+          "url": "https://tproger.ru/books/4-books-about-vcs/",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_version_git",
+      "label": "Git",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Pro Git",
+          "url": "https://git-scm.com/book/en",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dsa",
+      "label": "Data Structures and Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Algorithms, 4th Edition",
+          "url": "https://algs4.cs.princeton.edu/home/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "course",
+          "title": "Algorithms, Part I",
+          "url": "https://www.coursera.org/learn/algorithms-part1",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "course",
+          "title": "Algorithms, Part II",
+          "url": "https://www.coursera.org/learn/algorithms-part2",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Introduction to Algorithms, Third Edition",
+          "url": "https://mitpress.mit.edu/books/introduction-algorithms-third-edition",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dsa_algorithms",
+      "label": "Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching",
+      "label": "Searching Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_efficient",
+      "label": "Efficient Searching Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_efficient_binary",
+      "label": "Binary Search",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_efficient_hashing",
+      "label": "Hashing",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_sequential",
+      "label": "Sequential Searching Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_sequential_linear",
+      "label": "Linear Search",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting",
+      "label": "Sorting Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison",
+      "label": "Comparison-based Sorting Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_bubble",
+      "label": "Bubble Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_insertion",
+      "label": "Insertion Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_merge",
+      "label": "Merge Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_quick",
+      "label": "Quick Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_selection",
+      "label": "Selection Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison",
+      "label": "Non-comparison-based Sorting Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison_bucket",
+      "label": "Bucket Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison_counting",
+      "label": "Counting Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison_radix",
+      "label": "Radix Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_analysis",
+      "label": "Analysis",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data",
+      "label": "Data Structures",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear",
+      "label": "Linear Data Structures",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_arrays",
+      "label": "Arrays",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_arrays_dynamic",
+      "label": "Dynamic Arrays",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_arrays_static",
+      "label": "Static Arrays",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists",
+      "label": "Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists_circular",
+      "label": "Circular Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists_doubly",
+      "label": "Doubly Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists_singly",
+      "label": "Singly Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_queues",
+      "label": "Queues",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_queues_array",
+      "label": "Array-based Queue",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_queues_list",
+      "label": "Linked List-based Queue",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_stacks",
+      "label": "Stacks",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_stacks_array",
+      "label": "Array-based Stack",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_stacks_list",
+      "label": "Linked List-based Stack",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear",
+      "label": "Non-Linear Data Structures",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs",
+      "label": "Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs_directed",
+      "label": "Directed Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs_undirected",
+      "label": "Undirected Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs_weighted",
+      "label": "Weighted Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_heaps",
+      "label": "Heaps",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_heaps_max",
+      "label": "Max Heap",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_heaps_min",
+      "label": "Min Heap",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees",
+      "label": "Trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees_avl",
+      "label": "AVL Trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees_b",
+      "label": "B-trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees_binary",
+      "label": "Binary Trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "management_estimation_poker",
+      "label": "Planning Poker",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "management_paradigms_agile",
+      "label": "Agile",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Manifesto for Agile Software Development",
+          "url": "https://agilemanifesto.org",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "management_paradigms_waterfall",
+      "label": "Waterfall",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "management_time",
+      "label": "Time Management",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Джедайские техники",
+          "url": "https://www.mann-ivanov-ferber.ru/books/dzhedajskie-texniki/",
+          "language": "ru",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "management_time_gtd",
+      "label": "Getting Things Done",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "management_time_pareto",
+      "label": "Pareto analysis",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "management_time_pomodoro",
+      "label": "Pomodoro",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net",
+      "label": "Computer Network",
+      "subjects": [
+        "networking"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Computer Networks",
+          "url": "https://www.amazon.com/Computer-Networks-Tanenbaum-International-Economy/dp/9332518742",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "net_auth",
+      "label": "Authorization and Authentication",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_auth_authentication",
+      "label": "Authentication",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_auth_authorization",
+      "label": "Authorization",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_auth_cookie",
+      "label": "Cookie",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_auth_jwt",
+      "label": "JWT",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_auth_oauth",
+      "label": "OAuth",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_dns",
+      "label": "DNS",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_graphql",
+      "label": "GraphQL",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_grpc",
+      "label": "gRPC",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_osi",
+      "label": "Open Systems Interconnection model",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_protocols",
+      "label": "Protocols",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_protocols_http",
+      "label": "HTTP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_protocols_ip",
+      "label": "IP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_protocols_ssl",
+      "label": "SSL",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_protocols_tcp",
+      "label": "TCP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_protocols_tls",
+      "label": "TLS",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_protocols_udp",
+      "label": "UDP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_restapi",
+      "label": "REST API",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_soap",
+      "label": "SOAP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "net_websocket",
+      "label": "Websocket",
+      "subjects": [
+        "networking"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os",
+      "label": "Operating Systems",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Modern Operating Systems, Fifth Edition",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295/9780137618880",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Operating System Concepts, Tenth Edition",
+          "url": "https://os-book.com/OS10/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Operating Systems: Three Easy Pieces",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_filesystem",
+      "label": "File Systems and Persistence",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "Files and File Systems: Crash Course Computer Science #20",
+          "url": "https://www.youtube.com/watch?v=KN8YgJnShPM",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "OSTEP: Files and Directories",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_filesystem_durability",
+      "label": "Writeback, Journaling, and Crash Recovery",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_filesystem_layout",
+      "label": "Files, Directories, Mounts, and Links",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_filesystem_permissions",
+      "label": "File Ownership and Permissions",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_foundations",
+      "label": "Kernel and User Space",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Limited Direct Execution",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_foundations_interrupts",
+      "label": "Interrupts, Exceptions, and Timers",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_foundations_modes",
+      "label": "Privilege Levels and System Calls",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_io",
+      "label": "Input and Output",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: I/O Devices",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_io_buffering",
+      "label": "Buffering and Caching",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_io_descriptors",
+      "label": "File Descriptors and Device I/O",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_io_readiness",
+      "label": "Blocking, Nonblocking I/O, and Readiness",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_linux",
+      "label": "Linux Administration and Diagnostics",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "systemctl reference",
+          "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_linux_processes",
+      "label": "Process and CPU Inspection (ps, top)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_linux_resources",
+      "label": "Memory, Disk Space, and I/O (vmstat, df, du, iostat)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_linux_services",
+      "label": "Service Lifecycle and Logs (systemd)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "systemctl reference",
+          "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_linux_tracing",
+      "label": "System Call Tracing (strace)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory",
+      "label": "Memory Management",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Address Spaces",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_memory_address",
+      "label": "Address Spaces and Memory Mapping",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_allocation",
+      "label": "Allocation: Stack and Heap",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_paging",
+      "label": "Paging, Page Faults, and Swapping",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_translation",
+      "label": "Page Tables and Translation Lookaside Buffers",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_virtual",
+      "label": "Virtual Memory",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes",
+      "label": "Processes and Threads",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Processes",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_processes_failures",
+      "label": "Race Conditions and Deadlocks",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_ipc",
+      "label": "IPC: Pipes, Shared Memory, and Message Queues",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_lifecycle",
+      "label": "Process Creation, Execution, and Exit",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_multithreading",
+      "label": "Concurrency and Parallelism",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Concurrency and Threads",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_processes_scheduling",
+      "label": "CPU Scheduling and Context Switching",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_signals",
+      "label": "Signals and Process Termination",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_sync",
+      "label": "Locks, Semaphores, and Condition Variables",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_threads",
+      "label": "Thread Lifecycle and Shared Address Space",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_protection",
+      "label": "Protection and Access Control",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Access Control",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/security-access.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_protection_identity",
+      "label": "Users, Groups, and Least Privilege",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_protection_isolation",
+      "label": "Process Isolation and Access Checks",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell",
+      "label": "Shells and Command-Line Fundamentals",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Bash Reference Manual",
+          "url": "https://www.gnu.org/software/bash/manual/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_shell_bash",
+      "label": "Bash",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Bash Reference Manual",
+          "url": "https://www.gnu.org/software/bash/manual/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_shell_expansion",
+      "label": "Quoting, Expansion, and Environment Variables",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell_jobs",
+      "label": "Exit Status, Signals, and Job Control",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell_pipelines",
+      "label": "Pipelines and Redirection",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell_zsh",
+      "label": "Zsh",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types",
+      "label": "Operating System Characteristics",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Operating Systems: Three Easy Pieces",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_types_batch",
+      "label": "Workload: Batch Processing",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_distributed",
+      "label": "Coordination: Distributed Systems",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_network",
+      "label": "Connectivity: Network Operating Systems",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_realtime",
+      "label": "Timing: Real-Time Guarantees",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_time_sharing",
+      "label": "Workload: Interactive Time-Sharing",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_virtualization",
+      "label": "Virtualization",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "QEMU System Emulation Introduction",
+          "url": "https://www.qemu.org/docs/master/system/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_cgroups",
+      "label": "Linux Control Groups",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Linux kernel: Control Group v2",
+          "url": "https://docs.kernel.org/admin-guide/cgroup-v2.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_guests",
+      "label": "Hosts, Guests, and Virtual Hardware",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_virtualization_level",
+      "label": "OS-Level Virtualization and Containers",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Docker: What is a container?",
+          "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_level_docker",
+      "label": "Docker",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Docker in Action, Second Edition",
+          "url": "https://www.manning.com/books/docker-in-action-second-edition",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Docker: What is a container?",
+          "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_namespaces",
+      "label": "Linux Namespaces",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Linux namespaces manual",
+          "url": "https://man7.org/linux/man-pages/man7/namespaces.7.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_x86",
+      "label": "Hardware Virtualization and Hypervisors",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "QEMU System Emulation Introduction",
+          "url": "https://www.qemu.org/docs/master/system/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_x86_virtualbox",
+      "label": "VirtualBox",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_virtualization_x86_vmware",
+      "label": "VMware ESXi",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python",
+      "label": "Python",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging",
+      "label": "Debugging and Profiling",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging_bdb",
+      "label": "Debugger Framework",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging_faulthandler",
+      "label": "Dump the Python traceback",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging_pdb",
+      "label": "The Python Debugger",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging_profilers",
+      "label": "The Python Profilers",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging_timeit",
+      "label": "Measure execution time",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging_trace_allocations",
+      "label": "Trace memory allocations",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_debugging_trace_execution",
+      "label": "Trace statement execution",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_functions",
+      "label": "Functions",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_functions_functools",
+      "label": "Higher-order functions",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_functions_itertools",
+      "label": "Functions creating iterators",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_functions_lambdas",
+      "label": "Lambdas",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_functions_operator",
+      "label": "Standard operators as functions",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_import_system",
+      "label": "The Import System",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_parallelism",
+      "label": "Concurrent Execution",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_parallelism_coroutines",
+      "label": "Coroutines",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_parallelism_multiprocessing",
+      "label": "multiprocessing",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_parallelism_threading",
+      "label": "Thread-based",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library",
+      "label": "Standard Library",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library_binary",
+      "label": "Binary Data Services",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library_cryptographic",
+      "label": "Cryptographic Services",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library_files",
+      "label": "File and Directory Access",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library_internationalization",
+      "label": "Internationalization",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library_markup",
+      "label": "Structured Markup Processing Tools",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library_numeric",
+      "label": "Numeric and Mathematical Modules",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_standard_library_text",
+      "label": "Text Processing Services",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_testing",
+      "label": "Testing",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_testing_regression",
+      "label": "Regression tests",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_testing_unittest",
+      "label": "Unit testing framework",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types",
+      "label": "Built-in Types",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_binary_sequence",
+      "label": "Binary Sequence",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_boolean",
+      "label": "Boolean",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_context",
+      "label": "Context Manager",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_dict",
+      "label": "Dictionary",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_iterator",
+      "label": "Iterator",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_numeric",
+      "label": "Numeric",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_sequence",
+      "label": "Sequence",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_set",
+      "label": "Set",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    },
+    {
+      "id": "python_types_text",
+      "label": "Text",
+      "subjects": [
+        "python"
+      ],
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "backend_cs",
+      "source": "backend",
+      "target": "cs",
+      "type": "contains"
+    },
+    {
+      "id": "backend_db",
+      "source": "backend",
+      "target": "db",
+      "type": "contains"
+    },
+    {
+      "id": "backend_dev",
+      "source": "backend",
+      "target": "dev",
+      "type": "contains"
+    },
+    {
+      "id": "backend_dsa",
+      "source": "backend",
+      "target": "dsa",
+      "type": "contains"
+    },
+    {
+      "id": "backend_net",
+      "source": "backend",
+      "target": "net",
+      "type": "contains"
+    },
+    {
+      "id": "backend_os",
+      "source": "backend",
+      "target": "os",
+      "type": "contains"
+    },
+    {
+      "id": "backend_python",
+      "source": "backend",
+      "target": "python",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_ai",
+      "source": "cs",
+      "target": "cs_ai",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture",
+      "source": "cs",
+      "target": "cs_architecture",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_ddd",
+      "source": "cs_architecture",
+      "target": "cs_architecture_ddd",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_distributed",
+      "source": "cs_architecture",
+      "target": "cs_architecture_distributed",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_event",
+      "source": "cs_architecture",
+      "target": "cs_architecture_event",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_func",
+      "source": "cs_architecture",
+      "target": "cs_architecture_func",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_microservices",
+      "source": "cs_architecture",
+      "target": "cs_architecture_microservices",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_oop",
+      "source": "cs_architecture",
+      "target": "cs_architecture_oop",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_oop_encapsulation",
+      "source": "cs_architecture_oop",
+      "target": "cs_architecture_oop_encapsulation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_oop_inheritance",
+      "source": "cs_architecture_oop",
+      "target": "cs_architecture_oop_inheritance",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_oop_polymorphism",
+      "source": "cs_architecture_oop",
+      "target": "cs_architecture_oop_polymorphism",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_patterns",
+      "source": "cs_architecture",
+      "target": "cs_architecture_patterns",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_architecture_solid",
+      "source": "cs_architecture",
+      "target": "cs_architecture_solid",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_blockchain",
+      "source": "cs",
+      "target": "cs_blockchain",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_code",
+      "source": "cs",
+      "target": "code",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_hardware",
+      "source": "cs",
+      "target": "cs_hardware",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_security",
+      "source": "cs",
+      "target": "cs_security",
+      "type": "contains"
+    },
+    {
+      "id": "edge_cs_systems",
+      "source": "cs",
+      "target": "cs_systems",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_indexes",
+      "source": "db",
+      "target": "db_indexes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_message_broker",
+      "source": "db",
+      "target": "db_message_broker",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_message_broker_awssqs",
+      "source": "db_message_broker",
+      "target": "db_message_broker_awssqs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_message_broker_kafka",
+      "source": "db_message_broker",
+      "target": "db_message_broker_kafka",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_message_broker_rabbit",
+      "source": "db_message_broker",
+      "target": "db_message_broker_rabbit",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql",
+      "source": "db",
+      "target": "db_nosql",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_base",
+      "source": "db_nosql",
+      "target": "db_nosql_base",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_cap",
+      "source": "db_nosql",
+      "target": "db_nosql_cap",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_clickhouse",
+      "source": "db_nosql_colbase",
+      "target": "db_nosql_clickhouse",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_colbase",
+      "source": "db_nosql",
+      "target": "db_nosql_colbase",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_colwidebase",
+      "source": "db_nosql",
+      "target": "db_nosql_colwidebase",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_doc",
+      "source": "db_nosql",
+      "target": "db_nosql_doc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_graph",
+      "source": "db_nosql",
+      "target": "db_nosql_graph",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_mongo",
+      "source": "db_nosql_doc",
+      "target": "db_nosql_mongo",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_neo4j",
+      "source": "db_nosql_graph",
+      "target": "db_nosql_neo4j",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_orient",
+      "source": "db_nosql_graph",
+      "target": "db_nosql_orient",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_redis",
+      "source": "db_nosql_colbase",
+      "target": "db_nosql_redis",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_time",
+      "source": "db_nosql",
+      "target": "db_nosql_time",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_principles",
+      "source": "db",
+      "target": "db_principles",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational",
+      "source": "db",
+      "target": "db_relational",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_acid",
+      "source": "db_relational",
+      "target": "db_relational_acid",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_blocking",
+      "source": "db_relational",
+      "target": "db_relational_blocking",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_blocking_mysql",
+      "source": "db_relational_blocking",
+      "target": "db_mysql",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_firebird",
+      "source": "db_relational_mvcc",
+      "target": "db_relational_firebird",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_mvcc",
+      "source": "db_relational",
+      "target": "db_relational_mvcc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_mvcc_mysql",
+      "source": "db_relational_mvcc",
+      "target": "db_mysql",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_oo",
+      "source": "db_relational",
+      "target": "db_relational_oo",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_oracle",
+      "source": "db_relational_mvcc",
+      "target": "db_relational_oracle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_postgres",
+      "source": "db_relational_mvcc",
+      "target": "db_relational_postgres",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_search",
+      "source": "db",
+      "target": "db_search",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_search_elasticseaerch",
+      "source": "db_search",
+      "target": "db_search_elasticseaerch",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_search_sphinx",
+      "source": "db_search",
+      "target": "db_search_sphinx",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql",
+      "source": "db",
+      "target": "db_sql",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_transactions",
+      "source": "db",
+      "target": "db_transactions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_build",
+      "source": "dev",
+      "target": "dev_build",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_build_ant",
+      "source": "dev_build",
+      "target": "dev_build_ant",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_build_gradle",
+      "source": "dev_build",
+      "target": "dev_build_gradle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_build_make",
+      "source": "dev_build",
+      "target": "dev_build_make",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_build_maven",
+      "source": "dev_build",
+      "target": "dev_build_maven",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_debugging",
+      "source": "dev",
+      "target": "dev_debugging",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_debugging_logging",
+      "source": "dev_debugging",
+      "target": "dev_debugging_logging",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_debugging_monitoring",
+      "source": "dev_debugging",
+      "target": "dev_debugging_monitoring",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_debugging_troubleshooting",
+      "source": "dev_debugging",
+      "target": "dev_debugging_troubleshooting",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_deployment",
+      "source": "dev",
+      "target": "dev_deployment",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_deployment_cd",
+      "source": "dev_deployment",
+      "target": "dev_deployment_cd",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_deployment_ci",
+      "source": "dev_deployment",
+      "target": "dev_deployment_ci",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_estimation",
+      "source": "dev",
+      "target": "dev_estimation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_management",
+      "source": "dev",
+      "target": "dev_management",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_methodologies",
+      "source": "dev_management",
+      "target": "dev_methodologies",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_methodologies_12factors",
+      "source": "dev_methodologies",
+      "target": "dev_methodologies_12factors",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_methodologies_kanban",
+      "source": "dev_methodologies",
+      "target": "dev_methodologies_kanban",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_methodologies_scrum",
+      "source": "dev_methodologies",
+      "target": "dev_methodologies_scrum",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_methodologies_xp",
+      "source": "dev_methodologies",
+      "target": "dev_methodologies_xp",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration",
+      "source": "dev",
+      "target": "dev_orchestration",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_ansible",
+      "source": "dev_orchestration",
+      "target": "dev_orchestration_ansible",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s",
+      "source": "dev_orchestration",
+      "target": "dev_orchestration_k8s",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_puppet",
+      "source": "dev_orchestration",
+      "target": "dev_orchestration_puppet",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_paradigms",
+      "source": "dev_management",
+      "target": "dev_paradigms",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_testing",
+      "source": "dev",
+      "target": "dev_testing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_testing_bdd",
+      "source": "dev_testing",
+      "target": "dev_testing_bdd",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_testing_tdd",
+      "source": "dev_testing",
+      "target": "dev_testing_tdd",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_trackers",
+      "source": "dev",
+      "target": "dev_trackers",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_trackers_jira",
+      "source": "dev_trackers",
+      "target": "dev_trackers_jira",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_trackers_redmine",
+      "source": "dev_trackers",
+      "target": "dev_trackers_redmine",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_trackers_tfs",
+      "source": "dev_trackers",
+      "target": "dev_trackers_tfs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_version",
+      "source": "dev",
+      "target": "dev_version",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_version_git",
+      "source": "dev_version",
+      "target": "dev_version_git",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms",
+      "source": "dsa",
+      "target": "dsa_algorithms",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching",
+      "source": "dsa_algorithms",
+      "target": "dsa_algorithms_searching",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_efficient",
+      "source": "dsa_algorithms_searching",
+      "target": "dsa_algorithms_searching_efficient",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_efficient_binary",
+      "source": "dsa_algorithms_searching_efficient",
+      "target": "dsa_algorithms_searching_efficient_binary",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_efficient_hashing",
+      "source": "dsa_algorithms_searching_efficient",
+      "target": "dsa_algorithms_searching_efficient_hashing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_sequential",
+      "source": "dsa_algorithms_searching",
+      "target": "dsa_algorithms_searching_sequential",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_sequential_linear",
+      "source": "dsa_algorithms_searching_sequential",
+      "target": "dsa_algorithms_searching_sequential_linear",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting",
+      "source": "dsa_algorithms",
+      "target": "dsa_algorithms_sorting",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison",
+      "source": "dsa_algorithms_sorting",
+      "target": "dsa_algorithms_sorting_comparison",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_bubble",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_bubble",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_insertion",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_insertion",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_merge",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_merge",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_quick",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_quick",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_selection",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_selection",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison",
+      "source": "dsa_algorithms_sorting",
+      "target": "dsa_algorithms_sorting_noncomparison",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison_bucket",
+      "source": "dsa_algorithms_sorting_noncomparison",
+      "target": "dsa_algorithms_sorting_noncomparison_bucket",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison_counting",
+      "source": "dsa_algorithms_sorting_noncomparison",
+      "target": "dsa_algorithms_sorting_noncomparison_counting",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison_radix",
+      "source": "dsa_algorithms_sorting_noncomparison",
+      "target": "dsa_algorithms_sorting_noncomparison_radix",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_analysis",
+      "source": "dsa",
+      "target": "dsa_analysis",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data",
+      "source": "dsa",
+      "target": "dsa_data",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear",
+      "source": "dsa_data",
+      "target": "dsa_data_linear",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_arrays",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_arrays",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_arrays_dynamic",
+      "source": "dsa_data_linear_arrays",
+      "target": "dsa_data_linear_arrays_dynamic",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_arrays_static",
+      "source": "dsa_data_linear_arrays",
+      "target": "dsa_data_linear_arrays_static",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_lists",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists_circular",
+      "source": "dsa_data_linear_lists",
+      "target": "dsa_data_linear_lists_circular",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists_doubly",
+      "source": "dsa_data_linear_lists",
+      "target": "dsa_data_linear_lists_doubly",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists_singly",
+      "source": "dsa_data_linear_lists",
+      "target": "dsa_data_linear_lists_singly",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_queues",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_queues",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_queues_array",
+      "source": "dsa_data_linear_queues",
+      "target": "dsa_data_linear_queues_array",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_queues_list",
+      "source": "dsa_data_linear_queues",
+      "target": "dsa_data_linear_queues_list",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_stacks",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_stacks",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_stacks_array",
+      "source": "dsa_data_linear_stacks",
+      "target": "dsa_data_linear_stacks_array",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_stacks_list",
+      "source": "dsa_data_linear_stacks",
+      "target": "dsa_data_linear_stacks_list",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear",
+      "source": "dsa_data",
+      "target": "dsa_data_nonlinear",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs",
+      "source": "dsa_data_nonlinear",
+      "target": "dsa_data_nonlinear_graphs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs_directed",
+      "source": "dsa_data_nonlinear_graphs",
+      "target": "dsa_data_nonlinear_graphs_directed",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs_undirected",
+      "source": "dsa_data_nonlinear_graphs",
+      "target": "dsa_data_nonlinear_graphs_undirected",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs_weighted",
+      "source": "dsa_data_nonlinear_graphs",
+      "target": "dsa_data_nonlinear_graphs_weighted",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_heaps",
+      "source": "dsa_data_nonlinear",
+      "target": "dsa_data_nonlinear_heaps",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_heaps_max",
+      "source": "dsa_data_nonlinear_heaps",
+      "target": "dsa_data_nonlinear_heaps_max",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_heaps_min",
+      "source": "dsa_data_nonlinear_heaps",
+      "target": "dsa_data_nonlinear_heaps_min",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees",
+      "source": "dsa_data_nonlinear",
+      "target": "dsa_data_nonlinear_trees",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees_avl",
+      "source": "dsa_data_nonlinear_trees",
+      "target": "dsa_data_nonlinear_trees_avl",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees_b",
+      "source": "dsa_data_nonlinear_trees",
+      "target": "dsa_data_nonlinear_trees_b",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees_binary",
+      "source": "dsa_data_nonlinear_trees",
+      "target": "dsa_data_nonlinear_trees_binary",
+      "type": "contains"
+    },
+    {
+      "id": "edge_management_estimation_poker",
+      "source": "dev_estimation",
+      "target": "management_estimation_poker",
+      "type": "contains"
+    },
+    {
+      "id": "edge_management_paradigms_agile",
+      "source": "dev_paradigms",
+      "target": "management_paradigms_agile",
+      "type": "contains"
+    },
+    {
+      "id": "edge_management_paradigms_waterfall",
+      "source": "dev_paradigms",
+      "target": "management_paradigms_waterfall",
+      "type": "contains"
+    },
+    {
+      "id": "edge_management_time",
+      "source": "dev_management",
+      "target": "management_time",
+      "type": "contains"
+    },
+    {
+      "id": "edge_management_time_gtd",
+      "source": "management_time",
+      "target": "management_time_gtd",
+      "type": "contains"
+    },
+    {
+      "id": "edge_management_time_pareto",
+      "source": "management_time",
+      "target": "management_time_pareto",
+      "type": "contains"
+    },
+    {
+      "id": "edge_management_time_pomodoro",
+      "source": "management_time",
+      "target": "management_time_pomodoro",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_auth",
+      "source": "net",
+      "target": "net_auth",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_auth_authentication",
+      "source": "net_auth",
+      "target": "net_auth_authentication",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_auth_authorization",
+      "source": "net_auth",
+      "target": "net_auth_authorization",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_auth_cookie",
+      "source": "net_auth",
+      "target": "net_auth_cookie",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_auth_jwt",
+      "source": "net_auth",
+      "target": "net_auth_jwt",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_auth_oauth",
+      "source": "net_auth",
+      "target": "net_auth_oauth",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_dns",
+      "source": "net",
+      "target": "net_dns",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_graphql",
+      "source": "net",
+      "target": "net_graphql",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_grpc",
+      "source": "net",
+      "target": "net_grpc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_osi",
+      "source": "net",
+      "target": "net_osi",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_protocols",
+      "source": "net",
+      "target": "net_protocols",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_protocols_http",
+      "source": "net_protocols",
+      "target": "net_protocols_http",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_protocols_ip",
+      "source": "net_protocols",
+      "target": "net_protocols_ip",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_protocols_ssl",
+      "source": "net_protocols",
+      "target": "net_protocols_ssl",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_protocols_tcp",
+      "source": "net_protocols",
+      "target": "net_protocols_tcp",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_protocols_tls",
+      "source": "net_protocols",
+      "target": "net_protocols_tls",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_protocols_udp",
+      "source": "net_protocols",
+      "target": "net_protocols_udp",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_restapi",
+      "source": "net",
+      "target": "net_restapi",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_soap",
+      "source": "net",
+      "target": "net_soap",
+      "type": "contains"
+    },
+    {
+      "id": "edge_net_websocket",
+      "source": "net",
+      "target": "net_websocket",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_filesystem",
+      "source": "os",
+      "target": "os_filesystem",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_filesystem_durability",
+      "source": "os_filesystem",
+      "target": "os_filesystem_durability",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_filesystem_layout",
+      "source": "os_filesystem",
+      "target": "os_filesystem_layout",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_filesystem_permissions",
+      "source": "os_filesystem",
+      "target": "os_filesystem_permissions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_foundations",
+      "source": "os",
+      "target": "os_foundations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_foundations_interrupts",
+      "source": "os_foundations",
+      "target": "os_foundations_interrupts",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_foundations_modes",
+      "source": "os_foundations",
+      "target": "os_foundations_modes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io",
+      "source": "os",
+      "target": "os_io",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io_buffering",
+      "source": "os_io",
+      "target": "os_io_buffering",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io_descriptors",
+      "source": "os_io",
+      "target": "os_io_descriptors",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io_readiness",
+      "source": "os_io",
+      "target": "os_io_readiness",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux",
+      "source": "os",
+      "target": "os_linux",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_processes",
+      "source": "os_linux",
+      "target": "os_linux_processes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_resources",
+      "source": "os_linux",
+      "target": "os_linux_resources",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_services",
+      "source": "os_linux",
+      "target": "os_linux_services",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_tracing",
+      "source": "os_linux",
+      "target": "os_linux_tracing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory",
+      "source": "os",
+      "target": "os_memory",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_address",
+      "source": "os_memory_virtual",
+      "target": "os_memory_address",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_allocation",
+      "source": "os_memory",
+      "target": "os_memory_allocation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_paging",
+      "source": "os_memory_virtual",
+      "target": "os_memory_paging",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_translation",
+      "source": "os_memory_virtual",
+      "target": "os_memory_translation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_virtual",
+      "source": "os_memory",
+      "target": "os_memory_virtual",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes",
+      "source": "os",
+      "target": "os_processes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_failures",
+      "source": "os_processes_multithreading",
+      "target": "os_processes_failures",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_ipc",
+      "source": "os_processes",
+      "target": "os_processes_ipc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_lifecycle",
+      "source": "os_processes",
+      "target": "os_processes_lifecycle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_multithreading",
+      "source": "os_processes",
+      "target": "os_processes_multithreading",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_scheduling",
+      "source": "os_processes",
+      "target": "os_processes_scheduling",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_signals",
+      "source": "os_processes",
+      "target": "os_processes_signals",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_sync",
+      "source": "os_processes_multithreading",
+      "target": "os_processes_sync",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_threads",
+      "source": "os_processes",
+      "target": "os_processes_threads",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_protection",
+      "source": "os",
+      "target": "os_protection",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_protection_identity",
+      "source": "os_protection",
+      "target": "os_protection_identity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_protection_isolation",
+      "source": "os_protection",
+      "target": "os_protection_isolation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell",
+      "source": "os",
+      "target": "os_shell",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_bash",
+      "source": "os_shell",
+      "target": "os_shell_bash",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_expansion",
+      "source": "os_shell",
+      "target": "os_shell_expansion",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_jobs",
+      "source": "os_shell",
+      "target": "os_shell_jobs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_pipelines",
+      "source": "os_shell",
+      "target": "os_shell_pipelines",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_zsh",
+      "source": "os_shell",
+      "target": "os_shell_zsh",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types",
+      "source": "os",
+      "target": "os_types",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_batch",
+      "source": "os_types",
+      "target": "os_types_batch",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_distributed",
+      "source": "os_types",
+      "target": "os_types_distributed",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_network",
+      "source": "os_types",
+      "target": "os_types_network",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_realtime",
+      "source": "os_types",
+      "target": "os_types_realtime",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_time_sharing",
+      "source": "os_types",
+      "target": "os_types_time_sharing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization",
+      "source": "os",
+      "target": "os_virtualization",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_cgroups",
+      "source": "os_virtualization_level",
+      "target": "os_virtualization_cgroups",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_guests",
+      "source": "os_virtualization_x86",
+      "target": "os_virtualization_guests",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_level",
+      "source": "os_virtualization",
+      "target": "os_virtualization_level",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_level_docker",
+      "source": "os_virtualization_level",
+      "target": "os_virtualization_level_docker",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_namespaces",
+      "source": "os_virtualization_level",
+      "target": "os_virtualization_namespaces",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_x86",
+      "source": "os_virtualization",
+      "target": "os_virtualization_x86",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_x86_virtualbox",
+      "source": "os_virtualization_x86",
+      "target": "os_virtualization_x86_virtualbox",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_x86_vmware",
+      "source": "os_virtualization_x86",
+      "target": "os_virtualization_x86_vmware",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging",
+      "source": "python",
+      "target": "python_debugging",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging_bdb",
+      "source": "python_debugging",
+      "target": "python_debugging_bdb",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging_faulthandler",
+      "source": "python_debugging",
+      "target": "python_debugging_faulthandler",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging_pdb",
+      "source": "python_debugging",
+      "target": "python_debugging_pdb",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging_profilers",
+      "source": "python_debugging",
+      "target": "python_debugging_profilers",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging_timeit",
+      "source": "python_debugging",
+      "target": "python_debugging_timeit",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging_trace_allocations",
+      "source": "python_debugging",
+      "target": "python_debugging_trace_allocations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_debugging_trace_execution",
+      "source": "python_debugging",
+      "target": "python_debugging_trace_execution",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_functions",
+      "source": "python",
+      "target": "python_functions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_functions_functools",
+      "source": "python_functions",
+      "target": "python_functions_functools",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_functions_itertools",
+      "source": "python_functions",
+      "target": "python_functions_itertools",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_functions_lambdas",
+      "source": "python_functions",
+      "target": "python_functions_lambdas",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_functions_operator",
+      "source": "python_functions",
+      "target": "python_functions_operator",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_import_system",
+      "source": "python",
+      "target": "python_import_system",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_parallelism",
+      "source": "python",
+      "target": "python_parallelism",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_parallelism_coroutines",
+      "source": "python_parallelism",
+      "target": "python_parallelism_coroutines",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_parallelism_multiprocessing",
+      "source": "python_parallelism",
+      "target": "python_parallelism_multiprocessing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_parallelism_threading",
+      "source": "python_parallelism",
+      "target": "python_parallelism_threading",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library",
+      "source": "python",
+      "target": "python_standard_library",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library_binary",
+      "source": "python_standard_library",
+      "target": "python_standard_library_binary",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library_cryptographic",
+      "source": "python_standard_library",
+      "target": "python_standard_library_cryptographic",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library_files",
+      "source": "python_standard_library",
+      "target": "python_standard_library_files",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library_internationalization",
+      "source": "python_standard_library",
+      "target": "python_standard_library_internationalization",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library_markup",
+      "source": "python_standard_library",
+      "target": "python_standard_library_markup",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library_numeric",
+      "source": "python_standard_library",
+      "target": "python_standard_library_numeric",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_standard_library_text",
+      "source": "python_standard_library",
+      "target": "python_standard_library_text",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_testing",
+      "source": "python",
+      "target": "python_testing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_testing_regression",
+      "source": "python_testing",
+      "target": "python_testing_regression",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_testing_unittest",
+      "source": "python_testing",
+      "target": "python_testing_unittest",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types",
+      "source": "python",
+      "target": "python_types",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_binary_sequence",
+      "source": "python_types",
+      "target": "python_types_binary_sequence",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_boolean",
+      "source": "python_types",
+      "target": "python_types_boolean",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_context",
+      "source": "python_types",
+      "target": "python_types_context",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_dict",
+      "source": "python_types",
+      "target": "python_types_dict",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_iterator",
+      "source": "python_types",
+      "target": "python_types_iterator",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_numeric",
+      "source": "python_types",
+      "target": "python_types_numeric",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_sequence",
+      "source": "python_types",
+      "target": "python_types_sequence",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_set",
+      "source": "python_types",
+      "target": "python_types_set",
+      "type": "contains"
+    },
+    {
+      "id": "edge_python_types_text",
+      "source": "python_types",
+      "target": "python_types_text",
+      "type": "contains"
+    }
+  ]
+}

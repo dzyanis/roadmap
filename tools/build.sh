@@ -2,9 +2,9 @@
 
 set -e
 
-for tool in python3 dot; do
+for tool in python3 dot xmllint; do
   if ! command -v "$tool" >/dev/null 2>&1; then
-    echo "Error: required tool '$tool' was not found in PATH. Install Python 3 and Graphviz before building." >&2
+    echo "Error: required tool '$tool' was not found in PATH. Install Python 3 and Graphviz, plus xmllint, before building." >&2
     exit 1
   fi
 done
@@ -30,12 +30,11 @@ staging=$(mktemp -d "$OUTDIR/.roadmap.XXXXXX")
 trap 'rm -rf "$staging"' 0
 trap 'exit 1' HUP INT TERM
 
-python3 ./tools/xmlg2dot.py --xmlg="$ROADMAPFILE" --dot="$staging/roadmap.dot"
+python3 ./tools/export.py --xmlg="$ROADMAPFILE" --materials="$MATERIALS" --root=backend --id="$ROADMAP" --output="$staging"
 dot -Tsvg "$staging/roadmap.dot" -o "$staging/roadmap.svg"
 dot -Tpng "$staging/roadmap.dot" -o "$staging/roadmap.png"
-python3 ./tools/xmlg2md.py --xmlg="$ROADMAPFILE" --materials="$MATERIALS" --root=backend > "$staging/guide.md"
 
-for filename in roadmap.dot roadmap.svg roadmap.png guide.md; do
+for filename in roadmap.dot roadmap.svg roadmap.png guide.md graph.json; do
   mv "$staging/$filename" "$OUTDIR/$filename"
   echo "Check $OUTDIR/$filename"
 done
