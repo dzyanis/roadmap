@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/materials.xsd">
+    <include filepath="../../../subjects/computer-science/materials.xml"/>
+    <include filepath="../../../subjects/databases/materials.xml"/>
+    <include filepath="../../../subjects/software-development/materials.xml"/>
+    <include filepath="../../../subjects/networking/materials.xml"/>
+    <include filepath="../../../subjects/operating-systems/materials.xml"/>
+    <include filepath="../../../subjects/data-structures-algorithms/materials.xml"/>
+    <include filepath="../../../subjects/go/materials.xml"/>
+</materials>

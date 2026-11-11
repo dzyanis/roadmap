@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
+    <article lang="en">
+        <title>Manifesto for Agile Software Development</title>
+        <url>https://agilemanifesto.org</url>
+        <tags>
+            <tag>management_paradigms_agile</tag>
+        </tags>
+    </article>
+
+    <article lang="en">
+        <title>The Twelve-Factor App</title>
+        <url>https://12factor.net</url>
+        <tags>
+            <tag>dev_methodologies_12factors</tag>
+        </tags>
+    </article>
+
+    <book lang="en">
+        <title>Test Driven Development: By Example</title>
+        <url>https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530</url>
+        <tags>
+            <tag>dev_testing</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Working Effectively with Legacy Code</title>
+        <url>https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052</url>
+        <tags>
+            <tag>dev</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Refactoring: Improving the Design of Existing Code</title>
+        <url>https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672</url>
+        <tags>
+            <tag>dev</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>The Pragmatic Programmer: From Journeyman to Master</title>
+        <url>https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X</url>
+        <tags>
+            <tag>dev</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Code Complete: A Practical Handbook of Software Construction</title>
+        <url>https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670</url>
+        <tags>
+            <tag>dev</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Clean Code: A Handbook of Agile Software Craftsmanship</title>
+        <url>https://www.amazon.com/gp/product/0132350882</url>
+        <tags>
+            <tag>dev</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Goal: A Process of Ongoing Improvement</title>
+        <url>https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951</url>
+        <tags>
+            <tag>dev_management</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Pro Git</title>
+        <url>https://git-scm.com/book/en</url>
+        <tags>
+            <tag>dev_version_git</tag>
+        </tags>
+    </book>
+    
+    <article lang="ru">
+        <title>Системы сборки проектов Maven</title>
+        <url>http://www.apache-maven.ru/</url>
+        <tags>
+            <tag>dev_build_maven</tag>
+        </tags>
+    </article>
+
+    <article lang="ru">
+        <title>Идеальный мавен. Часть 2: структура проекта</title>
+        <url>https://habr.com/ru/post/344480/</url>
+        <tags>
+            <tag>dev_build_maven</tag>
+        </tags>
+    </article>
+
+    <book lang="en">
+        <title>Gradle in Action</title>
+        <url>http://barbra-coco.dyndns.org/student/Gradle%20in%20Action.pdf</url>
+        <tags>
+            <tag>dev_build_gradle</tag>
+        </tags>
+    </book>
+
+    <article lang="ru">
+        <title>Ещё раз про семь основных методологий разработки</title>
+        <url>https://habr.com/ru/company/edison/blog/269789/</url>
+        <tags>
+            <tag>dev_methodologies</tag>
+        </tags>
+    </article>
+
+    <article lang="ru">
+        <title>4 книги о системах контроля версий, которые дадут о них полное представление</title>
+        <url>https://tproger.ru/books/4-books-about-vcs/</url>
+        <tags>
+            <tag>dev_version</tag>
+        </tags>
+    </article>
+
+    <article lang="ru">
+        <title>Введение в ELK: собираем, фильтруем и анализируем большие данные</title>
+        <url>https://mkdev.me/posts/vvedenie-v-elk-sobiraem-filtruem-i-analiziruem-bolshie-dannye</url>
+        <tags>
+            <tag>dev_debugging_logging</tag>
+        </tags>
+    </article>
+    
+    <article lang="en">
+        <title>The Practical Test Pyramid</title>
+        <url>https://martinfowler.com/articles/practical-test-pyramid.html</url>
+        <tags>
+            <tag>dev_testing</tag>
+        </tags>
+    </article>
+    
+    <article lang="en">
+        <title>How deep are your unit tests?</title>
+        <url>
+            https://stackoverflow.com/questions/153234/how-deep-are-your-unit-tests
+        </url>
+        <tags>
+            <tag>dev_testing</tag>
+        </tags>
+    </article>
+
+    <book lang="ru">
+        <title>Джедайские техники</title>
+        <url>https://www.mann-ivanov-ferber.ru/books/dzhedajskie-texniki/</url>
+        <tags>
+            <tag>management_time</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Continuous delivery. Практика непрерывных апдейтов</title>
+        <url>https://www.piter.com/product_by_id/87629352</url>
+        <tags>
+            <tag>dev_deployment_cd</tag>
+        </tags>
+    </book>
+</materials>

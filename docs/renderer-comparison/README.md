@@ -6,7 +6,7 @@ option for smaller diagrams embedded in Markdown. D2's styling and containers
 are worth revisiting if there is demand for a separate presentation format.
 
 The experiment exports the same nodes and edges from the DSA subject and the
-full Go stack. It groups the Go nodes by source subject and attaches the first
+full Go Engineer roadmap. It groups the Go nodes by source subject and attaches the first
 available learning resource to each node. The production build uses its
 existing ungrouped Graphviz layout. Both inputs retain their original labels.
 The Go graph also includes MySQL as a shared descendant of two database topics.
@@ -22,7 +22,7 @@ and each Go sample has 44 distinct URLs across 46 linked nodes. The Markdown
 learning guides still list all resources.
 
 - **Graphviz** uses narrow ranks and compact clusters. Long labels widen the
-  oval nodes, but remain on one line. The full stack is tall even with this
+  oval nodes, but remain on one line. The full roadmap is tall even with this
   layout and needs zooming. The Go sample is about 167 KiB. Both PNGs rendered
   directly with `dot`. [Graphviz layout documentation](https://www.graphviz.org/docs/layouts/dot/)
 - **Mermaid** makes branches easy to spot with colored subgraphs. The text

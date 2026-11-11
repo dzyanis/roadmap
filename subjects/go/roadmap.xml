@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd"
+         xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd"
 >
     <graph id="go">
         <node id="go" label="Golang"/>

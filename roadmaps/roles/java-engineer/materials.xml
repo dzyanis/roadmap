@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/materials.xsd">
+    <include filepath="../../../subjects/computer-science/materials.xml"/>
+    <include filepath="../../../subjects/databases/materials.xml"/>
+    <include filepath="../../../subjects/software-development/materials.xml"/>
+    <include filepath="../../../subjects/networking/materials.xml"/>
+    <include filepath="../../../subjects/operating-systems/materials.xml"/>
+    <include filepath="../../../subjects/data-structures-algorithms/materials.xml"/>
+    <include filepath="../../../subjects/java/materials.xml"/>
+    
+    <article lang="ru">
+        <title>Логирование в Java / quick start</title>
+        <url>https://habr.com/ru/post/130195/</url>
+        <tags>
+            <tag>dev_debugging_logging</tag>
+        </tags>
+    </article>
+
+    <article lang="ru">
+        <title>Инструменты логирование в Java</title>
+        <url>https://habr.com/ru/sandbox/20634/</url>
+        <tags>
+            <tag>dev_debugging_logging</tag>
+        </tags>
+    </article>
+    
+    <book lang="en">
+        <title>Practical Unit Testing with JUnit and Mockito</title>
+        <url>https://www.amazon.com/Practical-Unit-Testing-JUnit-Mockito/dp/8393489393</url>
+        <tags>
+            <tag>dev_testing</tag>
+        </tags>
+    </book>
+
+    <book lang="en">
+        <title>Data Structures and Algorithms in Java, 2nd Edition</title>
+        <url>https://www.amazon.com/Data-Structures-Algorithms-Java-2nd/dp/0672324539</url>
+        <tags>
+            <tag>dsa</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Grokking Algorithms: An illustrated guide for programmers and other curious people</title>
+        <url>https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230</url>
+        <tags>
+            <tag>dsa</tag>
+        </tags>
+    </book>
+    
+    <book lang="en">
+        <title>Professional Java EE Design Patterns</title>
+        <url>https://www.amazon.com/Professional-Java-EE-Design-Patterns/dp/111884341X</url>
+        <tags>
+            <tag>cs_architecture_patterns</tag>
+        </tags>
+    </book>
+</materials>

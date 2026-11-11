@@ -37,7 +37,7 @@ def walk(roadmap, nodeid, level, materials):
         walk(roadmap, childid, level+1, materials)
 
 
-def load_stack(graphml, xmlmaterials, rootid):
+def load_roadmap(graphml, xmlmaterials, rootid):
     roadmap = Roadmap(graphml)
     if rootid not in roadmap.nodes:
         raise ValueError(f'{graphml}: unknown root node {rootid!r}')
@@ -50,7 +50,7 @@ def load_stack(graphml, xmlmaterials, rootid):
 
 
 def convert_md(graphml, xmlmaterials, rootid):
-    roadmap, materials = load_stack(graphml, xmlmaterials, rootid)
+    roadmap, materials = load_roadmap(graphml, xmlmaterials, rootid)
     walk(roadmap, rootid, 1, materials)
 
 

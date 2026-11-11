@@ -1,6 +1,6 @@
 # Roadmap Core
 
-Roadmap Core is a collection of software engineering knowledge maps and learning resources, maintained as code. It combines reusable subject graphs into roadmaps for Go, Java, PHP, Python, Ruby, DevOps, and Computer Science, then generates diagrams and Markdown guides.
+Roadmap Core is a collection of software engineering knowledge maps and learning resources, maintained as code. It combines reusable subject graphs into roadmaps for Go Engineer, Java Engineer, PHP Engineer, Python Engineer, Ruby Engineer, DevOps Engineer, and Data Structures and Algorithms, then generates diagrams and Markdown guides.
 
 The project helps developers plan their learning and gives mentors and teams a shared reference for discussing skills. Common subjects—such as databases, networking, and operating systems—live in one place. Updating a shared subject and rebuilding updates every roadmap that includes it, so teams can review changes through Git and pull requests.
 
@@ -10,19 +10,19 @@ Open a diagram to browse the topics, or a learning guide to find resources attac
 
 | Roadmap | Diagram | Learning guide | Source |
 | --- | --- | --- | --- |
-| Go | [SVG](stacks/go/data/roadmap.svg) · [PNG](stacks/go/data/roadmap.png) | [Materials](stacks/go/data/roadmap.md) | [XML](stacks/go/roadmap.xml) · [DOT](stacks/go/data/roadmap.dot) |
-| Java | [SVG](stacks/java/data/roadmap.svg) · [PNG](stacks/java/data/roadmap.png) | [Materials](stacks/java/data/roadmap.md) | [XML](stacks/java/roadmap.xml) · [DOT](stacks/java/data/roadmap.dot) |
-| PHP | [SVG](stacks/php/data/roadmap.svg) · [PNG](stacks/php/data/roadmap.png) | [Materials](stacks/php/data/roadmap.md) | [XML](stacks/php/roadmap.xml) · [DOT](stacks/php/data/roadmap.dot) |
-| Python | [SVG](stacks/python/data/roadmap.svg) · [PNG](stacks/python/data/roadmap.png) | [Materials](stacks/python/data/roadmap.md) | [XML](stacks/python/roadmap.xml) · [DOT](stacks/python/data/roadmap.dot) |
-| Ruby | [SVG](stacks/ruby/data/roadmap.svg) · [PNG](stacks/ruby/data/roadmap.png) | [Materials](stacks/ruby/data/roadmap.md) | [XML](stacks/ruby/roadmap.xml) · [DOT](stacks/ruby/data/roadmap.dot) |
-| DevOps | [SVG](stacks/devops/data/roadmap.svg) · [PNG](stacks/devops/data/roadmap.png) | [Materials](stacks/devops/data/roadmap.md) | [XML](stacks/devops/roadmap.xml) · [DOT](stacks/devops/data/roadmap.dot) |
-| Computer Science (DSA) | [SVG](stacks/cs/data/roadmap.svg) · [PNG](stacks/cs/data/roadmap.png) | [Materials](stacks/cs/data/roadmap.md) | [XML](stacks/cs/roadmap.xml) · [DOT](stacks/cs/data/roadmap.dot) |
+| Go Engineer | [SVG](generated/roles/go-engineer/roadmap.svg) · [PNG](generated/roles/go-engineer/roadmap.png) | [Materials](generated/roles/go-engineer/guide.md) | [XML](roadmaps/roles/go-engineer/roadmap.xml) · [DOT](generated/roles/go-engineer/roadmap.dot) |
+| Java Engineer | [SVG](generated/roles/java-engineer/roadmap.svg) · [PNG](generated/roles/java-engineer/roadmap.png) | [Materials](generated/roles/java-engineer/guide.md) | [XML](roadmaps/roles/java-engineer/roadmap.xml) · [DOT](generated/roles/java-engineer/roadmap.dot) |
+| PHP Engineer | [SVG](generated/roles/php-engineer/roadmap.svg) · [PNG](generated/roles/php-engineer/roadmap.png) | [Materials](generated/roles/php-engineer/guide.md) | [XML](roadmaps/roles/php-engineer/roadmap.xml) · [DOT](generated/roles/php-engineer/roadmap.dot) |
+| Python Engineer | [SVG](generated/roles/python-engineer/roadmap.svg) · [PNG](generated/roles/python-engineer/roadmap.png) | [Materials](generated/roles/python-engineer/guide.md) | [XML](roadmaps/roles/python-engineer/roadmap.xml) · [DOT](generated/roles/python-engineer/roadmap.dot) |
+| Ruby Engineer | [SVG](generated/roles/ruby-engineer/roadmap.svg) · [PNG](generated/roles/ruby-engineer/roadmap.png) | [Materials](generated/roles/ruby-engineer/guide.md) | [XML](roadmaps/roles/ruby-engineer/roadmap.xml) · [DOT](generated/roles/ruby-engineer/roadmap.dot) |
+| DevOps Engineer | [SVG](generated/roles/devops-engineer/roadmap.svg) · [PNG](generated/roles/devops-engineer/roadmap.png) | [Materials](generated/roles/devops-engineer/guide.md) | [XML](roadmaps/roles/devops-engineer/roadmap.xml) · [DOT](generated/roles/devops-engineer/roadmap.dot) |
+| Data Structures and Algorithms | [SVG](generated/foundations/data-structures-algorithms/roadmap.svg) · [PNG](generated/foundations/data-structures-algorithms/roadmap.png) | [Materials](generated/foundations/data-structures-algorithms/guide.md) | [XML](roadmaps/foundations/data-structures-algorithms/roadmap.xml) · [DOT](generated/foundations/data-structures-algorithms/roadmap.dot) |
 
-The Computer Science stack currently covers data structures and algorithms. The language stacks combine language-specific topics with shared engineering subjects. The DevOps stack combines operating systems, networking, databases, and development processes with automation, containers, infrastructure as code, delivery pipelines, cloud infrastructure, observability, reliability, and security. Learning resources include books, articles, courses, and videos; coverage and resource languages vary by topic.
+The foundation roadmap covers data structures and algorithms, not a complete Computer Science curriculum. The engineer roadmaps combine language-specific topics with shared engineering subjects. The DevOps Engineer roadmap combines operating systems, networking, databases, and development processes with automation, containers, infrastructure as code, delivery pipelines, cloud infrastructure, observability, reliability, and security. Learning resources include books, articles, courses, and videos; coverage and resource languages vary by topic.
 
 ## How it works
 
-Each subject defines topics and their connections in `roadmap.xml`, plus learning resources in `materials.xml`. Resource tags refer to topic IDs. A stack includes the subjects it needs and connects them beneath its root topic.
+Each subject defines topics and their connections in `roadmap.xml`, plus learning resources in `materials.xml`. Resource tags refer to topic IDs. A roadmap includes the subjects it needs and connects them beneath its root topic.
 
 The Python tools assemble these XML files into a graph and generate:
 
@@ -31,18 +31,21 @@ The Python tools assemble these XML files into a graph and generate:
 - **Markdown**, a topic outline with links to learning resources.
 
 ```text
-subjects/<subject>/
-  roadmap.xml       Topics and connections shared across stacks
-  materials.xml     Resources tagged with topic IDs
-stacks/<stack>/
-  roadmap.xml       Subject includes and stack-level connections
-  materials.xml     Includes for the stack's learning resources
-  data/roadmap.*    Generated DOT, SVG, PNG, and Markdown
-tools/             XML schemas, parsers, validation, and build tools
-tests/             Automated validation and build tests
+subjects/<subject>/                   Reusable knowledge and resources
+  roadmap.xml
+  materials.xml
+roadmaps/<category>/<name>/           Curated learning paths
+  roadmap.xml                        Topic includes and root connections
+  materials.xml                      Resource includes
+schemas/                             XML schemas
+generated/<category>/<name>/          Generated, committed outputs
+  roadmap.dot / roadmap.svg / roadmap.png
+  guide.md
+tools/                               XML loading, validation, and exporters
+tests/                               Validation and build tests
 ```
 
-XML include paths are relative to the file that declares them. For example, the Go stack includes the shared database roadmap using `../../subjects/db/roadmap.xml`.
+XML include paths are relative to the file that declares them. For example, the Go Engineer roadmap includes databases using `../../../subjects/databases/roadmap.xml`. Categories are `roles`, `technologies`, and `foundations`. Subjects define reusable knowledge; roadmaps combine subjects into learning paths. See the [layout and migration guide](docs/layout-migration.md).
 
 ## Build locally
 
@@ -69,9 +72,9 @@ cd roadmap
 make all
 ```
 
-Outputs are written to `stacks/<stack>/data/`. Builds are incremental: unchanged outputs are skipped, and missing outputs are regenerated. Shared subject changes trigger rebuilds across stacks.
+Outputs are written to `generated/<category>/<name>/`. Builds are incremental: unchanged outputs are skipped, and missing outputs are regenerated. Shared subject changes trigger rebuilds across roadmaps.
 
-To build one stack, use `make go`, `make java`, `make php`, `make python`, `make ruby`, `make devops`, or `make cs`. `make golang` is an alias for `make go`.
+To build one roadmap, use `make go-engineer`, `make java-engineer`, `make php-engineer`, `make python-engineer`, `make ruby-engineer`, `make devops-engineer`, or `make data-structures-algorithms`. Legacy commands `make go`, `make golang`, `make java`, `make php`, `make python`, `make ruby`, `make devops`, and `make cs` remain aliases. Category-qualified targets such as `make roles/go-engineer` are also supported.
 
 To remove the generated outputs and rebuild everything:
 
@@ -88,17 +91,17 @@ make test
 
 `make check` validates the XML against the schemas and checks assembled graphs for duplicate IDs, missing edge endpoints, cycles, and material tags that do not match a topic. It checks structure and references within the roadmaps; it does not check whether external resource URLs are still available.
 
-`make test` runs the automated tests, including building every stack in a temporary directory and checking the generated DOT, SVG, PNG, and Markdown. GitHub Actions runs both commands on pushes and pull requests.
+`make test` runs the automated tests, including building every roadmap in a temporary directory and checking the generated DOT, SVG, PNG, and Markdown. GitHub Actions runs both commands on pushes and pull requests.
 
 ## Contribute
 
 Contributions can improve topic coverage, correct connections, add learning resources, or improve the build tools.
 
 1. Create a feature branch, or fork the repository if you do not have write access.
-2. Edit the relevant files in `subjects/`. For stack-specific composition changes, edit the includes and connections in `stacks/`.
-3. Keep node and edge IDs unique within each assembled roadmap, keep the graph acyclic, and use existing topic IDs in material tags. When adding a subject to a stack, include its roadmap and materials and connect it to the stack's graph.
+2. Edit the relevant files in `subjects/`. For roadmap composition changes, edit the includes and connections in `roadmaps/`.
+3. Keep node and edge IDs unique within each assembled roadmap, keep the graph acyclic, and use existing topic IDs in material tags. When adding a subject to a roadmap, include its roadmap and materials and connect it to the roadmap's graph.
 4. Run `make check`, `make test`, and `make all`. Inspect the affected diagrams and learning guides.
-5. Commit the XML or tool changes together with any updated files in `stacks/*/data/`, then open a pull request explaining the change.
+5. Commit the XML or tool changes together with any updated files in `generated/`, then open a pull request explaining the change.
 
 Generated files are committed so readers can browse roadmaps directly on GitHub. Edit their XML sources and regenerate them to keep diagrams and guides consistent.
 
@@ -106,6 +109,6 @@ Generated files are committed so readers can browse roadmaps directly on GitHub.
 
 - [XML graph parser](tools/xmlgraph.py) and [materials parser](tools/materials.py): load and combine source files.
 - [DOT converter](tools/xmlg2dot.py) and [Markdown converter](tools/xmlg2md.py): generate graph descriptions and learning guides.
-- [Validator](tools/validate.py), [graph schema](tools/xmlgraph.xsd), and [materials schema](tools/materials.xsd): define and check the input format.
+- [Validator](tools/validate.py), [graph schema](schemas/roadmap.xsd), and [materials schema](schemas/materials.xsd): define and check the input format.
 - [Makefile](Makefile) and [build script](tools/build.sh): coordinate generation of all four output formats.
 - [Renderer comparison](docs/renderer-comparison/README.md): evaluates Graphviz, Mermaid, and D2 using this project's graphs. Graphviz remains the renderer used by the build.

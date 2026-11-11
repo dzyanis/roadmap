@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd"
+>
+    <graph id="db">
+        <node id="db" label="Databases"/>
+
+        <node id="db_sql" label="SQL"/>
+        <edge id="edge_db_sql" source="db" target="db_sql"/>
+
+        <node id="db_indexes" label="Indexes"/>
+        <edge id="edge_db_indexes" source="db" target="db_indexes"/>
+
+        <node id="db_transactions" label="Transactions"/>
+        <edge id="edge_db_transactions" source="db" target="db_transactions"/>
+
+        <node id="db_principles" label="Principles"/>
+        <edge id="edge_db_principles" source="db" target="db_principles"/>
+
+        <node id="db_relational" label="Relational"/>
+        <edge id="edge_db_relational" source="db" target="db_relational"/>
+
+        <node id="db_nosql" label="NOSQL"/>
+        <edge id="edge_db_nosql" source="db" target="db_nosql"/>
+
+        <node id="db_search" label="Search Engines"/>
+        <edge id="edge_db_search" source="db" target="db_search"/>
+
+        <node id="db_message_broker" label="Message Broker"/>
+        <edge id="edge_db_message_broker" source="db" target="db_message_broker"/>
+
+        <!--Message Broker-->
+        <node id="db_message_broker_kafka" label="Kafka"/>
+        <edge id="edge_db_message_broker_kafka" source="db_message_broker" target="db_message_broker_kafka"/>
+
+        <node id="db_message_broker_rabbit" label="RabbitMQ"/>
+        <edge id="edge_db_message_broker_rabbit" source="db_message_broker" target="db_message_broker_rabbit"/>
+
+        <node id="db_message_broker_awssqs" label="Amazon Simple Queue Service"/>
+        <edge id="edge_db_message_broker_awssqs" source="db_message_broker" target="db_message_broker_awssqs"/>
+
+        <!--Relational-->
+        <node id="db_relational_mvcc" label="Multiversion Concurrency Control"/>
+        <edge id="edge_db_relational_mvcc" source="db_relational" target="db_relational_mvcc"/>
+
+        <node id="db_relational_blocking" label="Blocking"/>
+        <edge id="edge_db_relational_blocking" source="db_relational" target="db_relational_blocking"/>
+
+        <node id="db_relational_acid" label="ACID"/>
+        <edge id="edge_db_relational_acid" source="db_relational" target="db_relational_acid"/>
+
+        <node id="db_relational_oo" label="Object-oriented"/>
+        <edge id="edge_db_relational_oo" source="db_relational" target="db_relational_oo"/>
+
+        <!--Multiversion Concurrency Control-->
+        <node id="db_relational_firebird" label="Firebird"/>
+        <edge id="edge_db_relational_firebird" source="db_relational_mvcc" target="db_relational_firebird"/>
+        <node id="db_relational_postgres" label="PostgreSQL"/>
+        <edge id="edge_db_relational_postgres" source="db_relational_mvcc" target="db_relational_postgres"/>
+        <node id="db_relational_oracle" label="Oracle"/>
+        <edge id="edge_db_relational_oracle" source="db_relational_mvcc" target="db_relational_oracle"/>
+        <node id="db_mysql" label="MySQL"/>
+        <edge id="edge_db_relational_mvcc_mysql" source="db_relational_mvcc" target="db_mysql"/>
+
+        <!--Blocking DB-->
+        <edge id="edge_db_relational_blocking_mysql" source="db_relational_blocking" target="db_mysql"/>
+
+        <!--NOSQL-->
+        <node id="db_nosql_cap" label="CAP Theorem"/>
+        <edge id="edge_db_nosql_cap" source="db_nosql" target="db_nosql_cap"/>
+
+        <node id="db_nosql_base" label="BASE"/>
+        <edge id="edge_db_nosql_base" source="db_nosql" target="db_nosql_base"/>
+
+        <node id="db_nosql_graph" label="Graph database"/>
+        <edge id="edge_db_nosql_graph" source="db_nosql" target="db_nosql_graph"/>
+
+        <node id="db_nosql_doc" label="Document base"/>
+        <edge id="edge_db_nosql_doc" source="db_nosql" target="db_nosql_doc"/>
+
+        <node id="db_nosql_colbase" label="Column base"/>
+        <edge id="edge_db_nosql_colbase" source="db_nosql" target="db_nosql_colbase"/>
+
+        <node id="db_nosql_colwidebase" label="Wide column base"/>
+        <edge id="edge_db_nosql_colwidebase" source="db_nosql" target="db_nosql_colwidebase"/>
+
+        <node id="db_nosql_time" label="Time series"/>
+        <edge id="edge_db_nosql_time" source="db_nosql" target="db_nosql_time"/>
+
+        <!--Graph database-->
+        <node id="db_nosql_orient" label="OrientDB"/>
+        <edge id="edge_db_nosql_orient" source="db_nosql_graph" target="db_nosql_orient"/>
+
+        <node id="db_nosql_neo4j" label="Neo4j"/>
+        <edge id="edge_db_nosql_neo4j" source="db_nosql_graph" target="db_nosql_neo4j"/>
+
+        <!--Document base-->
+        <node id="db_nosql_mongo" label="MongoDB"/>
+        <edge id="edge_db_nosql_mongo" source="db_nosql_doc" target="db_nosql_mongo"/>
+
+        <!--Column base-->
+        <node id="db_nosql_redis" label="Redis"/>
+        <edge id="edge_db_nosql_redis" source="db_nosql_colbase" target="db_nosql_redis"/>
+
+        <node id="db_nosql_clickhouse" label="ClickHouse"/>
+        <edge id="edge_db_nosql_clickhouse" source="db_nosql_colbase" target="db_nosql_clickhouse"/>
+
+        <!--Search Engines-->
+        <node id="db_search_elasticseaerch" label="Elasticseaerch"/>
+        <edge id="edge_db_search_elasticseaerch" source="db_search" target="db_search_elasticseaerch"/>
+
+        <node id="db_search_sphinx" label="Sphinx"/>
+        <edge id="edge_db_search_sphinx" source="db_search" target="db_search_sphinx"/>
+    </graph>
+</xmlgraph>

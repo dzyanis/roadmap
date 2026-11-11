@@ -1,34 +1,42 @@
-STACKS := $(notdir $(patsubst %/,%,$(dir $(wildcard stacks/*/roadmap.xml))))
-# Watch shared XML and directory changes, including additions or removals of includes.
+# Roadmap keys include their category; directory names are stable public slugs.
+ROADMAPS := $(patsubst roadmaps/%/roadmap.xml,%,$(wildcard roadmaps/*/*/roadmap.xml))
 SUBJECT_INPUTS := $(shell find subjects -type d -o -name '*.xml')
 BUILD_TOOLS := $(wildcard tools/*.py) tools/build.sh Makefile
-outputs = $(addprefix stacks/$(1)/data/roadmap.,dot svg png md)
-stamp = stacks/$(1)/data/.roadmap-built
+outputs = $(addprefix generated/$(1)/roadmap.,dot svg png) generated/$(1)/guide.md
+stamp = generated/$(1)/.roadmap-built
 
-.PHONY: all golang $(STACKS)
-all: $(STACKS)
-golang: go
+.PHONY: all
+all: $(ROADMAPS)
 
-# Rebuild a stack if any member of its output set is missing.
-define stack_rule
+define roadmap_rule
+.PHONY: $(1) $(notdir $(1))
+$(notdir $(1)): $(1)
 $(1): $(call stamp,$(1))
-$(call stamp,$(1)): stacks/$(1)/roadmap.xml stacks/$(1)/materials.xml $(SUBJECT_INPUTS) $(BUILD_TOOLS) $(if $(filter-out $(wildcard $(call outputs,$(1))),$(call outputs,$(1))),force)
+$(call stamp,$(1)): roadmaps/$(1)/roadmap.xml roadmaps/$(1)/materials.xml $(SUBJECT_INPUTS) $(BUILD_TOOLS) $(if $(filter-out $(wildcard $(call outputs,$(1))),$(call outputs,$(1))),force)
 	sh tools/build.sh $(1)
 	touch $$@
 endef
 
-$(foreach stack,$(STACKS),$(eval $(call stack_rule,$(stack))))
+$(foreach roadmap,$(ROADMAPS),$(eval $(call roadmap_rule,$(roadmap))))
 
-.PHONY: force clean
+# Legacy commands retained for existing users and automation.
+.PHONY: go golang java php python ruby devops cs
+go golang: go-engineer
+java: java-engineer
+php: php-engineer
+python: python-engineer
+ruby: ruby-engineer
+devops: devops-engineer
+cs: data-structures-algorithms
+
+.PHONY: force clean test check
 force:
 
 clean:
-	rm -f $(foreach stack,$(STACKS),$(call outputs,$(stack)) $(call stamp,$(stack)))
+	rm -f $(foreach roadmap,$(ROADMAPS),$(call outputs,$(roadmap)) $(call stamp,$(roadmap)))
 
-.PHONY: test
 test:
 	python3 -m unittest discover -s tests -v
 
-.PHONY: check
 check:
 	python3 tools/validate.py
