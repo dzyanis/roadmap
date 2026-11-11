@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/materials.xsd">
+    <article lang="en">
+        <title>Get started with Docker</title>
+        <url>https://docs.docker.com/get-started/</url>
+        <tags>
+            <tag>devops_containers</tag>
+        </tags>
+    </article>
+    <course lang="en">
+        <title>Terraform tutorials</title>
+        <url>https://developer.hashicorp.com/terraform/tutorials</url>
+        <tags>
+            <tag>devops_infrastructure</tag>
+            <tag>devops_cloud</tag>
+        </tags>
+    </course>
+    <article lang="en">
+        <title>OpenTelemetry documentation</title>
+        <url>https://opentelemetry.io/docs/</url>
+        <tags>
+            <tag>devops_observability</tag>
+        </tags>
+    </article>
+    <book lang="en">
+        <title>Google Site Reliability Engineering books</title>
+        <url>https://sre.google/books/</url>
+        <tags>
+            <tag>devops_reliability</tag>
+            <tag>devops_delivery</tag>
+            <tag>devops_security</tag>
+        </tags>
+    </book>
+</materials>

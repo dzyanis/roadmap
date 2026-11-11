@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../tools/xmlgraph.xsd">
+    <graph id="devops">
+        <node id="devops" label="DevOps Practices"/>
+        <node id="devops_automation" label="Automation and Scripting"/>
+        <edge id="edge_devops_automation" source="devops" target="devops_automation"/>
+        <node id="devops_automation_1" label="Shell scripting"/>
+        <edge id="edge_devops_automation_1" source="devops_automation" target="devops_automation_1"/>
+        <node id="devops_automation_2" label="Python scripting"/>
+        <edge id="edge_devops_automation_2" source="devops_automation" target="devops_automation_2"/>
+        <node id="devops_automation_3" label="Idempotency and error handling"/>
+        <edge id="edge_devops_automation_3" source="devops_automation" target="devops_automation_3"/>
+        <node id="devops_containers" label="Containers"/>
+        <edge id="edge_devops_containers" source="devops" target="devops_containers"/>
+        <node id="devops_containers_1" label="Images and registries"/>
+        <edge id="edge_devops_containers_1" source="devops_containers" target="devops_containers_1"/>
+        <node id="devops_containers_2" label="Docker"/>
+        <edge id="edge_devops_containers_2" source="devops_containers" target="devops_containers_2"/>
+        <node id="devops_containers_3" label="Container networking and storage"/>
+        <edge id="edge_devops_containers_3" source="devops_containers" target="devops_containers_3"/>
+        <node id="devops_infrastructure" label="Infrastructure as Code"/>
+        <edge id="edge_devops_infrastructure" source="devops" target="devops_infrastructure"/>
+        <node id="devops_infrastructure_1" label="Terraform"/>
+        <edge id="edge_devops_infrastructure_1" source="devops_infrastructure" target="devops_infrastructure_1"/>
+        <node id="devops_infrastructure_2" label="State and drift management"/>
+        <edge id="edge_devops_infrastructure_2" source="devops_infrastructure" target="devops_infrastructure_2"/>
+        <node id="devops_infrastructure_3" label="Reusable modules and infrastructure testing"/>
+        <edge id="edge_devops_infrastructure_3" source="devops_infrastructure" target="devops_infrastructure_3"/>
+        <node id="devops_delivery" label="Delivery Pipelines"/>
+        <edge id="edge_devops_delivery" source="devops" target="devops_delivery"/>
+        <node id="devops_delivery_1" label="Build, test, and artifact promotion"/>
+        <edge id="edge_devops_delivery_1" source="devops_delivery" target="devops_delivery_1"/>
+        <node id="devops_delivery_2" label="Rolling, blue-green, and canary deployments"/>
+        <edge id="edge_devops_delivery_2" source="devops_delivery" target="devops_delivery_2"/>
+        <node id="devops_delivery_3" label="Rollback and GitOps"/>
+        <edge id="edge_devops_delivery_3" source="devops_delivery" target="devops_delivery_3"/>
+        <node id="devops_cloud" label="Cloud Infrastructure"/>
+        <edge id="edge_devops_cloud" source="devops" target="devops_cloud"/>
+        <node id="devops_cloud_1" label="Compute, storage, and virtual networks"/>
+        <edge id="edge_devops_cloud_1" source="devops_cloud" target="devops_cloud_1"/>
+        <node id="devops_cloud_2" label="Load balancing and autoscaling"/>
+        <edge id="edge_devops_cloud_2" source="devops_cloud" target="devops_cloud_2"/>
+        <node id="devops_cloud_3" label="Availability zones and cost management"/>
+        <edge id="edge_devops_cloud_3" source="devops_cloud" target="devops_cloud_3"/>
+        <node id="devops_observability" label="Observability"/>
+        <edge id="edge_devops_observability" source="devops" target="devops_observability"/>
+        <node id="devops_observability_1" label="Metrics, logs, and traces"/>
+        <edge id="edge_devops_observability_1" source="devops_observability" target="devops_observability_1"/>
+        <node id="devops_observability_2" label="Dashboards and actionable alerts"/>
+        <edge id="edge_devops_observability_2" source="devops_observability" target="devops_observability_2"/>
+        <node id="devops_observability_3" label="OpenTelemetry"/>
+        <edge id="edge_devops_observability_3" source="devops_observability" target="devops_observability_3"/>
+        <node id="devops_reliability" label="Site Reliability Engineering"/>
+        <edge id="edge_devops_reliability" source="devops" target="devops_reliability"/>
+        <node id="devops_reliability_1" label="SLIs, SLOs, and error budgets"/>
+        <edge id="edge_devops_reliability_1" source="devops_reliability" target="devops_reliability_1"/>
+        <node id="devops_reliability_2" label="Incident response and postmortems"/>
+        <edge id="edge_devops_reliability_2" source="devops_reliability" target="devops_reliability_2"/>
+        <node id="devops_reliability_3" label="Backups and disaster recovery"/>
+        <edge id="edge_devops_reliability_3" source="devops_reliability" target="devops_reliability_3"/>
+        <node id="devops_reliability_4" label="Capacity planning and toil reduction"/>
+        <edge id="edge_devops_reliability_4" source="devops_reliability" target="devops_reliability_4"/>
+        <node id="devops_security" label="Platform Security"/>
+        <edge id="edge_devops_security" source="devops" target="devops_security"/>
+        <node id="devops_security_1" label="Least privilege and identity management"/>
+        <edge id="edge_devops_security_1" source="devops_security" target="devops_security_1"/>
+        <node id="devops_security_2" label="Secrets and certificate management"/>
+        <edge id="edge_devops_security_2" source="devops_security" target="devops_security_2"/>
+        <node id="devops_security_3" label="Dependency and image scanning"/>
+        <edge id="edge_devops_security_3" source="devops_security" target="devops_security_3"/>
+        <node id="devops_security_4" label="Software supply chain security"/>
+        <edge id="edge_devops_security_4" source="devops_security" target="devops_security_4"/>
+    </graph>
+</xmlgraph>
