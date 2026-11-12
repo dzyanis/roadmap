@@ -1,0 +1,996 @@
+{
+  "schema_version": 1,
+  "roadmap": {
+    "id": "os",
+    "label": "Operating Systems",
+    "root": "os"
+  },
+  "subjects": [
+    "operating-systems"
+  ],
+  "topics": [
+    {
+      "id": "os",
+      "label": "Operating Systems",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Modern Operating Systems, Fifth Edition",
+          "url": "https://www.pearson.com/en-us/subject-catalog/p/modern-operating-systems/P200000003295/9780137618880",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Operating System Concepts, Tenth Edition",
+          "url": "https://os-book.com/OS10/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Operating Systems: Three Easy Pieces",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_filesystem",
+      "label": "File Systems and Persistence",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "Files and File Systems: Crash Course Computer Science #20",
+          "url": "https://www.youtube.com/watch?v=KN8YgJnShPM",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "OSTEP: Files and Directories",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_filesystem_durability",
+      "label": "Writeback, Journaling, and Crash Recovery",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_filesystem_layout",
+      "label": "Files, Directories, Mounts, and Links",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_filesystem_permissions",
+      "label": "File Ownership and Permissions",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_foundations",
+      "label": "Kernel and User Space",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Limited Direct Execution",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_foundations_interrupts",
+      "label": "Interrupts, Exceptions, and Timers",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_foundations_modes",
+      "label": "Privilege Levels and System Calls",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_io",
+      "label": "Input and Output",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: I/O Devices",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/file-devices.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_io_buffering",
+      "label": "Buffering and Caching",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_io_descriptors",
+      "label": "File Descriptors and Device I/O",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_io_readiness",
+      "label": "Blocking, Nonblocking I/O, and Readiness",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_linux",
+      "label": "Linux Administration and Diagnostics",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "systemctl reference",
+          "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_linux_processes",
+      "label": "Process and CPU Inspection (ps, top)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_linux_resources",
+      "label": "Memory, Disk Space, and I/O (vmstat, df, du, iostat)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_linux_services",
+      "label": "Service Lifecycle and Logs (systemd)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "systemctl reference",
+          "url": "https://www.freedesktop.org/software/systemd/man/latest/systemctl.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_linux_tracing",
+      "label": "System Call Tracing (strace)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory",
+      "label": "Memory Management",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Address Spaces",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_memory_address",
+      "label": "Address Spaces and Memory Mapping",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_allocation",
+      "label": "Allocation: Stack and Heap",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_paging",
+      "label": "Paging, Page Faults, and Swapping",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_translation",
+      "label": "Page Tables and Translation Lookaside Buffers",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_memory_virtual",
+      "label": "Virtual Memory",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes",
+      "label": "Processes and Threads",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Processes",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_processes_failures",
+      "label": "Race Conditions and Deadlocks",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_ipc",
+      "label": "IPC: Pipes, Shared Memory, and Message Queues",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_lifecycle",
+      "label": "Process Creation, Execution, and Exit",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_multithreading",
+      "label": "Concurrency and Parallelism",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Concurrency and Threads",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_processes_scheduling",
+      "label": "CPU Scheduling and Context Switching",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_signals",
+      "label": "Signals and Process Termination",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_sync",
+      "label": "Locks, Semaphores, and Condition Variables",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_processes_threads",
+      "label": "Thread Lifecycle and Shared Address Space",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_protection",
+      "label": "Protection and Access Control",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: Access Control",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/security-access.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_protection_identity",
+      "label": "Users, Groups, and Least Privilege",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_protection_isolation",
+      "label": "Process Isolation and Access Checks",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell",
+      "label": "Shells and Command-Line Fundamentals",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Bash Reference Manual",
+          "url": "https://www.gnu.org/software/bash/manual/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_shell_bash",
+      "label": "Bash",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Bash Reference Manual",
+          "url": "https://www.gnu.org/software/bash/manual/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_shell_expansion",
+      "label": "Quoting, Expansion, and Environment Variables",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell_jobs",
+      "label": "Exit Status, Signals, and Job Control",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell_pipelines",
+      "label": "Pipelines and Redirection",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_shell_zsh",
+      "label": "Zsh",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types",
+      "label": "Operating System Characteristics",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Operating Systems: Three Easy Pieces",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_types_batch",
+      "label": "Workload: Batch Processing",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_distributed",
+      "label": "Coordination: Distributed Systems",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_network",
+      "label": "Connectivity: Network Operating Systems",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_realtime",
+      "label": "Timing: Real-Time Guarantees",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_types_time_sharing",
+      "label": "Workload: Interactive Time-Sharing",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_virtualization",
+      "label": "Virtualization",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "QEMU System Emulation Introduction",
+          "url": "https://www.qemu.org/docs/master/system/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_cgroups",
+      "label": "Linux Control Groups",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Linux kernel: Control Group v2",
+          "url": "https://docs.kernel.org/admin-guide/cgroup-v2.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_guests",
+      "label": "Hosts, Guests, and Virtual Hardware",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_virtualization_level",
+      "label": "OS-Level Virtualization and Containers",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Docker: What is a container?",
+          "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_level_docker",
+      "label": "Docker",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Docker in Action, Second Edition",
+          "url": "https://www.manning.com/books/docker-in-action-second-edition",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Docker: What is a container?",
+          "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_namespaces",
+      "label": "Linux Namespaces",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Linux namespaces manual",
+          "url": "https://man7.org/linux/man-pages/man7/namespaces.7.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_x86",
+      "label": "Hardware Virtualization and Hypervisors",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "QEMU System Emulation Introduction",
+          "url": "https://www.qemu.org/docs/master/system/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_virtualization_x86_virtualbox",
+      "label": "VirtualBox",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    },
+    {
+      "id": "os_virtualization_x86_vmware",
+      "label": "VMware ESXi",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_os_filesystem",
+      "source": "os",
+      "target": "os_filesystem",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_filesystem_durability",
+      "source": "os_filesystem",
+      "target": "os_filesystem_durability",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_filesystem_layout",
+      "source": "os_filesystem",
+      "target": "os_filesystem_layout",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_filesystem_permissions",
+      "source": "os_filesystem",
+      "target": "os_filesystem_permissions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_foundations",
+      "source": "os",
+      "target": "os_foundations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_foundations_interrupts",
+      "source": "os_foundations",
+      "target": "os_foundations_interrupts",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_foundations_modes",
+      "source": "os_foundations",
+      "target": "os_foundations_modes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io",
+      "source": "os",
+      "target": "os_io",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io_buffering",
+      "source": "os_io",
+      "target": "os_io_buffering",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io_descriptors",
+      "source": "os_io",
+      "target": "os_io_descriptors",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_io_readiness",
+      "source": "os_io",
+      "target": "os_io_readiness",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux",
+      "source": "os",
+      "target": "os_linux",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_processes",
+      "source": "os_linux",
+      "target": "os_linux_processes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_resources",
+      "source": "os_linux",
+      "target": "os_linux_resources",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_services",
+      "source": "os_linux",
+      "target": "os_linux_services",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_linux_tracing",
+      "source": "os_linux",
+      "target": "os_linux_tracing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory",
+      "source": "os",
+      "target": "os_memory",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_address",
+      "source": "os_memory_virtual",
+      "target": "os_memory_address",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_allocation",
+      "source": "os_memory",
+      "target": "os_memory_allocation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_paging",
+      "source": "os_memory_virtual",
+      "target": "os_memory_paging",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_translation",
+      "source": "os_memory_virtual",
+      "target": "os_memory_translation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_memory_virtual",
+      "source": "os_memory",
+      "target": "os_memory_virtual",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes",
+      "source": "os",
+      "target": "os_processes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_failures",
+      "source": "os_processes_multithreading",
+      "target": "os_processes_failures",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_ipc",
+      "source": "os_processes",
+      "target": "os_processes_ipc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_lifecycle",
+      "source": "os_processes",
+      "target": "os_processes_lifecycle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_multithreading",
+      "source": "os_processes",
+      "target": "os_processes_multithreading",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_scheduling",
+      "source": "os_processes",
+      "target": "os_processes_scheduling",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_signals",
+      "source": "os_processes",
+      "target": "os_processes_signals",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_sync",
+      "source": "os_processes_multithreading",
+      "target": "os_processes_sync",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_processes_threads",
+      "source": "os_processes",
+      "target": "os_processes_threads",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_protection",
+      "source": "os",
+      "target": "os_protection",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_protection_identity",
+      "source": "os_protection",
+      "target": "os_protection_identity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_protection_isolation",
+      "source": "os_protection",
+      "target": "os_protection_isolation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell",
+      "source": "os",
+      "target": "os_shell",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_bash",
+      "source": "os_shell",
+      "target": "os_shell_bash",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_expansion",
+      "source": "os_shell",
+      "target": "os_shell_expansion",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_jobs",
+      "source": "os_shell",
+      "target": "os_shell_jobs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_pipelines",
+      "source": "os_shell",
+      "target": "os_shell_pipelines",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_shell_zsh",
+      "source": "os_shell",
+      "target": "os_shell_zsh",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types",
+      "source": "os",
+      "target": "os_types",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_batch",
+      "source": "os_types",
+      "target": "os_types_batch",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_distributed",
+      "source": "os_types",
+      "target": "os_types_distributed",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_network",
+      "source": "os_types",
+      "target": "os_types_network",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_realtime",
+      "source": "os_types",
+      "target": "os_types_realtime",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_types_time_sharing",
+      "source": "os_types",
+      "target": "os_types_time_sharing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization",
+      "source": "os",
+      "target": "os_virtualization",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_cgroups",
+      "source": "os_virtualization_level",
+      "target": "os_virtualization_cgroups",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_guests",
+      "source": "os_virtualization_x86",
+      "target": "os_virtualization_guests",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_level",
+      "source": "os_virtualization",
+      "target": "os_virtualization_level",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_level_docker",
+      "source": "os_virtualization_level",
+      "target": "os_virtualization_level_docker",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_namespaces",
+      "source": "os_virtualization_level",
+      "target": "os_virtualization_namespaces",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_x86",
+      "source": "os_virtualization",
+      "target": "os_virtualization_x86",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_x86_virtualbox",
+      "source": "os_virtualization_x86",
+      "target": "os_virtualization_x86_virtualbox",
+      "type": "contains"
+    },
+    {
+      "id": "edge_os_virtualization_x86_vmware",
+      "source": "os_virtualization_x86",
+      "target": "os_virtualization_x86_vmware",
+      "type": "contains"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "input": "dsa",
+    "layout": "dagre",
+    "scale": 1,
+    "seconds": 0.951,
+    "exit_code": 0,
+    "log": "success: successfully compiled docs/prototypes/d2/demo/dsa.d2 to ../../..<temporary>/dsa-dagre-1.png in 849.298167ms\n",
+    "width": 3156,
+    "height": 12250,
+    "bytes": 2288411
+  },
+  {
+    "input": "dsa",
+    "layout": "dagre",
+    "scale": 0.2,
+    "seconds": 0.855,
+    "exit_code": 0,
+    "log": "success: successfully compiled docs/prototypes/d2/demo/dsa.d2 to ../../..<temporary>/dsa-dagre-0.2.png in 834.338917ms\n",
+    "width": 3156,
+    "height": 12250,
+    "bytes": 2288411
+  },
+  {
+    "input": "dsa",
+    "layout": "elk",
+    "scale": 1,
+    "seconds": 0.744,
+    "exit_code": 0,
+    "log": "success: successfully compiled docs/prototypes/d2/demo/dsa.d2 to ../../..<temporary>/dsa-elk-1.png in 722.387709ms\n",
+    "width": 3276,
+    "height": 10124,
+    "bytes": 1941402
+  },
+  {
+    "input": "dsa",
+    "layout": "elk",
+    "scale": 0.2,
+    "seconds": 0.739,
+    "exit_code": 0,
+    "log": "success: successfully compiled docs/prototypes/d2/demo/dsa.d2 to ../../..<temporary>/dsa-elk-0.2.png in 718.2405ms\n",
+    "width": 3276,
+    "height": 10124,
+    "bytes": 1941402
+  },
+  {
+    "input": "go",
+    "layout": "dagre",
+    "scale": 1,
+    "seconds": 0.177,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/go.d2: d2raster: frame height 79226 exceeds limit 32768\n"
+  },
+  {
+    "input": "go",
+    "layout": "dagre",
+    "scale": 0.2,
+    "seconds": 0.177,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/go.d2: d2raster: frame height 79226 exceeds limit 32768\n"
+  },
+  {
+    "input": "go",
+    "layout": "elk",
+    "scale": 1,
+    "seconds": 0.075,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/go.d2: d2raster: frame height 64916 exceeds limit 32768\n"
+  },
+  {
+    "input": "go",
+    "layout": "elk",
+    "scale": 0.2,
+    "seconds": 0.075,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/go.d2: d2raster: frame height 64916 exceeds limit 32768\n"
+  },
+  {
+    "input": "devops",
+    "layout": "dagre",
+    "scale": 1,
+    "seconds": 0.1,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/devops.d2: d2raster: frame height 52360 exceeds limit 32768\n"
+  },
+  {
+    "input": "devops",
+    "layout": "dagre",
+    "scale": 0.2,
+    "seconds": 0.105,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/devops.d2: d2raster: frame height 52360 exceeds limit 32768\n"
+  },
+  {
+    "input": "devops",
+    "layout": "elk",
+    "scale": 1,
+    "seconds": 0.056,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/devops.d2: d2raster: frame height 42994 exceeds limit 32768\n"
+  },
+  {
+    "input": "devops",
+    "layout": "elk",
+    "scale": 0.2,
+    "seconds": 0.056,
+    "exit_code": 1,
+    "log": "err: failed to compile docs/prototypes/d2/demo/devops.d2: d2raster: frame height 42994 exceeds limit 32768\n"
+  }
+]

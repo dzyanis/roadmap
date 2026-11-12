@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dsa",
+    "label": "Data Structures and Algorithms"
+  },
+  {
+    "id": "os",
+    "label": "Operating Systems"
+  },
+  {
+    "id": "go",
+    "label": "Go Engineer"
+  },
+  {
+    "id": "devops",
+    "label": "DevOps Engineer"
+  }
+]
