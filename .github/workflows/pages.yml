@@ -1,0 +1,56 @@
+name: Pages
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  # Never cancel a deployment that is already publishing from master.
+  cancel-in-progress: ${{ github.ref != 'refs/heads/master' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - name: Install Graphviz and xmllint
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends graphviz libxml2-utils
+      - name: Validate roadmap and materials XML
+        run: make check
+      - name: Run tests
+        run: make test
+      - name: Build the site from generated graph data
+        run: make site
+      - name: Upload site artifact
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -6,6 +6,8 @@ The project helps developers plan their learning and gives mentors and teams a s
 
 ## Explore the roadmaps
 
+Browse the knowledge trees on the **[Roadmap Core website](https://dzyanis.github.io/roadmap/)**: select a roadmap, explore its topics and how they connect, and open a topic to see its learning resources.
+
 Open a diagram to browse the topics, or a learning guide to find resources attached to them. Generated files are included in the repository; no installation is needed to read them.
 
 | Roadmap | Diagram | Learning guide | Source |
@@ -94,6 +96,21 @@ make test
 `make check` validates the XML against the schemas and checks assembled graphs for duplicate IDs, missing edge endpoints, cycles, and material tags that do not match a topic. It checks structure and references within the roadmaps; it does not check whether external resource URLs are still available.
 
 `make test` runs the automated tests, including building every roadmap in a temporary directory and checking the generated DOT, SVG, PNG, Markdown, and JSON. GitHub Actions runs both commands on pushes and pull requests. Builds validate included XML and resource references before publishing any outputs.
+
+### Website
+
+The website is built from the same `generated/*/*/graph.json` files as the repository outputs, so it cannot drift from the XML.
+
+```bash
+make site
+python3 -m http.server -d _site 8000
+```
+
+Open `http://127.0.0.1:8000/` to preview it. Opening `index.html` directly from disk will not load the roadmap data, so serve the folder over HTTP.
+
+The viewer draws each knowledge tree in the browser with Cytoscape.js and the Dagre layout. The Cytoscape, Dagre, and layout-plugin builds are committed under `site/vendor/` at pinned versions, so visitors do not load scripts from a CDN and no renderer runs on the server. Direct links look like `#roadmap=roles/go-engineer&topic=<topic-id>`.
+
+GitHub Actions validates the XML, runs the tests, and builds the site on every pull request. Pushes to `master` deploy the site to GitHub Pages only after that build succeeds. The site is served under `/roadmap/`, so all of its links and assets are relative.
 
 ## Contribute
 
