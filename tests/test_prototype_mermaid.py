@@ -26,6 +26,20 @@ class PrototypeTests(unittest.TestCase):
                     self.assertCountEqual(ids, graph.nodes)
                     self.assertFalse(list(svg.iter(f'{{{build.SVG}}}foreignObject')))
 
+    def test_older_graphviz_links_are_normalized_without_double_escaping(self):
+        import tempfile
+        from types import SimpleNamespace
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'graph.svg'
+            graph = SimpleNamespace(nodes={'x': SimpleNamespace(label='Topic')})
+            for separator in ('&', '&amp;'):
+                path.write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 20">'
+                                f'<a href="#roadmap=go{separator}topic=x"><rect width="1" height="1"/></a></svg>')
+                self.assertEqual(build.normalize_svg(path, graph), [10, 20])
+                anchor = ET.parse(path).getroot().find(f'{{{build.SVG}}}a')
+                self.assertEqual(anchor.get('href'), '#roadmap=go&topic=x')
+                self.assertEqual(anchor.get('data-topic'), 'x')
+
     def test_shared_descendant_keeps_both_incoming_edges(self):
         data = json.loads((HERE / 'demo/go.json').read_text())
         topic = next(t for t in data['topics'] if t['label'] == 'MySQL')
