@@ -1,0 +1,716 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0.00 0.00 1119.00 1559.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 1555)">
+<title>roadmap</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-1555 1115,-1555 1115,4 -4,4" />
+<g id="clust1" class="cluster">
+<title>cluster_0</title>
+<polygon fill="none" stroke="black" points="8,-8 8,-1543 1103,-1543 1103,-8 8,-8" />
+<text xml:space="preserve" text-anchor="middle" x="555.5" y="-1525.7" font-family="Times,serif" font-size="14.00">data-structures-algorithms</text>
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<g id="a_node1"><a xlink:href="#roadmap=dsa&amp;topic=dsa" xlink:title="Data Structures and\nAlgorithms" data-topic="dsa" tabindex="-1" aria-label="Data Structures and Algorithms">
+<polygon fill="none" stroke="black" points="175.25,-677.75 16,-677.75 16,-632.25 175.25,-632.25 175.25,-677.75" />
+<text xml:space="preserve" text-anchor="middle" x="95.62" y="-658.55" font-family="Arial" font-size="16.00">Data Structures and</text>
+<text xml:space="preserve" text-anchor="middle" x="95.62" y="-639.8" font-family="Arial" font-size="16.00">Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<g id="a_node2"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms" xlink:title="Algorithms" data-topic="dsa_algorithms" tabindex="-1" aria-label="Algorithms">
+<polygon fill="none" stroke="black" points="321.38,-430 228.88,-430 228.88,-394 321.38,-394 321.38,-430" />
+<text xml:space="preserve" text-anchor="middle" x="275.12" y="-406.18" font-family="Arial" font-size="16.00">Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="black" d="M113.32,-632.14C146.1,-587.26 218.75,-487.82 254.06,-439.46" />
+<polygon fill="black" stroke="black" points="256.84,-441.59 259.91,-431.45 251.19,-437.46 256.84,-441.59" />
+</g>
+
+<g id="node20" class="node">
+<title>n19</title>
+<g id="a_node20"><a xlink:href="#roadmap=dsa&amp;topic=dsa_analysis" xlink:title="Analysis" data-topic="dsa_analysis" tabindex="-1" aria-label="Analysis">
+<polygon fill="none" stroke="black" points="313.5,-673 236.75,-673 236.75,-637 313.5,-637 313.5,-673" />
+<text xml:space="preserve" text-anchor="middle" x="275.12" y="-649.17" font-family="Arial" font-size="16.00">Analysis</text>
+</a>
+</g>
+</g>
+
+<g id="edge3" class="edge">
+<title>n0-&gt;n19</title>
+<path fill="none" stroke="black" d="M175.51,-655C192.48,-655 209.94,-655 225.36,-655" />
+<polygon fill="black" stroke="black" points="225.2,-658.5 235.2,-655 225.2,-651.5 225.2,-658.5" />
+</g>
+
+<g id="node21" class="node">
+<title>n20</title>
+<g id="a_node21"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data" xlink:title="Data Structures" data-topic="dsa_data" tabindex="-1" aria-label="Data Structures">
+<polygon fill="none" stroke="black" points="339,-875 211.25,-875 211.25,-839 339,-839 339,-875" />
+<text xml:space="preserve" text-anchor="middle" x="275.12" y="-851.17" font-family="Arial" font-size="16.00">Data Structures</text>
+</a>
+</g>
+</g>
+
+<g id="edge2" class="edge">
+<title>n0-&gt;n20</title>
+<path fill="none" stroke="black" d="M116.99,-678.17C150.09,-715.84 215.4,-790.16 250.49,-830.11" />
+<polygon fill="black" stroke="black" points="247.68,-832.21 256.91,-837.41 252.94,-827.59 247.68,-832.21" />
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<g id="a_node3"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_searching" xlink:title="Searching Algorithms" data-topic="dsa_algorithms_searching" tabindex="-1" aria-label="Searching Algorithms">
+<polygon fill="none" stroke="black" points="565.38,-165 396.38,-165 396.38,-129 565.38,-129 565.38,-165" />
+<text xml:space="preserve" text-anchor="middle" x="480.88" y="-141.18" font-family="Arial" font-size="16.00">Searching Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="edge5" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="black" d="M290.13,-393.79C325.24,-348.12 417.19,-228.53 458.84,-174.36" />
+<polygon fill="black" stroke="black" points="461.53,-176.6 464.85,-166.54 455.98,-172.34 461.53,-176.6" />
+</g>
+
+<g id="node9" class="node">
+<title>n8</title>
+<g id="a_node9"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting" xlink:title="Sorting Algorithms" data-topic="dsa_algorithms_sorting" tabindex="-1" aria-label="Sorting Algorithms">
+<polygon fill="none" stroke="black" points="554.5,-430 407.25,-430 407.25,-394 554.5,-394 554.5,-430" />
+<text xml:space="preserve" text-anchor="middle" x="480.88" y="-406.18" font-family="Arial" font-size="16.00">Sorting Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="edge4" class="edge">
+<title>n1-&gt;n8</title>
+<path fill="none" stroke="black" d="M321.85,-412C343.62,-412 370.37,-412 395.63,-412" />
+<polygon fill="black" stroke="black" points="395.6,-415.5 405.6,-412 395.6,-408.5 395.6,-415.5" />
+</g>
+
+<g id="node4" class="node">
+<title>n3</title>
+<g id="a_node4"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_searching_efficient" xlink:title="Efficient Searching\nAlgorithms" data-topic="dsa_algorithms_searching_efficient" tabindex="-1" aria-label="Efficient Searching Algorithms">
+<polygon fill="none" stroke="black" points="818,-105.75 667,-105.75 667,-60.25 818,-60.25 818,-105.75" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-86.55" font-family="Arial" font-size="16.00">Efficient Searching</text>
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-67.8" font-family="Arial" font-size="16.00">Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="edge11" class="edge">
+<title>n2-&gt;n3</title>
+<path fill="none" stroke="black" d="M556.62,-128.57C587.58,-120.94 623.66,-112.05 655.69,-104.15" />
+<polygon fill="black" stroke="black" points="656.49,-107.56 665.36,-101.77 654.82,-100.76 656.49,-107.56" />
+</g>
+
+<g id="node7" class="node">
+<title>n6</title>
+<g id="a_node7"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_searching_sequential" xlink:title="Sequential Searching\nAlgorithms" data-topic="dsa_algorithms_searching_sequential" tabindex="-1" aria-label="Sequential Searching Algorithms">
+<polygon fill="none" stroke="black" points="827.38,-169.75 657.62,-169.75 657.62,-124.25 827.38,-124.25 827.38,-169.75" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-150.55" font-family="Arial" font-size="16.00">Sequential Searching</text>
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-131.8" font-family="Arial" font-size="16.00">Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="edge10" class="edge">
+<title>n2-&gt;n6</title>
+<path fill="none" stroke="black" d="M565.81,-147C591.36,-147 619.64,-147 645.9,-147" />
+<polygon fill="black" stroke="black" points="645.9,-150.5 655.9,-147 645.9,-143.5 645.9,-150.5" />
+</g>
+
+<g id="node5" class="node">
+<title>n4</title>
+<g id="a_node5"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_searching_efficient_binary" xlink:title="Binary Search" data-topic="dsa_algorithms_searching_efficient_binary" tabindex="-1" aria-label="Binary Search">
+<polygon fill="none" stroke="black" points="1055.25,-52 938,-52 938,-16 1055.25,-16 1055.25,-52" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-28.18" font-family="Arial" font-size="16.00">Binary Search</text>
+</a>
+</g>
+</g>
+
+<g id="edge28" class="edge">
+<title>n3-&gt;n4</title>
+<path fill="none" stroke="black" d="M818.46,-68.43C852.76,-61.77 893.14,-53.92 926.67,-47.4" />
+<polygon fill="black" stroke="black" points="927.13,-50.88 936.28,-45.53 925.79,-44.01 927.13,-50.88" />
+</g>
+
+<g id="node6" class="node">
+<title>n5</title>
+<g id="a_node6"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_searching_efficient_hashing" xlink:title="Hashing" data-topic="dsa_algorithms_searching_efficient_hashing" tabindex="-1" aria-label="Hashing">
+<polygon fill="none" stroke="black" points="1034.25,-106 959,-106 959,-70 1034.25,-70 1034.25,-106" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-82.17" font-family="Arial" font-size="16.00">Hashing</text>
+</a>
+</g>
+</g>
+
+<g id="edge29" class="edge">
+<title>n3-&gt;n5</title>
+<path fill="none" stroke="black" d="M818.46,-84.49C860.25,-85.32 911.04,-86.32 947.51,-87.05" />
+<polygon fill="black" stroke="black" points="947.24,-90.54 957.31,-87.24 947.38,-83.54 947.24,-90.54" />
+</g>
+
+<g id="node8" class="node">
+<title>n7</title>
+<g id="a_node8"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_searching_sequential_linear" xlink:title="Linear Search" data-topic="dsa_algorithms_searching_sequential_linear" tabindex="-1" aria-label="Linear Search">
+<polygon fill="none" stroke="black" points="1054.88,-160 938.38,-160 938.38,-124 1054.88,-124 1054.88,-160" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-136.18" font-family="Arial" font-size="16.00">Linear Search</text>
+</a>
+</g>
+</g>
+
+<g id="edge27" class="edge">
+<title>n6-&gt;n7</title>
+<path fill="none" stroke="black" d="M827.8,-145.33C859.92,-144.69 896.11,-143.97 926.64,-143.37" />
+<polygon fill="black" stroke="black" points="926.6,-146.87 936.53,-143.17 926.46,-139.87 926.6,-146.87" />
+</g>
+
+<g id="node10" class="node">
+<title>n9</title>
+<g id="a_node10"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_comparison" xlink:title="Comparison-based Sorting\nAlgorithms" data-topic="dsa_algorithms_sorting_comparison" tabindex="-1" aria-label="Comparison-based Sorting Algorithms">
+<polygon fill="none" stroke="black" points="846.5,-353.75 638.5,-353.75 638.5,-308.25 846.5,-308.25 846.5,-353.75" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-334.55" font-family="Arial" font-size="16.00">Comparison-based Sorting</text>
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-315.8" font-family="Arial" font-size="16.00">Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="edge8" class="edge">
+<title>n8-&gt;n9</title>
+<path fill="none" stroke="black" d="M541.11,-393.52C575.17,-382.89 618.53,-369.37 656.2,-357.61" />
+<polygon fill="black" stroke="black" points="657.23,-360.96 665.73,-354.64 655.14,-354.28 657.23,-360.96" />
+</g>
+
+<g id="node16" class="node">
+<title>n15</title>
+<g id="a_node16"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_noncomparison" xlink:title="Non-comparison-based Sorting\nAlgorithms" data-topic="dsa_algorithms_sorting_noncomparison" tabindex="-1" aria-label="Non-comparison-based Sorting Algorithms">
+<polygon fill="none" stroke="black" points="862.25,-515.75 622.75,-515.75 622.75,-470.25 862.25,-470.25 862.25,-515.75" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-496.55" font-family="Arial" font-size="16.00">Non-comparison-based Sorting</text>
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-477.8" font-family="Arial" font-size="16.00">Algorithms</text>
+</a>
+</g>
+</g>
+
+<g id="edge9" class="edge">
+<title>n8-&gt;n15</title>
+<path fill="none" stroke="black" d="M541.11,-430.48C575.17,-441.11 618.53,-454.63 656.2,-466.39" />
+<polygon fill="black" stroke="black" points="655.14,-469.72 665.73,-469.36 657.23,-463.04 655.14,-469.72" />
+</g>
+
+<g id="node11" class="node">
+<title>n10</title>
+<g id="a_node11"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_comparison_bubble" xlink:title="Bubble Sort" data-topic="dsa_algorithms_sorting_comparison_bubble" tabindex="-1" aria-label="Bubble Sort">
+<polygon fill="none" stroke="black" points="1046.62,-214 946.62,-214 946.62,-178 1046.62,-178 1046.62,-214" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-190.18" font-family="Arial" font-size="16.00">Bubble Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge19" class="edge">
+<title>n9-&gt;n10</title>
+<path fill="none" stroke="black" d="M770.53,-307.82C800.1,-283.54 849.78,-245.81 898.25,-223 909.91,-217.51 922.9,-212.95 935.5,-209.23" />
+<polygon fill="black" stroke="black" points="936.27,-212.65 944.96,-206.59 934.39,-205.91 936.27,-212.65" />
+</g>
+
+<g id="node12" class="node">
+<title>n11</title>
+<g id="a_node12"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_comparison_insertion" xlink:title="Insertion Sort" data-topic="dsa_algorithms_sorting_comparison_insertion" tabindex="-1" aria-label="Insertion Sort">
+<polygon fill="none" stroke="black" points="1052.62,-268 940.62,-268 940.62,-232 1052.62,-232 1052.62,-268" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-244.18" font-family="Arial" font-size="16.00">Insertion Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge21" class="edge">
+<title>n9-&gt;n11</title>
+<path fill="none" stroke="black" d="M806.81,-307.86C834.71,-297.93 867.97,-286.47 898.25,-277 908.32,-273.85 919.02,-270.69 929.52,-267.7" />
+<polygon fill="black" stroke="black" points="930.21,-271.15 938.88,-265.07 928.31,-264.41 930.21,-271.15" />
+</g>
+
+<g id="node13" class="node">
+<title>n12</title>
+<g id="a_node13"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_comparison_merge" xlink:title="Merge Sort" data-topic="dsa_algorithms_sorting_comparison_merge" tabindex="-1" aria-label="Merge Sort">
+<polygon fill="none" stroke="black" points="1044.38,-322 948.88,-322 948.88,-286 1044.38,-286 1044.38,-322" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-298.18" font-family="Arial" font-size="16.00">Merge Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge22" class="edge">
+<title>n9-&gt;n12</title>
+<path fill="none" stroke="black" d="M846.78,-319.94C877.71,-316.63 910.55,-313.11 937.48,-310.23" />
+<polygon fill="black" stroke="black" points="937.57,-313.74 947.14,-309.19 936.82,-306.78 937.57,-313.74" />
+</g>
+
+<g id="node14" class="node">
+<title>n13</title>
+<g id="a_node14"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_comparison_quick" xlink:title="Quick Sort" data-topic="dsa_algorithms_sorting_comparison_quick" tabindex="-1" aria-label="Quick Sort">
+<polygon fill="none" stroke="black" points="1042.5,-376 950.75,-376 950.75,-340 1042.5,-340 1042.5,-376" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-352.18" font-family="Arial" font-size="16.00">Quick Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge23" class="edge">
+<title>n9-&gt;n13</title>
+<path fill="none" stroke="black" d="M846.78,-342.06C878.31,-345.44 911.81,-349.02 939.03,-351.94" />
+<polygon fill="black" stroke="black" points="938.46,-355.4 948.78,-352.98 939.21,-348.44 938.46,-355.4" />
+</g>
+
+<g id="node15" class="node">
+<title>n14</title>
+<g id="a_node15"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_comparison_selection" xlink:title="Selection Sort" data-topic="dsa_algorithms_sorting_comparison_selection" tabindex="-1" aria-label="Selection Sort">
+<polygon fill="none" stroke="black" points="1054.88,-430 938.38,-430 938.38,-394 1054.88,-394 1054.88,-430" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-406.18" font-family="Arial" font-size="16.00">Selection Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge20" class="edge">
+<title>n9-&gt;n14</title>
+<path fill="none" stroke="black" d="M806.81,-354.14C834.71,-364.07 867.97,-375.53 898.25,-385 907.56,-387.91 917.41,-390.83 927.14,-393.62" />
+<polygon fill="black" stroke="black" points="926,-396.93 936.58,-396.29 927.91,-390.2 926,-396.93" />
+</g>
+
+<g id="node17" class="node">
+<title>n16</title>
+<g id="a_node17"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_noncomparison_bucket" xlink:title="Bucket Sort" data-topic="dsa_algorithms_sorting_noncomparison_bucket" tabindex="-1" aria-label="Bucket Sort">
+<polygon fill="none" stroke="black" points="1046.25,-484 947,-484 947,-448 1046.25,-448 1046.25,-484" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-460.18" font-family="Arial" font-size="16.00">Bucket Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge26" class="edge">
+<title>n15-&gt;n16</title>
+<path fill="none" stroke="black" d="M862.55,-480.25C887.73,-477.55 913.29,-474.82 935.18,-472.47" />
+<polygon fill="black" stroke="black" points="935.53,-475.96 945.1,-471.41 934.79,-469 935.53,-475.96" />
+</g>
+
+<g id="node18" class="node">
+<title>n17</title>
+<g id="a_node18"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_noncomparison_counting" xlink:title="Counting Sort" data-topic="dsa_algorithms_sorting_noncomparison_counting" tabindex="-1" aria-label="Counting Sort">
+<polygon fill="none" stroke="black" points="1053.75,-538 939.5,-538 939.5,-502 1053.75,-502 1053.75,-538" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-514.17" font-family="Arial" font-size="16.00">Counting Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge24" class="edge">
+<title>n15-&gt;n17</title>
+<path fill="none" stroke="black" d="M862.55,-505.75C885.04,-508.16 907.82,-510.6 928.03,-512.76" />
+<polygon fill="black" stroke="black" points="927.47,-516.22 937.79,-513.81 928.22,-509.26 927.47,-516.22" />
+</g>
+
+<g id="node19" class="node">
+<title>n18</title>
+<g id="a_node19"><a xlink:href="#roadmap=dsa&amp;topic=dsa_algorithms_sorting_noncomparison_radix" xlink:title="Radix Sort" data-topic="dsa_algorithms_sorting_noncomparison_radix" tabindex="-1" aria-label="Radix Sort">
+<polygon fill="none" stroke="black" points="1042.12,-592 951.12,-592 951.12,-556 1042.12,-556 1042.12,-592" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-568.17" font-family="Arial" font-size="16.00">Radix Sort</text>
+</a>
+</g>
+</g>
+
+<g id="edge25" class="edge">
+<title>n15-&gt;n18</title>
+<path fill="none" stroke="black" d="M806.81,-516.14C834.71,-526.07 867.97,-537.53 898.25,-547 911.73,-551.21 926.35,-555.45 940.08,-559.27" />
+<polygon fill="black" stroke="black" points="938.82,-562.56 949.39,-561.84 940.68,-555.81 938.82,-562.56" />
+</g>
+
+<g id="node22" class="node">
+<title>n21</title>
+<g id="a_node22"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear" xlink:title="Linear Data Structures" data-topic="dsa_data_linear" tabindex="-1" aria-label="Linear Data Structures">
+<polygon fill="none" stroke="black" points="569.5,-875 392.25,-875 392.25,-839 569.5,-839 569.5,-875" />
+<text xml:space="preserve" text-anchor="middle" x="480.88" y="-851.17" font-family="Arial" font-size="16.00">Linear Data Structures</text>
+</a>
+</g>
+</g>
+
+<g id="edge6" class="edge">
+<title>n20-&gt;n21</title>
+<path fill="none" stroke="black" d="M339.48,-857C352.57,-857 366.65,-857 380.67,-857" />
+<polygon fill="black" stroke="black" points="380.36,-860.5 390.36,-857 380.36,-853.5 380.36,-860.5" />
+</g>
+
+<g id="node36" class="node">
+<title>n35</title>
+<g id="a_node36"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear" xlink:title="Non-Linear Data Structures" data-topic="dsa_data_nonlinear" tabindex="-1" aria-label="Non-Linear Data Structures">
+<polygon fill="none" stroke="black" points="586.75,-1253 375,-1253 375,-1217 586.75,-1217 586.75,-1253" />
+<text xml:space="preserve" text-anchor="middle" x="480.88" y="-1229.17" font-family="Arial" font-size="16.00">Non-Linear Data Structures</text>
+</a>
+</g>
+</g>
+
+<g id="edge7" class="edge">
+<title>n20-&gt;n35</title>
+<path fill="none" stroke="black" d="M286.09,-875.49C319.06,-936.66 424.79,-1132.8 464.56,-1206.58" />
+<polygon fill="black" stroke="black" points="461.39,-1208.07 469.21,-1215.22 467.55,-1204.75 461.39,-1208.07" />
+</g>
+
+<g id="node23" class="node">
+<title>n22</title>
+<g id="a_node23"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_arrays" xlink:title="Arrays" data-topic="dsa_data_linear_arrays" tabindex="-1" aria-label="Arrays">
+<polygon fill="none" stroke="black" points="773.75,-700 711.25,-700 711.25,-664 773.75,-664 773.75,-700" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-676.17" font-family="Arial" font-size="16.00">Arrays</text>
+</a>
+</g>
+</g>
+
+<g id="edge12" class="edge">
+<title>n21-&gt;n22</title>
+<path fill="none" stroke="black" d="M509.17,-838.6C556.11,-806.96 652.16,-742.22 704.87,-706.69" />
+<polygon fill="black" stroke="black" points="706.59,-709.75 712.93,-701.26 702.68,-703.95 706.59,-709.75" />
+</g>
+
+<g id="node26" class="node">
+<title>n25</title>
+<g id="a_node26"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_lists" xlink:title="Linked Lists" data-topic="dsa_data_linear_lists" tabindex="-1" aria-label="Linked Lists">
+<polygon fill="none" stroke="black" points="793.62,-835 691.38,-835 691.38,-799 793.62,-799 793.62,-835" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-811.17" font-family="Arial" font-size="16.00">Linked Lists</text>
+</a>
+</g>
+</g>
+
+<g id="edge13" class="edge">
+<title>n21-&gt;n25</title>
+<path fill="none" stroke="black" d="M569.77,-843.46C605.96,-837.88 647.02,-831.56 679.91,-826.49" />
+<polygon fill="black" stroke="black" points="680.34,-829.96 689.69,-824.98 679.27,-823.05 680.34,-829.96" />
+</g>
+
+<g id="node30" class="node">
+<title>n29</title>
+<g id="a_node30"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_queues" xlink:title="Queues" data-topic="dsa_data_linear_queues" tabindex="-1" aria-label="Queues">
+<polygon fill="none" stroke="black" points="779,-916 706,-916 706,-880 779,-880 779,-916" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-892.17" font-family="Arial" font-size="16.00">Queues</text>
+</a>
+</g>
+</g>
+
+<g id="edge15" class="edge">
+<title>n21-&gt;n29</title>
+<path fill="none" stroke="black" d="M569.77,-870.88C611.54,-877.48 659.79,-885.1 694.49,-890.58" />
+<polygon fill="black" stroke="black" points="693.79,-894.01 704.21,-892.11 694.88,-887.09 693.79,-894.01" />
+</g>
+
+<g id="node33" class="node">
+<title>n32</title>
+<g id="a_node33"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_stacks" xlink:title="Stacks" data-topic="dsa_data_linear_stacks" tabindex="-1" aria-label="Stacks">
+<polygon fill="none" stroke="black" points="774.88,-1024 710.12,-1024 710.12,-988 774.88,-988 774.88,-1024" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-1000.17" font-family="Arial" font-size="16.00">Stacks</text>
+</a>
+</g>
+</g>
+
+<g id="edge14" class="edge">
+<title>n21-&gt;n32</title>
+<path fill="none" stroke="black" d="M513.97,-875.42C560.9,-902.35 648.29,-952.5 700.03,-982.2" />
+<polygon fill="black" stroke="black" points="698.16,-985.16 708.57,-987.1 701.64,-979.09 698.16,-985.16" />
+</g>
+
+<g id="node24" class="node">
+<title>n23</title>
+<g id="a_node24"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_arrays_dynamic" xlink:title="Dynamic Arrays" data-topic="dsa_data_linear_arrays_dynamic" tabindex="-1" aria-label="Dynamic Arrays">
+<polygon fill="none" stroke="black" points="1061.25,-646 932,-646 932,-610 1061.25,-610 1061.25,-646" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-622.17" font-family="Arial" font-size="16.00">Dynamic Arrays</text>
+</a>
+</g>
+</g>
+
+<g id="edge31" class="edge">
+<title>n22-&gt;n23</title>
+<path fill="none" stroke="black" d="M774.16,-675.43C810.26,-667.7 871.5,-654.59 920.44,-644.1" />
+<polygon fill="black" stroke="black" points="921.11,-647.54 930.15,-642.02 919.64,-640.7 921.11,-647.54" />
+</g>
+
+<g id="node25" class="node">
+<title>n24</title>
+<g id="a_node25"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_arrays_static" xlink:title="Static Arrays" data-topic="dsa_data_linear_arrays_static" tabindex="-1" aria-label="Static Arrays">
+<polygon fill="none" stroke="black" points="1050,-700 943.25,-700 943.25,-664 1050,-664 1050,-700" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-676.17" font-family="Arial" font-size="16.00">Static Arrays</text>
+</a>
+</g>
+</g>
+
+<g id="edge30" class="edge">
+<title>n22-&gt;n24</title>
+<path fill="none" stroke="black" d="M774.16,-682C813,-682 880.93,-682 931.35,-682" />
+<polygon fill="black" stroke="black" points="931.28,-685.5 941.28,-682 931.28,-678.5 931.28,-685.5" />
+</g>
+
+<g id="node27" class="node">
+<title>n26</title>
+<g id="a_node27"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_lists_circular" xlink:title="Circular Linked Lists" data-topic="dsa_data_linear_lists_circular" tabindex="-1" aria-label="Circular Linked Lists">
+<polygon fill="none" stroke="black" points="1077.75,-754 915.5,-754 915.5,-718 1077.75,-718 1077.75,-754" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-730.17" font-family="Arial" font-size="16.00">Circular Linked Lists</text>
+</a>
+</g>
+</g>
+
+<g id="edge34" class="edge">
+<title>n25-&gt;n26</title>
+<path fill="none" stroke="black" d="M793.75,-798.53C823.89,-787.69 863.08,-774 898.25,-763 904.01,-761.2 909.97,-759.4 915.99,-757.62" />
+<polygon fill="black" stroke="black" points="916.75,-761.04 925.38,-754.89 914.8,-754.32 916.75,-761.04" />
+</g>
+
+<g id="node28" class="node">
+<title>n27</title>
+<g id="a_node28"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_lists_doubly" xlink:title="Doubly Linked Lists" data-topic="dsa_data_linear_lists_doubly" tabindex="-1" aria-label="Doubly Linked Lists">
+<polygon fill="none" stroke="black" points="1075.12,-808 918.12,-808 918.12,-772 1075.12,-772 1075.12,-808" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-784.17" font-family="Arial" font-size="16.00">Doubly Linked Lists</text>
+</a>
+</g>
+</g>
+
+<g id="edge33" class="edge">
+<title>n25-&gt;n27</title>
+<path fill="none" stroke="black" d="M793.92,-811.6C826.22,-808.14 869.05,-803.56 906.92,-799.5" />
+<polygon fill="black" stroke="black" points="906.9,-803.02 916.47,-798.48 906.16,-796.06 906.9,-803.02" />
+</g>
+
+<g id="node29" class="node">
+<title>n28</title>
+<g id="a_node29"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_lists_singly" xlink:title="Singly Linked Lists" data-topic="dsa_data_linear_lists_singly" tabindex="-1" aria-label="Singly Linked Lists">
+<polygon fill="none" stroke="black" points="1072.12,-862 921.12,-862 921.12,-826 1072.12,-826 1072.12,-862" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-838.17" font-family="Arial" font-size="16.00">Singly Linked Lists</text>
+</a>
+</g>
+</g>
+
+<g id="edge32" class="edge">
+<title>n25-&gt;n28</title>
+<path fill="none" stroke="black" d="M793.92,-822.4C827.01,-825.94 871.13,-830.67 909.67,-834.8" />
+<polygon fill="black" stroke="black" points="909.09,-838.25 919.4,-835.84 909.83,-831.29 909.09,-838.25" />
+</g>
+
+<g id="node31" class="node">
+<title>n30</title>
+<g id="a_node31"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_queues_array" xlink:title="Array-based Queue" data-topic="dsa_data_linear_queues_array" tabindex="-1" aria-label="Array-based Queue">
+<polygon fill="none" stroke="black" points="1075.12,-916 918.12,-916 918.12,-880 1075.12,-880 1075.12,-916" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-892.17" font-family="Arial" font-size="16.00">Array-based Queue</text>
+</a>
+</g>
+</g>
+
+<g id="edge37" class="edge">
+<title>n29-&gt;n30</title>
+<path fill="none" stroke="black" d="M779.36,-898C812.37,-898 862.73,-898 906.54,-898" />
+<polygon fill="black" stroke="black" points="906.31,-901.5 916.31,-898 906.31,-894.5 906.31,-901.5" />
+</g>
+
+<g id="node32" class="node">
+<title>n31</title>
+<g id="a_node32"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_queues_list" xlink:title="Linked List-based Queue" data-topic="dsa_data_linear_queues_list" tabindex="-1" aria-label="Linked List-based Queue">
+<polygon fill="none" stroke="black" points="1095,-970 898.25,-970 898.25,-934 1095,-934 1095,-970" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-946.17" font-family="Arial" font-size="16.00">Linked List-based Queue</text>
+</a>
+</g>
+</g>
+
+<g id="edge38" class="edge">
+<title>n29-&gt;n31</title>
+<path fill="none" stroke="black" d="M779.36,-905.68C810.31,-912.31 856.49,-922.2 898.24,-931.14" />
+<polygon fill="black" stroke="black" points="897.32,-934.53 907.84,-933.2 898.79,-927.68 897.32,-934.53" />
+</g>
+
+<g id="node34" class="node">
+<title>n33</title>
+<g id="a_node34"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_stacks_array" xlink:title="Array-based Stack" data-topic="dsa_data_linear_stacks_array" tabindex="-1" aria-label="Array-based Stack">
+<polygon fill="none" stroke="black" points="1071,-1024 922.25,-1024 922.25,-988 1071,-988 1071,-1024" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1000.17" font-family="Arial" font-size="16.00">Array-based Stack</text>
+</a>
+</g>
+</g>
+
+<g id="edge35" class="edge">
+<title>n32-&gt;n33</title>
+<path fill="none" stroke="black" d="M775.18,-1006C808.96,-1006 863.9,-1006 910.49,-1006" />
+<polygon fill="black" stroke="black" points="910.31,-1009.5 920.31,-1006 910.31,-1002.5 910.31,-1009.5" />
+</g>
+
+<g id="node35" class="node">
+<title>n34</title>
+<g id="a_node35"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_linear_stacks_list" xlink:title="Linked List-based Stack" data-topic="dsa_data_linear_stacks_list" tabindex="-1" aria-label="Linked List-based Stack">
+<polygon fill="none" stroke="black" points="1090.88,-1078 902.38,-1078 902.38,-1042 1090.88,-1042 1090.88,-1078" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1054.17" font-family="Arial" font-size="16.00">Linked List-based Stack</text>
+</a>
+</g>
+</g>
+
+<g id="edge36" class="edge">
+<title>n32-&gt;n34</title>
+<path fill="none" stroke="black" d="M775.18,-1012.78C806.08,-1019.4 854.7,-1029.82 898.43,-1039.18" />
+<polygon fill="black" stroke="black" points="897.43,-1042.55 907.95,-1041.22 898.9,-1035.7 897.43,-1042.55" />
+</g>
+
+<g id="node37" class="node">
+<title>n36</title>
+<g id="a_node37"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_graphs" xlink:title="Graphs" data-topic="dsa_data_nonlinear_graphs" tabindex="-1" aria-label="Graphs">
+<polygon fill="none" stroke="black" points="777.12,-1213 707.88,-1213 707.88,-1177 777.12,-1177 777.12,-1213" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-1189.17" font-family="Arial" font-size="16.00">Graphs</text>
+</a>
+</g>
+</g>
+
+<g id="edge17" class="edge">
+<title>n35-&gt;n36</title>
+<path fill="none" stroke="black" d="M587.1,-1218.79C625.24,-1212.91 666.32,-1206.58 696.51,-1201.93" />
+<polygon fill="black" stroke="black" points="696.67,-1205.45 706.02,-1200.47 695.61,-1198.53 696.67,-1205.45" />
+</g>
+
+<g id="node41" class="node">
+<title>n40</title>
+<g id="a_node41"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_heaps" xlink:title="Heaps" data-topic="dsa_data_nonlinear_heaps" tabindex="-1" aria-label="Heaps">
+<polygon fill="none" stroke="black" points="773.75,-1294 711.25,-1294 711.25,-1258 773.75,-1258 773.75,-1294" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-1270.17" font-family="Arial" font-size="16.00">Heaps</text>
+</a>
+</g>
+</g>
+
+<g id="edge18" class="edge">
+<title>n35-&gt;n40</title>
+<path fill="none" stroke="black" d="M587.1,-1251.62C626.61,-1257.86 669.28,-1264.59 699.72,-1269.4" />
+<polygon fill="black" stroke="black" points="698.84,-1272.81 709.27,-1270.91 699.93,-1265.89 698.84,-1272.81" />
+</g>
+
+<g id="node44" class="node">
+<title>n43</title>
+<g id="a_node44"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_trees" xlink:title="Trees" data-topic="dsa_data_nonlinear_trees" tabindex="-1" aria-label="Trees">
+<polygon fill="none" stroke="black" points="770.75,-1429 714.25,-1429 714.25,-1393 770.75,-1393 770.75,-1429" />
+<text xml:space="preserve" text-anchor="middle" x="742.5" y="-1405.17" font-family="Arial" font-size="16.00">Trees</text>
+</a>
+</g>
+</g>
+
+<g id="edge16" class="edge">
+<title>n35-&gt;n43</title>
+<path fill="none" stroke="black" d="M508.68,-1253.17C555.52,-1284.92 652.28,-1350.52 705.12,-1386.34" />
+<polygon fill="black" stroke="black" points="702.96,-1389.1 713.2,-1391.81 706.88,-1383.31 702.96,-1389.1" />
+</g>
+
+<g id="node38" class="node">
+<title>n37</title>
+<g id="a_node38"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_graphs_directed" xlink:title="Directed Graphs" data-topic="dsa_data_nonlinear_graphs_directed" tabindex="-1" aria-label="Directed Graphs">
+<polygon fill="none" stroke="black" points="1063.5,-1132 929.75,-1132 929.75,-1096 1063.5,-1096 1063.5,-1132" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1108.17" font-family="Arial" font-size="16.00">Directed Graphs</text>
+</a>
+</g>
+</g>
+
+<g id="edge42" class="edge">
+<title>n36-&gt;n37</title>
+<path fill="none" stroke="black" d="M777.4,-1182.45C808.61,-1171.07 856.29,-1154.12 898.25,-1141 904.84,-1138.94 911.71,-1136.87 918.61,-1134.85" />
+<polygon fill="black" stroke="black" points="919.37,-1138.28 928,-1132.14 917.42,-1131.55 919.37,-1138.28" />
+</g>
+
+<g id="node39" class="node">
+<title>n38</title>
+<g id="a_node39"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_graphs_undirected" xlink:title="Undirected Graphs" data-topic="dsa_data_nonlinear_graphs_undirected" tabindex="-1" aria-label="Undirected Graphs">
+<polygon fill="none" stroke="black" points="1072.5,-1186 920.75,-1186 920.75,-1150 1072.5,-1150 1072.5,-1186" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1162.17" font-family="Arial" font-size="16.00">Undirected Graphs</text>
+</a>
+</g>
+</g>
+
+<g id="edge43" class="edge">
+<title>n36-&gt;n38</title>
+<path fill="none" stroke="black" d="M777.5,-1191.36C811.08,-1187.76 863.83,-1182.11 909.03,-1177.27" />
+<polygon fill="black" stroke="black" points="909.27,-1180.77 918.85,-1176.22 908.53,-1173.81 909.27,-1180.77" />
+</g>
+
+<g id="node40" class="node">
+<title>n39</title>
+<g id="a_node40"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_graphs_weighted" xlink:title="Weighted Graphs" data-topic="dsa_data_nonlinear_graphs_weighted" tabindex="-1" aria-label="Weighted Graphs">
+<polygon fill="none" stroke="black" points="1067.62,-1240 925.62,-1240 925.62,-1204 1067.62,-1204 1067.62,-1240" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1216.17" font-family="Arial" font-size="16.00">Weighted Graphs</text>
+</a>
+</g>
+</g>
+
+<g id="edge44" class="edge">
+<title>n36-&gt;n39</title>
+<path fill="none" stroke="black" d="M777.5,-1198.64C812.33,-1202.37 867.78,-1208.31 914.05,-1213.26" />
+<polygon fill="black" stroke="black" points="913.48,-1216.72 923.79,-1214.31 914.22,-1209.76 913.48,-1216.72" />
+</g>
+
+<g id="node42" class="node">
+<title>n41</title>
+<g id="a_node42"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_heaps_max" xlink:title="Max Heap" data-topic="dsa_data_nonlinear_heaps_max" tabindex="-1" aria-label="Max Heap">
+<polygon fill="none" stroke="black" points="1041.38,-1294 951.88,-1294 951.88,-1258 1041.38,-1258 1041.38,-1294" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1270.17" font-family="Arial" font-size="16.00">Max Heap</text>
+</a>
+</g>
+</g>
+
+<g id="edge46" class="edge">
+<title>n40-&gt;n41</title>
+<path fill="none" stroke="black" d="M774.16,-1276C815.31,-1276 889.13,-1276 940.16,-1276" />
+<polygon fill="black" stroke="black" points="940.13,-1279.5 950.13,-1276 940.13,-1272.5 940.13,-1279.5" />
+</g>
+
+<g id="node43" class="node">
+<title>n42</title>
+<g id="a_node43"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_heaps_min" xlink:title="Min Heap" data-topic="dsa_data_nonlinear_heaps_min" tabindex="-1" aria-label="Min Heap">
+<polygon fill="none" stroke="black" points="1039.12,-1348 954.12,-1348 954.12,-1312 1039.12,-1312 1039.12,-1348" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1324.17" font-family="Arial" font-size="16.00">Min Heap</text>
+</a>
+</g>
+</g>
+
+<g id="edge45" class="edge">
+<title>n40-&gt;n42</title>
+<path fill="none" stroke="black" d="M774.16,-1282.57C816.01,-1291.53 891.64,-1307.73 942.73,-1318.67" />
+<polygon fill="black" stroke="black" points="941.89,-1322.07 952.4,-1320.74 943.36,-1315.23 941.89,-1322.07" />
+</g>
+
+<g id="node45" class="node">
+<title>n44</title>
+<g id="a_node45"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_trees_avl" xlink:title="AVL Trees" data-topic="dsa_data_nonlinear_trees_avl" tabindex="-1" aria-label="AVL Trees">
+<polygon fill="none" stroke="black" points="1041.38,-1402 951.88,-1402 951.88,-1366 1041.38,-1366 1041.38,-1402" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1378.17" font-family="Arial" font-size="16.00">AVL Trees</text>
+</a>
+</g>
+</g>
+
+<g id="edge40" class="edge">
+<title>n43-&gt;n44</title>
+<path fill="none" stroke="black" d="M770.96,-1408.06C811.42,-1403.73 887.91,-1395.53 940.3,-1389.92" />
+<polygon fill="black" stroke="black" points="940.67,-1393.4 950.24,-1388.86 939.93,-1386.44 940.67,-1393.4" />
+</g>
+
+<g id="node46" class="node">
+<title>n45</title>
+<g id="a_node46"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_trees_b" xlink:title="B-trees" data-topic="dsa_data_nonlinear_trees_b" tabindex="-1" aria-label="B-trees">
+<polygon fill="none" stroke="black" points="1030.5,-1456 962.75,-1456 962.75,-1420 1030.5,-1420 1030.5,-1456" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1432.17" font-family="Arial" font-size="16.00">B-trees</text>
+</a>
+</g>
+</g>
+
+<g id="edge41" class="edge">
+<title>n43-&gt;n45</title>
+<path fill="none" stroke="black" d="M770.96,-1413.94C814.39,-1418.59 899.32,-1427.69 951.41,-1433.27" />
+<polygon fill="black" stroke="black" points="950.81,-1436.72 961.13,-1434.31 951.56,-1429.76 950.81,-1436.72" />
+</g>
+
+<g id="node47" class="node">
+<title>n46</title>
+<g id="a_node47"><a xlink:href="#roadmap=dsa&amp;topic=dsa_data_nonlinear_trees_binary" xlink:title="Binary Trees" data-topic="dsa_data_nonlinear_trees_binary" tabindex="-1" aria-label="Binary Trees">
+<polygon fill="none" stroke="black" points="1050,-1510 943.25,-1510 943.25,-1474 1050,-1474 1050,-1510" />
+<text xml:space="preserve" text-anchor="middle" x="996.62" y="-1486.17" font-family="Arial" font-size="16.00">Binary Trees</text>
+</a>
+</g>
+</g>
+
+<g id="edge39" class="edge">
+<title>n43-&gt;n46</title>
+<path fill="none" stroke="black" d="M770.99,-1421.2C801.8,-1432.49 853.3,-1450.94 898.25,-1465 909.05,-1468.38 920.59,-1471.77 931.81,-1474.95" />
+<polygon fill="black" stroke="black" points="930.85,-1478.32 941.43,-1477.64 932.74,-1471.57 930.85,-1478.32" />
+</g>
+</g>
+</svg>
