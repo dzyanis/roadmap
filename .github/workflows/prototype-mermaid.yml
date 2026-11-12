@@ -1,0 +1,47 @@
+name: Mermaid prototype
+on:
+  pull_request:
+    paths:
+      - 'docs/prototypes/mermaid/**'
+      - 'tests/test_prototype_mermaid.py'
+      - 'subjects/**'
+      - 'roadmaps/**'
+      - 'tools/**'
+      - '.github/workflows/prototype-mermaid.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  prototype:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '26.13.0'
+          cache: npm
+          cache-dependency-path: docs/prototypes/mermaid/package-lock.json
+      - name: Install baseline and XML tools
+        run: sudo apt-get update && sudo apt-get install --yes graphviz libxml2-utils
+      - name: Install locked browser tools
+        working-directory: docs/prototypes/mermaid
+        run: npm ci
+      - name: Check committed XML/data parity
+        run: python3 -m unittest discover -s tests -p 'test_prototype_mermaid.py' -v
+      - name: Rebuild the experiment
+        run: python3 docs/prototypes/mermaid/build.py
+      - name: Check desktop/mobile interaction and produce PNG previews
+        working-directory: docs/prototypes/mermaid
+        run: npm test
+      - name: Upload runnable static demo and evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: mermaid-prototype
+          path: |
+            docs/prototypes/mermaid/demo/
+            docs/prototypes/mermaid/previews/
+            docs/prototypes/mermaid/browser-results.json

@@ -1,0 +1,907 @@
+flowchart LR
+subgraph s0["roadmap"]
+direction LR
+n0["Go Engineer"]
+end
+subgraph s1["computer-science"]
+direction LR
+n1["Code Standards and Code<br/>Review Process"]
+n2["Computer Science"]
+n3["Artificial Intelligence and<br/>Machine Learning"]
+n4["Architecture knowledge"]
+n5["Domain-Driven Design"]
+n6["Distributed Systems"]
+n7["Event Sourcing"]
+n8["Functional Programming"]
+n9["Microservices"]
+n10["Object-Oriented Programming"]
+n11["Encapsulation"]
+n12["Inheritance"]
+n13["Polymorphism"]
+n14["Design Patterns"]
+n15["SOLID"]
+n16["Blockchain and<br/>Cryptocurrency"]
+n17["Hardware"]
+n18["Security and Encryption"]
+n19["Systems Programming"]
+end
+subgraph s2["databases"]
+direction LR
+n20["Databases"]
+n21["Indexes"]
+n22["Message Broker"]
+n23["Amazon Simple Queue Service"]
+n24["Kafka"]
+n25["RabbitMQ"]
+n26["MySQL"]
+n27["NOSQL"]
+n28["BASE"]
+n29["CAP Theorem"]
+n30["ClickHouse"]
+n31["Column base"]
+n32["Wide column base"]
+n33["Document base"]
+n34["Graph database"]
+n35["MongoDB"]
+n36["Neo4j"]
+n37["OrientDB"]
+n38["Redis"]
+n39["Time series"]
+n40["Principles"]
+n41["Relational"]
+n42["ACID"]
+n43["Blocking"]
+n44["Firebird"]
+n45["Multiversion Concurrency<br/>Control"]
+n46["Object-oriented"]
+n47["Oracle"]
+n48["PostgreSQL"]
+n49["Search Engines"]
+n50["Elasticseaerch"]
+n51["Sphinx"]
+n52["SQL"]
+n53["Transactions"]
+end
+subgraph s3["software-development"]
+direction LR
+n54["Software Development<br/>Processes"]
+n55["Build Systems"]
+n56["Ant"]
+n57["Gradle"]
+n58["Make"]
+n59["Maven"]
+n60["Debugging"]
+n61["Logging"]
+n62["Monitoring"]
+n63["Troubleshooting"]
+n64["Deployment"]
+n65["Continuous Delivery"]
+n66["Continuous Integration"]
+n67["Estimations"]
+n68["Management"]
+n69["Methodologies and Frameworks"]
+n70["The Twelve-Factor App"]
+n71["Kanban"]
+n72["SCRUM"]
+n73["Extreme Programming"]
+n74["Orchestration"]
+n75["Ansible"]
+n76["Kubernetes"]
+n77["Puppet"]
+n78["Paradigms and Models"]
+n79["Testing"]
+n80["Behavior-driven development"]
+n81["Test-driven development"]
+n82["Bug tracking systems"]
+n83["Jira"]
+n84["Redmine"]
+n85["TFS"]
+n86["Version Control"]
+n87["Git"]
+n210["Planning Poker"]
+n211["Agile"]
+n212["Waterfall"]
+n213["Time Management"]
+n214["Getting Things Done"]
+n215["Pareto analysis"]
+n216["Pomodoro"]
+end
+subgraph s4["data-structures-algorithms"]
+direction LR
+n88["Data Structures and<br/>Algorithms"]
+n89["Algorithms"]
+n90["Searching Algorithms"]
+n91["Efficient Searching<br/>Algorithms"]
+n92["Binary Search"]
+n93["Hashing"]
+n94["Sequential Searching<br/>Algorithms"]
+n95["Linear Search"]
+n96["Sorting Algorithms"]
+n97["Comparison-based Sorting<br/>Algorithms"]
+n98["Bubble Sort"]
+n99["Insertion Sort"]
+n100["Merge Sort"]
+n101["Quick Sort"]
+n102["Selection Sort"]
+n103["Non-comparison-based Sorting<br/>Algorithms"]
+n104["Bucket Sort"]
+n105["Counting Sort"]
+n106["Radix Sort"]
+n107["Analysis"]
+n108["Data Structures"]
+n109["Linear Data Structures"]
+n110["Arrays"]
+n111["Dynamic Arrays"]
+n112["Static Arrays"]
+n113["Linked Lists"]
+n114["Circular Linked Lists"]
+n115["Doubly Linked Lists"]
+n116["Singly Linked Lists"]
+n117["Queues"]
+n118["Array-based Queue"]
+n119["Linked List-based Queue"]
+n120["Stacks"]
+n121["Array-based Stack"]
+n122["Linked List-based Stack"]
+n123["Non-Linear Data Structures"]
+n124["Graphs"]
+n125["Directed Graphs"]
+n126["Undirected Graphs"]
+n127["Weighted Graphs"]
+n128["Heaps"]
+n129["Max Heap"]
+n130["Min Heap"]
+n131["Trees"]
+n132["AVL Trees"]
+n133["B-trees"]
+n134["Binary Trees"]
+end
+subgraph s5["go"]
+direction LR
+n135["Golang"]
+n136["Application"]
+n137["Context"]
+n138["Encoding"]
+n139["JSON"]
+n140["XML"]
+n141["Errors handling"]
+n142["Frameworks"]
+n143["Beego"]
+n144["Echo"]
+n145["Gin"]
+n146["Go-Kit"]
+n147["protobuf/gRPC"]
+n148["Templates"]
+n149["WebSocket"]
+n150["Concurrency"]
+n151["Channels"]
+n152["Goroutines"]
+n153["Patterns"]
+n154["Barrier"]
+n155["Future"]
+n156["Pipeline"]
+n157["Worker Pool (Thread pool)"]
+n158["Race Condition"]
+n159["Select"]
+n160["Package sync"]
+n161["atomic"]
+n162["Map"]
+n163["Mutex"]
+n164["Once"]
+n165["Pool"]
+n166["WaitGroup"]
+n167["Functions"]
+n168["Panic/Recover/Defer"]
+n169["Closure/Recursion"]
+n170["First-class function"]
+n171["Panic"]
+n172["Recover"]
+n173["init/main"]
+n174["Lambda/Variadic"]
+n175["Runtime"]
+n176["Garbage Collector"]
+n177["Package reflect"]
+n178["Scheduler"]
+n179["Package unsafe"]
+n180["Testing"]
+n181["Libraries and Frameworks"]
+n182["ginkgo"]
+n183["goconvey"]
+n184["testify"]
+n185["Mocking"]
+n186["go test/benchmark"]
+n187["Dependencies Management"]
+n188["dep"]
+n189["mod"]
+n190["godoc"]
+n191["gofmt"]
+n192["Linters (GolangCI, golint<br/>and etc)"]
+n193["pprof"]
+n194["vet"]
+n195["Tools"]
+n196["Types"]
+n197["Array/Slice"]
+n198["Constants"]
+n199["Conversion/Checking"]
+n200["Interface"]
+n201["Maps"]
+n202["Integers/Unsigned/Floating-point"]
+n203["Object-Oriented Programming"]
+n204["Encapsulation"]
+n205["Inheritance/Composition/Embedding"]
+n206["Polymorphism"]
+n207["struct"]
+n208["Pointer"]
+n209["Strings/Runes/Bytes"]
+end
+subgraph s6["networking"]
+direction LR
+n217["Computer Network"]
+n218["Authorization and<br/>Authentication"]
+n219["Authentication"]
+n220["Authorization"]
+n221["Cookie"]
+n222["JWT"]
+n223["OAuth"]
+n224["DNS"]
+n225["GraphQL"]
+n226["gRPC"]
+n227["Open Systems Interconnection<br/>model"]
+n228["Protocols"]
+n229["HTTP"]
+n230["IP"]
+n231["SSL"]
+n232["TCP"]
+n233["TLS"]
+n234["UDP"]
+n235["REST API"]
+n236["SOAP"]
+n237["Websocket"]
+end
+subgraph s7["operating-systems"]
+direction LR
+n238["Operating Systems"]
+n239["File Systems and Persistence"]
+n240["Writeback, Journaling, and<br/>Crash Recovery"]
+n241["Files, Directories, Mounts,<br/>and Links"]
+n242["File Ownership and<br/>Permissions"]
+n243["Kernel and User Space"]
+n244["Interrupts, Exceptions, and<br/>Timers"]
+n245["Privilege Levels and System<br/>Calls"]
+n246["Input and Output"]
+n247["Buffering and Caching"]
+n248["File Descriptors and Device<br/>I/O"]
+n249["Blocking, Nonblocking I/O,<br/>and Readiness"]
+n250["Linux Administration and<br/>Diagnostics"]
+n251["Process and CPU Inspection<br/>(ps, top)"]
+n252["Memory, Disk Space, and I/O<br/>(vmstat, df, du, iostat)"]
+n253["Service Lifecycle and Logs<br/>(systemd)"]
+n254["System Call Tracing (strace)"]
+n255["Memory Management"]
+n256["Address Spaces and Memory<br/>Mapping"]
+n257["Allocation: Stack and Heap"]
+n258["Paging, Page Faults, and<br/>Swapping"]
+n259["Page Tables and Translation<br/>Lookaside Buffers"]
+n260["Virtual Memory"]
+n261["Processes and Threads"]
+n262["Race Conditions and<br/>Deadlocks"]
+n263["IPC: Pipes, Shared Memory,<br/>and Message Queues"]
+n264["Process Creation, Execution,<br/>and Exit"]
+n265["Concurrency and Parallelism"]
+n266["CPU Scheduling and Context<br/>Switching"]
+n267["Signals and Process<br/>Termination"]
+n268["Locks, Semaphores, and<br/>Condition Variables"]
+n269["Thread Lifecycle and Shared<br/>Address Space"]
+n270["Protection and Access<br/>Control"]
+n271["Users, Groups, and Least<br/>Privilege"]
+n272["Process Isolation and Access<br/>Checks"]
+n273["Shells and Command-Line<br/>Fundamentals"]
+n274["Bash"]
+n275["Quoting, Expansion, and<br/>Environment Variables"]
+n276["Exit Status, Signals, and<br/>Job Control"]
+n277["Pipelines and Redirection"]
+n278["Zsh"]
+n279["Operating System<br/>Characteristics"]
+n280["Workload: Batch Processing"]
+n281["Coordination: Distributed<br/>Systems"]
+n282["Connectivity: Network<br/>Operating Systems"]
+n283["Timing: Real-Time Guarantees"]
+n284["Workload: Interactive<br/>Time-Sharing"]
+n285["Virtualization"]
+n286["Linux Control Groups"]
+n287["Hosts, Guests, and Virtual<br/>Hardware"]
+n288["OS-Level Virtualization and<br/>Containers"]
+n289["Docker"]
+n290["Linux Namespaces"]
+n291["Hardware Virtualization and<br/>Hypervisors"]
+n292["VirtualBox"]
+n293["VMware ESXi"]
+end
+n2 --> n4
+n2 --> n1
+n2 --> n19
+n2 --> n3
+n2 --> n17
+n2 --> n18
+n2 --> n16
+n4 --> n9
+n4 --> n5
+n4 --> n15
+n4 --> n14
+n4 --> n7
+n4 --> n10
+n4 --> n8
+n4 --> n6
+n10 --> n11
+n10 --> n12
+n10 --> n13
+n135 --> n196
+n135 --> n167
+n135 --> n150
+n135 --> n195
+n135 --> n180
+n135 --> n175
+n135 --> n136
+n196 --> n209
+n196 --> n202
+n196 --> n208
+n196 --> n197
+n196 --> n201
+n196 --> n200
+n196 --> n198
+n196 --> n203
+n196 --> n199
+n203 --> n207
+n203 --> n204
+n203 --> n205
+n203 --> n206
+n167 --> n174
+n167 --> n173
+n167 --> n169
+n167 --> n171
+n167 --> n172
+n167 --> n168
+n167 --> n170
+n150 --> n152
+n150 --> n151
+n150 --> n159
+n150 --> n158
+n150 --> n160
+n150 --> n153
+n160 --> n163
+n160 --> n161
+n160 --> n166
+n160 --> n164
+n160 --> n165
+n160 --> n162
+n153 --> n157
+n153 --> n156
+n153 --> n154
+n153 --> n155
+n195 --> n191
+n195 --> n194
+n195 --> n190
+n195 --> n193
+n195 --> n187
+n195 --> n192
+n187 --> n189
+n187 --> n188
+n175 --> n176
+n175 --> n178
+n175 --> n179
+n175 --> n177
+n136 --> n141
+n136 --> n148
+n136 --> n137
+n136 --> n149
+n136 --> n147
+n136 --> n138
+n136 --> n142
+n138 --> n139
+n138 --> n140
+n142 --> n145
+n142 --> n143
+n142 --> n144
+n142 --> n146
+n180 --> n186
+n180 --> n185
+n180 --> n181
+n181 --> n184
+n181 --> n182
+n181 --> n183
+n20 --> n52
+n20 --> n21
+n20 --> n53
+n20 --> n40
+n20 --> n41
+n20 --> n27
+n20 --> n49
+n20 --> n22
+n22 --> n24
+n22 --> n25
+n22 --> n23
+n41 --> n45
+n41 --> n43
+n41 --> n42
+n41 --> n46
+n45 --> n44
+n45 --> n48
+n45 --> n47
+n45 --> n26
+n43 --> n26
+n27 --> n29
+n27 --> n28
+n27 --> n34
+n27 --> n33
+n27 --> n31
+n27 --> n32
+n27 --> n39
+n34 --> n37
+n34 --> n36
+n33 --> n35
+n31 --> n38
+n31 --> n30
+n49 --> n50
+n49 --> n51
+n217 --> n227
+n217 --> n226
+n217 --> n235
+n217 --> n225
+n217 --> n236
+n217 --> n224
+n217 --> n228
+n217 --> n237
+n217 --> n218
+n228 --> n230
+n228 --> n232
+n228 --> n234
+n228 --> n229
+n228 --> n233
+n228 --> n231
+n218 --> n220
+n218 --> n219
+n218 --> n223
+n218 --> n222
+n218 --> n221
+n238 --> n243
+n243 --> n245
+n243 --> n244
+n238 --> n261
+n261 --> n269
+n261 --> n266
+n261 --> n265
+n265 --> n268
+n265 --> n262
+n261 --> n264
+n261 --> n263
+n261 --> n267
+n238 --> n255
+n255 --> n260
+n260 --> n256
+n260 --> n258
+n260 --> n259
+n255 --> n257
+n238 --> n239
+n239 --> n241
+n239 --> n242
+n239 --> n240
+n238 --> n246
+n246 --> n248
+n246 --> n247
+n246 --> n249
+n238 --> n270
+n270 --> n271
+n270 --> n272
+n238 --> n285
+n285 --> n288
+n288 --> n290
+n288 --> n286
+n288 --> n289
+n285 --> n291
+n291 --> n287
+n291 --> n292
+n291 --> n293
+n238 --> n273
+n273 --> n275
+n273 --> n277
+n273 --> n276
+n273 --> n274
+n273 --> n278
+n238 --> n250
+n250 --> n253
+n250 --> n251
+n250 --> n252
+n250 --> n254
+n238 --> n279
+n279 --> n280
+n279 --> n284
+n279 --> n281
+n279 --> n282
+n279 --> n283
+n54 --> n79
+n54 --> n55
+n54 --> n82
+n54 --> n86
+n54 --> n64
+n54 --> n67
+n54 --> n60
+n54 --> n74
+n54 --> n68
+n74 --> n75
+n74 --> n77
+n74 --> n76
+n60 --> n63
+n60 --> n61
+n60 --> n62
+n79 --> n81
+n79 --> n80
+n82 --> n83
+n82 --> n84
+n82 --> n85
+n86 --> n87
+n64 --> n66
+n64 --> n65
+n68 --> n69
+n68 --> n78
+n68 --> n213
+n78 --> n211
+n78 --> n212
+n213 --> n215
+n213 --> n214
+n213 --> n216
+n69 --> n72
+n69 --> n71
+n69 --> n73
+n69 --> n70
+n67 --> n210
+n55 --> n58
+n55 --> n59
+n55 --> n56
+n55 --> n57
+n88 --> n89
+n88 --> n108
+n88 --> n107
+n89 --> n96
+n89 --> n90
+n108 --> n109
+n108 --> n123
+n96 --> n97
+n96 --> n103
+n90 --> n94
+n90 --> n91
+n109 --> n110
+n109 --> n113
+n109 --> n120
+n109 --> n117
+n123 --> n131
+n123 --> n124
+n123 --> n128
+n97 --> n98
+n97 --> n102
+n97 --> n99
+n97 --> n100
+n97 --> n101
+n103 --> n105
+n103 --> n106
+n103 --> n104
+n94 --> n95
+n91 --> n92
+n91 --> n93
+n110 --> n112
+n110 --> n111
+n113 --> n116
+n113 --> n115
+n113 --> n114
+n120 --> n121
+n120 --> n122
+n117 --> n118
+n117 --> n119
+n131 --> n134
+n131 --> n132
+n131 --> n133
+n124 --> n125
+n124 --> n126
+n124 --> n127
+n128 --> n130
+n128 --> n129
+n0 --> n2
+n0 --> n20
+n0 --> n217
+n0 --> n238
+n0 --> n54
+n0 --> n88
+n0 --> n135
+click n2 href "#roadmap=go&topic=cs"
+click n4 href "#roadmap=go&topic=cs_architecture"
+click n1 href "#roadmap=go&topic=code"
+click n19 href "#roadmap=go&topic=cs_systems"
+click n3 href "#roadmap=go&topic=cs_ai"
+click n17 href "#roadmap=go&topic=cs_hardware"
+click n18 href "#roadmap=go&topic=cs_security"
+click n16 href "#roadmap=go&topic=cs_blockchain"
+click n9 href "#roadmap=go&topic=cs_architecture_microservices"
+click n5 href "#roadmap=go&topic=cs_architecture_ddd"
+click n15 href "#roadmap=go&topic=cs_architecture_solid"
+click n14 href "#roadmap=go&topic=cs_architecture_patterns"
+click n7 href "#roadmap=go&topic=cs_architecture_event"
+click n10 href "#roadmap=go&topic=cs_architecture_oop"
+click n8 href "#roadmap=go&topic=cs_architecture_func"
+click n6 href "#roadmap=go&topic=cs_architecture_distributed"
+click n11 href "#roadmap=go&topic=cs_architecture_oop_encapsulation"
+click n12 href "#roadmap=go&topic=cs_architecture_oop_inheritance"
+click n13 href "#roadmap=go&topic=cs_architecture_oop_polymorphism"
+click n135 href "#roadmap=go&topic=go"
+click n196 href "#roadmap=go&topic=go_types"
+click n167 href "#roadmap=go&topic=go_function"
+click n150 href "#roadmap=go&topic=go_concurrency"
+click n195 href "#roadmap=go&topic=go_tools"
+click n180 href "#roadmap=go&topic=go_testing"
+click n175 href "#roadmap=go&topic=go_runtime"
+click n136 href "#roadmap=go&topic=go_app"
+click n209 href "#roadmap=go&topic=go_types_text"
+click n202 href "#roadmap=go&topic=go_types_numbers"
+click n208 href "#roadmap=go&topic=go_types_pointer"
+click n197 href "#roadmap=go&topic=go_types_array"
+click n201 href "#roadmap=go&topic=go_types_maps"
+click n200 href "#roadmap=go&topic=go_types_interface"
+click n198 href "#roadmap=go&topic=go_types_constants"
+click n203 href "#roadmap=go&topic=go_types_oop"
+click n199 href "#roadmap=go&topic=go_types_conversion"
+click n207 href "#roadmap=go&topic=go_types_oop_struct"
+click n204 href "#roadmap=go&topic=go_types_oop_encapsulation"
+click n205 href "#roadmap=go&topic=go_types_oop_inheritance"
+click n206 href "#roadmap=go&topic=go_types_oop_polymorphism"
+click n174 href "#roadmap=go&topic=go_function_types"
+click n173 href "#roadmap=go&topic=go_function_special"
+click n169 href "#roadmap=go&topic=go_function_closure"
+click n171 href "#roadmap=go&topic=go_function_panic"
+click n172 href "#roadmap=go&topic=go_function_recover"
+click n168 href "#roadmap=go&topic=go_function_behavior"
+click n170 href "#roadmap=go&topic=go_function_firstclass"
+click n152 href "#roadmap=go&topic=go_concurrency_goroutine"
+click n151 href "#roadmap=go&topic=go_concurrency_channels"
+click n159 href "#roadmap=go&topic=go_concurrency_select"
+click n158 href "#roadmap=go&topic=go_concurrency_race"
+click n160 href "#roadmap=go&topic=go_concurrency_sync"
+click n153 href "#roadmap=go&topic=go_concurrency_patterns"
+click n163 href "#roadmap=go&topic=go_concurrency_sync_mutex"
+click n161 href "#roadmap=go&topic=go_concurrency_sync_atomic"
+click n166 href "#roadmap=go&topic=go_concurrency_sync_waitgroup"
+click n164 href "#roadmap=go&topic=go_concurrency_sync_once"
+click n165 href "#roadmap=go&topic=go_concurrency_sync_pool"
+click n162 href "#roadmap=go&topic=go_concurrency_sync_map"
+click n157 href "#roadmap=go&topic=go_concurrency_patterns_workerpool"
+click n156 href "#roadmap=go&topic=go_concurrency_patterns_pipeline"
+click n154 href "#roadmap=go&topic=go_concurrency_patterns_barrier"
+click n155 href "#roadmap=go&topic=go_concurrency_patterns_future"
+click n191 href "#roadmap=go&topic=go_tool_fmt"
+click n194 href "#roadmap=go&topic=go_tool_vet"
+click n190 href "#roadmap=go&topic=go_tool_doc"
+click n193 href "#roadmap=go&topic=go_tool_pprof"
+click n187 href "#roadmap=go&topic=go_tool_dependencies"
+click n192 href "#roadmap=go&topic=go_tool_linters"
+click n189 href "#roadmap=go&topic=go_tool_dependencies_mod"
+click n188 href "#roadmap=go&topic=go_tool_dependencies_dep"
+click n176 href "#roadmap=go&topic=go_runtime_gc"
+click n178 href "#roadmap=go&topic=go_runtime_scheduler"
+click n179 href "#roadmap=go&topic=go_runtime_unsafe"
+click n177 href "#roadmap=go&topic=go_runtime_reflect"
+click n141 href "#roadmap=go&topic=go_app_errors"
+click n148 href "#roadmap=go&topic=go_app_templates"
+click n137 href "#roadmap=go&topic=go_app_context"
+click n149 href "#roadmap=go&topic=go_app_websocket"
+click n147 href "#roadmap=go&topic=go_app_grpc"
+click n138 href "#roadmap=go&topic=go_app_encoding"
+click n142 href "#roadmap=go&topic=go_app_frameworks"
+click n139 href "#roadmap=go&topic=go_app_encoding_json"
+click n140 href "#roadmap=go&topic=go_app_encoding_xml"
+click n145 href "#roadmap=go&topic=go_app_frameworks_gin"
+click n143 href "#roadmap=go&topic=go_app_frameworks_beego"
+click n144 href "#roadmap=go&topic=go_app_frameworks_echo"
+click n146 href "#roadmap=go&topic=go_app_frameworks_gokit"
+click n186 href "#roadmap=go&topic=go_testing_test"
+click n185 href "#roadmap=go&topic=go_testing_mocking"
+click n181 href "#roadmap=go&topic=go_testing_libraries"
+click n184 href "#roadmap=go&topic=go_testing_libraries_testify"
+click n182 href "#roadmap=go&topic=go_testing_libraries_ginkgo"
+click n183 href "#roadmap=go&topic=go_testing_libraries_goconvey"
+click n20 href "#roadmap=go&topic=db"
+click n52 href "#roadmap=go&topic=db_sql"
+click n21 href "#roadmap=go&topic=db_indexes"
+click n53 href "#roadmap=go&topic=db_transactions"
+click n40 href "#roadmap=go&topic=db_principles"
+click n41 href "#roadmap=go&topic=db_relational"
+click n27 href "#roadmap=go&topic=db_nosql"
+click n49 href "#roadmap=go&topic=db_search"
+click n22 href "#roadmap=go&topic=db_message_broker"
+click n24 href "#roadmap=go&topic=db_message_broker_kafka"
+click n25 href "#roadmap=go&topic=db_message_broker_rabbit"
+click n23 href "#roadmap=go&topic=db_message_broker_awssqs"
+click n45 href "#roadmap=go&topic=db_relational_mvcc"
+click n43 href "#roadmap=go&topic=db_relational_blocking"
+click n42 href "#roadmap=go&topic=db_relational_acid"
+click n46 href "#roadmap=go&topic=db_relational_oo"
+click n44 href "#roadmap=go&topic=db_relational_firebird"
+click n48 href "#roadmap=go&topic=db_relational_postgres"
+click n47 href "#roadmap=go&topic=db_relational_oracle"
+click n26 href "#roadmap=go&topic=db_mysql"
+click n29 href "#roadmap=go&topic=db_nosql_cap"
+click n28 href "#roadmap=go&topic=db_nosql_base"
+click n34 href "#roadmap=go&topic=db_nosql_graph"
+click n33 href "#roadmap=go&topic=db_nosql_doc"
+click n31 href "#roadmap=go&topic=db_nosql_colbase"
+click n32 href "#roadmap=go&topic=db_nosql_colwidebase"
+click n39 href "#roadmap=go&topic=db_nosql_time"
+click n37 href "#roadmap=go&topic=db_nosql_orient"
+click n36 href "#roadmap=go&topic=db_nosql_neo4j"
+click n35 href "#roadmap=go&topic=db_nosql_mongo"
+click n38 href "#roadmap=go&topic=db_nosql_redis"
+click n30 href "#roadmap=go&topic=db_nosql_clickhouse"
+click n50 href "#roadmap=go&topic=db_search_elasticseaerch"
+click n51 href "#roadmap=go&topic=db_search_sphinx"
+click n217 href "#roadmap=go&topic=net"
+click n227 href "#roadmap=go&topic=net_osi"
+click n226 href "#roadmap=go&topic=net_grpc"
+click n235 href "#roadmap=go&topic=net_restapi"
+click n225 href "#roadmap=go&topic=net_graphql"
+click n236 href "#roadmap=go&topic=net_soap"
+click n224 href "#roadmap=go&topic=net_dns"
+click n228 href "#roadmap=go&topic=net_protocols"
+click n237 href "#roadmap=go&topic=net_websocket"
+click n218 href "#roadmap=go&topic=net_auth"
+click n230 href "#roadmap=go&topic=net_protocols_ip"
+click n232 href "#roadmap=go&topic=net_protocols_tcp"
+click n234 href "#roadmap=go&topic=net_protocols_udp"
+click n229 href "#roadmap=go&topic=net_protocols_http"
+click n233 href "#roadmap=go&topic=net_protocols_tls"
+click n231 href "#roadmap=go&topic=net_protocols_ssl"
+click n220 href "#roadmap=go&topic=net_auth_authorization"
+click n219 href "#roadmap=go&topic=net_auth_authentication"
+click n223 href "#roadmap=go&topic=net_auth_oauth"
+click n222 href "#roadmap=go&topic=net_auth_jwt"
+click n221 href "#roadmap=go&topic=net_auth_cookie"
+click n238 href "#roadmap=go&topic=os"
+click n243 href "#roadmap=go&topic=os_foundations"
+click n245 href "#roadmap=go&topic=os_foundations_modes"
+click n244 href "#roadmap=go&topic=os_foundations_interrupts"
+click n261 href "#roadmap=go&topic=os_processes"
+click n269 href "#roadmap=go&topic=os_processes_threads"
+click n266 href "#roadmap=go&topic=os_processes_scheduling"
+click n265 href "#roadmap=go&topic=os_processes_multithreading"
+click n268 href "#roadmap=go&topic=os_processes_sync"
+click n262 href "#roadmap=go&topic=os_processes_failures"
+click n264 href "#roadmap=go&topic=os_processes_lifecycle"
+click n263 href "#roadmap=go&topic=os_processes_ipc"
+click n267 href "#roadmap=go&topic=os_processes_signals"
+click n255 href "#roadmap=go&topic=os_memory"
+click n260 href "#roadmap=go&topic=os_memory_virtual"
+click n256 href "#roadmap=go&topic=os_memory_address"
+click n258 href "#roadmap=go&topic=os_memory_paging"
+click n259 href "#roadmap=go&topic=os_memory_translation"
+click n257 href "#roadmap=go&topic=os_memory_allocation"
+click n239 href "#roadmap=go&topic=os_filesystem"
+click n241 href "#roadmap=go&topic=os_filesystem_layout"
+click n242 href "#roadmap=go&topic=os_filesystem_permissions"
+click n240 href "#roadmap=go&topic=os_filesystem_durability"
+click n246 href "#roadmap=go&topic=os_io"
+click n248 href "#roadmap=go&topic=os_io_descriptors"
+click n247 href "#roadmap=go&topic=os_io_buffering"
+click n249 href "#roadmap=go&topic=os_io_readiness"
+click n270 href "#roadmap=go&topic=os_protection"
+click n271 href "#roadmap=go&topic=os_protection_identity"
+click n272 href "#roadmap=go&topic=os_protection_isolation"
+click n285 href "#roadmap=go&topic=os_virtualization"
+click n288 href "#roadmap=go&topic=os_virtualization_level"
+click n290 href "#roadmap=go&topic=os_virtualization_namespaces"
+click n286 href "#roadmap=go&topic=os_virtualization_cgroups"
+click n289 href "#roadmap=go&topic=os_virtualization_level_docker"
+click n291 href "#roadmap=go&topic=os_virtualization_x86"
+click n287 href "#roadmap=go&topic=os_virtualization_guests"
+click n292 href "#roadmap=go&topic=os_virtualization_x86_virtualbox"
+click n293 href "#roadmap=go&topic=os_virtualization_x86_vmware"
+click n273 href "#roadmap=go&topic=os_shell"
+click n275 href "#roadmap=go&topic=os_shell_expansion"
+click n277 href "#roadmap=go&topic=os_shell_pipelines"
+click n276 href "#roadmap=go&topic=os_shell_jobs"
+click n274 href "#roadmap=go&topic=os_shell_bash"
+click n278 href "#roadmap=go&topic=os_shell_zsh"
+click n250 href "#roadmap=go&topic=os_linux"
+click n253 href "#roadmap=go&topic=os_linux_services"
+click n251 href "#roadmap=go&topic=os_linux_processes"
+click n252 href "#roadmap=go&topic=os_linux_resources"
+click n254 href "#roadmap=go&topic=os_linux_tracing"
+click n279 href "#roadmap=go&topic=os_types"
+click n280 href "#roadmap=go&topic=os_types_batch"
+click n284 href "#roadmap=go&topic=os_types_time_sharing"
+click n281 href "#roadmap=go&topic=os_types_distributed"
+click n282 href "#roadmap=go&topic=os_types_network"
+click n283 href "#roadmap=go&topic=os_types_realtime"
+click n54 href "#roadmap=go&topic=dev"
+click n79 href "#roadmap=go&topic=dev_testing"
+click n55 href "#roadmap=go&topic=dev_build"
+click n82 href "#roadmap=go&topic=dev_trackers"
+click n86 href "#roadmap=go&topic=dev_version"
+click n64 href "#roadmap=go&topic=dev_deployment"
+click n67 href "#roadmap=go&topic=dev_estimation"
+click n60 href "#roadmap=go&topic=dev_debugging"
+click n74 href "#roadmap=go&topic=dev_orchestration"
+click n68 href "#roadmap=go&topic=dev_management"
+click n75 href "#roadmap=go&topic=dev_orchestration_ansible"
+click n77 href "#roadmap=go&topic=dev_orchestration_puppet"
+click n76 href "#roadmap=go&topic=dev_orchestration_k8s"
+click n63 href "#roadmap=go&topic=dev_debugging_troubleshooting"
+click n61 href "#roadmap=go&topic=dev_debugging_logging"
+click n62 href "#roadmap=go&topic=dev_debugging_monitoring"
+click n81 href "#roadmap=go&topic=dev_testing_tdd"
+click n80 href "#roadmap=go&topic=dev_testing_bdd"
+click n83 href "#roadmap=go&topic=dev_trackers_jira"
+click n84 href "#roadmap=go&topic=dev_trackers_redmine"
+click n85 href "#roadmap=go&topic=dev_trackers_tfs"
+click n87 href "#roadmap=go&topic=dev_version_git"
+click n66 href "#roadmap=go&topic=dev_deployment_ci"
+click n65 href "#roadmap=go&topic=dev_deployment_cd"
+click n69 href "#roadmap=go&topic=dev_methodologies"
+click n78 href "#roadmap=go&topic=dev_paradigms"
+click n213 href "#roadmap=go&topic=management_time"
+click n211 href "#roadmap=go&topic=management_paradigms_agile"
+click n212 href "#roadmap=go&topic=management_paradigms_waterfall"
+click n215 href "#roadmap=go&topic=management_time_pareto"
+click n214 href "#roadmap=go&topic=management_time_gtd"
+click n216 href "#roadmap=go&topic=management_time_pomodoro"
+click n72 href "#roadmap=go&topic=dev_methodologies_scrum"
+click n71 href "#roadmap=go&topic=dev_methodologies_kanban"
+click n73 href "#roadmap=go&topic=dev_methodologies_xp"
+click n70 href "#roadmap=go&topic=dev_methodologies_12factors"
+click n210 href "#roadmap=go&topic=management_estimation_poker"
+click n58 href "#roadmap=go&topic=dev_build_make"
+click n59 href "#roadmap=go&topic=dev_build_maven"
+click n56 href "#roadmap=go&topic=dev_build_ant"
+click n57 href "#roadmap=go&topic=dev_build_gradle"
+click n88 href "#roadmap=go&topic=dsa"
+click n89 href "#roadmap=go&topic=dsa_algorithms"
+click n108 href "#roadmap=go&topic=dsa_data"
+click n107 href "#roadmap=go&topic=dsa_analysis"
+click n96 href "#roadmap=go&topic=dsa_algorithms_sorting"
+click n90 href "#roadmap=go&topic=dsa_algorithms_searching"
+click n109 href "#roadmap=go&topic=dsa_data_linear"
+click n123 href "#roadmap=go&topic=dsa_data_nonlinear"
+click n97 href "#roadmap=go&topic=dsa_algorithms_sorting_comparison"
+click n103 href "#roadmap=go&topic=dsa_algorithms_sorting_noncomparison"
+click n94 href "#roadmap=go&topic=dsa_algorithms_searching_sequential"
+click n91 href "#roadmap=go&topic=dsa_algorithms_searching_efficient"
+click n110 href "#roadmap=go&topic=dsa_data_linear_arrays"
+click n113 href "#roadmap=go&topic=dsa_data_linear_lists"
+click n120 href "#roadmap=go&topic=dsa_data_linear_stacks"
+click n117 href "#roadmap=go&topic=dsa_data_linear_queues"
+click n131 href "#roadmap=go&topic=dsa_data_nonlinear_trees"
+click n124 href "#roadmap=go&topic=dsa_data_nonlinear_graphs"
+click n128 href "#roadmap=go&topic=dsa_data_nonlinear_heaps"
+click n98 href "#roadmap=go&topic=dsa_algorithms_sorting_comparison_bubble"
+click n102 href "#roadmap=go&topic=dsa_algorithms_sorting_comparison_selection"
+click n99 href "#roadmap=go&topic=dsa_algorithms_sorting_comparison_insertion"
+click n100 href "#roadmap=go&topic=dsa_algorithms_sorting_comparison_merge"
+click n101 href "#roadmap=go&topic=dsa_algorithms_sorting_comparison_quick"
+click n105 href "#roadmap=go&topic=dsa_algorithms_sorting_noncomparison_counting"
+click n106 href "#roadmap=go&topic=dsa_algorithms_sorting_noncomparison_radix"
+click n104 href "#roadmap=go&topic=dsa_algorithms_sorting_noncomparison_bucket"
+click n95 href "#roadmap=go&topic=dsa_algorithms_searching_sequential_linear"
+click n92 href "#roadmap=go&topic=dsa_algorithms_searching_efficient_binary"
+click n93 href "#roadmap=go&topic=dsa_algorithms_searching_efficient_hashing"
+click n112 href "#roadmap=go&topic=dsa_data_linear_arrays_static"
+click n111 href "#roadmap=go&topic=dsa_data_linear_arrays_dynamic"
+click n116 href "#roadmap=go&topic=dsa_data_linear_lists_singly"
+click n115 href "#roadmap=go&topic=dsa_data_linear_lists_doubly"
+click n114 href "#roadmap=go&topic=dsa_data_linear_lists_circular"
+click n121 href "#roadmap=go&topic=dsa_data_linear_stacks_array"
+click n122 href "#roadmap=go&topic=dsa_data_linear_stacks_list"
+click n118 href "#roadmap=go&topic=dsa_data_linear_queues_array"
+click n119 href "#roadmap=go&topic=dsa_data_linear_queues_list"
+click n134 href "#roadmap=go&topic=dsa_data_nonlinear_trees_binary"
+click n132 href "#roadmap=go&topic=dsa_data_nonlinear_trees_avl"
+click n133 href "#roadmap=go&topic=dsa_data_nonlinear_trees_b"
+click n125 href "#roadmap=go&topic=dsa_data_nonlinear_graphs_directed"
+click n126 href "#roadmap=go&topic=dsa_data_nonlinear_graphs_undirected"
+click n127 href "#roadmap=go&topic=dsa_data_nonlinear_graphs_weighted"
+click n130 href "#roadmap=go&topic=dsa_data_nonlinear_heaps_min"
+click n129 href "#roadmap=go&topic=dsa_data_nonlinear_heaps_max"
+click n0 href "#roadmap=go&topic=backend"

@@ -1,0 +1,171 @@
+flowchart LR
+subgraph s0["operating-systems"]
+direction LR
+n0["Operating Systems"]
+n1["File Systems and Persistence"]
+n2["Writeback, Journaling, and<br/>Crash Recovery"]
+n3["Files, Directories, Mounts,<br/>and Links"]
+n4["File Ownership and<br/>Permissions"]
+n5["Kernel and User Space"]
+n6["Interrupts, Exceptions, and<br/>Timers"]
+n7["Privilege Levels and System<br/>Calls"]
+n8["Input and Output"]
+n9["Buffering and Caching"]
+n10["File Descriptors and Device<br/>I/O"]
+n11["Blocking, Nonblocking I/O,<br/>and Readiness"]
+n12["Linux Administration and<br/>Diagnostics"]
+n13["Process and CPU Inspection<br/>(ps, top)"]
+n14["Memory, Disk Space, and I/O<br/>(vmstat, df, du, iostat)"]
+n15["Service Lifecycle and Logs<br/>(systemd)"]
+n16["System Call Tracing (strace)"]
+n17["Memory Management"]
+n18["Address Spaces and Memory<br/>Mapping"]
+n19["Allocation: Stack and Heap"]
+n20["Paging, Page Faults, and<br/>Swapping"]
+n21["Page Tables and Translation<br/>Lookaside Buffers"]
+n22["Virtual Memory"]
+n23["Processes and Threads"]
+n24["Race Conditions and<br/>Deadlocks"]
+n25["IPC: Pipes, Shared Memory,<br/>and Message Queues"]
+n26["Process Creation, Execution,<br/>and Exit"]
+n27["Concurrency and Parallelism"]
+n28["CPU Scheduling and Context<br/>Switching"]
+n29["Signals and Process<br/>Termination"]
+n30["Locks, Semaphores, and<br/>Condition Variables"]
+n31["Thread Lifecycle and Shared<br/>Address Space"]
+n32["Protection and Access<br/>Control"]
+n33["Users, Groups, and Least<br/>Privilege"]
+n34["Process Isolation and Access<br/>Checks"]
+n35["Shells and Command-Line<br/>Fundamentals"]
+n36["Bash"]
+n37["Quoting, Expansion, and<br/>Environment Variables"]
+n38["Exit Status, Signals, and<br/>Job Control"]
+n39["Pipelines and Redirection"]
+n40["Zsh"]
+n41["Operating System<br/>Characteristics"]
+n42["Workload: Batch Processing"]
+n43["Coordination: Distributed<br/>Systems"]
+n44["Connectivity: Network<br/>Operating Systems"]
+n45["Timing: Real-Time Guarantees"]
+n46["Workload: Interactive<br/>Time-Sharing"]
+n47["Virtualization"]
+n48["Linux Control Groups"]
+n49["Hosts, Guests, and Virtual<br/>Hardware"]
+n50["OS-Level Virtualization and<br/>Containers"]
+n51["Docker"]
+n52["Linux Namespaces"]
+n53["Hardware Virtualization and<br/>Hypervisors"]
+n54["VirtualBox"]
+n55["VMware ESXi"]
+end
+n0 --> n5
+n5 --> n7
+n5 --> n6
+n0 --> n23
+n23 --> n31
+n23 --> n28
+n23 --> n27
+n27 --> n30
+n27 --> n24
+n23 --> n26
+n23 --> n25
+n23 --> n29
+n0 --> n17
+n17 --> n22
+n22 --> n18
+n22 --> n20
+n22 --> n21
+n17 --> n19
+n0 --> n1
+n1 --> n3
+n1 --> n4
+n1 --> n2
+n0 --> n8
+n8 --> n10
+n8 --> n9
+n8 --> n11
+n0 --> n32
+n32 --> n33
+n32 --> n34
+n0 --> n47
+n47 --> n50
+n50 --> n52
+n50 --> n48
+n50 --> n51
+n47 --> n53
+n53 --> n49
+n53 --> n54
+n53 --> n55
+n0 --> n35
+n35 --> n37
+n35 --> n39
+n35 --> n38
+n35 --> n36
+n35 --> n40
+n0 --> n12
+n12 --> n15
+n12 --> n13
+n12 --> n14
+n12 --> n16
+n0 --> n41
+n41 --> n42
+n41 --> n46
+n41 --> n43
+n41 --> n44
+n41 --> n45
+click n0 href "#roadmap=os&topic=os"
+click n5 href "#roadmap=os&topic=os_foundations"
+click n7 href "#roadmap=os&topic=os_foundations_modes"
+click n6 href "#roadmap=os&topic=os_foundations_interrupts"
+click n23 href "#roadmap=os&topic=os_processes"
+click n31 href "#roadmap=os&topic=os_processes_threads"
+click n28 href "#roadmap=os&topic=os_processes_scheduling"
+click n27 href "#roadmap=os&topic=os_processes_multithreading"
+click n30 href "#roadmap=os&topic=os_processes_sync"
+click n24 href "#roadmap=os&topic=os_processes_failures"
+click n26 href "#roadmap=os&topic=os_processes_lifecycle"
+click n25 href "#roadmap=os&topic=os_processes_ipc"
+click n29 href "#roadmap=os&topic=os_processes_signals"
+click n17 href "#roadmap=os&topic=os_memory"
+click n22 href "#roadmap=os&topic=os_memory_virtual"
+click n18 href "#roadmap=os&topic=os_memory_address"
+click n20 href "#roadmap=os&topic=os_memory_paging"
+click n21 href "#roadmap=os&topic=os_memory_translation"
+click n19 href "#roadmap=os&topic=os_memory_allocation"
+click n1 href "#roadmap=os&topic=os_filesystem"
+click n3 href "#roadmap=os&topic=os_filesystem_layout"
+click n4 href "#roadmap=os&topic=os_filesystem_permissions"
+click n2 href "#roadmap=os&topic=os_filesystem_durability"
+click n8 href "#roadmap=os&topic=os_io"
+click n10 href "#roadmap=os&topic=os_io_descriptors"
+click n9 href "#roadmap=os&topic=os_io_buffering"
+click n11 href "#roadmap=os&topic=os_io_readiness"
+click n32 href "#roadmap=os&topic=os_protection"
+click n33 href "#roadmap=os&topic=os_protection_identity"
+click n34 href "#roadmap=os&topic=os_protection_isolation"
+click n47 href "#roadmap=os&topic=os_virtualization"
+click n50 href "#roadmap=os&topic=os_virtualization_level"
+click n52 href "#roadmap=os&topic=os_virtualization_namespaces"
+click n48 href "#roadmap=os&topic=os_virtualization_cgroups"
+click n51 href "#roadmap=os&topic=os_virtualization_level_docker"
+click n53 href "#roadmap=os&topic=os_virtualization_x86"
+click n49 href "#roadmap=os&topic=os_virtualization_guests"
+click n54 href "#roadmap=os&topic=os_virtualization_x86_virtualbox"
+click n55 href "#roadmap=os&topic=os_virtualization_x86_vmware"
+click n35 href "#roadmap=os&topic=os_shell"
+click n37 href "#roadmap=os&topic=os_shell_expansion"
+click n39 href "#roadmap=os&topic=os_shell_pipelines"
+click n38 href "#roadmap=os&topic=os_shell_jobs"
+click n36 href "#roadmap=os&topic=os_shell_bash"
+click n40 href "#roadmap=os&topic=os_shell_zsh"
+click n12 href "#roadmap=os&topic=os_linux"
+click n15 href "#roadmap=os&topic=os_linux_services"
+click n13 href "#roadmap=os&topic=os_linux_processes"
+click n14 href "#roadmap=os&topic=os_linux_resources"
+click n16 href "#roadmap=os&topic=os_linux_tracing"
+click n41 href "#roadmap=os&topic=os_types"
+click n42 href "#roadmap=os&topic=os_types_batch"
+click n46 href "#roadmap=os&topic=os_types_time_sharing"
+click n43 href "#roadmap=os&topic=os_types_distributed"
+click n44 href "#roadmap=os&topic=os_types_network"
+click n45 href "#roadmap=os&topic=os_types_realtime"
