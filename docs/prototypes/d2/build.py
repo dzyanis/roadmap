@@ -5,6 +5,7 @@ import json
 import os
 from pathlib import Path
 import platform
+import re
 import shutil
 import subprocess
 import sys
@@ -87,7 +88,15 @@ def candidate_source(graph, key):
 
 def normalize_svg(path, graph):
     """Expose topic identity via public SVG links, not renderer DOM class names."""
-    root = ET.parse(path).getroot()
+    # Ubuntu Graphviz 2.43 emits bare ampersands in hyperlink attributes.
+    # Repair only those attributes before parsing; keep existing XML entities.
+    def escape_link(match):
+        value = re.sub(r'&(?!amp;|lt;|gt;|quot;|apos;|#[0-9]+;|#x[0-9a-fA-F]+;)',
+                       '&amp;', match.group(2))
+        return match.group(1) + value + match.group(3)
+    source = re.sub(r'((?:xlink:)?href=")([^"]*)(")', escape_link,
+                    path.read_text(encoding='utf-8'))
+    root = ET.fromstring(source)
     seen = []
     for anchor in root.iter(f'{{{SVG}}}a'):
         href = anchor.get('href', anchor.get(f'{{{XLINK}}}href', ''))
