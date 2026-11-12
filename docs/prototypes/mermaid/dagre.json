@@ -1,0 +1,15 @@
+{
+  "layout": "dagre",
+  "theme": "default",
+  "securityLevel": "loose",
+  "deterministicIds": true,
+  "deterministicIDSeed": "roadmap-prototype",
+  "htmlLabels": false,
+  "fontFamily": "Arial",
+  "flowchart": {
+    "nodeSpacing": 25,
+    "rankSpacing": 45,
+    "curve": "linear",
+    "wrappingWidth": 220
+  }
+}

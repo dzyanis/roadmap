@@ -1,0 +1,583 @@
+flowchart LR
+subgraph s0["roadmap"]
+direction LR
+n0["DevOps Engineer"]
+end
+subgraph s1["databases"]
+direction LR
+n1["Databases"]
+n2["Indexes"]
+n3["Message Broker"]
+n4["Amazon Simple Queue Service"]
+n5["Kafka"]
+n6["RabbitMQ"]
+n7["MySQL"]
+n8["NOSQL"]
+n9["BASE"]
+n10["CAP Theorem"]
+n11["ClickHouse"]
+n12["Column base"]
+n13["Wide column base"]
+n14["Document base"]
+n15["Graph database"]
+n16["MongoDB"]
+n17["Neo4j"]
+n18["OrientDB"]
+n19["Redis"]
+n20["Time series"]
+n21["Principles"]
+n22["Relational"]
+n23["ACID"]
+n24["Blocking"]
+n25["Firebird"]
+n26["Multiversion Concurrency<br/>Control"]
+n27["Object-oriented"]
+n28["Oracle"]
+n29["PostgreSQL"]
+n30["Search Engines"]
+n31["Elasticseaerch"]
+n32["Sphinx"]
+n33["SQL"]
+n34["Transactions"]
+end
+subgraph s2["software-development"]
+direction LR
+n35["Software Development<br/>Processes"]
+n36["Build Systems"]
+n37["Ant"]
+n38["Gradle"]
+n39["Make"]
+n40["Maven"]
+n41["Debugging"]
+n42["Logging"]
+n43["Monitoring"]
+n44["Troubleshooting"]
+n45["Deployment"]
+n46["Continuous Delivery"]
+n47["Continuous Integration"]
+n48["Estimations"]
+n49["Management"]
+n50["Methodologies and Frameworks"]
+n51["The Twelve-Factor App"]
+n52["Kanban"]
+n53["SCRUM"]
+n54["Extreme Programming"]
+n55["Orchestration"]
+n56["Ansible"]
+n57["Kubernetes"]
+n58["Puppet"]
+n59["Paradigms and Models"]
+n60["Testing"]
+n61["Behavior-driven development"]
+n62["Test-driven development"]
+n63["Bug tracking systems"]
+n64["Jira"]
+n65["Redmine"]
+n66["TFS"]
+n67["Version Control"]
+n68["Git"]
+n104["Planning Poker"]
+n105["Agile"]
+n106["Waterfall"]
+n107["Time Management"]
+n108["Getting Things Done"]
+n109["Pareto analysis"]
+n110["Pomodoro"]
+end
+subgraph s3["devops"]
+direction LR
+n69["DevOps Practices"]
+n70["Automation and Scripting"]
+n71["Shell scripting"]
+n72["Python scripting"]
+n73["Idempotency and error<br/>handling"]
+n74["Cloud Infrastructure"]
+n75["Compute, storage, and<br/>virtual networks"]
+n76["Load balancing and<br/>autoscaling"]
+n77["Availability zones and cost<br/>management"]
+n78["Containers"]
+n79["Images and registries"]
+n80["Docker"]
+n81["Container networking and<br/>storage"]
+n82["Delivery Pipelines"]
+n83["Build, test, and artifact<br/>promotion"]
+n84["Rolling, blue-green, and<br/>canary deployments"]
+n85["Rollback and GitOps"]
+n86["Infrastructure as Code"]
+n87["Terraform"]
+n88["State and drift management"]
+n89["Reusable modules and<br/>infrastructure testing"]
+n90["Observability"]
+n91["Metrics, logs, and traces"]
+n92["Dashboards and actionable<br/>alerts"]
+n93["OpenTelemetry"]
+n94["Site Reliability Engineering"]
+n95["SLIs, SLOs, and error<br/>budgets"]
+n96["Incident response and<br/>postmortems"]
+n97["Backups and disaster<br/>recovery"]
+n98["Capacity planning and toil<br/>reduction"]
+n99["Platform Security"]
+n100["Least privilege and identity<br/>management"]
+n101["Secrets and certificate<br/>management"]
+n102["Dependency and image<br/>scanning"]
+n103["Software supply chain<br/>security"]
+end
+subgraph s4["networking"]
+direction LR
+n111["Computer Network"]
+n112["Authorization and<br/>Authentication"]
+n113["Authentication"]
+n114["Authorization"]
+n115["Cookie"]
+n116["JWT"]
+n117["OAuth"]
+n118["DNS"]
+n119["GraphQL"]
+n120["gRPC"]
+n121["Open Systems Interconnection<br/>model"]
+n122["Protocols"]
+n123["HTTP"]
+n124["IP"]
+n125["SSL"]
+n126["TCP"]
+n127["TLS"]
+n128["UDP"]
+n129["REST API"]
+n130["SOAP"]
+n131["Websocket"]
+end
+subgraph s5["operating-systems"]
+direction LR
+n132["Operating Systems"]
+n133["File Systems and Persistence"]
+n134["Writeback, Journaling, and<br/>Crash Recovery"]
+n135["Files, Directories, Mounts,<br/>and Links"]
+n136["File Ownership and<br/>Permissions"]
+n137["Kernel and User Space"]
+n138["Interrupts, Exceptions, and<br/>Timers"]
+n139["Privilege Levels and System<br/>Calls"]
+n140["Input and Output"]
+n141["Buffering and Caching"]
+n142["File Descriptors and Device<br/>I/O"]
+n143["Blocking, Nonblocking I/O,<br/>and Readiness"]
+n144["Linux Administration and<br/>Diagnostics"]
+n145["Process and CPU Inspection<br/>(ps, top)"]
+n146["Memory, Disk Space, and I/O<br/>(vmstat, df, du, iostat)"]
+n147["Service Lifecycle and Logs<br/>(systemd)"]
+n148["System Call Tracing (strace)"]
+n149["Memory Management"]
+n150["Address Spaces and Memory<br/>Mapping"]
+n151["Allocation: Stack and Heap"]
+n152["Paging, Page Faults, and<br/>Swapping"]
+n153["Page Tables and Translation<br/>Lookaside Buffers"]
+n154["Virtual Memory"]
+n155["Processes and Threads"]
+n156["Race Conditions and<br/>Deadlocks"]
+n157["IPC: Pipes, Shared Memory,<br/>and Message Queues"]
+n158["Process Creation, Execution,<br/>and Exit"]
+n159["Concurrency and Parallelism"]
+n160["CPU Scheduling and Context<br/>Switching"]
+n161["Signals and Process<br/>Termination"]
+n162["Locks, Semaphores, and<br/>Condition Variables"]
+n163["Thread Lifecycle and Shared<br/>Address Space"]
+n164["Protection and Access<br/>Control"]
+n165["Users, Groups, and Least<br/>Privilege"]
+n166["Process Isolation and Access<br/>Checks"]
+n167["Shells and Command-Line<br/>Fundamentals"]
+n168["Bash"]
+n169["Quoting, Expansion, and<br/>Environment Variables"]
+n170["Exit Status, Signals, and<br/>Job Control"]
+n171["Pipelines and Redirection"]
+n172["Zsh"]
+n173["Operating System<br/>Characteristics"]
+n174["Workload: Batch Processing"]
+n175["Coordination: Distributed<br/>Systems"]
+n176["Connectivity: Network<br/>Operating Systems"]
+n177["Timing: Real-Time Guarantees"]
+n178["Workload: Interactive<br/>Time-Sharing"]
+n179["Virtualization"]
+n180["Linux Control Groups"]
+n181["Hosts, Guests, and Virtual<br/>Hardware"]
+n182["OS-Level Virtualization and<br/>Containers"]
+n183["Docker"]
+n184["Linux Namespaces"]
+n185["Hardware Virtualization and<br/>Hypervisors"]
+n186["VirtualBox"]
+n187["VMware ESXi"]
+end
+n132 --> n137
+n137 --> n139
+n137 --> n138
+n132 --> n155
+n155 --> n163
+n155 --> n160
+n155 --> n159
+n159 --> n162
+n159 --> n156
+n155 --> n158
+n155 --> n157
+n155 --> n161
+n132 --> n149
+n149 --> n154
+n154 --> n150
+n154 --> n152
+n154 --> n153
+n149 --> n151
+n132 --> n133
+n133 --> n135
+n133 --> n136
+n133 --> n134
+n132 --> n140
+n140 --> n142
+n140 --> n141
+n140 --> n143
+n132 --> n164
+n164 --> n165
+n164 --> n166
+n132 --> n179
+n179 --> n182
+n182 --> n184
+n182 --> n180
+n182 --> n183
+n179 --> n185
+n185 --> n181
+n185 --> n186
+n185 --> n187
+n132 --> n167
+n167 --> n169
+n167 --> n171
+n167 --> n170
+n167 --> n168
+n167 --> n172
+n132 --> n144
+n144 --> n147
+n144 --> n145
+n144 --> n146
+n144 --> n148
+n132 --> n173
+n173 --> n174
+n173 --> n178
+n173 --> n175
+n173 --> n176
+n173 --> n177
+n111 --> n121
+n111 --> n120
+n111 --> n129
+n111 --> n119
+n111 --> n130
+n111 --> n118
+n111 --> n122
+n111 --> n131
+n111 --> n112
+n122 --> n124
+n122 --> n126
+n122 --> n128
+n122 --> n123
+n122 --> n127
+n122 --> n125
+n112 --> n114
+n112 --> n113
+n112 --> n117
+n112 --> n116
+n112 --> n115
+n1 --> n33
+n1 --> n2
+n1 --> n34
+n1 --> n21
+n1 --> n22
+n1 --> n8
+n1 --> n30
+n1 --> n3
+n3 --> n5
+n3 --> n6
+n3 --> n4
+n22 --> n26
+n22 --> n24
+n22 --> n23
+n22 --> n27
+n26 --> n25
+n26 --> n29
+n26 --> n28
+n26 --> n7
+n24 --> n7
+n8 --> n10
+n8 --> n9
+n8 --> n15
+n8 --> n14
+n8 --> n12
+n8 --> n13
+n8 --> n20
+n15 --> n18
+n15 --> n17
+n14 --> n16
+n12 --> n19
+n12 --> n11
+n30 --> n31
+n30 --> n32
+n35 --> n60
+n35 --> n36
+n35 --> n63
+n35 --> n67
+n35 --> n45
+n35 --> n48
+n35 --> n41
+n35 --> n55
+n35 --> n49
+n55 --> n56
+n55 --> n58
+n55 --> n57
+n41 --> n44
+n41 --> n42
+n41 --> n43
+n60 --> n62
+n60 --> n61
+n63 --> n64
+n63 --> n65
+n63 --> n66
+n67 --> n68
+n45 --> n47
+n45 --> n46
+n49 --> n50
+n49 --> n59
+n49 --> n107
+n59 --> n105
+n59 --> n106
+n107 --> n109
+n107 --> n108
+n107 --> n110
+n50 --> n53
+n50 --> n52
+n50 --> n54
+n50 --> n51
+n48 --> n104
+n36 --> n39
+n36 --> n40
+n36 --> n37
+n36 --> n38
+n69 --> n70
+n70 --> n71
+n70 --> n72
+n70 --> n73
+n69 --> n78
+n78 --> n79
+n78 --> n80
+n78 --> n81
+n69 --> n86
+n86 --> n87
+n86 --> n88
+n86 --> n89
+n69 --> n82
+n82 --> n83
+n82 --> n84
+n82 --> n85
+n69 --> n74
+n74 --> n75
+n74 --> n76
+n74 --> n77
+n69 --> n90
+n90 --> n91
+n90 --> n92
+n90 --> n93
+n69 --> n94
+n94 --> n95
+n94 --> n96
+n94 --> n97
+n94 --> n98
+n69 --> n99
+n99 --> n100
+n99 --> n101
+n99 --> n102
+n99 --> n103
+n0 --> n132
+n0 --> n111
+n0 --> n1
+n0 --> n35
+n0 --> n69
+click n132 href "#roadmap=devops&topic=os"
+click n137 href "#roadmap=devops&topic=os_foundations"
+click n139 href "#roadmap=devops&topic=os_foundations_modes"
+click n138 href "#roadmap=devops&topic=os_foundations_interrupts"
+click n155 href "#roadmap=devops&topic=os_processes"
+click n163 href "#roadmap=devops&topic=os_processes_threads"
+click n160 href "#roadmap=devops&topic=os_processes_scheduling"
+click n159 href "#roadmap=devops&topic=os_processes_multithreading"
+click n162 href "#roadmap=devops&topic=os_processes_sync"
+click n156 href "#roadmap=devops&topic=os_processes_failures"
+click n158 href "#roadmap=devops&topic=os_processes_lifecycle"
+click n157 href "#roadmap=devops&topic=os_processes_ipc"
+click n161 href "#roadmap=devops&topic=os_processes_signals"
+click n149 href "#roadmap=devops&topic=os_memory"
+click n154 href "#roadmap=devops&topic=os_memory_virtual"
+click n150 href "#roadmap=devops&topic=os_memory_address"
+click n152 href "#roadmap=devops&topic=os_memory_paging"
+click n153 href "#roadmap=devops&topic=os_memory_translation"
+click n151 href "#roadmap=devops&topic=os_memory_allocation"
+click n133 href "#roadmap=devops&topic=os_filesystem"
+click n135 href "#roadmap=devops&topic=os_filesystem_layout"
+click n136 href "#roadmap=devops&topic=os_filesystem_permissions"
+click n134 href "#roadmap=devops&topic=os_filesystem_durability"
+click n140 href "#roadmap=devops&topic=os_io"
+click n142 href "#roadmap=devops&topic=os_io_descriptors"
+click n141 href "#roadmap=devops&topic=os_io_buffering"
+click n143 href "#roadmap=devops&topic=os_io_readiness"
+click n164 href "#roadmap=devops&topic=os_protection"
+click n165 href "#roadmap=devops&topic=os_protection_identity"
+click n166 href "#roadmap=devops&topic=os_protection_isolation"
+click n179 href "#roadmap=devops&topic=os_virtualization"
+click n182 href "#roadmap=devops&topic=os_virtualization_level"
+click n184 href "#roadmap=devops&topic=os_virtualization_namespaces"
+click n180 href "#roadmap=devops&topic=os_virtualization_cgroups"
+click n183 href "#roadmap=devops&topic=os_virtualization_level_docker"
+click n185 href "#roadmap=devops&topic=os_virtualization_x86"
+click n181 href "#roadmap=devops&topic=os_virtualization_guests"
+click n186 href "#roadmap=devops&topic=os_virtualization_x86_virtualbox"
+click n187 href "#roadmap=devops&topic=os_virtualization_x86_vmware"
+click n167 href "#roadmap=devops&topic=os_shell"
+click n169 href "#roadmap=devops&topic=os_shell_expansion"
+click n171 href "#roadmap=devops&topic=os_shell_pipelines"
+click n170 href "#roadmap=devops&topic=os_shell_jobs"
+click n168 href "#roadmap=devops&topic=os_shell_bash"
+click n172 href "#roadmap=devops&topic=os_shell_zsh"
+click n144 href "#roadmap=devops&topic=os_linux"
+click n147 href "#roadmap=devops&topic=os_linux_services"
+click n145 href "#roadmap=devops&topic=os_linux_processes"
+click n146 href "#roadmap=devops&topic=os_linux_resources"
+click n148 href "#roadmap=devops&topic=os_linux_tracing"
+click n173 href "#roadmap=devops&topic=os_types"
+click n174 href "#roadmap=devops&topic=os_types_batch"
+click n178 href "#roadmap=devops&topic=os_types_time_sharing"
+click n175 href "#roadmap=devops&topic=os_types_distributed"
+click n176 href "#roadmap=devops&topic=os_types_network"
+click n177 href "#roadmap=devops&topic=os_types_realtime"
+click n111 href "#roadmap=devops&topic=net"
+click n121 href "#roadmap=devops&topic=net_osi"
+click n120 href "#roadmap=devops&topic=net_grpc"
+click n129 href "#roadmap=devops&topic=net_restapi"
+click n119 href "#roadmap=devops&topic=net_graphql"
+click n130 href "#roadmap=devops&topic=net_soap"
+click n118 href "#roadmap=devops&topic=net_dns"
+click n122 href "#roadmap=devops&topic=net_protocols"
+click n131 href "#roadmap=devops&topic=net_websocket"
+click n112 href "#roadmap=devops&topic=net_auth"
+click n124 href "#roadmap=devops&topic=net_protocols_ip"
+click n126 href "#roadmap=devops&topic=net_protocols_tcp"
+click n128 href "#roadmap=devops&topic=net_protocols_udp"
+click n123 href "#roadmap=devops&topic=net_protocols_http"
+click n127 href "#roadmap=devops&topic=net_protocols_tls"
+click n125 href "#roadmap=devops&topic=net_protocols_ssl"
+click n114 href "#roadmap=devops&topic=net_auth_authorization"
+click n113 href "#roadmap=devops&topic=net_auth_authentication"
+click n117 href "#roadmap=devops&topic=net_auth_oauth"
+click n116 href "#roadmap=devops&topic=net_auth_jwt"
+click n115 href "#roadmap=devops&topic=net_auth_cookie"
+click n1 href "#roadmap=devops&topic=db"
+click n33 href "#roadmap=devops&topic=db_sql"
+click n2 href "#roadmap=devops&topic=db_indexes"
+click n34 href "#roadmap=devops&topic=db_transactions"
+click n21 href "#roadmap=devops&topic=db_principles"
+click n22 href "#roadmap=devops&topic=db_relational"
+click n8 href "#roadmap=devops&topic=db_nosql"
+click n30 href "#roadmap=devops&topic=db_search"
+click n3 href "#roadmap=devops&topic=db_message_broker"
+click n5 href "#roadmap=devops&topic=db_message_broker_kafka"
+click n6 href "#roadmap=devops&topic=db_message_broker_rabbit"
+click n4 href "#roadmap=devops&topic=db_message_broker_awssqs"
+click n26 href "#roadmap=devops&topic=db_relational_mvcc"
+click n24 href "#roadmap=devops&topic=db_relational_blocking"
+click n23 href "#roadmap=devops&topic=db_relational_acid"
+click n27 href "#roadmap=devops&topic=db_relational_oo"
+click n25 href "#roadmap=devops&topic=db_relational_firebird"
+click n29 href "#roadmap=devops&topic=db_relational_postgres"
+click n28 href "#roadmap=devops&topic=db_relational_oracle"
+click n7 href "#roadmap=devops&topic=db_mysql"
+click n10 href "#roadmap=devops&topic=db_nosql_cap"
+click n9 href "#roadmap=devops&topic=db_nosql_base"
+click n15 href "#roadmap=devops&topic=db_nosql_graph"
+click n14 href "#roadmap=devops&topic=db_nosql_doc"
+click n12 href "#roadmap=devops&topic=db_nosql_colbase"
+click n13 href "#roadmap=devops&topic=db_nosql_colwidebase"
+click n20 href "#roadmap=devops&topic=db_nosql_time"
+click n18 href "#roadmap=devops&topic=db_nosql_orient"
+click n17 href "#roadmap=devops&topic=db_nosql_neo4j"
+click n16 href "#roadmap=devops&topic=db_nosql_mongo"
+click n19 href "#roadmap=devops&topic=db_nosql_redis"
+click n11 href "#roadmap=devops&topic=db_nosql_clickhouse"
+click n31 href "#roadmap=devops&topic=db_search_elasticseaerch"
+click n32 href "#roadmap=devops&topic=db_search_sphinx"
+click n35 href "#roadmap=devops&topic=dev"
+click n60 href "#roadmap=devops&topic=dev_testing"
+click n36 href "#roadmap=devops&topic=dev_build"
+click n63 href "#roadmap=devops&topic=dev_trackers"
+click n67 href "#roadmap=devops&topic=dev_version"
+click n45 href "#roadmap=devops&topic=dev_deployment"
+click n48 href "#roadmap=devops&topic=dev_estimation"
+click n41 href "#roadmap=devops&topic=dev_debugging"
+click n55 href "#roadmap=devops&topic=dev_orchestration"
+click n49 href "#roadmap=devops&topic=dev_management"
+click n56 href "#roadmap=devops&topic=dev_orchestration_ansible"
+click n58 href "#roadmap=devops&topic=dev_orchestration_puppet"
+click n57 href "#roadmap=devops&topic=dev_orchestration_k8s"
+click n44 href "#roadmap=devops&topic=dev_debugging_troubleshooting"
+click n42 href "#roadmap=devops&topic=dev_debugging_logging"
+click n43 href "#roadmap=devops&topic=dev_debugging_monitoring"
+click n62 href "#roadmap=devops&topic=dev_testing_tdd"
+click n61 href "#roadmap=devops&topic=dev_testing_bdd"
+click n64 href "#roadmap=devops&topic=dev_trackers_jira"
+click n65 href "#roadmap=devops&topic=dev_trackers_redmine"
+click n66 href "#roadmap=devops&topic=dev_trackers_tfs"
+click n68 href "#roadmap=devops&topic=dev_version_git"
+click n47 href "#roadmap=devops&topic=dev_deployment_ci"
+click n46 href "#roadmap=devops&topic=dev_deployment_cd"
+click n50 href "#roadmap=devops&topic=dev_methodologies"
+click n59 href "#roadmap=devops&topic=dev_paradigms"
+click n107 href "#roadmap=devops&topic=management_time"
+click n105 href "#roadmap=devops&topic=management_paradigms_agile"
+click n106 href "#roadmap=devops&topic=management_paradigms_waterfall"
+click n109 href "#roadmap=devops&topic=management_time_pareto"
+click n108 href "#roadmap=devops&topic=management_time_gtd"
+click n110 href "#roadmap=devops&topic=management_time_pomodoro"
+click n53 href "#roadmap=devops&topic=dev_methodologies_scrum"
+click n52 href "#roadmap=devops&topic=dev_methodologies_kanban"
+click n54 href "#roadmap=devops&topic=dev_methodologies_xp"
+click n51 href "#roadmap=devops&topic=dev_methodologies_12factors"
+click n104 href "#roadmap=devops&topic=management_estimation_poker"
+click n39 href "#roadmap=devops&topic=dev_build_make"
+click n40 href "#roadmap=devops&topic=dev_build_maven"
+click n37 href "#roadmap=devops&topic=dev_build_ant"
+click n38 href "#roadmap=devops&topic=dev_build_gradle"
+click n69 href "#roadmap=devops&topic=devops"
+click n70 href "#roadmap=devops&topic=devops_automation"
+click n71 href "#roadmap=devops&topic=devops_automation_1"
+click n72 href "#roadmap=devops&topic=devops_automation_2"
+click n73 href "#roadmap=devops&topic=devops_automation_3"
+click n78 href "#roadmap=devops&topic=devops_containers"
+click n79 href "#roadmap=devops&topic=devops_containers_1"
+click n80 href "#roadmap=devops&topic=devops_containers_2"
+click n81 href "#roadmap=devops&topic=devops_containers_3"
+click n86 href "#roadmap=devops&topic=devops_infrastructure"
+click n87 href "#roadmap=devops&topic=devops_infrastructure_1"
+click n88 href "#roadmap=devops&topic=devops_infrastructure_2"
+click n89 href "#roadmap=devops&topic=devops_infrastructure_3"
+click n82 href "#roadmap=devops&topic=devops_delivery"
+click n83 href "#roadmap=devops&topic=devops_delivery_1"
+click n84 href "#roadmap=devops&topic=devops_delivery_2"
+click n85 href "#roadmap=devops&topic=devops_delivery_3"
+click n74 href "#roadmap=devops&topic=devops_cloud"
+click n75 href "#roadmap=devops&topic=devops_cloud_1"
+click n76 href "#roadmap=devops&topic=devops_cloud_2"
+click n77 href "#roadmap=devops&topic=devops_cloud_3"
+click n90 href "#roadmap=devops&topic=devops_observability"
+click n91 href "#roadmap=devops&topic=devops_observability_1"
+click n92 href "#roadmap=devops&topic=devops_observability_2"
+click n93 href "#roadmap=devops&topic=devops_observability_3"
+click n94 href "#roadmap=devops&topic=devops_reliability"
+click n95 href "#roadmap=devops&topic=devops_reliability_1"
+click n96 href "#roadmap=devops&topic=devops_reliability_2"
+click n97 href "#roadmap=devops&topic=devops_reliability_3"
+click n98 href "#roadmap=devops&topic=devops_reliability_4"
+click n99 href "#roadmap=devops&topic=devops_security"
+click n100 href "#roadmap=devops&topic=devops_security_1"
+click n101 href "#roadmap=devops&topic=devops_security_2"
+click n102 href "#roadmap=devops&topic=devops_security_3"
+click n103 href "#roadmap=devops&topic=devops_security_4"
+click n0 href "#roadmap=devops&topic=backend"

@@ -1,0 +1,489 @@
+{
+  "browser": "Chrome/157.0.8103.51",
+  "node": "v26.13.0",
+  "method": "Fresh document, HTTP cache disabled, localhost, 1440×1000; asset timings are Resource Timing. elapsed includes interactions and the networkidle0 wait, not a render benchmark.",
+  "tested": [
+    "12 graph/layout combinations",
+    "topic link coverage and nonempty bounds",
+    "no foreignObject",
+    "zoom / fit / keyboard pan",
+    "mouse and touch pan",
+    "diagram topic click",
+    "search + Enter",
+    "resources + safe new-tab links",
+    "two incoming MySQL edges",
+    "topic permalink reload",
+    "390px mobile overflow",
+    "bounded PNG exports"
+  ],
+  "results": [
+    {
+      "input": "dsa",
+      "layout": "graphviz",
+      "elapsedIncludingNetworkIdleMs": 1258,
+      "viewerReadyMs": 57.89999997615814,
+      "domContentLoadedMs": 22.5,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 2.3000000715255737
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 2.700000047683716
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1.100000023841858
+        },
+        {
+          "name": "dsa.json",
+          "bytes": 18335,
+          "durationMs": 7.199999928474426
+        },
+        {
+          "name": "dsa-graphviz.svg",
+          "bytes": 38111,
+          "durationMs": 7.399999976158142
+        }
+      ],
+      "nodes": 47,
+      "outline": 47,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "dsa",
+      "layout": "dagre",
+      "elapsedIncludingNetworkIdleMs": 906,
+      "viewerReadyMs": 27.600000023841858,
+      "domContentLoadedMs": 10,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 2.600000023841858
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 3.200000047683716
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1.399999976158142
+        },
+        {
+          "name": "dsa.json",
+          "bytes": 18335,
+          "durationMs": 1.600000023841858
+        },
+        {
+          "name": "dsa-dagre.svg",
+          "bytes": 87505,
+          "durationMs": 1.7000000476837158
+        }
+      ],
+      "nodes": 47,
+      "outline": 47,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "dsa",
+      "layout": "elk",
+      "elapsedIncludingNetworkIdleMs": 1271,
+      "viewerReadyMs": 23,
+      "domContentLoadedMs": 7.600000023841858,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 1.399999976158142
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1
+        },
+        {
+          "name": "dsa.json",
+          "bytes": 18335,
+          "durationMs": 1.399999976158142
+        },
+        {
+          "name": "dsa-elk.svg",
+          "bytes": 84117,
+          "durationMs": 1.600000023841858
+        }
+      ],
+      "nodes": 47,
+      "outline": 47,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "os",
+      "layout": "graphviz",
+      "elapsedIncludingNetworkIdleMs": 1280,
+      "viewerReadyMs": 22.200000047683716,
+      "domContentLoadedMs": 15.799999952316284,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.100000023841858
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 1.399999976158142
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 0.8999999761581421
+        },
+        {
+          "name": "os.json",
+          "bytes": 24550,
+          "durationMs": 1.100000023841858
+        },
+        {
+          "name": "os-graphviz.svg",
+          "bytes": 51116,
+          "durationMs": 1.2000000476837158
+        }
+      ],
+      "nodes": 56,
+      "outline": 56,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "os",
+      "layout": "dagre",
+      "elapsedIncludingNetworkIdleMs": 1273,
+      "viewerReadyMs": 26,
+      "domContentLoadedMs": 15.700000047683716,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.100000023841858
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 1.399999976158142
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1.2000000476837158
+        },
+        {
+          "name": "os.json",
+          "bytes": 24550,
+          "durationMs": 1.3000000715255737
+        },
+        {
+          "name": "os-dagre.svg",
+          "bytes": 114964,
+          "durationMs": 1.2999999523162842
+        }
+      ],
+      "nodes": 56,
+      "outline": 56,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "os",
+      "layout": "elk",
+      "elapsedIncludingNetworkIdleMs": 1293,
+      "viewerReadyMs": 32.300000071525574,
+      "domContentLoadedMs": 14.700000047683716,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.3000000715255737
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 1.5
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1.7999999523162842
+        },
+        {
+          "name": "os.json",
+          "bytes": 24550,
+          "durationMs": 1.100000023841858
+        },
+        {
+          "name": "os-elk.svg",
+          "bytes": 113337,
+          "durationMs": 1.4000000953674316
+        }
+      ],
+      "nodes": 56,
+      "outline": 56,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "go",
+      "layout": "graphviz",
+      "elapsedIncludingNetworkIdleMs": 1300,
+      "viewerReadyMs": 33.40000009536743,
+      "domContentLoadedMs": 8.400000095367432,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.7000000476837158
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 2.299999952316284
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1.5
+        },
+        {
+          "name": "go.json",
+          "bytes": 121263,
+          "durationMs": 1.600000023841858
+        },
+        {
+          "name": "go-graphviz.svg",
+          "bytes": 243293,
+          "durationMs": 2.299999952316284
+        }
+      ],
+      "nodes": 294,
+      "outline": 294,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "go",
+      "layout": "dagre",
+      "elapsedIncludingNetworkIdleMs": 1372,
+      "viewerReadyMs": 45.60000002384186,
+      "domContentLoadedMs": 16.799999952316284,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.399999976158142
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 2
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1
+        },
+        {
+          "name": "go.json",
+          "bytes": 121263,
+          "durationMs": 1.5
+        },
+        {
+          "name": "go-dagre.svg",
+          "bytes": 511356,
+          "durationMs": 2.8000000715255737
+        }
+      ],
+      "nodes": 294,
+      "outline": 294,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "go",
+      "layout": "elk",
+      "elapsedIncludingNetworkIdleMs": 1329,
+      "viewerReadyMs": 47.699999928474426,
+      "domContentLoadedMs": 12.899999976158142,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.600000023841858
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 2
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 0.8999999761581421
+        },
+        {
+          "name": "go.json",
+          "bytes": 121263,
+          "durationMs": 1.7999999523162842
+        },
+        {
+          "name": "go-elk.svg",
+          "bytes": 485636,
+          "durationMs": 4.200000047683716
+        }
+      ],
+      "nodes": 294,
+      "outline": 294,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "devops",
+      "layout": "graphviz",
+      "elapsedIncludingNetworkIdleMs": 1297,
+      "viewerReadyMs": 33.200000047683716,
+      "domContentLoadedMs": 12,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.600000023841858
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 1.899999976158142
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1.100000023841858
+        },
+        {
+          "name": "devops.json",
+          "bytes": 73010,
+          "durationMs": 1.7999999523162842
+        },
+        {
+          "name": "devops-graphviz.svg",
+          "bytes": 160929,
+          "durationMs": 2.100000023841858
+        }
+      ],
+      "nodes": 188,
+      "outline": 188,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "devops",
+      "layout": "dagre",
+      "elapsedIncludingNetworkIdleMs": 1322,
+      "viewerReadyMs": 41,
+      "domContentLoadedMs": 19.799999952316284,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 1.7000000476837158
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 2.700000047683716
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1
+        },
+        {
+          "name": "devops.json",
+          "bytes": 73010,
+          "durationMs": 1.5999999046325684
+        },
+        {
+          "name": "devops-dagre.svg",
+          "bytes": 340630,
+          "durationMs": 2.100000023841858
+        }
+      ],
+      "nodes": 188,
+      "outline": 188,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    },
+    {
+      "input": "devops",
+      "layout": "elk",
+      "elapsedIncludingNetworkIdleMs": 1311,
+      "viewerReadyMs": 35.5,
+      "domContentLoadedMs": 10.600000023841858,
+      "assets": [
+        {
+          "name": "style.css",
+          "bytes": 3541,
+          "durationMs": 2
+        },
+        {
+          "name": "viewer.js",
+          "bytes": 9947,
+          "durationMs": 2.700000047683716
+        },
+        {
+          "name": "manifest.json",
+          "bytes": 545,
+          "durationMs": 1.6999999284744263
+        },
+        {
+          "name": "devops.json",
+          "bytes": 73010,
+          "durationMs": 1.399999976158142
+        },
+        {
+          "name": "devops-elk.svg",
+          "bytes": 330821,
+          "durationMs": 2.1999999284744263
+        }
+      ],
+      "nodes": 188,
+      "outline": 188,
+      "invisible": 0,
+      "foreignObjects": 0,
+      "overflow": false
+    }
+  ]
+}
