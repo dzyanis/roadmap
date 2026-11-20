@@ -4,6 +4,10 @@ Independent experiment for [#40](https://github.com/dzyanis/roadmap/issues/40),
 using the shared validated XML pipeline from #47. Includes DSA, expanded OS,
 full Go and full DevOps. No production renderer or deployment change.
 
+The committed demo and measurements are a historical snapshot of XML at
+`adbbf53`. Tests compare its diagrams to its recorded JSON; rebuilding against
+newer XML creates a new experiment and requires new measurements and conclusions.
+
 Read the [comparison matrix and proposed decision](COMPARISON.md).
 Both layouts and Graphviz are selectable in the demo.
 
