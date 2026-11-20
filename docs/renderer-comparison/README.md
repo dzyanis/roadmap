@@ -1,6 +1,10 @@
 # Roadmap renderer comparison
 
-Keep Graphviz for full roadmaps. It produced the most compact layout for both
+For the final website/export split, see the [renderer decision for #40](../renderer-decision.md).
+This page records the earlier static-export experiment; the measurements use its
+historical inputs, while the reproduction commands read current XML.
+
+Keep Graphviz for full static roadmap exports. It produced the most compact layout for both
 inputs, exported PNG directly, and already fits the build. Mermaid is a useful
 option for smaller diagrams embedded in Markdown. D2's styling and containers
 are worth revisiting if there is demand for a separate presentation format.

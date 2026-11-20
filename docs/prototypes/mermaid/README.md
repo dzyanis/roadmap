@@ -8,7 +8,8 @@ The committed demo and measurements are a historical snapshot of XML at
 `adbbf53`. Tests compare its diagrams to its recorded JSON; rebuilding against
 newer XML creates a new experiment and requires new measurements and conclusions.
 
-Read the [comparison matrix and proposed decision](COMPARISON.md).
+Read the [historical comparison matrix](COMPARISON.md) and
+[final production decision](../../renderer-decision.md).
 Both layouts and Graphviz are selectable in the demo.
 
 ## Run the committed demonstration

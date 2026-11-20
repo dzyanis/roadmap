@@ -1,15 +1,17 @@
 # Renderer decision evidence for #40
 
-Recommendation for review: retain Graphviz SVG for the first implementation of
-[#39](https://github.com/dzyanis/roadmap/issues/39) and retain Graphviz for static
-exports. The same viewer provides the requested interaction with every renderer.
-The alternatives have not demonstrated a navigation benefit that offsets their
-larger layouts and additional build dependencies. **Mermaid Dagre is the preferred
-alternative** if Mermaid authoring/Markdown reuse becomes a requirement.
+## Final disposition
 
-This is a proposed decision, not an agreed production replacement. Both prototype
-PRs remain independent experiments. Agree on the selection in #40 before merging
-production changes. The proposed implementation scope is below.
+The [production decision](../../renderer-decision.md) resolves #40: use
+Cytoscape.js + Dagre for the website (shipped in #50) and Graphviz for static
+exports. Mermaid #48 was merged; D2 #49 was closed without merging. Both
+independent prototypes remain evidence, not production renderer replacements.
+
+The original experiment recommended Graphviz SVG for the first website, with
+Mermaid Dagre as the strongest tested static alternative. The website subsequently
+adopted a graph runtime instead. The measurements below compare SVG candidates;
+they do not benchmark Cytoscape or establish its performance relative to them.
+They describe the `adbbf53` input snapshot, not current roadmap topic counts.
 
 ## Comparable evidence
 
@@ -115,7 +117,7 @@ Back is not a topic-history feature. Branch collapse is assessed, not implemente
 
 ## Earlier findings: updated evidence
 
-- The older Go sample had 262 topics; current XML has 294 after OS expansion.
+- The older Go sample had 262 topics; the prototype XML had 294 after OS expansion.
   Old sizes/times are not directly comparable. This run also wraps all renderer
   labels and links every topic to the viewer instead of only some resource URLs.
 - Graphviz's compactness advantage is confirmed. Its SVG supports the same HTML
@@ -136,7 +138,10 @@ Back is not a topic-history feature. Branch collapse is assessed, not implemente
   HTML results do not establish support for the same configuration or links on
   GitHub. D2 integration uses images or this HTML viewer, not a native D2 fence.
 
-## Other candidates and proposed production scope
+## Historical candidate rationale and proposed production scope
+
+The following records the recommendation before #50; the final disposition
+above supersedes its pending selection and proposed website implementation.
 
 [Cytoscape.js](https://js.cytoscape.org/) merits a separate prototype if live branch
 collapse/expansion or editing becomes required: it provides a graph runtime and
