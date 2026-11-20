@@ -161,4 +161,12 @@
             <tag>dev_deployment_cd</tag>
         </tags>
     </book>
+
+    <book lang="en">
+        <title>Kubernetes in Action</title>
+        <url>https://www.manning.com/books/kubernetes-in-action</url>
+        <tags>
+            <tag>dev_orchestration_k8s</tag>
+        </tags>
+    </book>
 </materials>

@@ -7,7 +7,6 @@
             <tag>db_nosql</tag>
         </tags>
     </article>
-
     <book lang="en">
         <title>NoSQL Distilled</title>
         <url>https://martinfowler.com/books/nosql.html</url>
@@ -15,28 +14,284 @@
             <tag>db_nosql</tag>
         </tags>
     </book>
-
     <book lang="en">
-        <title>SQL Bible</title>
-        <url>https://www.amazon.com/SQL-Bible-Alex-Kriegel/dp/0470229063</url>
+        <title>SQL Bible (2008; supplementary, older SQL reference)</title>
+        <url>https://www.wiley-vch.de/en/areas-interest/computing-computer-sciences/sql-bible-978-0-470-22906-4</url>
         <tags>
             <tag>db_sql</tag>
         </tags>
     </book>
-
     <book lang="en">
-        <title>Oracle PL/SQL Programming: Covers Versions Through Oracle Database 12c</title>
-        <url>https://www.amazon.com/Oracle-PL-SQL-Programming-Versions/dp/1449324452</url>
+        <title>Oracle PL/SQL Programming (through Oracle 12c; supplementary, version-specific)</title>
+        <url>https://www.oreilly.com/library/view/oracle-pl-sql-programming/9781449324445/</url>
         <tags>
             <tag>db_relational_oracle</tag>
         </tags>
     </book>
-    
-    <book lang="en">
-        <title>Kubernetes in Action</title>
-        <url>https://www.manning.com/books/kubernetes-in-action</url>
+    <article lang="en">
+        <title>PostgreSQL tutorial: relational concepts and SQL</title>
+        <url>https://www.postgresql.org/docs/current/tutorial.html</url>
         <tags>
-            <tag>dev_orchestration_k8s</tag>
+            <tag>db</tag>
+            <tag>db_relational</tag>
+            <tag>db_relational_postgres</tag>
+            <tag>db_sql</tag>
+            <tag>db_sql_query</tag>
+            <tag>db_sql_joins</tag>
+            <tag>db_sql_aggregation</tag>
+            <tag>db_sql_dml</tag>
         </tags>
-    </book>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL constraints: keys and relationships</title>
+        <url>https://www.postgresql.org/docs/current/ddl-constraints.html</url>
+        <tags>
+            <tag>db_principles</tag>
+            <tag>db_principles_keys</tag>
+            <tag>db_sql_ddl</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Database normalization basics (Microsoft)</title>
+        <url>https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description</url>
+        <tags>
+            <tag>db_principles_normalization</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>MongoDB: embedding versus references</title>
+        <url>https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/</url>
+        <tags>
+            <tag>db_principles_denormalization</tag>
+            <tag>db_nosql_doc</tag>
+            <tag>db_nosql_mongo</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL table expressions and subqueries</title>
+        <url>https://www.postgresql.org/docs/current/queries-table-expressions.html</url>
+        <tags>
+            <tag>db_sql_subqueries</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL WITH queries</title>
+        <url>https://www.postgresql.org/docs/current/queries-with.html</url>
+        <tags>
+            <tag>db_sql_subqueries</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL window functions tutorial</title>
+        <url>https://www.postgresql.org/docs/current/tutorial-window.html</url>
+        <tags>
+            <tag>db_sql_windows</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL indexes: types, multicolumn indexes and costs</title>
+        <url>https://www.postgresql.org/docs/current/indexes.html</url>
+        <tags>
+            <tag>db_indexes</tag>
+            <tag>db_indexes_btree</tag>
+            <tag>db_indexes_composite</tag>
+            <tag>db_indexes_costs</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL planner statistics</title>
+        <url>https://www.postgresql.org/docs/current/planner-stats.html</url>
+        <tags>
+            <tag>db_indexes_selectivity</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL EXPLAIN</title>
+        <url>https://www.postgresql.org/docs/current/using-explain.html</url>
+        <tags>
+            <tag>db_indexes_plans</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL transaction tutorial</title>
+        <url>https://www.postgresql.org/docs/current/tutorial-transactions.html</url>
+        <tags>
+            <tag>db_relational_acid</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL concurrency control</title>
+        <url>https://www.postgresql.org/docs/current/mvcc.html</url>
+        <tags>
+            <tag>db_transactions</tag>
+            <tag>db_relational_mvcc</tag>
+            <tag>db_isolation</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL explicit locking and deadlocks</title>
+        <url>https://www.postgresql.org/docs/current/explicit-locking.html</url>
+        <tags>
+            <tag>db_relational_blocking</tag>
+            <tag>db_deadlocks</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL serialization failure handling</title>
+        <url>https://www.postgresql.org/docs/current/mvcc-serialization-failure-handling.html</url>
+        <tags>
+            <tag>db_deadlocks</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Cassandra distributed architecture: partitioning, replication and consistency</title>
+        <url>https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html</url>
+        <tags>
+            <tag>db_distributed</tag>
+            <tag>db_distributed_replication</tag>
+            <tag>db_distributed_sharding</tag>
+            <tag>db_distributed_consistency</tag>
+            <tag>db_nosql_colwidebase</tag>
+            <tag>db_cassandra</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL high availability and replication</title>
+        <url>https://www.postgresql.org/docs/current/high-availability.html</url>
+        <tags>
+            <tag>db_distributed_replication</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Flyway versioned migrations</title>
+        <url>https://documentation.red-gate.com/flyway/flyway-concepts/migrations/versioned-migrations</url>
+        <tags>
+            <tag>db_operations</tag>
+            <tag>db_operations_migrations</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL backup and restore</title>
+        <url>https://www.postgresql.org/docs/current/backup.html</url>
+        <tags>
+            <tag>db_operations_backup</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL continuous archiving and recovery</title>
+        <url>https://www.postgresql.org/docs/current/continuous-archiving.html</url>
+        <tags>
+            <tag>db_operations_backup</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL monitoring database activity</title>
+        <url>https://www.postgresql.org/docs/current/monitoring.html</url>
+        <tags>
+            <tag>db_operations_monitoring</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL database roles</title>
+        <url>https://www.postgresql.org/docs/current/user-manag.html</url>
+        <tags>
+            <tag>db_operations_security</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL parameterized query execution</title>
+        <url>https://www.postgresql.org/docs/current/libpq-exec.html</url>
+        <tags>
+            <tag>db_access</tag>
+            <tag>db_access_parameters</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PgBouncer connection pooling features</title>
+        <url>https://www.pgbouncer.org/features.html</url>
+        <tags>
+            <tag>db_access_pooling</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Redis data types</title>
+        <url>https://redis.io/docs/latest/develop/data-types/</url>
+        <tags>
+            <tag>db_nosql_keyvalue</tag>
+            <tag>db_nosql_redis</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>ClickHouse: OLAP, OLTP and column-oriented storage</title>
+        <url>https://clickhouse.com/docs/get-started/about/intro</url>
+        <tags>
+            <tag>db_workloads</tag>
+            <tag>db_workloads_oltp</tag>
+            <tag>db_analytics</tag>
+            <tag>db_nosql_colbase</tag>
+            <tag>db_nosql_clickhouse</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>PostgreSQL object-relational features</title>
+        <url>https://www.postgresql.org/docs/current/extend.html</url>
+        <tags>
+            <tag>db_models</tag>
+            <tag>db_relational_oo</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>ObjectDB: object database concepts</title>
+        <url>https://www.objectdb.com/database/faq</url>
+        <tags>
+            <tag>db_object_databases</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Neo4j graph database concepts</title>
+        <url>https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/</url>
+        <tags>
+            <tag>db_nosql_graph</tag>
+            <tag>db_nosql_neo4j</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>InfluxDB time-series data model</title>
+        <url>https://docs.influxdata.com/influxdb/v2/reference/key-concepts/data-elements/</url>
+        <tags>
+            <tag>db_nosql_time</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Elasticsearch introduction</title>
+        <url>https://www.elastic.co/docs/products/elasticsearch</url>
+        <tags>
+            <tag>db_adjacent</tag>
+            <tag>db_search</tag>
+            <tag>db_search_elasticseaerch</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>RabbitMQ queues and delivery semantics</title>
+        <url>https://www.rabbitmq.com/docs/queues</url>
+        <tags>
+            <tag>db_message_broker</tag>
+            <tag>db_message_broker_rabbit</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Eric Brewer: CAP twelve years later</title>
+        <url>https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/</url>
+        <tags>
+            <tag>db_nosql_cap</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Werner Vogels: eventual consistency</title>
+        <url>https://www.allthingsdistributed.com/2008/12/eventually_consistent.html</url>
+        <tags>
+            <tag>db_nosql_base</tag>
+            <tag>db_distributed_consistency</tag>
+        </tags>
+    </article>
 </materials>

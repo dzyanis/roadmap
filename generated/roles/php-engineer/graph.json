@@ -246,23 +246,363 @@
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_access",
+      "label": "Application access",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL parameterized query execution",
+          "url": "https://www.postgresql.org/docs/current/libpq-exec.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_access_parameters",
+      "label": "Parameterized queries and SQL injection prevention",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL parameterized query execution",
+          "url": "https://www.postgresql.org/docs/current/libpq-exec.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_access_pooling",
+      "label": "Connection pools and connection lifecycle",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PgBouncer connection pooling features",
+          "url": "https://www.pgbouncer.org/features.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_adjacent",
+      "label": "Adjacent systems: search and messaging",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Elasticsearch introduction",
+          "url": "https://www.elastic.co/docs/products/elasticsearch",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_analytics",
+      "label": "OLAP: analytical databases",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "ClickHouse: OLAP, OLTP and column-oriented storage",
+          "url": "https://clickhouse.com/docs/get-started/about/intro",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_cassandra",
+      "label": "Apache Cassandra",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra distributed architecture: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_deadlocks",
+      "label": "Deadlocks and transaction retries",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL explicit locking and deadlocks",
+          "url": "https://www.postgresql.org/docs/current/explicit-locking.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "PostgreSQL serialization failure handling",
+          "url": "https://www.postgresql.org/docs/current/mvcc-serialization-failure-handling.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_distributed",
+      "label": "Distributed data",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra distributed architecture: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_distributed_consistency",
+      "label": "Consistency and availability tradeoffs",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra distributed architecture: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Werner Vogels: eventual consistency",
+          "url": "https://www.allthingsdistributed.com/2008/12/eventually_consistent.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_distributed_replication",
+      "label": "Replication and replication lag",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra distributed architecture: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "PostgreSQL high availability and replication",
+          "url": "https://www.postgresql.org/docs/current/high-availability.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_distributed_sharding",
+      "label": "Partitioning and sharding",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra distributed architecture: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_indexes",
-      "label": "Indexes",
+      "label": "Indexes and query performance",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL indexes: types, multicolumn indexes and costs",
+          "url": "https://www.postgresql.org/docs/current/indexes.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_indexes_btree",
+      "label": "B-tree indexes and lookup costs",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL indexes: types, multicolumn indexes and costs",
+          "url": "https://www.postgresql.org/docs/current/indexes.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_indexes_composite",
+      "label": "Composite indexes and column order",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL indexes: types, multicolumn indexes and costs",
+          "url": "https://www.postgresql.org/docs/current/indexes.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_indexes_costs",
+      "label": "Index write and storage costs",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL indexes: types, multicolumn indexes and costs",
+          "url": "https://www.postgresql.org/docs/current/indexes.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_indexes_plans",
+      "label": "Query plans and EXPLAIN",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL EXPLAIN",
+          "url": "https://www.postgresql.org/docs/current/using-explain.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_indexes_selectivity",
+      "label": "Selectivity and planner statistics",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL planner statistics",
+          "url": "https://www.postgresql.org/docs/current/planner-stats.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_isolation",
+      "label": "Isolation levels and anomalies",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL concurrency control",
+          "url": "https://www.postgresql.org/docs/current/mvcc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_message_broker",
-      "label": "Message Broker",
+      "label": "Message brokers and delivery semantics",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "RabbitMQ queues and delivery semantics",
+          "url": "https://www.rabbitmq.com/docs/queues",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_message_broker_awssqs",
@@ -286,7 +626,33 @@
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "RabbitMQ queues and delivery semantics",
+          "url": "https://www.rabbitmq.com/docs/queues",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_models",
+      "label": "Data models and representative products",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL object-relational features",
+          "url": "https://www.postgresql.org/docs/current/extend.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_mysql",
@@ -298,7 +664,7 @@
     },
     {
       "id": "db_nosql",
-      "label": "NOSQL",
+      "label": "NoSQL data models",
       "subjects": [
         "databases"
       ],
@@ -323,59 +689,139 @@
     },
     {
       "id": "db_nosql_base",
-      "label": "BASE",
+      "label": "BASE and eventual consistency",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Werner Vogels: eventual consistency",
+          "url": "https://www.allthingsdistributed.com/2008/12/eventually_consistent.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_cap",
-      "label": "CAP Theorem",
+      "label": "CAP under network partitions",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Eric Brewer: CAP twelve years later",
+          "url": "https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_clickhouse",
-      "label": "ClickHouse",
+      "label": "ClickHouse (SQL analytics)",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "ClickHouse: OLAP, OLTP and column-oriented storage",
+          "url": "https://clickhouse.com/docs/get-started/about/intro",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_colbase",
-      "label": "Column base",
+      "label": "Column-oriented analytical storage",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "ClickHouse: OLAP, OLTP and column-oriented storage",
+          "url": "https://clickhouse.com/docs/get-started/about/intro",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_colwidebase",
-      "label": "Wide column base",
+      "label": "Wide-column databases",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra distributed architecture: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_doc",
-      "label": "Document base",
+      "label": "Document databases",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "MongoDB: embedding versus references",
+          "url": "https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_graph",
-      "label": "Graph database",
+      "label": "Graph databases",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Neo4j graph database concepts",
+          "url": "https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_nosql_keyvalue",
+      "label": "Key-value and data-structure stores",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Redis data types",
+          "url": "https://redis.io/docs/latest/develop/data-types/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_mongo",
@@ -383,7 +829,16 @@
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "MongoDB: embedding versus references",
+          "url": "https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_neo4j",
@@ -391,11 +846,20 @@
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Neo4j graph database concepts",
+          "url": "https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_orient",
-      "label": "OrientDB",
+      "label": "OrientDB (multi-model)",
       "subjects": [
         "databases"
       ],
@@ -407,47 +871,262 @@
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Redis data types",
+          "url": "https://redis.io/docs/latest/develop/data-types/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_nosql_time",
-      "label": "Time series",
+      "label": "Time-series databases",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "InfluxDB time-series data model",
+          "url": "https://docs.influxdata.com/influxdb/v2/reference/key-concepts/data-elements/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_object_databases",
+      "label": "Object databases: persistent objects and identity",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "ObjectDB: object database concepts",
+          "url": "https://www.objectdb.com/database/faq",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_operations",
+      "label": "Operations and recovery",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Flyway versioned migrations",
+          "url": "https://documentation.red-gate.com/flyway/flyway-concepts/migrations/versioned-migrations",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_operations_backup",
+      "label": "Backups, point-in-time recovery and restore tests",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL backup and restore",
+          "url": "https://www.postgresql.org/docs/current/backup.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "PostgreSQL continuous archiving and recovery",
+          "url": "https://www.postgresql.org/docs/current/continuous-archiving.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_operations_migrations",
+      "label": "Versioned migrations and safe rollout",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Flyway versioned migrations",
+          "url": "https://documentation.red-gate.com/flyway/flyway-concepts/migrations/versioned-migrations",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_operations_monitoring",
+      "label": "Monitoring queries, capacity and replication",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL monitoring database activity",
+          "url": "https://www.postgresql.org/docs/current/monitoring.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_operations_security",
+      "label": "Roles, least privilege and access control",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL database roles",
+          "url": "https://www.postgresql.org/docs/current/user-manag.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_principles",
-      "label": "Principles",
+      "label": "Data modeling",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL constraints: keys and relationships",
+          "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_principles_denormalization",
+      "label": "Denormalization and read/write tradeoffs",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "MongoDB: embedding versus references",
+          "url": "https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_principles_keys",
+      "label": "Keys, constraints and relationships",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL constraints: keys and relationships",
+          "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_principles_normalization",
+      "label": "Normalization and functional dependencies",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Database normalization basics (Microsoft)",
+          "url": "https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_relational",
-      "label": "Relational",
+      "label": "Relational databases",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_relational_acid",
-      "label": "ACID",
+      "label": "ACID guarantees",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL transaction tutorial",
+          "url": "https://www.postgresql.org/docs/current/tutorial-transactions.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_relational_blocking",
-      "label": "Blocking",
+      "label": "Locking and contention",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL explicit locking and deadlocks",
+          "url": "https://www.postgresql.org/docs/current/explicit-locking.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_relational_firebird",
@@ -459,19 +1138,37 @@
     },
     {
       "id": "db_relational_mvcc",
-      "label": "Multiversion Concurrency Control",
+      "label": "Multiversion concurrency control",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL concurrency control",
+          "url": "https://www.postgresql.org/docs/current/mvcc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_relational_oo",
-      "label": "Object-oriented",
+      "label": "Object-relational features",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL object-relational features",
+          "url": "https://www.postgresql.org/docs/current/extend.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_relational_oracle",
@@ -482,8 +1179,8 @@
       "resources": [
         {
           "type": "book",
-          "title": "Oracle PL/SQL Programming: Covers Versions Through Oracle Database 12c",
-          "url": "https://www.amazon.com/Oracle-PL-SQL-Programming-Versions/dp/1449324452",
+          "title": "Oracle PL/SQL Programming (through Oracle 12c; supplementary, version-specific)",
+          "url": "https://www.oreilly.com/library/view/oracle-pl-sql-programming/9781449324445/",
           "language": "en",
           "description": "",
           "translation": null
@@ -496,23 +1193,50 @@
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_search",
-      "label": "Search Engines",
+      "label": "Search engines and inverted indexes",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Elasticsearch introduction",
+          "url": "https://www.elastic.co/docs/products/elasticsearch",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_search_elasticseaerch",
-      "label": "Elasticseaerch",
+      "label": "Elasticsearch",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "Elasticsearch introduction",
+          "url": "https://www.elastic.co/docs/products/elasticsearch",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "db_search_sphinx",
@@ -531,8 +1255,143 @@
       "resources": [
         {
           "type": "book",
-          "title": "SQL Bible",
-          "url": "https://www.amazon.com/SQL-Bible-Alex-Kriegel/dp/0470229063",
+          "title": "SQL Bible (2008; supplementary, older SQL reference)",
+          "url": "https://www.wiley-vch.de/en/areas-interest/computing-computer-sciences/sql-bible-978-0-470-22906-4",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_sql_aggregation",
+      "label": "Aggregation and GROUP BY",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_sql_ddl",
+      "label": "DDL and schema changes",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL constraints: keys and relationships",
+          "url": "https://www.postgresql.org/docs/current/ddl-constraints.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_sql_dml",
+      "label": "INSERT, UPDATE and DELETE",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_sql_joins",
+      "label": "Joins and NULL semantics",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_sql_query",
+      "label": "SELECT, filtering and ordering",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL tutorial: relational concepts and SQL",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_sql_subqueries",
+      "label": "Subqueries and CTEs",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL table expressions and subqueries",
+          "url": "https://www.postgresql.org/docs/current/queries-table-expressions.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "PostgreSQL WITH queries",
+          "url": "https://www.postgresql.org/docs/current/queries-with.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_sql_windows",
+      "label": "Window functions",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL window functions tutorial",
+          "url": "https://www.postgresql.org/docs/current/tutorial-window.html",
           "language": "en",
           "description": "",
           "translation": null
@@ -541,11 +1400,54 @@
     },
     {
       "id": "db_transactions",
-      "label": "Transactions",
+      "label": "Transactions and concurrency",
       "subjects": [
         "databases"
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "article",
+          "title": "PostgreSQL concurrency control",
+          "url": "https://www.postgresql.org/docs/current/mvcc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_workloads",
+      "label": "Transactional and analytical workloads",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "ClickHouse: OLAP, OLTP and column-oriented storage",
+          "url": "https://clickhouse.com/docs/get-started/about/intro",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_workloads_oltp",
+      "label": "OLTP: short application transactions",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "ClickHouse: OLAP, OLTP and column-oriented storage",
+          "url": "https://clickhouse.com/docs/get-started/about/intro",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
     },
     {
       "id": "dev",
@@ -2719,207 +3621,429 @@
       "type": "contains"
     },
     {
-      "id": "edge_db_indexes",
+      "id": "edge_db_access_db_access_parameters",
+      "source": "db_access",
+      "target": "db_access_parameters",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_access_db_access_pooling",
+      "source": "db_access",
+      "target": "db_access_pooling",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_adjacent_db_message_broker",
+      "source": "db_adjacent",
+      "target": "db_message_broker",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_adjacent_db_search",
+      "source": "db_adjacent",
+      "target": "db_search",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_analytics_db_nosql_colbase",
+      "source": "db_analytics",
+      "target": "db_nosql_colbase",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_db_access",
+      "source": "db",
+      "target": "db_access",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_db_adjacent",
+      "source": "db",
+      "target": "db_adjacent",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_db_distributed",
+      "source": "db",
+      "target": "db_distributed",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_db_indexes",
       "source": "db",
       "target": "db_indexes",
       "type": "contains"
     },
     {
-      "id": "edge_db_message_broker",
+      "id": "edge_db_db_models",
       "source": "db",
-      "target": "db_message_broker",
+      "target": "db_models",
       "type": "contains"
     },
     {
-      "id": "edge_db_message_broker_awssqs",
-      "source": "db_message_broker",
-      "target": "db_message_broker_awssqs",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_message_broker_kafka",
-      "source": "db_message_broker",
-      "target": "db_message_broker_kafka",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_message_broker_rabbit",
-      "source": "db_message_broker",
-      "target": "db_message_broker_rabbit",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql",
+      "id": "edge_db_db_operations",
       "source": "db",
-      "target": "db_nosql",
+      "target": "db_operations",
       "type": "contains"
     },
     {
-      "id": "edge_db_nosql_base",
-      "source": "db_nosql",
-      "target": "db_nosql_base",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_cap",
-      "source": "db_nosql",
-      "target": "db_nosql_cap",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_clickhouse",
-      "source": "db_nosql_colbase",
-      "target": "db_nosql_clickhouse",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_colbase",
-      "source": "db_nosql",
-      "target": "db_nosql_colbase",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_colwidebase",
-      "source": "db_nosql",
-      "target": "db_nosql_colwidebase",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_doc",
-      "source": "db_nosql",
-      "target": "db_nosql_doc",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_graph",
-      "source": "db_nosql",
-      "target": "db_nosql_graph",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_mongo",
-      "source": "db_nosql_doc",
-      "target": "db_nosql_mongo",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_neo4j",
-      "source": "db_nosql_graph",
-      "target": "db_nosql_neo4j",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_orient",
-      "source": "db_nosql_graph",
-      "target": "db_nosql_orient",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_redis",
-      "source": "db_nosql_colbase",
-      "target": "db_nosql_redis",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_nosql_time",
-      "source": "db_nosql",
-      "target": "db_nosql_time",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_principles",
+      "id": "edge_db_db_principles",
       "source": "db",
       "target": "db_principles",
       "type": "contains"
     },
     {
-      "id": "edge_db_relational",
-      "source": "db",
-      "target": "db_relational",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_acid",
-      "source": "db_relational",
-      "target": "db_relational_acid",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_blocking",
-      "source": "db_relational",
-      "target": "db_relational_blocking",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_blocking_mysql",
-      "source": "db_relational_blocking",
-      "target": "db_mysql",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_firebird",
-      "source": "db_relational_mvcc",
-      "target": "db_relational_firebird",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_mvcc",
-      "source": "db_relational",
-      "target": "db_relational_mvcc",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_mvcc_mysql",
-      "source": "db_relational_mvcc",
-      "target": "db_mysql",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_oo",
-      "source": "db_relational",
-      "target": "db_relational_oo",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_oracle",
-      "source": "db_relational_mvcc",
-      "target": "db_relational_oracle",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_relational_postgres",
-      "source": "db_relational_mvcc",
-      "target": "db_relational_postgres",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_search",
-      "source": "db",
-      "target": "db_search",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_search_elasticseaerch",
-      "source": "db_search",
-      "target": "db_search_elasticseaerch",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_search_sphinx",
-      "source": "db_search",
-      "target": "db_search_sphinx",
-      "type": "contains"
-    },
-    {
-      "id": "edge_db_sql",
+      "id": "edge_db_db_sql",
       "source": "db",
       "target": "db_sql",
       "type": "contains"
     },
     {
-      "id": "edge_db_transactions",
+      "id": "edge_db_db_transactions",
       "source": "db",
       "target": "db_transactions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_db_workloads",
+      "source": "db",
+      "target": "db_workloads",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_distributed_consistency_db_nosql_base",
+      "source": "db_distributed_consistency",
+      "target": "db_nosql_base",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_distributed_consistency_db_nosql_cap",
+      "source": "db_distributed_consistency",
+      "target": "db_nosql_cap",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_distributed_db_distributed_consistency",
+      "source": "db_distributed",
+      "target": "db_distributed_consistency",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_distributed_db_distributed_replication",
+      "source": "db_distributed",
+      "target": "db_distributed_replication",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_distributed_db_distributed_sharding",
+      "source": "db_distributed",
+      "target": "db_distributed_sharding",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_indexes_db_indexes_btree",
+      "source": "db_indexes",
+      "target": "db_indexes_btree",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_indexes_db_indexes_composite",
+      "source": "db_indexes",
+      "target": "db_indexes_composite",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_indexes_db_indexes_costs",
+      "source": "db_indexes",
+      "target": "db_indexes_costs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_indexes_db_indexes_plans",
+      "source": "db_indexes",
+      "target": "db_indexes_plans",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_indexes_db_indexes_selectivity",
+      "source": "db_indexes",
+      "target": "db_indexes_selectivity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_message_broker_db_message_broker_awssqs",
+      "source": "db_message_broker",
+      "target": "db_message_broker_awssqs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_message_broker_db_message_broker_kafka",
+      "source": "db_message_broker",
+      "target": "db_message_broker_kafka",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_message_broker_db_message_broker_rabbit",
+      "source": "db_message_broker",
+      "target": "db_message_broker_rabbit",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_models_db_nosql",
+      "source": "db_models",
+      "target": "db_nosql",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_models_db_object_databases",
+      "source": "db_models",
+      "target": "db_object_databases",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_models_db_relational",
+      "source": "db_models",
+      "target": "db_relational",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_colbase_db_nosql_clickhouse",
+      "source": "db_nosql_colbase",
+      "target": "db_nosql_clickhouse",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_colwidebase_db_cassandra",
+      "source": "db_nosql_colwidebase",
+      "target": "db_cassandra",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_db_nosql_colwidebase",
+      "source": "db_nosql",
+      "target": "db_nosql_colwidebase",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_db_nosql_doc",
+      "source": "db_nosql",
+      "target": "db_nosql_doc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_db_nosql_graph",
+      "source": "db_nosql",
+      "target": "db_nosql_graph",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_db_nosql_keyvalue",
+      "source": "db_nosql",
+      "target": "db_nosql_keyvalue",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_db_nosql_time",
+      "source": "db_nosql",
+      "target": "db_nosql_time",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_doc_db_nosql_mongo",
+      "source": "db_nosql_doc",
+      "target": "db_nosql_mongo",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_graph_db_nosql_neo4j",
+      "source": "db_nosql_graph",
+      "target": "db_nosql_neo4j",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_graph_db_nosql_orient",
+      "source": "db_nosql_graph",
+      "target": "db_nosql_orient",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_nosql_keyvalue_db_nosql_redis",
+      "source": "db_nosql_keyvalue",
+      "target": "db_nosql_redis",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_operations_db_operations_backup",
+      "source": "db_operations",
+      "target": "db_operations_backup",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_operations_db_operations_migrations",
+      "source": "db_operations",
+      "target": "db_operations_migrations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_operations_db_operations_monitoring",
+      "source": "db_operations",
+      "target": "db_operations_monitoring",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_operations_db_operations_security",
+      "source": "db_operations",
+      "target": "db_operations_security",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_principles_db_principles_denormalization",
+      "source": "db_principles",
+      "target": "db_principles_denormalization",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_principles_db_principles_keys",
+      "source": "db_principles",
+      "target": "db_principles_keys",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_principles_db_principles_normalization",
+      "source": "db_principles",
+      "target": "db_principles_normalization",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_db_mysql",
+      "source": "db_relational",
+      "target": "db_mysql",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_db_relational_firebird",
+      "source": "db_relational",
+      "target": "db_relational_firebird",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_db_relational_oo",
+      "source": "db_relational",
+      "target": "db_relational_oo",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_db_relational_oracle",
+      "source": "db_relational",
+      "target": "db_relational_oracle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_relational_db_relational_postgres",
+      "source": "db_relational",
+      "target": "db_relational_postgres",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_search_db_search_elasticseaerch",
+      "source": "db_search",
+      "target": "db_search_elasticseaerch",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_search_db_search_sphinx",
+      "source": "db_search",
+      "target": "db_search_sphinx",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql_db_sql_aggregation",
+      "source": "db_sql",
+      "target": "db_sql_aggregation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql_db_sql_ddl",
+      "source": "db_sql",
+      "target": "db_sql_ddl",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql_db_sql_dml",
+      "source": "db_sql",
+      "target": "db_sql_dml",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql_db_sql_joins",
+      "source": "db_sql",
+      "target": "db_sql_joins",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql_db_sql_query",
+      "source": "db_sql",
+      "target": "db_sql_query",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql_db_sql_subqueries",
+      "source": "db_sql",
+      "target": "db_sql_subqueries",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_sql_db_sql_windows",
+      "source": "db_sql",
+      "target": "db_sql_windows",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_transactions_db_deadlocks",
+      "source": "db_transactions",
+      "target": "db_deadlocks",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_transactions_db_isolation",
+      "source": "db_transactions",
+      "target": "db_isolation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_transactions_db_relational_acid",
+      "source": "db_transactions",
+      "target": "db_relational_acid",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_transactions_db_relational_blocking",
+      "source": "db_transactions",
+      "target": "db_relational_blocking",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_transactions_db_relational_mvcc",
+      "source": "db_transactions",
+      "target": "db_relational_mvcc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_workloads_db_analytics",
+      "source": "db_workloads",
+      "target": "db_analytics",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_workloads_db_workloads_oltp",
+      "source": "db_workloads",
+      "target": "db_workloads_oltp",
+      "type": "contains"
+    },
+    {
+      "id": "edge_db_workloads_oltp_db_mysql",
+      "source": "db_workloads_oltp",
+      "target": "db_mysql",
       "type": "contains"
     },
     {

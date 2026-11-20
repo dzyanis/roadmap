@@ -54,83 +54,349 @@
 
 ## Databases
 
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
+
+
+### Data modeling
+
+- article: [PostgreSQL constraints: keys and relationships](https://www.postgresql.org/docs/current/ddl-constraints.html)
+
+
+#### Keys, constraints and relationships
+
+- article: [PostgreSQL constraints: keys and relationships](https://www.postgresql.org/docs/current/ddl-constraints.html)
+
+
+#### Normalization and functional dependencies
+
+- article: [Database normalization basics (Microsoft)](https://learn.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description)
+
+
+#### Denormalization and read/write tradeoffs
+
+- article: [MongoDB: embedding versus references](https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/)
+
+
 ### SQL
 
-- book: [SQL Bible](https://www.amazon.com/SQL-Bible-Alex-Kriegel/dp/0470229063)
+- book: [SQL Bible (2008; supplementary, older SQL reference)](https://www.wiley-vch.de/en/areas-interest/computing-computer-sciences/sql-bible-978-0-470-22906-4)
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
 
 
-### Indexes
+#### SELECT, filtering and ordering
 
-### Transactions
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
 
-### Principles
 
-### Relational
+#### Joins and NULL semantics
 
-#### Multiversion Concurrency Control
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
 
-##### Firebird
+
+#### Aggregation and GROUP BY
+
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
+
+
+#### Subqueries and CTEs
+
+- article: [PostgreSQL table expressions and subqueries](https://www.postgresql.org/docs/current/queries-table-expressions.html)
+- article: [PostgreSQL WITH queries](https://www.postgresql.org/docs/current/queries-with.html)
+
+
+#### Window functions
+
+- article: [PostgreSQL window functions tutorial](https://www.postgresql.org/docs/current/tutorial-window.html)
+
+
+#### DDL and schema changes
+
+- article: [PostgreSQL constraints: keys and relationships](https://www.postgresql.org/docs/current/ddl-constraints.html)
+
+
+#### INSERT, UPDATE and DELETE
+
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
+
+
+### Indexes and query performance
+
+- article: [PostgreSQL indexes: types, multicolumn indexes and costs](https://www.postgresql.org/docs/current/indexes.html)
+
+
+#### B-tree indexes and lookup costs
+
+- article: [PostgreSQL indexes: types, multicolumn indexes and costs](https://www.postgresql.org/docs/current/indexes.html)
+
+
+#### Composite indexes and column order
+
+- article: [PostgreSQL indexes: types, multicolumn indexes and costs](https://www.postgresql.org/docs/current/indexes.html)
+
+
+#### Selectivity and planner statistics
+
+- article: [PostgreSQL planner statistics](https://www.postgresql.org/docs/current/planner-stats.html)
+
+
+#### Query plans and EXPLAIN
+
+- article: [PostgreSQL EXPLAIN](https://www.postgresql.org/docs/current/using-explain.html)
+
+
+#### Index write and storage costs
+
+- article: [PostgreSQL indexes: types, multicolumn indexes and costs](https://www.postgresql.org/docs/current/indexes.html)
+
+
+### Transactions and concurrency
+
+- article: [PostgreSQL concurrency control](https://www.postgresql.org/docs/current/mvcc.html)
+
+
+#### ACID guarantees
+
+- article: [PostgreSQL transaction tutorial](https://www.postgresql.org/docs/current/tutorial-transactions.html)
+
+
+#### Isolation levels and anomalies
+
+- article: [PostgreSQL concurrency control](https://www.postgresql.org/docs/current/mvcc.html)
+
+
+#### Multiversion concurrency control
+
+- article: [PostgreSQL concurrency control](https://www.postgresql.org/docs/current/mvcc.html)
+
+
+#### Locking and contention
+
+- article: [PostgreSQL explicit locking and deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html)
+
+
+#### Deadlocks and transaction retries
+
+- article: [PostgreSQL explicit locking and deadlocks](https://www.postgresql.org/docs/current/explicit-locking.html)
+- article: [PostgreSQL serialization failure handling](https://www.postgresql.org/docs/current/mvcc-serialization-failure-handling.html)
+
+
+### Distributed data
+
+- article: [Cassandra distributed architecture: partitioning, replication and consistency](https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html)
+
+
+#### Replication and replication lag
+
+- article: [Cassandra distributed architecture: partitioning, replication and consistency](https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html)
+- article: [PostgreSQL high availability and replication](https://www.postgresql.org/docs/current/high-availability.html)
+
+
+#### Partitioning and sharding
+
+- article: [Cassandra distributed architecture: partitioning, replication and consistency](https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html)
+
+
+#### Consistency and availability tradeoffs
+
+- article: [Cassandra distributed architecture: partitioning, replication and consistency](https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html)
+- article: [Werner Vogels: eventual consistency](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
+
+
+##### CAP under network partitions
+
+- article: [Eric Brewer: CAP twelve years later](https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/)
+
+
+##### BASE and eventual consistency
+
+- article: [Werner Vogels: eventual consistency](https://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
+
+
+### Operations and recovery
+
+- article: [Flyway versioned migrations](https://documentation.red-gate.com/flyway/flyway-concepts/migrations/versioned-migrations)
+
+
+#### Versioned migrations and safe rollout
+
+- article: [Flyway versioned migrations](https://documentation.red-gate.com/flyway/flyway-concepts/migrations/versioned-migrations)
+
+
+#### Backups, point-in-time recovery and restore tests
+
+- article: [PostgreSQL backup and restore](https://www.postgresql.org/docs/current/backup.html)
+- article: [PostgreSQL continuous archiving and recovery](https://www.postgresql.org/docs/current/continuous-archiving.html)
+
+
+#### Monitoring queries, capacity and replication
+
+- article: [PostgreSQL monitoring database activity](https://www.postgresql.org/docs/current/monitoring.html)
+
+
+#### Roles, least privilege and access control
+
+- article: [PostgreSQL database roles](https://www.postgresql.org/docs/current/user-manag.html)
+
+
+### Application access
+
+- article: [PostgreSQL parameterized query execution](https://www.postgresql.org/docs/current/libpq-exec.html)
+
+
+#### Parameterized queries and SQL injection prevention
+
+- article: [PostgreSQL parameterized query execution](https://www.postgresql.org/docs/current/libpq-exec.html)
+
+
+#### Connection pools and connection lifecycle
+
+- article: [PgBouncer connection pooling features](https://www.pgbouncer.org/features.html)
+
+
+### Data models and representative products
+
+- article: [PostgreSQL object-relational features](https://www.postgresql.org/docs/current/extend.html)
+
+
+#### Relational databases
+
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
+
+
+##### Object-relational features
+
+- article: [PostgreSQL object-relational features](https://www.postgresql.org/docs/current/extend.html)
+
 
 ##### PostgreSQL
 
+- article: [PostgreSQL tutorial: relational concepts and SQL](https://www.postgresql.org/docs/current/tutorial.html)
+
+
+##### MySQL
+
 ##### Oracle
 
-- book: [Oracle PL/SQL Programming: Covers Versions Through Oracle Database 12c](https://www.amazon.com/Oracle-PL-SQL-Programming-Versions/dp/1449324452)
+- book: [Oracle PL/SQL Programming (through Oracle 12c; supplementary, version-specific)](https://www.oreilly.com/library/view/oracle-pl-sql-programming/9781449324445/)
 
 
-##### MySQL
+##### Firebird
 
-#### Blocking
+#### Object databases: persistent objects and identity
 
-##### MySQL
+- article: [ObjectDB: object database concepts](https://www.objectdb.com/database/faq)
 
-#### ACID
 
-#### Object-oriented
-
-### NOSQL
+#### NoSQL data models
 
 - article: [NOSQL](https://martinfowler.com/nosql.html)
 - book: [NoSQL Distilled](https://martinfowler.com/books/nosql.html)
 
 
-#### CAP Theorem
+##### Key-value and data-structure stores
 
-#### BASE
+- article: [Redis data types](https://redis.io/docs/latest/develop/data-types/)
 
-#### Graph database
 
-##### OrientDB
+###### Redis
 
-##### Neo4j
+- article: [Redis data types](https://redis.io/docs/latest/develop/data-types/)
 
-#### Document base
 
-##### MongoDB
+##### Document databases
 
-#### Column base
+- article: [MongoDB: embedding versus references](https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/)
 
-##### Redis
 
-##### ClickHouse
+###### MongoDB
 
-#### Wide column base
+- article: [MongoDB: embedding versus references](https://www.mongodb.com/docs/manual/data-modeling/concepts/embedding-vs-references/)
 
-#### Time series
 
-### Search Engines
+##### Wide-column databases
 
-#### Elasticseaerch
+- article: [Cassandra distributed architecture: partitioning, replication and consistency](https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html)
 
-#### Sphinx
 
-### Message Broker
+###### Apache Cassandra
 
-#### Kafka
+- article: [Cassandra distributed architecture: partitioning, replication and consistency](https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html)
 
-#### RabbitMQ
 
-#### Amazon Simple Queue Service
+##### Graph databases
+
+- article: [Neo4j graph database concepts](https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/)
+
+
+###### Neo4j
+
+- article: [Neo4j graph database concepts](https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/)
+
+
+###### OrientDB (multi-model)
+
+##### Time-series databases
+
+- article: [InfluxDB time-series data model](https://docs.influxdata.com/influxdb/v2/reference/key-concepts/data-elements/)
+
+
+### Transactional and analytical workloads
+
+- article: [ClickHouse: OLAP, OLTP and column-oriented storage](https://clickhouse.com/docs/get-started/about/intro)
+
+
+#### OLTP: short application transactions
+
+- article: [ClickHouse: OLAP, OLTP and column-oriented storage](https://clickhouse.com/docs/get-started/about/intro)
+
+
+##### MySQL
+
+#### OLAP: analytical databases
+
+- article: [ClickHouse: OLAP, OLTP and column-oriented storage](https://clickhouse.com/docs/get-started/about/intro)
+
+
+##### Column-oriented analytical storage
+
+- article: [ClickHouse: OLAP, OLTP and column-oriented storage](https://clickhouse.com/docs/get-started/about/intro)
+
+
+###### ClickHouse (SQL analytics)
+
+- article: [ClickHouse: OLAP, OLTP and column-oriented storage](https://clickhouse.com/docs/get-started/about/intro)
+
+
+### Adjacent systems: search and messaging
+
+- article: [Elasticsearch introduction](https://www.elastic.co/docs/products/elasticsearch)
+
+
+#### Search engines and inverted indexes
+
+- article: [Elasticsearch introduction](https://www.elastic.co/docs/products/elasticsearch)
+
+
+##### Elasticsearch
+
+- article: [Elasticsearch introduction](https://www.elastic.co/docs/products/elasticsearch)
+
+
+##### Sphinx
+
+#### Message brokers and delivery semantics
+
+- article: [RabbitMQ queues and delivery semantics](https://www.rabbitmq.com/docs/queues)
+
+
+##### Kafka
+
+##### RabbitMQ
+
+- article: [RabbitMQ queues and delivery semantics](https://www.rabbitmq.com/docs/queues)
+
+
+##### Amazon Simple Queue Service
 
 ## Computer Network
 
