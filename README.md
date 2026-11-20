@@ -110,6 +110,10 @@ Open `http://127.0.0.1:8000/` to preview it. Opening `index.html` directly from 
 
 The viewer draws each knowledge tree in the browser with Cytoscape.js and the Dagre layout. The Cytoscape, Dagre, and layout-plugin builds are committed under `site/vendor/` at pinned versions, so visitors do not load scripts from a CDN and no renderer runs on the server. Direct links look like `#roadmap=roles/go-engineer&topic=<topic-id>`.
 
+The [renderer decision](docs/renderer-decision.md) records why the website uses
+Cytoscape + Dagre while static exports retain Graphviz, with links to the Mermaid
+and D2 experiments and their measurement limits.
+
 GitHub Actions validates the XML, runs the tests, and builds the site on every pull request. Pushes to `master` deploy the site to GitHub Pages only after that build succeeds. The site is served under `/roadmap/`, so all of its links and assets are relative.
 
 ## Contribute
