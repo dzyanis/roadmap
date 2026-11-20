@@ -29,11 +29,16 @@ ruby: ruby-engineer
 devops: devops-engineer
 cs: data-structures-algorithms
 
-.PHONY: force clean test check
+.PHONY: force clean test check site
 force:
+
+# The website reads generated/*/*/graph.json, so build the roadmaps first.
+site: all
+	python3 tools/build_site.py --output _site
 
 clean:
 	rm -f $(foreach roadmap,$(ROADMAPS),$(call outputs,$(roadmap)) $(call stamp,$(roadmap)))
+	rm -rf _site
 
 test:
 	python3 -m unittest discover -s tests -v

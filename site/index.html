@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roadmap Core: knowledge trees</title>
+  <meta name="description" content="Explore software engineering knowledge trees: topics, how they connect, and the learning resources attached to each one.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the knowledge tree</a>
+
+  <header class="site-header">
+    <div class="title-row">
+      <h1>Roadmap Core</h1>
+      <label class="roadmap-picker">
+        <span>Roadmap</span>
+        <select id="roadmap-select"></select>
+      </label>
+    </div>
+    <p class="intro">Select a topic to see how it connects and which learning resources cover it.</p>
+  </header>
+
+  <main id="main" class="layout">
+    <section class="map" aria-labelledby="map-title">
+      <h2 id="map-title" class="visually-hidden">Knowledge tree</h2>
+
+      <div class="toolbar" role="toolbar" aria-label="Map controls">
+        <div class="search">
+          <label for="search">Find topic</label>
+          <input id="search" type="search" autocomplete="off" placeholder="Search topics (press /)">
+          <span id="search-count" class="search-count"></span>
+        </div>
+        <div class="map-buttons">
+          <button id="zoom-out" type="button" aria-label="Zoom out">&minus;</button>
+          <button id="zoom-in" type="button" aria-label="Zoom in">+</button>
+          <button id="fit" type="button">Fit map</button>
+          <button id="copy-link" type="button">Copy link</button>
+        </div>
+      </div>
+
+      <p id="status" class="status" role="status"></p>
+      <div id="canvas" class="canvas" role="region" aria-label="Topic graph. Every topic is also listed under All topics for keyboard and screen reader use."></div>
+      <div id="legend" class="legend"></div>
+    </section>
+
+    <aside class="panel">
+      <section id="topic-card" class="card"></section>
+
+      <section class="outline" aria-labelledby="outline-title">
+        <h2 id="outline-title">All topics <span id="outline-count" class="count"></span></h2>
+        <ul id="outline" class="outline-list"></ul>
+      </section>
+    </aside>
+  </main>
+
+  <p id="live" class="visually-hidden" aria-live="polite"></p>
+
+  <footer class="site-footer">
+    Generated from the repository XML by <code>tools/build_site.py</code>.
+    <a href="https://github.com/dzyanis/roadmap">Source on GitHub</a>
+  </footer>
+
+  <script src="vendor/dagre.min.js"></script>
+  <script src="vendor/cytoscape.min.js"></script>
+  <script src="vendor/cytoscape-dagre.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
