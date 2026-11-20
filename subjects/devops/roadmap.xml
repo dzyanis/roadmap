@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd">
+    <include filepath="fragments/container-images.xml"/>
     <graph id="devops">
         <node id="devops" label="DevOps Practices"/>
         <node id="devops_automation" label="Automation and Scripting"/>
@@ -12,7 +13,6 @@
         <edge id="edge_devops_automation_3" source="devops_automation" target="devops_automation_3"/>
         <node id="devops_containers" label="Containers"/>
         <edge id="edge_devops_containers" source="devops" target="devops_containers"/>
-        <node id="devops_containers_1" label="Images and registries"/>
         <edge id="edge_devops_containers_1" source="devops_containers" target="devops_containers_1"/>
         <node id="devops_containers_2" label="Docker"/>
         <edge id="edge_devops_containers_2" source="devops_containers" target="devops_containers_2"/>

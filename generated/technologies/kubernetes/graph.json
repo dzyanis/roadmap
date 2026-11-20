@@ -1,0 +1,1871 @@
+{
+  "schema_version": 1,
+  "roadmap": {
+    "id": "technologies/kubernetes",
+    "label": "Kubernetes",
+    "root": "backend"
+  },
+  "subjects": [
+    "devops",
+    "kubernetes",
+    "networking",
+    "operating-systems",
+    "software-development"
+  ],
+  "topics": [
+    {
+      "id": "backend",
+      "label": "Kubernetes",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes local learning environment",
+          "url": "https://kubernetes.io/docs/setup/learning-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dev_orchestration_k8s",
+      "label": "Kubernetes",
+      "subjects": [
+        "software-development"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Learn Kubernetes basics",
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "devops_containers_1",
+      "label": "Images and registries",
+      "subjects": [
+        "devops"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Docker container concepts",
+          "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Docker images",
+          "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_advanced",
+      "label": "Further study: cluster administration",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: Further study: cluster administration",
+          "url": "https://kubernetes.io/docs/setup/production-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_advanced_extensions",
+      "label": "CRDs, operators and admission webhooks",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: Further study: cluster administration",
+          "url": "https://kubernetes.io/docs/setup/production-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes administration: extensions",
+          "url": "https://kubernetes.io/docs/concepts/extend-kubernetes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_advanced_install",
+      "label": "Managed clusters, kubeadm and topology choices",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: Further study: cluster administration",
+          "url": "https://kubernetes.io/docs/setup/production-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_advanced_recovery",
+      "label": "etcd snapshots and recovery drills",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: Further study: cluster administration",
+          "url": "https://kubernetes.io/docs/setup/production-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes administration: recovery",
+          "url": "https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_advanced_upgrades",
+      "label": "Version skew, upgrades and node maintenance",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: Further study: cluster administration",
+          "url": "https://kubernetes.io/docs/setup/production-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes administration: upgrades",
+          "url": "https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_architecture",
+      "label": "1. Cluster architecture and API model",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 1. Cluster architecture and API model",
+          "url": "https://kubernetes.io/docs/concepts/overview/components/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_architecture_components",
+      "label": "Control plane, worker nodes and kubelet",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 1. Cluster architecture and API model",
+          "url": "https://kubernetes.io/docs/concepts/overview/components/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_architecture_controllers",
+      "label": "Controllers and reconciliation",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 1. Cluster architecture and API model",
+          "url": "https://kubernetes.io/docs/concepts/overview/components/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes objects and declarative management",
+          "url": "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_architecture_objects",
+      "label": "API objects, desired state and manifests",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 1. Cluster architecture and API model",
+          "url": "https://kubernetes.io/docs/concepts/overview/components/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes objects and declarative management",
+          "url": "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_config",
+      "label": "4. Application configuration",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 4. Application configuration",
+          "url": "https://kubernetes.io/docs/concepts/configuration/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_config_configmaps",
+      "label": "ConfigMaps and environment variables",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 4. Application configuration",
+          "url": "https://kubernetes.io/docs/concepts/configuration/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "ConfigMaps",
+          "url": "https://kubernetes.io/docs/concepts/configuration/configmap/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_config_secrets",
+      "label": "Secrets and safe credential handling",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 4. Application configuration",
+          "url": "https://kubernetes.io/docs/concepts/configuration/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Secrets: access, encryption and security",
+          "url": "https://kubernetes.io/docs/concepts/configuration/secret/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_config_volumes",
+      "label": "Volumes and configuration mounts",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 4. Application configuration",
+          "url": "https://kubernetes.io/docs/concepts/configuration/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Volumes",
+          "url": "https://kubernetes.io/docs/concepts/storage/volumes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_delivery",
+      "label": "10. Packaging and delivery",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 10. Packaging and delivery",
+          "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_delivery_gitops",
+      "label": "GitOps reconciliation and drift",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 10. Packaging and delivery",
+          "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Flux: GitOps getting started",
+          "url": "https://fluxcd.io/flux/get-started/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_delivery_helm",
+      "label": "Helm charts and release lifecycle",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 10. Packaging and delivery",
+          "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Helm: quick start",
+          "url": "https://helm.sh/docs/intro/quickstart/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_delivery_kustomize",
+      "label": "Kustomize bases and overlays",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 10. Packaging and delivery",
+          "url": "https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_networking",
+      "label": "5. Networking and traffic",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 5. Networking and traffic",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_networking_dns",
+      "label": "Service discovery and cluster DNS",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 5. Networking and traffic",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes networking: dns",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_networking_gateway",
+      "label": "Gateway API: GatewayClass, Gateway and HTTPRoute",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 5. Networking and traffic",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes networking: gateway",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/gateway/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_networking_ingress",
+      "label": "Ingress API (frozen) and controller requirements",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 5. Networking and traffic",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes networking: ingress",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/ingress/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_networking_policies",
+      "label": "NetworkPolicies and supporting network plugins",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 5. Networking and traffic",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes networking: policies",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/network-policies/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_networking_services",
+      "label": "Services, selectors and EndpointSlices",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 5. Networking and traffic",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes networking: services",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/service/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_operations",
+      "label": "9. Troubleshooting applications",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 9. Troubleshooting applications",
+          "url": "https://kubernetes.io/docs/tasks/debug/debug-application/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_operations_failures",
+      "label": "Pending, ImagePullBackOff and CrashLoopBackOff",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 9. Troubleshooting applications",
+          "url": "https://kubernetes.io/docs/tasks/debug/debug-application/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_operations_network",
+      "label": "Debug Service selectors, endpoints and DNS",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 9. Troubleshooting applications",
+          "url": "https://kubernetes.io/docs/tasks/debug/debug-application/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_operations_observe",
+      "label": "Logs, events, describe and metrics",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 9. Troubleshooting applications",
+          "url": "https://kubernetes.io/docs/tasks/debug/debug-application/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_operations_storage",
+      "label": "Debug Pending PVCs and volume mounts",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 9. Troubleshooting applications",
+          "url": "https://kubernetes.io/docs/tasks/debug/debug-application/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice",
+      "label": "Practice: local application milestones",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes local learning environment",
+          "url": "https://kubernetes.io/docs/setup/learning-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice_cluster",
+      "label": "1. Create a local cluster and inspect nodes",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "1. Create a local cluster and inspect nodes",
+          "url": "https://kind.sigs.k8s.io/docs/user/quick-start/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice_configure",
+      "label": "4. Inject ConfigMap and Secret values",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "4. Inject ConfigMap and Secret values",
+          "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice_debug",
+      "label": "7. Break a selector or image tag, diagnose and repair",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "7. Break a selector or image tag, diagnose and repair",
+          "url": "https://kubernetes.io/docs/tasks/debug/debug-application/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice_deploy",
+      "label": "2. Deploy an application and inspect reconciliation",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "2. Deploy an application and inspect reconciliation",
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice_expose",
+      "label": "3. Expose a Service and test port-forwarding",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "3. Expose a Service and test port-forwarding",
+          "url": "https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice_persist",
+      "label": "5. Mount a PVC and verify data after Pod replacement",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "5. Mount a PVC and verify data after Pod replacement",
+          "url": "https://kubernetes.io/docs/tutorials/configuration/configure-persistent-volume-storage/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_practice_rollout",
+      "label": "6. Update an image and roll back a failed rollout",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "6. Update an image and roll back a failed rollout",
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_prerequisites",
+      "label": "Start here: prerequisites",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes local learning environment",
+          "url": "https://kubernetes.io/docs/setup/learning-environment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_prerequisites_yaml",
+      "label": "YAML: mappings, sequences and indentation",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "YAML specification",
+          "url": "https://yaml.org/spec/1.2.2/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_reliability",
+      "label": "7. Scheduling and reliability",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 7. Scheduling and reliability",
+          "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_reliability_disruptions",
+      "label": "PodDisruptionBudgets and voluntary disruption",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 7. Scheduling and reliability",
+          "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes reliability: disruptions",
+          "url": "https://kubernetes.io/docs/tasks/run-application/configure-pdb/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_reliability_placement",
+      "label": "Node affinity, taints and tolerations",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 7. Scheduling and reliability",
+          "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_reliability_probes",
+      "label": "Startup, readiness and liveness probes",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 7. Scheduling and reliability",
+          "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes reliability: probes",
+          "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_reliability_resources",
+      "label": "CPU/memory requests and limits",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 7. Scheduling and reliability",
+          "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes reliability: resources",
+          "url": "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_reliability_scaling",
+      "label": "Horizontal autoscaling and metrics dependencies",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 7. Scheduling and reliability",
+          "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Kubernetes reliability: scaling",
+          "url": "https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_security",
+      "label": "8. Workload security",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 8. Workload security",
+          "url": "https://kubernetes.io/docs/concepts/security/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_security_identity",
+      "label": "ServiceAccounts and workload identity",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 8. Workload security",
+          "url": "https://kubernetes.io/docs/concepts/security/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_security_podsecurity",
+      "label": "Security contexts and Pod Security Admission",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 8. Workload security",
+          "url": "https://kubernetes.io/docs/concepts/security/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Pod Security Admission",
+          "url": "https://kubernetes.io/docs/concepts/security/pod-security-admission/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_security_rbac",
+      "label": "RBAC and least privilege",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 8. Workload security",
+          "url": "https://kubernetes.io/docs/concepts/security/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "RBAC good practices",
+          "url": "https://kubernetes.io/docs/concepts/security/rbac-good-practices/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_storage",
+      "label": "6. Persistent storage",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 6. Persistent storage",
+          "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_storage_claims",
+      "label": "PersistentVolumes and PersistentVolumeClaims",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 6. Persistent storage",
+          "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_storage_classes",
+      "label": "StorageClasses and dynamic provisioning",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 6. Persistent storage",
+          "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "StorageClasses",
+          "url": "https://kubernetes.io/docs/concepts/storage/storage-classes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_storage_lifecycle",
+      "label": "Access modes, reclaim policy and data lifecycle",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 6. Persistent storage",
+          "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_tools",
+      "label": "2. Everyday tools and organization",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 2. Everyday tools and organization",
+          "url": "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "kubectl quick reference",
+          "url": "https://kubernetes.io/docs/reference/kubectl/quick-reference/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_tools_kubectl",
+      "label": "kubectl, contexts and namespaces",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 2. Everyday tools and organization",
+          "url": "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "kubectl quick reference",
+          "url": "https://kubernetes.io/docs/reference/kubectl/quick-reference/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_tools_metadata",
+      "label": "Labels, selectors and annotations",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 2. Everyday tools and organization",
+          "url": "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_tools_yaml",
+      "label": "YAML manifests and API versions",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 2. Everyday tools and organization",
+          "url": "https://kubernetes.io/docs/concepts/overview/working-with-objects/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_workloads",
+      "label": "3. Application workloads",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 3. Application workloads",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_workloads_daemon",
+      "label": "DaemonSets and node services",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 3. Application workloads",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_workloads_deployments",
+      "label": "Deployments, ReplicaSets and rolling updates",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 3. Application workloads",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Deployments: rollout and rollback",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_workloads_jobs",
+      "label": "Jobs and CronJobs",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 3. Application workloads",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_workloads_pods",
+      "label": "Pods and container lifecycle",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 3. Application workloads",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Pods",
+          "url": "https://kubernetes.io/docs/concepts/workloads/pods/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_workloads_rollback",
+      "label": "Rollout history and rollback",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 3. Application workloads",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Deployments: rollout and rollback",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "k8s_workloads_stateful",
+      "label": "StatefulSets and stable identity",
+      "subjects": [
+        "kubernetes"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes: 3. Application workloads",
+          "url": "https://kubernetes.io/docs/concepts/workloads/controllers/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "net_dns",
+      "label": "DNS",
+      "subjects": [
+        "networking"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes networking model",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "net_protocols_ip",
+      "label": "IP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes networking model",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "net_protocols_tcp",
+      "label": "TCP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Kubernetes networking model",
+          "url": "https://kubernetes.io/docs/concepts/services-networking/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_linux_processes",
+      "label": "Process and CPU Inspection (ps, top)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Linux process inspection with ps",
+          "url": "https://man7.org/linux/man-pages/man1/ps.1.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_processes_lifecycle",
+      "label": "Process Creation, Execution, and Exit",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: processes",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_shell_bash",
+      "label": "Bash",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Bash manual",
+          "url": "https://www.gnu.org/software/bash/manual/bash.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_backend_dev_orchestration_k8s",
+      "source": "backend",
+      "target": "dev_orchestration_k8s",
+      "type": "contains"
+    },
+    {
+      "id": "edge_backend_k8s_practice",
+      "source": "backend",
+      "target": "k8s_practice",
+      "type": "contains"
+    },
+    {
+      "id": "edge_backend_k8s_prerequisites",
+      "source": "backend",
+      "target": "k8s_prerequisites",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_advanced",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_advanced",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_architecture",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_architecture",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_config",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_config",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_delivery",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_delivery",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_networking",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_networking",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_operations",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_operations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_reliability",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_reliability",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_security",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_security",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_storage",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_storage",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_tools",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_tools",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dev_orchestration_k8s_k8s_workloads",
+      "source": "dev_orchestration_k8s",
+      "target": "k8s_workloads",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_advanced_k8s_advanced_extensions",
+      "source": "k8s_advanced",
+      "target": "k8s_advanced_extensions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_advanced_k8s_advanced_install",
+      "source": "k8s_advanced",
+      "target": "k8s_advanced_install",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_advanced_k8s_advanced_recovery",
+      "source": "k8s_advanced",
+      "target": "k8s_advanced_recovery",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_advanced_k8s_advanced_upgrades",
+      "source": "k8s_advanced",
+      "target": "k8s_advanced_upgrades",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_architecture_k8s_architecture_components",
+      "source": "k8s_architecture",
+      "target": "k8s_architecture_components",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_architecture_k8s_architecture_controllers",
+      "source": "k8s_architecture",
+      "target": "k8s_architecture_controllers",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_architecture_k8s_architecture_objects",
+      "source": "k8s_architecture",
+      "target": "k8s_architecture_objects",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_config_k8s_config_configmaps",
+      "source": "k8s_config",
+      "target": "k8s_config_configmaps",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_config_k8s_config_secrets",
+      "source": "k8s_config",
+      "target": "k8s_config_secrets",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_config_k8s_config_volumes",
+      "source": "k8s_config",
+      "target": "k8s_config_volumes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_delivery_k8s_delivery_gitops",
+      "source": "k8s_delivery",
+      "target": "k8s_delivery_gitops",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_delivery_k8s_delivery_helm",
+      "source": "k8s_delivery",
+      "target": "k8s_delivery_helm",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_delivery_k8s_delivery_kustomize",
+      "source": "k8s_delivery",
+      "target": "k8s_delivery_kustomize",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_networking_k8s_networking_dns",
+      "source": "k8s_networking",
+      "target": "k8s_networking_dns",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_networking_k8s_networking_gateway",
+      "source": "k8s_networking",
+      "target": "k8s_networking_gateway",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_networking_k8s_networking_ingress",
+      "source": "k8s_networking",
+      "target": "k8s_networking_ingress",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_networking_k8s_networking_policies",
+      "source": "k8s_networking",
+      "target": "k8s_networking_policies",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_networking_k8s_networking_services",
+      "source": "k8s_networking",
+      "target": "k8s_networking_services",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_operations_k8s_operations_failures",
+      "source": "k8s_operations",
+      "target": "k8s_operations_failures",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_operations_k8s_operations_network",
+      "source": "k8s_operations",
+      "target": "k8s_operations_network",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_operations_k8s_operations_observe",
+      "source": "k8s_operations",
+      "target": "k8s_operations_observe",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_operations_k8s_operations_storage",
+      "source": "k8s_operations",
+      "target": "k8s_operations_storage",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_practice_k8s_practice_cluster",
+      "source": "k8s_practice",
+      "target": "k8s_practice_cluster",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_practice_k8s_practice_configure",
+      "source": "k8s_practice",
+      "target": "k8s_practice_configure",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_practice_k8s_practice_debug",
+      "source": "k8s_practice",
+      "target": "k8s_practice_debug",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_practice_k8s_practice_deploy",
+      "source": "k8s_practice",
+      "target": "k8s_practice_deploy",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_practice_k8s_practice_expose",
+      "source": "k8s_practice",
+      "target": "k8s_practice_expose",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_practice_k8s_practice_persist",
+      "source": "k8s_practice",
+      "target": "k8s_practice_persist",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_practice_k8s_practice_rollout",
+      "source": "k8s_practice",
+      "target": "k8s_practice_rollout",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_devops_containers_1",
+      "source": "k8s_prerequisites",
+      "target": "devops_containers_1",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_k8s_prerequisites_yaml",
+      "source": "k8s_prerequisites",
+      "target": "k8s_prerequisites_yaml",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_net_dns",
+      "source": "k8s_prerequisites",
+      "target": "net_dns",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_net_protocols_ip",
+      "source": "k8s_prerequisites",
+      "target": "net_protocols_ip",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_net_protocols_tcp",
+      "source": "k8s_prerequisites",
+      "target": "net_protocols_tcp",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_os_linux_processes",
+      "source": "k8s_prerequisites",
+      "target": "os_linux_processes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_os_processes_lifecycle",
+      "source": "k8s_prerequisites",
+      "target": "os_processes_lifecycle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_prerequisites_os_shell_bash",
+      "source": "k8s_prerequisites",
+      "target": "os_shell_bash",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_reliability_k8s_reliability_disruptions",
+      "source": "k8s_reliability",
+      "target": "k8s_reliability_disruptions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_reliability_k8s_reliability_placement",
+      "source": "k8s_reliability",
+      "target": "k8s_reliability_placement",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_reliability_k8s_reliability_probes",
+      "source": "k8s_reliability",
+      "target": "k8s_reliability_probes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_reliability_k8s_reliability_resources",
+      "source": "k8s_reliability",
+      "target": "k8s_reliability_resources",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_reliability_k8s_reliability_scaling",
+      "source": "k8s_reliability",
+      "target": "k8s_reliability_scaling",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_security_k8s_security_identity",
+      "source": "k8s_security",
+      "target": "k8s_security_identity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_security_k8s_security_podsecurity",
+      "source": "k8s_security",
+      "target": "k8s_security_podsecurity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_security_k8s_security_rbac",
+      "source": "k8s_security",
+      "target": "k8s_security_rbac",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_storage_k8s_storage_claims",
+      "source": "k8s_storage",
+      "target": "k8s_storage_claims",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_storage_k8s_storage_classes",
+      "source": "k8s_storage",
+      "target": "k8s_storage_classes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_storage_k8s_storage_lifecycle",
+      "source": "k8s_storage",
+      "target": "k8s_storage_lifecycle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_tools_k8s_tools_kubectl",
+      "source": "k8s_tools",
+      "target": "k8s_tools_kubectl",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_tools_k8s_tools_metadata",
+      "source": "k8s_tools",
+      "target": "k8s_tools_metadata",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_tools_k8s_tools_yaml",
+      "source": "k8s_tools",
+      "target": "k8s_tools_yaml",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_workloads_k8s_workloads_daemon",
+      "source": "k8s_workloads",
+      "target": "k8s_workloads_daemon",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_workloads_k8s_workloads_deployments",
+      "source": "k8s_workloads",
+      "target": "k8s_workloads_deployments",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_workloads_k8s_workloads_jobs",
+      "source": "k8s_workloads",
+      "target": "k8s_workloads_jobs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_workloads_k8s_workloads_pods",
+      "source": "k8s_workloads",
+      "target": "k8s_workloads_pods",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_workloads_k8s_workloads_rollback",
+      "source": "k8s_workloads",
+      "target": "k8s_workloads_rollback",
+      "type": "contains"
+    },
+    {
+      "id": "edge_k8s_workloads_k8s_workloads_stateful",
+      "source": "k8s_workloads",
+      "target": "k8s_workloads_stateful",
+      "type": "contains"
+    }
+  ]
+}

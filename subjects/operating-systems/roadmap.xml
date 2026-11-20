@@ -2,6 +2,7 @@
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd"
 >
+    <include filepath="fragments/kubernetes-prerequisites.xml"/>
     <graph id="os">
         <node id="os" label="Operating Systems"/>
 
@@ -26,7 +27,6 @@
         <edge id="edge_os_processes_sync" source="os_processes_multithreading" target="os_processes_sync"/>
         <node id="os_processes_failures" label="Race Conditions and Deadlocks"/>
         <edge id="edge_os_processes_failures" source="os_processes_multithreading" target="os_processes_failures"/>
-        <node id="os_processes_lifecycle" label="Process Creation, Execution, and Exit"/>
         <edge id="edge_os_processes_lifecycle" source="os_processes" target="os_processes_lifecycle"/>
         <node id="os_processes_ipc" label="IPC: Pipes, Shared Memory, and Message Queues"/>
         <edge id="edge_os_processes_ipc" source="os_processes" target="os_processes_ipc"/>
@@ -104,7 +104,6 @@
         <edge id="edge_os_shell_pipelines" source="os_shell" target="os_shell_pipelines"/>
         <node id="os_shell_jobs" label="Exit Status, Signals, and Job Control"/>
         <edge id="edge_os_shell_jobs" source="os_shell" target="os_shell_jobs"/>
-        <node id="os_shell_bash" label="Bash"/>
         <edge id="edge_os_shell_bash" source="os_shell" target="os_shell_bash"/>
         <node id="os_shell_zsh" label="Zsh"/>
         <edge id="edge_os_shell_zsh" source="os_shell" target="os_shell_zsh"/>
@@ -114,7 +113,6 @@
         <edge id="edge_os_linux" source="os" target="os_linux"/>
         <node id="os_linux_services" label="Service Lifecycle and Logs (systemd)"/>
         <edge id="edge_os_linux_services" source="os_linux" target="os_linux_services"/>
-        <node id="os_linux_processes" label="Process and CPU Inspection (ps, top)"/>
         <edge id="edge_os_linux_processes" source="os_linux" target="os_linux_processes"/>
         <node id="os_linux_resources" label="Memory, Disk Space, and I/O (vmstat, df, du, iostat)"/>
         <edge id="edge_os_linux_resources" source="os_linux" target="os_linux_resources"/>

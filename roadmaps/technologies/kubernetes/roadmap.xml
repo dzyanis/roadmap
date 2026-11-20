@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/roadmap.xsd">
+    <graph id="roadmap">
+        <node id="backend" label="Kubernetes"/>
+        <node id="k8s_prerequisites" label="Start here: prerequisites"/>
+        <node id="k8s_prerequisites_yaml" label="YAML: mappings, sequences and indentation"/>
+        <node id="k8s_practice" label="Practice: local application milestones"/>
+        <node id="k8s_practice_cluster" label="1. Create a local cluster and inspect nodes"/>
+        <node id="k8s_practice_deploy" label="2. Deploy an application and inspect reconciliation"/>
+        <node id="k8s_practice_expose" label="3. Expose a Service and test port-forwarding"/>
+        <node id="k8s_practice_configure" label="4. Inject ConfigMap and Secret values"/>
+        <node id="k8s_practice_persist" label="5. Mount a PVC and verify data after Pod replacement"/>
+        <node id="k8s_practice_rollout" label="6. Update an image and roll back a failed rollout"/>
+        <node id="k8s_practice_debug" label="7. Break a selector or image tag, diagnose and repair"/>
+        <edge id="edge_backend_k8s_prerequisites" source="backend" target="k8s_prerequisites"/>
+        <edge id="edge_k8s_prerequisites_os_processes_lifecycle" source="k8s_prerequisites" target="os_processes_lifecycle"/>
+        <edge id="edge_k8s_prerequisites_os_linux_processes" source="k8s_prerequisites" target="os_linux_processes"/>
+        <edge id="edge_k8s_prerequisites_os_shell_bash" source="k8s_prerequisites" target="os_shell_bash"/>
+        <edge id="edge_k8s_prerequisites_net_dns" source="k8s_prerequisites" target="net_dns"/>
+        <edge id="edge_k8s_prerequisites_net_protocols_ip" source="k8s_prerequisites" target="net_protocols_ip"/>
+        <edge id="edge_k8s_prerequisites_net_protocols_tcp" source="k8s_prerequisites" target="net_protocols_tcp"/>
+        <edge id="edge_k8s_prerequisites_devops_containers_1" source="k8s_prerequisites" target="devops_containers_1"/>
+        <edge id="edge_k8s_prerequisites_k8s_prerequisites_yaml" source="k8s_prerequisites" target="k8s_prerequisites_yaml"/>
+        <edge id="edge_backend_dev_orchestration_k8s" source="backend" target="dev_orchestration_k8s"/>
+        <edge id="edge_backend_k8s_practice" source="backend" target="k8s_practice"/>
+        <edge id="edge_k8s_practice_k8s_practice_cluster" source="k8s_practice" target="k8s_practice_cluster"/>
+        <edge id="edge_k8s_practice_k8s_practice_deploy" source="k8s_practice" target="k8s_practice_deploy"/>
+        <edge id="edge_k8s_practice_k8s_practice_expose" source="k8s_practice" target="k8s_practice_expose"/>
+        <edge id="edge_k8s_practice_k8s_practice_configure" source="k8s_practice" target="k8s_practice_configure"/>
+        <edge id="edge_k8s_practice_k8s_practice_persist" source="k8s_practice" target="k8s_practice_persist"/>
+        <edge id="edge_k8s_practice_k8s_practice_rollout" source="k8s_practice" target="k8s_practice_rollout"/>
+        <edge id="edge_k8s_practice_k8s_practice_debug" source="k8s_practice" target="k8s_practice_debug"/>
+    </graph>
+    <include filepath="../../../subjects/kubernetes/roadmap.xml"/>
+    <include filepath="../../../subjects/operating-systems/fragments/kubernetes-prerequisites.xml"/>
+    <include filepath="../../../subjects/networking/fragments/kubernetes-prerequisites.xml"/>
+    <include filepath="../../../subjects/devops/fragments/container-images.xml"/>
+</xmlgraph>

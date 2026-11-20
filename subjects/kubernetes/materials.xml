@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
+    <article lang="en">
+        <title>Kubernetes: 1. Cluster architecture and API model</title>
+        <url>https://kubernetes.io/docs/concepts/overview/components/</url>
+        <tags>
+            <tag>k8s_architecture</tag>
+            <tag>k8s_architecture_components</tag>
+            <tag>k8s_architecture_objects</tag>
+            <tag>k8s_architecture_controllers</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes objects and declarative management</title>
+        <url>https://kubernetes.io/docs/concepts/overview/working-with-objects/</url>
+        <tags>
+            <tag>k8s_architecture_objects</tag>
+            <tag>k8s_architecture_controllers</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 2. Everyday tools and organization</title>
+        <url>https://kubernetes.io/docs/concepts/overview/working-with-objects/</url>
+        <tags>
+            <tag>k8s_tools</tag>
+            <tag>k8s_tools_kubectl</tag>
+            <tag>k8s_tools_metadata</tag>
+            <tag>k8s_tools_yaml</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>kubectl quick reference</title>
+        <url>https://kubernetes.io/docs/reference/kubectl/quick-reference/</url>
+        <tags>
+            <tag>k8s_tools</tag>
+            <tag>k8s_tools_kubectl</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 3. Application workloads</title>
+        <url>https://kubernetes.io/docs/concepts/workloads/controllers/</url>
+        <tags>
+            <tag>k8s_workloads</tag>
+            <tag>k8s_workloads_pods</tag>
+            <tag>k8s_workloads_deployments</tag>
+            <tag>k8s_workloads_stateful</tag>
+            <tag>k8s_workloads_daemon</tag>
+            <tag>k8s_workloads_jobs</tag>
+            <tag>k8s_workloads_rollback</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Pods</title>
+        <url>https://kubernetes.io/docs/concepts/workloads/pods/</url>
+        <tags>
+            <tag>k8s_workloads_pods</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Deployments: rollout and rollback</title>
+        <url>https://kubernetes.io/docs/concepts/workloads/controllers/deployment/</url>
+        <tags>
+            <tag>k8s_workloads_deployments</tag>
+            <tag>k8s_workloads_rollback</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 4. Application configuration</title>
+        <url>https://kubernetes.io/docs/concepts/configuration/</url>
+        <tags>
+            <tag>k8s_config</tag>
+            <tag>k8s_config_configmaps</tag>
+            <tag>k8s_config_secrets</tag>
+            <tag>k8s_config_volumes</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Secrets: access, encryption and security</title>
+        <url>https://kubernetes.io/docs/concepts/configuration/secret/</url>
+        <tags>
+            <tag>k8s_config_secrets</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>ConfigMaps</title>
+        <url>https://kubernetes.io/docs/concepts/configuration/configmap/</url>
+        <tags>
+            <tag>k8s_config_configmaps</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 5. Networking and traffic</title>
+        <url>https://kubernetes.io/docs/concepts/services-networking/</url>
+        <tags>
+            <tag>k8s_networking</tag>
+            <tag>k8s_networking_services</tag>
+            <tag>k8s_networking_dns</tag>
+            <tag>k8s_networking_gateway</tag>
+            <tag>k8s_networking_ingress</tag>
+            <tag>k8s_networking_policies</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes networking: services</title>
+        <url>https://kubernetes.io/docs/concepts/services-networking/service/</url>
+        <tags>
+            <tag>k8s_networking_services</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes networking: dns</title>
+        <url>https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/</url>
+        <tags>
+            <tag>k8s_networking_dns</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes networking: gateway</title>
+        <url>https://kubernetes.io/docs/concepts/services-networking/gateway/</url>
+        <tags>
+            <tag>k8s_networking_gateway</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes networking: ingress</title>
+        <url>https://kubernetes.io/docs/concepts/services-networking/ingress/</url>
+        <tags>
+            <tag>k8s_networking_ingress</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes networking: policies</title>
+        <url>https://kubernetes.io/docs/concepts/services-networking/network-policies/</url>
+        <tags>
+            <tag>k8s_networking_policies</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 6. Persistent storage</title>
+        <url>https://kubernetes.io/docs/concepts/storage/persistent-volumes/</url>
+        <tags>
+            <tag>k8s_storage</tag>
+            <tag>k8s_storage_claims</tag>
+            <tag>k8s_storage_classes</tag>
+            <tag>k8s_storage_lifecycle</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>StorageClasses</title>
+        <url>https://kubernetes.io/docs/concepts/storage/storage-classes/</url>
+        <tags>
+            <tag>k8s_storage_classes</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Volumes</title>
+        <url>https://kubernetes.io/docs/concepts/storage/volumes/</url>
+        <tags>
+            <tag>k8s_config_volumes</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 7. Scheduling and reliability</title>
+        <url>https://kubernetes.io/docs/concepts/scheduling-eviction/</url>
+        <tags>
+            <tag>k8s_reliability</tag>
+            <tag>k8s_reliability_resources</tag>
+            <tag>k8s_reliability_probes</tag>
+            <tag>k8s_reliability_placement</tag>
+            <tag>k8s_reliability_disruptions</tag>
+            <tag>k8s_reliability_scaling</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes reliability: resources</title>
+        <url>https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/</url>
+        <tags>
+            <tag>k8s_reliability_resources</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes reliability: probes</title>
+        <url>https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/</url>
+        <tags>
+            <tag>k8s_reliability_probes</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes reliability: disruptions</title>
+        <url>https://kubernetes.io/docs/tasks/run-application/configure-pdb/</url>
+        <tags>
+            <tag>k8s_reliability_disruptions</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes reliability: scaling</title>
+        <url>https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/</url>
+        <tags>
+            <tag>k8s_reliability_scaling</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 8. Workload security</title>
+        <url>https://kubernetes.io/docs/concepts/security/</url>
+        <tags>
+            <tag>k8s_security</tag>
+            <tag>k8s_security_identity</tag>
+            <tag>k8s_security_rbac</tag>
+            <tag>k8s_security_podsecurity</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>RBAC good practices</title>
+        <url>https://kubernetes.io/docs/concepts/security/rbac-good-practices/</url>
+        <tags>
+            <tag>k8s_security_rbac</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Pod Security Admission</title>
+        <url>https://kubernetes.io/docs/concepts/security/pod-security-admission/</url>
+        <tags>
+            <tag>k8s_security_podsecurity</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 9. Troubleshooting applications</title>
+        <url>https://kubernetes.io/docs/tasks/debug/debug-application/</url>
+        <tags>
+            <tag>k8s_operations</tag>
+            <tag>k8s_operations_observe</tag>
+            <tag>k8s_operations_failures</tag>
+            <tag>k8s_operations_network</tag>
+            <tag>k8s_operations_storage</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: 10. Packaging and delivery</title>
+        <url>https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/</url>
+        <tags>
+            <tag>k8s_delivery</tag>
+            <tag>k8s_delivery_helm</tag>
+            <tag>k8s_delivery_kustomize</tag>
+            <tag>k8s_delivery_gitops</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Helm: quick start</title>
+        <url>https://helm.sh/docs/intro/quickstart/</url>
+        <tags>
+            <tag>k8s_delivery_helm</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Flux: GitOps getting started</title>
+        <url>https://fluxcd.io/flux/get-started/</url>
+        <tags>
+            <tag>k8s_delivery_gitops</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes: Further study: cluster administration</title>
+        <url>https://kubernetes.io/docs/setup/production-environment/</url>
+        <tags>
+            <tag>k8s_advanced</tag>
+            <tag>k8s_advanced_install</tag>
+            <tag>k8s_advanced_upgrades</tag>
+            <tag>k8s_advanced_recovery</tag>
+            <tag>k8s_advanced_extensions</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes administration: upgrades</title>
+        <url>https://kubernetes.io/docs/tasks/administer-cluster/kubeadm/kubeadm-upgrade/</url>
+        <tags>
+            <tag>k8s_advanced_upgrades</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes administration: recovery</title>
+        <url>https://kubernetes.io/docs/tasks/administer-cluster/configure-upgrade-etcd/</url>
+        <tags>
+            <tag>k8s_advanced_recovery</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes administration: extensions</title>
+        <url>https://kubernetes.io/docs/concepts/extend-kubernetes/</url>
+        <tags>
+            <tag>k8s_advanced_extensions</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Learn Kubernetes basics</title>
+        <url>https://kubernetes.io/docs/tutorials/kubernetes-basics/</url>
+        <tags>
+            <tag>dev_orchestration_k8s</tag>
+        </tags>
+    </article>
+</materials>

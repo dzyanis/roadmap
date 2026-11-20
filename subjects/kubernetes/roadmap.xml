@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd">
+    <include filepath="../software-development/fragments/kubernetes-topic.xml"/>
+    <graph id="kubernetes">
+        <node id="k8s_architecture" label="1. Cluster architecture and API model"/>
+        <node id="k8s_architecture_components" label="Control plane, worker nodes and kubelet"/>
+        <node id="k8s_architecture_objects" label="API objects, desired state and manifests"/>
+        <node id="k8s_architecture_controllers" label="Controllers and reconciliation"/>
+        <node id="k8s_tools" label="2. Everyday tools and organization"/>
+        <node id="k8s_tools_kubectl" label="kubectl, contexts and namespaces"/>
+        <node id="k8s_tools_metadata" label="Labels, selectors and annotations"/>
+        <node id="k8s_tools_yaml" label="YAML manifests and API versions"/>
+        <node id="k8s_workloads" label="3. Application workloads"/>
+        <node id="k8s_workloads_pods" label="Pods and container lifecycle"/>
+        <node id="k8s_workloads_deployments" label="Deployments, ReplicaSets and rolling updates"/>
+        <node id="k8s_workloads_stateful" label="StatefulSets and stable identity"/>
+        <node id="k8s_workloads_daemon" label="DaemonSets and node services"/>
+        <node id="k8s_workloads_jobs" label="Jobs and CronJobs"/>
+        <node id="k8s_workloads_rollback" label="Rollout history and rollback"/>
+        <node id="k8s_config" label="4. Application configuration"/>
+        <node id="k8s_config_configmaps" label="ConfigMaps and environment variables"/>
+        <node id="k8s_config_secrets" label="Secrets and safe credential handling"/>
+        <node id="k8s_config_volumes" label="Volumes and configuration mounts"/>
+        <node id="k8s_networking" label="5. Networking and traffic"/>
+        <node id="k8s_networking_services" label="Services, selectors and EndpointSlices"/>
+        <node id="k8s_networking_dns" label="Service discovery and cluster DNS"/>
+        <node id="k8s_networking_gateway" label="Gateway API: GatewayClass, Gateway and HTTPRoute"/>
+        <node id="k8s_networking_ingress" label="Ingress API (frozen) and controller requirements"/>
+        <node id="k8s_networking_policies" label="NetworkPolicies and supporting network plugins"/>
+        <node id="k8s_storage" label="6. Persistent storage"/>
+        <node id="k8s_storage_claims" label="PersistentVolumes and PersistentVolumeClaims"/>
+        <node id="k8s_storage_classes" label="StorageClasses and dynamic provisioning"/>
+        <node id="k8s_storage_lifecycle" label="Access modes, reclaim policy and data lifecycle"/>
+        <node id="k8s_reliability" label="7. Scheduling and reliability"/>
+        <node id="k8s_reliability_resources" label="CPU/memory requests and limits"/>
+        <node id="k8s_reliability_probes" label="Startup, readiness and liveness probes"/>
+        <node id="k8s_reliability_placement" label="Node affinity, taints and tolerations"/>
+        <node id="k8s_reliability_disruptions" label="PodDisruptionBudgets and voluntary disruption"/>
+        <node id="k8s_reliability_scaling" label="Horizontal autoscaling and metrics dependencies"/>
+        <node id="k8s_security" label="8. Workload security"/>
+        <node id="k8s_security_identity" label="ServiceAccounts and workload identity"/>
+        <node id="k8s_security_rbac" label="RBAC and least privilege"/>
+        <node id="k8s_security_podsecurity" label="Security contexts and Pod Security Admission"/>
+        <node id="k8s_operations" label="9. Troubleshooting applications"/>
+        <node id="k8s_operations_observe" label="Logs, events, describe and metrics"/>
+        <node id="k8s_operations_failures" label="Pending, ImagePullBackOff and CrashLoopBackOff"/>
+        <node id="k8s_operations_network" label="Debug Service selectors, endpoints and DNS"/>
+        <node id="k8s_operations_storage" label="Debug Pending PVCs and volume mounts"/>
+        <node id="k8s_delivery" label="10. Packaging and delivery"/>
+        <node id="k8s_delivery_helm" label="Helm charts and release lifecycle"/>
+        <node id="k8s_delivery_kustomize" label="Kustomize bases and overlays"/>
+        <node id="k8s_delivery_gitops" label="GitOps reconciliation and drift"/>
+        <node id="k8s_advanced" label="Further study: cluster administration"/>
+        <node id="k8s_advanced_install" label="Managed clusters, kubeadm and topology choices"/>
+        <node id="k8s_advanced_upgrades" label="Version skew, upgrades and node maintenance"/>
+        <node id="k8s_advanced_recovery" label="etcd snapshots and recovery drills"/>
+        <node id="k8s_advanced_extensions" label="CRDs, operators and admission webhooks"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_architecture" source="dev_orchestration_k8s" target="k8s_architecture"/>
+        <edge id="edge_k8s_architecture_k8s_architecture_components" source="k8s_architecture" target="k8s_architecture_components"/>
+        <edge id="edge_k8s_architecture_k8s_architecture_objects" source="k8s_architecture" target="k8s_architecture_objects"/>
+        <edge id="edge_k8s_architecture_k8s_architecture_controllers" source="k8s_architecture" target="k8s_architecture_controllers"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_tools" source="dev_orchestration_k8s" target="k8s_tools"/>
+        <edge id="edge_k8s_tools_k8s_tools_kubectl" source="k8s_tools" target="k8s_tools_kubectl"/>
+        <edge id="edge_k8s_tools_k8s_tools_metadata" source="k8s_tools" target="k8s_tools_metadata"/>
+        <edge id="edge_k8s_tools_k8s_tools_yaml" source="k8s_tools" target="k8s_tools_yaml"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_workloads" source="dev_orchestration_k8s" target="k8s_workloads"/>
+        <edge id="edge_k8s_workloads_k8s_workloads_pods" source="k8s_workloads" target="k8s_workloads_pods"/>
+        <edge id="edge_k8s_workloads_k8s_workloads_deployments" source="k8s_workloads" target="k8s_workloads_deployments"/>
+        <edge id="edge_k8s_workloads_k8s_workloads_stateful" source="k8s_workloads" target="k8s_workloads_stateful"/>
+        <edge id="edge_k8s_workloads_k8s_workloads_daemon" source="k8s_workloads" target="k8s_workloads_daemon"/>
+        <edge id="edge_k8s_workloads_k8s_workloads_jobs" source="k8s_workloads" target="k8s_workloads_jobs"/>
+        <edge id="edge_k8s_workloads_k8s_workloads_rollback" source="k8s_workloads" target="k8s_workloads_rollback"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_config" source="dev_orchestration_k8s" target="k8s_config"/>
+        <edge id="edge_k8s_config_k8s_config_configmaps" source="k8s_config" target="k8s_config_configmaps"/>
+        <edge id="edge_k8s_config_k8s_config_secrets" source="k8s_config" target="k8s_config_secrets"/>
+        <edge id="edge_k8s_config_k8s_config_volumes" source="k8s_config" target="k8s_config_volumes"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_networking" source="dev_orchestration_k8s" target="k8s_networking"/>
+        <edge id="edge_k8s_networking_k8s_networking_services" source="k8s_networking" target="k8s_networking_services"/>
+        <edge id="edge_k8s_networking_k8s_networking_dns" source="k8s_networking" target="k8s_networking_dns"/>
+        <edge id="edge_k8s_networking_k8s_networking_gateway" source="k8s_networking" target="k8s_networking_gateway"/>
+        <edge id="edge_k8s_networking_k8s_networking_ingress" source="k8s_networking" target="k8s_networking_ingress"/>
+        <edge id="edge_k8s_networking_k8s_networking_policies" source="k8s_networking" target="k8s_networking_policies"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_storage" source="dev_orchestration_k8s" target="k8s_storage"/>
+        <edge id="edge_k8s_storage_k8s_storage_claims" source="k8s_storage" target="k8s_storage_claims"/>
+        <edge id="edge_k8s_storage_k8s_storage_classes" source="k8s_storage" target="k8s_storage_classes"/>
+        <edge id="edge_k8s_storage_k8s_storage_lifecycle" source="k8s_storage" target="k8s_storage_lifecycle"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_reliability" source="dev_orchestration_k8s" target="k8s_reliability"/>
+        <edge id="edge_k8s_reliability_k8s_reliability_resources" source="k8s_reliability" target="k8s_reliability_resources"/>
+        <edge id="edge_k8s_reliability_k8s_reliability_probes" source="k8s_reliability" target="k8s_reliability_probes"/>
+        <edge id="edge_k8s_reliability_k8s_reliability_placement" source="k8s_reliability" target="k8s_reliability_placement"/>
+        <edge id="edge_k8s_reliability_k8s_reliability_disruptions" source="k8s_reliability" target="k8s_reliability_disruptions"/>
+        <edge id="edge_k8s_reliability_k8s_reliability_scaling" source="k8s_reliability" target="k8s_reliability_scaling"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_security" source="dev_orchestration_k8s" target="k8s_security"/>
+        <edge id="edge_k8s_security_k8s_security_identity" source="k8s_security" target="k8s_security_identity"/>
+        <edge id="edge_k8s_security_k8s_security_rbac" source="k8s_security" target="k8s_security_rbac"/>
+        <edge id="edge_k8s_security_k8s_security_podsecurity" source="k8s_security" target="k8s_security_podsecurity"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_operations" source="dev_orchestration_k8s" target="k8s_operations"/>
+        <edge id="edge_k8s_operations_k8s_operations_observe" source="k8s_operations" target="k8s_operations_observe"/>
+        <edge id="edge_k8s_operations_k8s_operations_failures" source="k8s_operations" target="k8s_operations_failures"/>
+        <edge id="edge_k8s_operations_k8s_operations_network" source="k8s_operations" target="k8s_operations_network"/>
+        <edge id="edge_k8s_operations_k8s_operations_storage" source="k8s_operations" target="k8s_operations_storage"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_delivery" source="dev_orchestration_k8s" target="k8s_delivery"/>
+        <edge id="edge_k8s_delivery_k8s_delivery_helm" source="k8s_delivery" target="k8s_delivery_helm"/>
+        <edge id="edge_k8s_delivery_k8s_delivery_kustomize" source="k8s_delivery" target="k8s_delivery_kustomize"/>
+        <edge id="edge_k8s_delivery_k8s_delivery_gitops" source="k8s_delivery" target="k8s_delivery_gitops"/>
+        <edge id="edge_dev_orchestration_k8s_k8s_advanced" source="dev_orchestration_k8s" target="k8s_advanced"/>
+        <edge id="edge_k8s_advanced_k8s_advanced_install" source="k8s_advanced" target="k8s_advanced_install"/>
+        <edge id="edge_k8s_advanced_k8s_advanced_upgrades" source="k8s_advanced" target="k8s_advanced_upgrades"/>
+        <edge id="edge_k8s_advanced_k8s_advanced_recovery" source="k8s_advanced" target="k8s_advanced_recovery"/>
+        <edge id="edge_k8s_advanced_k8s_advanced_extensions" source="k8s_advanced" target="k8s_advanced_extensions"/>
+    </graph>
+</xmlgraph>
