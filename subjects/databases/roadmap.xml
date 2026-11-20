@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd">
+    <include filepath="fragments/distributed-foundations.xml"/>
+    <include filepath="fragments/sqs.xml"/>
     <graph id="db">
         <!-- Existing topic IDs are stable, including historical spellings. -->
         <node id="db" label="Databases"/>
@@ -54,11 +56,8 @@
         <edge id="edge_db_transactions_db_deadlocks" source="db_transactions" target="db_deadlocks"/>
         <node id="db_distributed" label="Distributed data"/>
         <edge id="edge_db_db_distributed" source="db" target="db_distributed"/>
-        <node id="db_distributed_replication" label="Replication and replication lag"/>
         <edge id="edge_db_distributed_db_distributed_replication" source="db_distributed" target="db_distributed_replication"/>
-        <node id="db_distributed_sharding" label="Partitioning and sharding"/>
         <edge id="edge_db_distributed_db_distributed_sharding" source="db_distributed" target="db_distributed_sharding"/>
-        <node id="db_distributed_consistency" label="Consistency and availability tradeoffs"/>
         <edge id="edge_db_distributed_db_distributed_consistency" source="db_distributed" target="db_distributed_consistency"/>
         <node id="db_nosql_cap" label="CAP under network partitions"/>
         <edge id="edge_db_distributed_consistency_db_nosql_cap" source="db_distributed_consistency" target="db_nosql_cap"/>
@@ -143,7 +142,6 @@
         <edge id="edge_db_message_broker_db_message_broker_kafka" source="db_message_broker" target="db_message_broker_kafka"/>
         <node id="db_message_broker_rabbit" label="RabbitMQ"/>
         <edge id="edge_db_message_broker_db_message_broker_rabbit" source="db_message_broker" target="db_message_broker_rabbit"/>
-        <node id="db_message_broker_awssqs" label="Amazon Simple Queue Service"/>
         <edge id="edge_db_message_broker_db_message_broker_awssqs" source="db_message_broker" target="db_message_broker_awssqs"/>
     </graph>
 </xmlgraph>

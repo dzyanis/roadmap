@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd">
+    <graph id="arch">
+        <node id="arch" label="Architecture foundations"/>
+        <node id="arch_requirements" label="Requirements and quality attributes"/>
+        <node id="arch_requirements_constraints" label="Stakeholders, constraints and workload assumptions"/>
+        <node id="arch_requirements_scenarios" label="Measurable quality scenarios and tradeoffs"/>
+        <node id="arch_decisions" label="Communicating architecture decisions"/>
+        <node id="arch_decisions_context" label="System context, boundaries and dependencies"/>
+        <node id="arch_decisions_adr" label="ADRs: context, alternatives and consequences"/>
+        <node id="arch_reliability" label="Availability and fault tolerance"/>
+        <node id="arch_reliability_failure" label="Failure domains, redundancy and graceful degradation"/>
+        <node id="arch_reliability_timeouts" label="Timeouts, bounded retries and idempotency"/>
+        <node id="arch_reliability_recovery" label="RTO, RPO and recovery testing"/>
+        <node id="arch_scale" label="Scalability and data tradeoffs"/>
+        <node id="arch_scale_capacity" label="Capacity, bottlenecks and horizontal scaling"/>
+        <node id="arch_scale_cache" label="Caching, invalidation and stale reads"/>
+        <node id="arch_integration" label="Asynchronous communication"/>
+        <node id="arch_integration_queues" label="Queues, backpressure and load leveling"/>
+        <node id="arch_integration_delivery" label="Delivery semantics, deduplication and poison messages"/>
+        <node id="arch_security" label="Security boundaries"/>
+        <node id="arch_security_identity" label="Identity, least privilege and trust boundaries"/>
+        <node id="arch_security_data" label="Data classification, encryption and threat modeling"/>
+        <node id="arch_economics" label="Cost and operational ownership"/>
+        <node id="arch_economics_tco" label="Total cost: capacity, traffic and people"/>
+        <node id="arch_economics_managed" label="Managed versus self-managed components"/>
+        <edge id="edge_arch_arch_requirements" source="arch" target="arch_requirements"/>
+        <edge id="edge_arch_requirements_arch_requirements_constraints" source="arch_requirements" target="arch_requirements_constraints"/>
+        <edge id="edge_arch_requirements_arch_requirements_scenarios" source="arch_requirements" target="arch_requirements_scenarios"/>
+        <edge id="edge_arch_arch_decisions" source="arch" target="arch_decisions"/>
+        <edge id="edge_arch_decisions_arch_decisions_context" source="arch_decisions" target="arch_decisions_context"/>
+        <edge id="edge_arch_decisions_arch_decisions_adr" source="arch_decisions" target="arch_decisions_adr"/>
+        <edge id="edge_arch_arch_reliability" source="arch" target="arch_reliability"/>
+        <edge id="edge_arch_reliability_arch_reliability_failure" source="arch_reliability" target="arch_reliability_failure"/>
+        <edge id="edge_arch_reliability_arch_reliability_timeouts" source="arch_reliability" target="arch_reliability_timeouts"/>
+        <edge id="edge_arch_reliability_arch_reliability_recovery" source="arch_reliability" target="arch_reliability_recovery"/>
+        <edge id="edge_arch_reliability_devops_reliability_1" source="arch_reliability" target="devops_reliability_1"/>
+        <edge id="edge_arch_reliability_devops_reliability_3" source="arch_reliability" target="devops_reliability_3"/>
+        <edge id="edge_arch_arch_scale" source="arch" target="arch_scale"/>
+        <edge id="edge_arch_scale_arch_scale_capacity" source="arch_scale" target="arch_scale_capacity"/>
+        <edge id="edge_arch_scale_arch_scale_cache" source="arch_scale" target="arch_scale_cache"/>
+        <edge id="edge_arch_scale_db_distributed_replication" source="arch_scale" target="db_distributed_replication"/>
+        <edge id="edge_arch_scale_db_distributed_sharding" source="arch_scale" target="db_distributed_sharding"/>
+        <edge id="edge_arch_scale_db_distributed_consistency" source="arch_scale" target="db_distributed_consistency"/>
+        <edge id="edge_arch_arch_integration" source="arch" target="arch_integration"/>
+        <edge id="edge_arch_integration_arch_integration_queues" source="arch_integration" target="arch_integration_queues"/>
+        <edge id="edge_arch_integration_arch_integration_delivery" source="arch_integration" target="arch_integration_delivery"/>
+        <edge id="edge_arch_arch_security" source="arch" target="arch_security"/>
+        <edge id="edge_arch_security_arch_security_identity" source="arch_security" target="arch_security_identity"/>
+        <edge id="edge_arch_security_arch_security_data" source="arch_security" target="arch_security_data"/>
+        <edge id="edge_arch_arch_economics" source="arch" target="arch_economics"/>
+        <edge id="edge_arch_economics_arch_economics_tco" source="arch_economics" target="arch_economics_tco"/>
+        <edge id="edge_arch_economics_arch_economics_managed" source="arch_economics" target="arch_economics_managed"/>
+    </graph>
+    <include filepath="../databases/fragments/distributed-foundations.xml"/>
+    <include filepath="../devops/fragments/reliability-foundations.xml"/>
+</xmlgraph>

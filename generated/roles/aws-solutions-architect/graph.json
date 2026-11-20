@@ -1,0 +1,2282 @@
+{
+  "schema_version": 1,
+  "roadmap": {
+    "id": "roles/aws-solutions-architect",
+    "label": "AWS Solutions Architect",
+    "root": "backend"
+  },
+  "subjects": [
+    "architecture",
+    "aws",
+    "databases",
+    "devops",
+    "networking",
+    "operating-systems"
+  ],
+  "topics": [
+    {
+      "id": "arch",
+      "label": "Architecture foundations",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "arc42 architecture documentation guide",
+          "url": "https://docs.arc42.org/home/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_decisions",
+      "label": "Communicating architecture decisions",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "arc42 architecture decisions",
+          "url": "https://docs.arc42.org/section-9/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_decisions_adr",
+      "label": "ADRs: context, alternatives and consequences",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "arc42 architecture decisions",
+          "url": "https://docs.arc42.org/section-9/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_decisions_context",
+      "label": "System context, boundaries and dependencies",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "arc42 architecture decisions",
+          "url": "https://docs.arc42.org/section-9/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "C4 system context diagrams",
+          "url": "https://c4model.com/diagrams/system-context",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_economics",
+      "label": "Cost and operational ownership",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: eliminating toil",
+          "url": "https://sre.google/sre-book/eliminating-toil/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "FinOps framework: business value and cost ownership",
+          "url": "https://www.finops.org/framework/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_economics_managed",
+      "label": "Managed versus self-managed components",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: eliminating toil",
+          "url": "https://sre.google/sre-book/eliminating-toil/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_economics_tco",
+      "label": "Total cost: capacity, traffic and people",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: eliminating toil",
+          "url": "https://sre.google/sre-book/eliminating-toil/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "FinOps framework: business value and cost ownership",
+          "url": "https://www.finops.org/framework/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_integration",
+      "label": "Asynchronous communication",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Queue-based load leveling pattern",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_integration_delivery",
+      "label": "Delivery semantics, deduplication and poison messages",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Queue-based load leveling pattern",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_integration_queues",
+      "label": "Queues, backpressure and load leveling",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Queue-based load leveling pattern",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_reliability",
+      "label": "Availability and fault tolerance",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: addressing cascading failures",
+          "url": "https://sre.google/sre-book/addressing-cascading-failures/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_reliability_failure",
+      "label": "Failure domains, redundancy and graceful degradation",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: addressing cascading failures",
+          "url": "https://sre.google/sre-book/addressing-cascading-failures/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_reliability_recovery",
+      "label": "RTO, RPO and recovery testing",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: addressing cascading failures",
+          "url": "https://sre.google/sre-book/addressing-cascading-failures/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Google SRE: data integrity and recovery",
+          "url": "https://sre.google/sre-book/data-integrity/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_reliability_timeouts",
+      "label": "Timeouts, bounded retries and idempotency",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: addressing cascading failures",
+          "url": "https://sre.google/sre-book/addressing-cascading-failures/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_requirements",
+      "label": "Requirements and quality attributes",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "arc42 quality requirements",
+          "url": "https://docs.arc42.org/section-10/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_requirements_constraints",
+      "label": "Stakeholders, constraints and workload assumptions",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "arc42 quality requirements",
+          "url": "https://docs.arc42.org/section-10/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_requirements_scenarios",
+      "label": "Measurable quality scenarios and tradeoffs",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "arc42 quality requirements",
+          "url": "https://docs.arc42.org/section-10/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_scale",
+      "label": "Scalability and data tradeoffs",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: handling overload",
+          "url": "https://sre.google/sre-book/handling-overload/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_scale_cache",
+      "label": "Caching, invalidation and stale reads",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: handling overload",
+          "url": "https://sre.google/sre-book/handling-overload/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Cache-aside pattern",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_scale_capacity",
+      "label": "Capacity, bottlenecks and horizontal scaling",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: handling overload",
+          "url": "https://sre.google/sre-book/handling-overload/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_security",
+      "label": "Security boundaries",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OWASP threat modeling",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_security_data",
+      "label": "Data classification, encryption and threat modeling",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OWASP threat modeling",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "arch_security_identity",
+      "label": "Identity, least privilege and trust boundaries",
+      "subjects": [
+        "architecture"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OWASP threat modeling",
+          "url": "https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "label": "AWS platform choices",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS Well-Architected Framework",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_advanced",
+      "label": "Further study: multi-Region and hybrid design",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Disaster recovery options on AWS",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_advanced_dr",
+      "label": "Backup/restore, pilot light and warm standby",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Disaster recovery options on AWS",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_advanced_hybrid",
+      "label": "Direct Connect and hybrid network tradeoffs",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Disaster recovery options on AWS",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Direct Connect",
+          "url": "https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_compute",
+      "label": "4. Compute selection",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS compute choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_compute_containers",
+      "label": "ECS versus EKS; Fargate versus node management",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS compute choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Containers on AWS",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/containers.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_compute_ec2",
+      "label": "EC2: virtual machines and operational control",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS compute choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_compute_lambda",
+      "label": "Lambda: event-driven functions and execution limits",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS compute choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Lambda overview and compute choices",
+          "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_data",
+      "label": "6. Data services and access patterns",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS database choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_data_cache",
+      "label": "ElastiCache: latency and cache consistency",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS database choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_data_dynamo",
+      "label": "DynamoDB: keys, access patterns and capacity",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS database choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_data_rds",
+      "label": "RDS and Aurora: relational transactions",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS database choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_foundations",
+      "label": "1. Cloud foundations",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS overview",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_foundations_accounts",
+      "label": "Accounts, Organizations and environment boundaries",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS overview",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Organizations concepts",
+          "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_foundations_locations",
+      "label": "Regions, Availability Zones and service scope",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS overview",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Regions and Availability Zones",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_foundations_responsibility",
+      "label": "Shared responsibility and managed-service boundaries",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS overview",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS shared responsibility model",
+          "url": "https://aws.amazon.com/compliance/shared-responsibility-model/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_governance",
+      "label": "9. Delivery, governance and cost",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS operational excellence pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_governance_cost",
+      "label": "Budgets, Cost Explorer, tagging and lifecycle costs",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS operational excellence pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS cost optimization pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Budgets",
+          "url": "https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_governance_iac",
+      "label": "CloudFormation and CDK: repeatable environments",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS operational excellence pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS CloudFormation",
+          "url": "https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS CDK: infrastructure through CloudFormation",
+          "url": "https://docs.aws.amazon.com/cdk/v2/guide/home.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_governance_policies",
+      "label": "Organizations SCPs and Config compliance checks",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS operational excellence pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Service control policies",
+          "url": "https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Config",
+          "url": "https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_integration",
+      "label": "7. Integration and workflows",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS application integration",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_integration_events",
+      "label": "EventBridge: event routing and integration",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS application integration",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_integration_retries",
+      "label": "Retries, idempotency and dead-letter handling",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS application integration",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "SQS: queue semantics and reliable consumers",
+          "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_integration_sns",
+      "label": "SNS: publish/subscribe fan-out",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS application integration",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_integration_workflow",
+      "label": "Step Functions: workflow coordination",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS application integration",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_network",
+      "label": "3. Networking and delivery",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Amazon VPC concepts",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_network_balance",
+      "label": "Elastic Load Balancing and health checks",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Amazon VPC concepts",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Elastic Load Balancing",
+          "url": "https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_network_connectivity",
+      "label": "Internet/NAT gateways, endpoints and VPN choices",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Amazon VPC concepts",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_network_dns",
+      "label": "Route 53 DNS and health-based routing",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Amazon VPC concepts",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Amazon Route 53",
+          "url": "https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_network_edge",
+      "label": "CloudFront edge caching and origin protection",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Amazon VPC concepts",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Amazon CloudFront",
+          "url": "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_network_vpc",
+      "label": "VPC subnets, routes, security groups and NACLs",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Amazon VPC concepts",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_operations",
+      "label": "8. Reliability and operations",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS reliability pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_operations_backup",
+      "label": "AWS Backup, snapshots and restore tests",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS reliability pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Backup",
+          "url": "https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_operations_observe",
+      "label": "CloudWatch metrics, logs and alarms",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS reliability pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "Amazon CloudWatch",
+          "url": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_operations_scale",
+      "label": "Auto Scaling, health signals and quotas",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS reliability pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_operations_zones",
+      "label": "Multi-AZ design and failure isolation",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS reliability pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Regions and Availability Zones",
+          "url": "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_security",
+      "label": "2. Identity and data protection",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS security pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_security_audit",
+      "label": "CloudTrail audit events and accountability",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS security pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS CloudTrail",
+          "url": "https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_security_federation",
+      "label": "IAM Identity Center and temporary credentials",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS security pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "IAM Identity Center",
+          "url": "https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_security_iam",
+      "label": "IAM roles, policies and least privilege",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS security pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "IAM best practices",
+          "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_security_kms",
+      "label": "KMS encryption and key permissions",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS security pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS KMS concepts",
+          "url": "https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_security_secrets",
+      "label": "Secrets Manager and rotation",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS security pillar",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Secrets Manager",
+          "url": "https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_storage",
+      "label": "5. Storage selection",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS storage choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_storage_ebs",
+      "label": "EBS: block storage tied to Availability Zones",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS storage choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_storage_efs",
+      "label": "EFS: shared file storage and access patterns",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS storage choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "aws_storage_s3",
+      "label": "S3: object storage, versioning and lifecycle",
+      "subjects": [
+        "aws"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS storage choices",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "S3 lifecycle management",
+          "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "label": "AWS Solutions Architect",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS Solutions Architect learning and optional certification",
+          "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_distributed_consistency",
+      "label": "Consistency and availability tradeoffs",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_distributed_replication",
+      "label": "Replication and replication lag",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_distributed_sharding",
+      "label": "Partitioning and sharding",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Cassandra: partitioning, replication and consistency",
+          "url": "https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "db_message_broker_awssqs",
+      "label": "Amazon Simple Queue Service",
+      "subjects": [
+        "databases"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "SQS: queue semantics and reliable consumers",
+          "url": "https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "devops_containers_1",
+      "label": "Images and registries",
+      "subjects": [
+        "devops"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Docker containers and images",
+          "url": "https://docs.docker.com/learn/content/what-is-a-container/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "devops_reliability_1",
+      "label": "SLIs, SLOs, and error budgets",
+      "subjects": [
+        "devops"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: service level objectives",
+          "url": "https://sre.google/sre-book/service-level-objectives/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "devops_reliability_3",
+      "label": "Backups and disaster recovery",
+      "subjects": [
+        "devops"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Google SRE: data integrity and recovery",
+          "url": "https://sre.google/sre-book/data-integrity/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "net_dns",
+      "label": "DNS",
+      "subjects": [
+        "networking"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS networking foundations",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "net_protocols_ip",
+      "label": "IP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS networking foundations",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "net_protocols_tcp",
+      "label": "TCP",
+      "subjects": [
+        "networking"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS networking foundations",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_linux_processes",
+      "label": "Process and CPU Inspection (ps, top)",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Linux ps manual",
+          "url": "https://man7.org/linux/man-pages/man1/ps.1.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_processes_lifecycle",
+      "label": "Process Creation, Execution, and Exit",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "OSTEP: processes",
+          "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "os_shell_bash",
+      "label": "Bash",
+      "subjects": [
+        "operating-systems"
+      ],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Bash manual",
+          "url": "https://www.gnu.org/software/bash/manual/bash.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "sa_practice",
+      "label": "Practice: architecture reviews",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS Well-Architected review framework",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Pricing Calculator",
+          "url": "https://calculator.aws/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "sa_practice_events",
+      "label": "2. Design an event-driven workload",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS Serverless Lens",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "sa_practice_recovery",
+      "label": "3. Review recovery objectives and cost",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS recovery strategies",
+          "url": "https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "article",
+          "title": "AWS Pricing Calculator",
+          "url": "https://calculator.aws/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "sa_practice_web",
+      "label": "1. Design a resilient web application",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS Well-Architected review framework",
+          "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "sa_prerequisites",
+      "label": "Start here: shared prerequisites",
+      "subjects": [],
+      "resources": [
+        {
+          "type": "article",
+          "title": "AWS networking foundations",
+          "url": "https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_arch_arch_decisions",
+      "source": "arch",
+      "target": "arch_decisions",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_arch_economics",
+      "source": "arch",
+      "target": "arch_economics",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_arch_integration",
+      "source": "arch",
+      "target": "arch_integration",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_arch_reliability",
+      "source": "arch",
+      "target": "arch_reliability",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_arch_requirements",
+      "source": "arch",
+      "target": "arch_requirements",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_arch_scale",
+      "source": "arch",
+      "target": "arch_scale",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_arch_security",
+      "source": "arch",
+      "target": "arch_security",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_decisions_arch_decisions_adr",
+      "source": "arch_decisions",
+      "target": "arch_decisions_adr",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_decisions_arch_decisions_context",
+      "source": "arch_decisions",
+      "target": "arch_decisions_context",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_economics_arch_economics_managed",
+      "source": "arch_economics",
+      "target": "arch_economics_managed",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_economics_arch_economics_tco",
+      "source": "arch_economics",
+      "target": "arch_economics_tco",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_integration_arch_integration_delivery",
+      "source": "arch_integration",
+      "target": "arch_integration_delivery",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_integration_arch_integration_queues",
+      "source": "arch_integration",
+      "target": "arch_integration_queues",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_reliability_arch_reliability_failure",
+      "source": "arch_reliability",
+      "target": "arch_reliability_failure",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_reliability_arch_reliability_recovery",
+      "source": "arch_reliability",
+      "target": "arch_reliability_recovery",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_reliability_arch_reliability_timeouts",
+      "source": "arch_reliability",
+      "target": "arch_reliability_timeouts",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_reliability_devops_reliability_1",
+      "source": "arch_reliability",
+      "target": "devops_reliability_1",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_reliability_devops_reliability_3",
+      "source": "arch_reliability",
+      "target": "devops_reliability_3",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_requirements_arch_requirements_constraints",
+      "source": "arch_requirements",
+      "target": "arch_requirements_constraints",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_requirements_arch_requirements_scenarios",
+      "source": "arch_requirements",
+      "target": "arch_requirements_scenarios",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_scale_arch_scale_cache",
+      "source": "arch_scale",
+      "target": "arch_scale_cache",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_scale_arch_scale_capacity",
+      "source": "arch_scale",
+      "target": "arch_scale_capacity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_scale_db_distributed_consistency",
+      "source": "arch_scale",
+      "target": "db_distributed_consistency",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_scale_db_distributed_replication",
+      "source": "arch_scale",
+      "target": "db_distributed_replication",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_scale_db_distributed_sharding",
+      "source": "arch_scale",
+      "target": "db_distributed_sharding",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_security_arch_security_data",
+      "source": "arch_security",
+      "target": "arch_security_data",
+      "type": "contains"
+    },
+    {
+      "id": "edge_arch_security_arch_security_identity",
+      "source": "arch_security",
+      "target": "arch_security_identity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_advanced_aws_advanced_dr",
+      "source": "aws_advanced",
+      "target": "aws_advanced_dr",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_advanced_aws_advanced_hybrid",
+      "source": "aws_advanced",
+      "target": "aws_advanced_hybrid",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_advanced",
+      "source": "aws",
+      "target": "aws_advanced",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_compute",
+      "source": "aws",
+      "target": "aws_compute",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_data",
+      "source": "aws",
+      "target": "aws_data",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_foundations",
+      "source": "aws",
+      "target": "aws_foundations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_governance",
+      "source": "aws",
+      "target": "aws_governance",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_integration",
+      "source": "aws",
+      "target": "aws_integration",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_network",
+      "source": "aws",
+      "target": "aws_network",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_operations",
+      "source": "aws",
+      "target": "aws_operations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_security",
+      "source": "aws",
+      "target": "aws_security",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_aws_storage",
+      "source": "aws",
+      "target": "aws_storage",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_compute_aws_compute_containers",
+      "source": "aws_compute",
+      "target": "aws_compute_containers",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_compute_aws_compute_ec2",
+      "source": "aws_compute",
+      "target": "aws_compute_ec2",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_compute_aws_compute_lambda",
+      "source": "aws_compute",
+      "target": "aws_compute_lambda",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_data_aws_data_cache",
+      "source": "aws_data",
+      "target": "aws_data_cache",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_data_aws_data_dynamo",
+      "source": "aws_data",
+      "target": "aws_data_dynamo",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_data_aws_data_rds",
+      "source": "aws_data",
+      "target": "aws_data_rds",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_foundations_aws_foundations_accounts",
+      "source": "aws_foundations",
+      "target": "aws_foundations_accounts",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_foundations_aws_foundations_locations",
+      "source": "aws_foundations",
+      "target": "aws_foundations_locations",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_foundations_aws_foundations_responsibility",
+      "source": "aws_foundations",
+      "target": "aws_foundations_responsibility",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_governance_aws_governance_cost",
+      "source": "aws_governance",
+      "target": "aws_governance_cost",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_governance_aws_governance_iac",
+      "source": "aws_governance",
+      "target": "aws_governance_iac",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_governance_aws_governance_policies",
+      "source": "aws_governance",
+      "target": "aws_governance_policies",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_integration_aws_integration_events",
+      "source": "aws_integration",
+      "target": "aws_integration_events",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_integration_aws_integration_retries",
+      "source": "aws_integration",
+      "target": "aws_integration_retries",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_integration_aws_integration_sns",
+      "source": "aws_integration",
+      "target": "aws_integration_sns",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_integration_aws_integration_workflow",
+      "source": "aws_integration",
+      "target": "aws_integration_workflow",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_integration_db_message_broker_awssqs",
+      "source": "aws_integration",
+      "target": "db_message_broker_awssqs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_network_aws_network_balance",
+      "source": "aws_network",
+      "target": "aws_network_balance",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_network_aws_network_connectivity",
+      "source": "aws_network",
+      "target": "aws_network_connectivity",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_network_aws_network_dns",
+      "source": "aws_network",
+      "target": "aws_network_dns",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_network_aws_network_edge",
+      "source": "aws_network",
+      "target": "aws_network_edge",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_network_aws_network_vpc",
+      "source": "aws_network",
+      "target": "aws_network_vpc",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_operations_aws_operations_backup",
+      "source": "aws_operations",
+      "target": "aws_operations_backup",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_operations_aws_operations_observe",
+      "source": "aws_operations",
+      "target": "aws_operations_observe",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_operations_aws_operations_scale",
+      "source": "aws_operations",
+      "target": "aws_operations_scale",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_operations_aws_operations_zones",
+      "source": "aws_operations",
+      "target": "aws_operations_zones",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_security_aws_security_audit",
+      "source": "aws_security",
+      "target": "aws_security_audit",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_security_aws_security_federation",
+      "source": "aws_security",
+      "target": "aws_security_federation",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_security_aws_security_iam",
+      "source": "aws_security",
+      "target": "aws_security_iam",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_security_aws_security_kms",
+      "source": "aws_security",
+      "target": "aws_security_kms",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_security_aws_security_secrets",
+      "source": "aws_security",
+      "target": "aws_security_secrets",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_storage_aws_storage_ebs",
+      "source": "aws_storage",
+      "target": "aws_storage_ebs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_storage_aws_storage_efs",
+      "source": "aws_storage",
+      "target": "aws_storage_efs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_aws_storage_aws_storage_s3",
+      "source": "aws_storage",
+      "target": "aws_storage_s3",
+      "type": "contains"
+    },
+    {
+      "id": "edge_backend_arch",
+      "source": "backend",
+      "target": "arch",
+      "type": "contains"
+    },
+    {
+      "id": "edge_backend_aws",
+      "source": "backend",
+      "target": "aws",
+      "type": "contains"
+    },
+    {
+      "id": "edge_backend_sa_practice",
+      "source": "backend",
+      "target": "sa_practice",
+      "type": "contains"
+    },
+    {
+      "id": "edge_backend_sa_prerequisites",
+      "source": "backend",
+      "target": "sa_prerequisites",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_practice_sa_practice_events",
+      "source": "sa_practice",
+      "target": "sa_practice_events",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_practice_sa_practice_recovery",
+      "source": "sa_practice",
+      "target": "sa_practice_recovery",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_practice_sa_practice_web",
+      "source": "sa_practice",
+      "target": "sa_practice_web",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_prerequisites_devops_containers_1",
+      "source": "sa_prerequisites",
+      "target": "devops_containers_1",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_prerequisites_net_dns",
+      "source": "sa_prerequisites",
+      "target": "net_dns",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_prerequisites_net_protocols_ip",
+      "source": "sa_prerequisites",
+      "target": "net_protocols_ip",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_prerequisites_net_protocols_tcp",
+      "source": "sa_prerequisites",
+      "target": "net_protocols_tcp",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_prerequisites_os_linux_processes",
+      "source": "sa_prerequisites",
+      "target": "os_linux_processes",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_prerequisites_os_processes_lifecycle",
+      "source": "sa_prerequisites",
+      "target": "os_processes_lifecycle",
+      "type": "contains"
+    },
+    {
+      "id": "edge_sa_prerequisites_os_shell_bash",
+      "source": "sa_prerequisites",
+      "target": "os_shell_bash",
+      "type": "contains"
+    }
+  ]
+}

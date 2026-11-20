@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/roadmap.xsd">
+    <graph id="roadmap">
+        <node id="backend" label="AWS Solutions Architect"/>
+        <node id="sa_prerequisites" label="Start here: shared prerequisites"/>
+        <node id="sa_practice" label="Practice: architecture reviews"/>
+        <node id="sa_practice_web" label="1. Design a resilient web application"/>
+        <node id="sa_practice_events" label="2. Design an event-driven workload"/>
+        <node id="sa_practice_recovery" label="3. Review recovery objectives and cost"/>
+        <edge id="edge_backend_sa_prerequisites" source="backend" target="sa_prerequisites"/>
+        <edge id="edge_sa_prerequisites_net_dns" source="sa_prerequisites" target="net_dns"/>
+        <edge id="edge_sa_prerequisites_net_protocols_ip" source="sa_prerequisites" target="net_protocols_ip"/>
+        <edge id="edge_sa_prerequisites_net_protocols_tcp" source="sa_prerequisites" target="net_protocols_tcp"/>
+        <edge id="edge_sa_prerequisites_os_processes_lifecycle" source="sa_prerequisites" target="os_processes_lifecycle"/>
+        <edge id="edge_sa_prerequisites_os_linux_processes" source="sa_prerequisites" target="os_linux_processes"/>
+        <edge id="edge_sa_prerequisites_os_shell_bash" source="sa_prerequisites" target="os_shell_bash"/>
+        <edge id="edge_sa_prerequisites_devops_containers_1" source="sa_prerequisites" target="devops_containers_1"/>
+        <edge id="edge_backend_arch" source="backend" target="arch"/>
+        <edge id="edge_backend_aws" source="backend" target="aws"/>
+        <edge id="edge_backend_sa_practice" source="backend" target="sa_practice"/>
+        <edge id="edge_sa_practice_sa_practice_web" source="sa_practice" target="sa_practice_web"/>
+        <edge id="edge_sa_practice_sa_practice_events" source="sa_practice" target="sa_practice_events"/>
+        <edge id="edge_sa_practice_sa_practice_recovery" source="sa_practice" target="sa_practice_recovery"/>
+    </graph>
+    <include filepath="../../../subjects/architecture/roadmap.xml"/>
+    <include filepath="../../../subjects/aws/roadmap.xml"/>
+    <include filepath="../../../subjects/networking/fragments/kubernetes-prerequisites.xml"/>
+    <include filepath="../../../subjects/operating-systems/fragments/kubernetes-prerequisites.xml"/>
+    <include filepath="../../../subjects/devops/fragments/container-images.xml"/>
+</xmlgraph>

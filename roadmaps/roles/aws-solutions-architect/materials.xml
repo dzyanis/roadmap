@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/materials.xsd">
+    <include filepath="../../../subjects/architecture/materials.xml"/>
+    <include filepath="../../../subjects/aws/materials.xml"/>
+    <article lang="en">
+        <title>AWS Solutions Architect learning and optional certification</title>
+        <url>https://aws.amazon.com/certification/certified-solutions-architect-associate/</url>
+        <tags>
+            <tag>backend</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Well-Architected review framework</title>
+        <url>https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html</url>
+        <tags>
+            <tag>sa_practice</tag>
+            <tag>sa_practice_web</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Serverless Lens</title>
+        <url>https://docs.aws.amazon.com/wellarchitected/latest/serverless-applications-lens/welcome.html</url>
+        <tags>
+            <tag>sa_practice_events</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS recovery strategies</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html</url>
+        <tags>
+            <tag>sa_practice_recovery</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Pricing Calculator</title>
+        <url>https://calculator.aws/</url>
+        <tags>
+            <tag>sa_practice</tag>
+            <tag>sa_practice_recovery</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS networking foundations</title>
+        <url>https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html</url>
+        <tags>
+            <tag>sa_prerequisites</tag>
+            <tag>net_dns</tag>
+            <tag>net_protocols_ip</tag>
+            <tag>net_protocols_tcp</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>OSTEP: processes</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf</url>
+        <tags>
+            <tag>os_processes_lifecycle</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Linux ps manual</title>
+        <url>https://man7.org/linux/man-pages/man1/ps.1.html</url>
+        <tags>
+            <tag>os_linux_processes</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Bash manual</title>
+        <url>https://www.gnu.org/software/bash/manual/bash.html</url>
+        <tags>
+            <tag>os_shell_bash</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Docker containers and images</title>
+        <url>https://docs.docker.com/learn/content/what-is-a-container/</url>
+        <tags>
+            <tag>devops_containers_1</tag>
+        </tags>
+    </article>
+</materials>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/roadmap.xsd">
+    <graph id="shared_topics">
+        <node id="devops_reliability_1" label="SLIs, SLOs, and error budgets"/>
+        <node id="devops_reliability_3" label="Backups and disaster recovery"/>
+    </graph>
+</xmlgraph>

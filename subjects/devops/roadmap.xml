@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd">
     <include filepath="fragments/container-images.xml"/>
+    <include filepath="fragments/reliability-foundations.xml"/>
     <graph id="devops">
         <node id="devops" label="DevOps Practices"/>
         <node id="devops_automation" label="Automation and Scripting"/>
@@ -52,11 +53,9 @@
         <edge id="edge_devops_observability_3" source="devops_observability" target="devops_observability_3"/>
         <node id="devops_reliability" label="Site Reliability Engineering"/>
         <edge id="edge_devops_reliability" source="devops" target="devops_reliability"/>
-        <node id="devops_reliability_1" label="SLIs, SLOs, and error budgets"/>
         <edge id="edge_devops_reliability_1" source="devops_reliability" target="devops_reliability_1"/>
         <node id="devops_reliability_2" label="Incident response and postmortems"/>
         <edge id="edge_devops_reliability_2" source="devops_reliability" target="devops_reliability_2"/>
-        <node id="devops_reliability_3" label="Backups and disaster recovery"/>
         <edge id="edge_devops_reliability_3" source="devops_reliability" target="devops_reliability_3"/>
         <node id="devops_reliability_4" label="Capacity planning and toil reduction"/>
         <edge id="edge_devops_reliability_4" source="devops_reliability" target="devops_reliability_4"/>
