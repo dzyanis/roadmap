@@ -2,6 +2,7 @@
 <xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd"
 >
+    <include filepath="fragments/kubernetes-topic.xml"/>
     <graph id="dev">
         <node id="dev" label="Software Development Processes"/>
 
@@ -40,7 +41,6 @@
         <node id="dev_orchestration_puppet" label="Puppet"/>
         <edge id="edge_dev_orchestration_puppet" source="dev_orchestration" target="dev_orchestration_puppet"/>
 
-        <node id="dev_orchestration_k8s" label="Kubernetes"/>
         <edge id="edge_dev_orchestration_k8s" source="dev_orchestration" target="dev_orchestration_k8s"/>
 
         <!--Debugging-->

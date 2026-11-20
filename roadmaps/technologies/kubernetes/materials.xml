@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/materials.xsd">
+    <include filepath="../../../subjects/kubernetes/materials.xml"/>
+    <article lang="en">
+        <title>1. Create a local cluster and inspect nodes</title>
+        <url>https://kind.sigs.k8s.io/docs/user/quick-start/</url>
+        <tags>
+            <tag>k8s_practice_cluster</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>2. Deploy an application and inspect reconciliation</title>
+        <url>https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/</url>
+        <tags>
+            <tag>k8s_practice_deploy</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>3. Expose a Service and test port-forwarding</title>
+        <url>https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/</url>
+        <tags>
+            <tag>k8s_practice_expose</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>4. Inject ConfigMap and Secret values</title>
+        <url>https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/</url>
+        <tags>
+            <tag>k8s_practice_configure</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>5. Mount a PVC and verify data after Pod replacement</title>
+        <url>https://kubernetes.io/docs/tutorials/configuration/configure-persistent-volume-storage/</url>
+        <tags>
+            <tag>k8s_practice_persist</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>6. Update an image and roll back a failed rollout</title>
+        <url>https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/</url>
+        <tags>
+            <tag>k8s_practice_rollout</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>7. Break a selector or image tag, diagnose and repair</title>
+        <url>https://kubernetes.io/docs/tasks/debug/debug-application/</url>
+        <tags>
+            <tag>k8s_practice_debug</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes local learning environment</title>
+        <url>https://kubernetes.io/docs/setup/learning-environment/</url>
+        <tags>
+            <tag>backend</tag>
+            <tag>k8s_practice</tag>
+            <tag>k8s_prerequisites</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Docker container concepts</title>
+        <url>https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/</url>
+        <tags>
+            <tag>devops_containers_1</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Docker images</title>
+        <url>https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/</url>
+        <tags>
+            <tag>devops_containers_1</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>OSTEP: processes</title>
+        <url>https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf</url>
+        <tags>
+            <tag>os_processes_lifecycle</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Bash manual</title>
+        <url>https://www.gnu.org/software/bash/manual/bash.html</url>
+        <tags>
+            <tag>os_shell_bash</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Kubernetes networking model</title>
+        <url>https://kubernetes.io/docs/concepts/services-networking/</url>
+        <tags>
+            <tag>net_protocols_ip</tag>
+            <tag>net_protocols_tcp</tag>
+            <tag>net_dns</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>YAML specification</title>
+        <url>https://yaml.org/spec/1.2.2/</url>
+        <tags>
+            <tag>k8s_prerequisites_yaml</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Linux process inspection with ps</title>
+        <url>https://man7.org/linux/man-pages/man1/ps.1.html</url>
+        <tags><tag>os_linux_processes</tag></tags>
+    </article>
+</materials>

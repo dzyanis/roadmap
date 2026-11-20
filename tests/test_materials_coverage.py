@@ -6,6 +6,9 @@ import xml.etree.ElementTree as ET
 
 
 REPOSITORY = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPOSITORY / 'tools'))
+from pipeline import load_roadmap
+
 ROADMAPS = sorted((REPOSITORY / 'roadmaps').glob('*/*/roadmap.xml'))
 
 
@@ -29,8 +32,8 @@ class MaterialsCoverageTests(unittest.TestCase):
     def test_os_resources_appear_under_their_matching_headings(self):
         subject = REPOSITORY / 'subjects' / 'operating-systems'
         labels = {
-            node.get('id'): node.get('label')
-            for node in ET.parse(subject / 'roadmap.xml').iter('node')
+            node.id: node.label
+            for node in load_roadmap(subject / 'roadmap.xml').nodes.values()
         }
         resources = []
         for material in ET.parse(subject / 'materials.xml').getroot():

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../schemas/roadmap.xsd">
+    <graph id="shared_topics">
+        <node id="net_dns" label="DNS"/>
+        <node id="net_protocols_ip" label="IP"/>
+        <node id="net_protocols_tcp" label="TCP"/>
+    </graph>
+</xmlgraph>
