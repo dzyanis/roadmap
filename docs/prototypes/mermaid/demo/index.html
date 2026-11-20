@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mermaid · Roadmap renderer experiment</title>
+<link rel="stylesheet" href="style.css"><script type="module" src="viewer.js"></script>
+</head>
+<body>
+<header><div><span class="eyebrow">ROADMAP CORE / EXPERIMENT 40</span><h1>Mermaid explorer</h1></div>
+<div class="selectors"><label>Roadmap <select id="roadmap"></select></label><label>Layout <select id="layout"><option value="dagre">Dagre</option><option value="elk">ELK</option><option value="graphviz">Graphviz baseline</option></select></label></div></header>
+<main>
+<section class="canvas-panel" aria-label="Knowledge map">
+<div class="toolbar"><button id="fit">Fit map</button><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><a id="download" download>Download SVG</a><span id="counts"></span></div>
+<div id="viewport" tabindex="0" role="region" aria-label="Interactive map. Drag to pan; plus and minus to zoom; arrow keys to pan; Home to fit."></div>
+<p class="hint">Drag to pan · Scroll to zoom · Select a topic or search to focus</p>
+</section>
+<aside aria-label="Topics and learning resources">
+<label class="search-label" for="search">Find a topic</label><input id="search" type="search" placeholder="Search labels or topic IDs" autocomplete="off">
+<p id="status" role="status" aria-live="polite">Loading map…</p>
+<section id="details" aria-label="Selected topic"><h2>Explore the map</h2><p>Select a topic to view its learning resources and connections.</p></section>
+<details id="outline" open><summary>Accessible topic outline</summary><ul id="topics"></ul></details>
+</aside>
+</main>
+<footer>Static SVG experiment · XML is the source of truth · <a href="metrics.json">Build measurements</a></footer>
+</body></html>

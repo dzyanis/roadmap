@@ -1,0 +1,700 @@
+{
+  "schema_version": 1,
+  "roadmap": {
+    "id": "dsa",
+    "label": "Data Structures and Algorithms",
+    "root": "dsa"
+  },
+  "subjects": [
+    "data-structures-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "dsa",
+      "label": "Data Structures and Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": [
+        {
+          "type": "book",
+          "title": "Algorithms, 4th Edition",
+          "url": "https://algs4.cs.princeton.edu/home/",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "course",
+          "title": "Algorithms, Part I",
+          "url": "https://www.coursera.org/learn/algorithms-part1",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "course",
+          "title": "Algorithms, Part II",
+          "url": "https://www.coursera.org/learn/algorithms-part2",
+          "language": "en",
+          "description": "",
+          "translation": null
+        },
+        {
+          "type": "book",
+          "title": "Introduction to Algorithms, Third Edition",
+          "url": "https://mitpress.mit.edu/books/introduction-algorithms-third-edition",
+          "language": "en",
+          "description": "",
+          "translation": null
+        }
+      ]
+    },
+    {
+      "id": "dsa_algorithms",
+      "label": "Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching",
+      "label": "Searching Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_efficient",
+      "label": "Efficient Searching Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_efficient_binary",
+      "label": "Binary Search",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_efficient_hashing",
+      "label": "Hashing",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_sequential",
+      "label": "Sequential Searching Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_searching_sequential_linear",
+      "label": "Linear Search",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting",
+      "label": "Sorting Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison",
+      "label": "Comparison-based Sorting Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_bubble",
+      "label": "Bubble Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_insertion",
+      "label": "Insertion Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_merge",
+      "label": "Merge Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_quick",
+      "label": "Quick Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_comparison_selection",
+      "label": "Selection Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison",
+      "label": "Non-comparison-based Sorting Algorithms",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison_bucket",
+      "label": "Bucket Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison_counting",
+      "label": "Counting Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_algorithms_sorting_noncomparison_radix",
+      "label": "Radix Sort",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_analysis",
+      "label": "Analysis",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data",
+      "label": "Data Structures",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear",
+      "label": "Linear Data Structures",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_arrays",
+      "label": "Arrays",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_arrays_dynamic",
+      "label": "Dynamic Arrays",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_arrays_static",
+      "label": "Static Arrays",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists",
+      "label": "Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists_circular",
+      "label": "Circular Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists_doubly",
+      "label": "Doubly Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_lists_singly",
+      "label": "Singly Linked Lists",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_queues",
+      "label": "Queues",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_queues_array",
+      "label": "Array-based Queue",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_queues_list",
+      "label": "Linked List-based Queue",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_stacks",
+      "label": "Stacks",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_stacks_array",
+      "label": "Array-based Stack",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_linear_stacks_list",
+      "label": "Linked List-based Stack",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear",
+      "label": "Non-Linear Data Structures",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs",
+      "label": "Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs_directed",
+      "label": "Directed Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs_undirected",
+      "label": "Undirected Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_graphs_weighted",
+      "label": "Weighted Graphs",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_heaps",
+      "label": "Heaps",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_heaps_max",
+      "label": "Max Heap",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_heaps_min",
+      "label": "Min Heap",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees",
+      "label": "Trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees_avl",
+      "label": "AVL Trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees_b",
+      "label": "B-trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    },
+    {
+      "id": "dsa_data_nonlinear_trees_binary",
+      "label": "Binary Trees",
+      "subjects": [
+        "data-structures-algorithms"
+      ],
+      "resources": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_dsa_algorithms",
+      "source": "dsa",
+      "target": "dsa_algorithms",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching",
+      "source": "dsa_algorithms",
+      "target": "dsa_algorithms_searching",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_efficient",
+      "source": "dsa_algorithms_searching",
+      "target": "dsa_algorithms_searching_efficient",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_efficient_binary",
+      "source": "dsa_algorithms_searching_efficient",
+      "target": "dsa_algorithms_searching_efficient_binary",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_efficient_hashing",
+      "source": "dsa_algorithms_searching_efficient",
+      "target": "dsa_algorithms_searching_efficient_hashing",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_sequential",
+      "source": "dsa_algorithms_searching",
+      "target": "dsa_algorithms_searching_sequential",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_searching_sequential_linear",
+      "source": "dsa_algorithms_searching_sequential",
+      "target": "dsa_algorithms_searching_sequential_linear",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting",
+      "source": "dsa_algorithms",
+      "target": "dsa_algorithms_sorting",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison",
+      "source": "dsa_algorithms_sorting",
+      "target": "dsa_algorithms_sorting_comparison",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_bubble",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_bubble",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_insertion",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_insertion",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_merge",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_merge",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_quick",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_quick",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_comparison_selection",
+      "source": "dsa_algorithms_sorting_comparison",
+      "target": "dsa_algorithms_sorting_comparison_selection",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison",
+      "source": "dsa_algorithms_sorting",
+      "target": "dsa_algorithms_sorting_noncomparison",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison_bucket",
+      "source": "dsa_algorithms_sorting_noncomparison",
+      "target": "dsa_algorithms_sorting_noncomparison_bucket",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison_counting",
+      "source": "dsa_algorithms_sorting_noncomparison",
+      "target": "dsa_algorithms_sorting_noncomparison_counting",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_algorithms_sorting_noncomparison_radix",
+      "source": "dsa_algorithms_sorting_noncomparison",
+      "target": "dsa_algorithms_sorting_noncomparison_radix",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_analysis",
+      "source": "dsa",
+      "target": "dsa_analysis",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data",
+      "source": "dsa",
+      "target": "dsa_data",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear",
+      "source": "dsa_data",
+      "target": "dsa_data_linear",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_arrays",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_arrays",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_arrays_dynamic",
+      "source": "dsa_data_linear_arrays",
+      "target": "dsa_data_linear_arrays_dynamic",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_arrays_static",
+      "source": "dsa_data_linear_arrays",
+      "target": "dsa_data_linear_arrays_static",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_lists",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists_circular",
+      "source": "dsa_data_linear_lists",
+      "target": "dsa_data_linear_lists_circular",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists_doubly",
+      "source": "dsa_data_linear_lists",
+      "target": "dsa_data_linear_lists_doubly",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_lists_singly",
+      "source": "dsa_data_linear_lists",
+      "target": "dsa_data_linear_lists_singly",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_queues",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_queues",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_queues_array",
+      "source": "dsa_data_linear_queues",
+      "target": "dsa_data_linear_queues_array",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_queues_list",
+      "source": "dsa_data_linear_queues",
+      "target": "dsa_data_linear_queues_list",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_stacks",
+      "source": "dsa_data_linear",
+      "target": "dsa_data_linear_stacks",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_stacks_array",
+      "source": "dsa_data_linear_stacks",
+      "target": "dsa_data_linear_stacks_array",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_linear_stacks_list",
+      "source": "dsa_data_linear_stacks",
+      "target": "dsa_data_linear_stacks_list",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear",
+      "source": "dsa_data",
+      "target": "dsa_data_nonlinear",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs",
+      "source": "dsa_data_nonlinear",
+      "target": "dsa_data_nonlinear_graphs",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs_directed",
+      "source": "dsa_data_nonlinear_graphs",
+      "target": "dsa_data_nonlinear_graphs_directed",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs_undirected",
+      "source": "dsa_data_nonlinear_graphs",
+      "target": "dsa_data_nonlinear_graphs_undirected",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_graphs_weighted",
+      "source": "dsa_data_nonlinear_graphs",
+      "target": "dsa_data_nonlinear_graphs_weighted",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_heaps",
+      "source": "dsa_data_nonlinear",
+      "target": "dsa_data_nonlinear_heaps",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_heaps_max",
+      "source": "dsa_data_nonlinear_heaps",
+      "target": "dsa_data_nonlinear_heaps_max",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_heaps_min",
+      "source": "dsa_data_nonlinear_heaps",
+      "target": "dsa_data_nonlinear_heaps_min",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees",
+      "source": "dsa_data_nonlinear",
+      "target": "dsa_data_nonlinear_trees",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees_avl",
+      "source": "dsa_data_nonlinear_trees",
+      "target": "dsa_data_nonlinear_trees_avl",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees_b",
+      "source": "dsa_data_nonlinear_trees",
+      "target": "dsa_data_nonlinear_trees_b",
+      "type": "contains"
+    },
+    {
+      "id": "edge_dsa_data_nonlinear_trees_binary",
+      "source": "dsa_data_nonlinear_trees",
+      "target": "dsa_data_nonlinear_trees_binary",
+      "type": "contains"
+    }
+  ]
+}

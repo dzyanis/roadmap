@@ -1,0 +1,15 @@
+{
+  "name": "roadmap-mermaid-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node browser-test.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "25.17.0",
+    "@mermaid-js/mermaid-cli": "12.2.0"
+  },
+  "overrides": {
+    "mermaid": "12.3.0"
+  }
+}

@@ -1,0 +1,2912 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0.00 0.00 1219.00 6475.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 6471)">
+<title>roadmap</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-6471 1214.75,-6471 1214.75,4 -4,4" />
+<g id="clust1" class="cluster">
+<title>cluster_0</title>
+<polygon fill="none" stroke="black" points="8,-3428 8,-3505 167.5,-3505 167.5,-3428 8,-3428" />
+<text xml:space="preserve" text-anchor="middle" x="87.75" y="-3487.7" font-family="Times,serif" font-size="14.00">roadmap</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_1</title>
+<polygon fill="none" stroke="black" points="230.25,-5562 230.25,-6459 1140.5,-6459 1140.5,-5562 230.25,-5562" />
+<text xml:space="preserve" text-anchor="middle" x="685.38" y="-6441.7" font-family="Times,serif" font-size="14.00">databases</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_2</title>
+<polygon fill="none" stroke="black" points="187.5,-4343 187.5,-5554 1179.5,-5554 1179.5,-4343 187.5,-4343" />
+<text xml:space="preserve" text-anchor="middle" x="683.5" y="-5536.7" font-family="Times,serif" font-size="14.00">software-development</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_3</title>
+<polygon fill="none" stroke="black" points="204,-2739 204,-4335 923.12,-4335 923.12,-2739 204,-2739" />
+<text xml:space="preserve" text-anchor="middle" x="563.56" y="-4317.7" font-family="Times,serif" font-size="14.00">devops</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_4</title>
+<polygon fill="none" stroke="black" points="202.12,-2114 202.12,-2731 874.75,-2731 874.75,-2114 202.12,-2114" />
+<text xml:space="preserve" text-anchor="middle" x="538.44" y="-2713.7" font-family="Times,serif" font-size="14.00">networking</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_5</title>
+<polygon fill="none" stroke="black" points="199.88,-8 199.88,-2106 1202.75,-2106 1202.75,-8 199.88,-8" />
+<text xml:space="preserve" text-anchor="middle" x="701.31" y="-2088.7" font-family="Times,serif" font-size="14.00">operating-systems</text>
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<g id="a_node1"><a xlink:href="#roadmap=devops&amp;topic=backend" xlink:title="DevOps Engineer" data-topic="backend" tabindex="-1" aria-label="DevOps Engineer">
+<polygon fill="none" stroke="black" points="159.5,-3472 16,-3472 16,-3436 159.5,-3436 159.5,-3472" />
+<text xml:space="preserve" text-anchor="middle" x="87.75" y="-3448.18" font-family="Arial" font-size="16.00">DevOps Engineer</text>
+</a>
+</g>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<g id="a_node2"><a xlink:href="#roadmap=devops&amp;topic=db" xlink:title="Databases" data-topic="db" tabindex="-1" aria-label="Databases">
+<polygon fill="none" stroke="black" points="331.5,-6065 238.25,-6065 238.25,-6029 331.5,-6029 331.5,-6065" />
+<text xml:space="preserve" text-anchor="middle" x="284.88" y="-6041.18" font-family="Arial" font-size="16.00">Databases</text>
+</a>
+</g>
+</g>
+
+<g id="edge186" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="black" d="M88.58,-3472.35C87.38,-3624.76 83,-4696.74 187.5,-5558 208.87,-5734.12 257.83,-5941.8 276.48,-6017.51" />
+<polygon fill="black" stroke="black" points="273.03,-6018.17 278.84,-6027.04 279.83,-6016.49 273.03,-6018.17" />
+</g>
+
+<g id="node36" class="node">
+<title>n35</title>
+<g id="a_node36"><a xlink:href="#roadmap=devops&amp;topic=dev" xlink:title="Software Development\nProcesses" data-topic="dev" tabindex="-1" aria-label="Software Development Processes">
+<polygon fill="none" stroke="black" points="374.25,-4930.75 195.5,-4930.75 195.5,-4885.25 374.25,-4885.25 374.25,-4930.75" />
+<text xml:space="preserve" text-anchor="middle" x="284.88" y="-4911.55" font-family="Arial" font-size="16.00">Software Development</text>
+<text xml:space="preserve" text-anchor="middle" x="284.88" y="-4892.8" font-family="Arial" font-size="16.00">Processes</text>
+</a>
+</g>
+</g>
+
+<g id="edge187" class="edge">
+<title>n0-&gt;n35</title>
+<path fill="none" stroke="black" d="M90.41,-3472.42C98.89,-3565.35 138.77,-3991.85 187.5,-4339 216.06,-4542.47 260.71,-4785.09 277.34,-4873.56" />
+<polygon fill="black" stroke="black" points="273.88,-4874.1 279.17,-4883.28 280.76,-4872.81 273.88,-4874.1" />
+</g>
+
+<g id="node77" class="node">
+<title>n69</title>
+<g id="a_node77"><a xlink:href="#roadmap=devops&amp;topic=devops" xlink:title="DevOps Practices" data-topic="devops" tabindex="-1" aria-label="DevOps Practices">
+<polygon fill="none" stroke="black" points="357.75,-3472 212,-3472 212,-3436 357.75,-3436 357.75,-3472" />
+<text xml:space="preserve" text-anchor="middle" x="284.88" y="-3448.18" font-family="Arial" font-size="16.00">DevOps Practices</text>
+</a>
+</g>
+</g>
+
+<g id="edge188" class="edge">
+<title>n0-&gt;n69</title>
+<path fill="none" stroke="black" d="M159.75,-3454C172.94,-3454 186.84,-3454 200.37,-3454" />
+<polygon fill="black" stroke="black" points="200.11,-3457.5 210.11,-3454 200.11,-3450.5 200.11,-3457.5" />
+</g>
+
+<g id="node112" class="node">
+<title>n111</title>
+<g id="a_node112"><a xlink:href="#roadmap=devops&amp;topic=net" xlink:title="Computer Network" data-topic="net" tabindex="-1" aria-label="Computer Network">
+<polygon fill="none" stroke="black" points="359.62,-2506 210.12,-2506 210.12,-2470 359.62,-2470 359.62,-2506" />
+<text xml:space="preserve" text-anchor="middle" x="284.88" y="-2482.18" font-family="Arial" font-size="16.00">Computer Network</text>
+</a>
+</g>
+</g>
+
+<g id="edge185" class="edge">
+<title>n0-&gt;n111</title>
+<path fill="none" stroke="black" d="M89.68,-3435.63C94.2,-3353 116.59,-3007.86 187.5,-2735 208.73,-2653.3 249,-2561.91 270.13,-2516.63" />
+<polygon fill="black" stroke="black" points="273.21,-2518.31 274.31,-2507.77 266.88,-2515.33 273.21,-2518.31" />
+</g>
+
+<g id="node133" class="node">
+<title>n132</title>
+<g id="a_node133"><a xlink:href="#roadmap=devops&amp;topic=os" xlink:title="Operating Systems" data-topic="os" tabindex="-1" aria-label="Operating Systems">
+<polygon fill="none" stroke="black" points="361.88,-1065 207.88,-1065 207.88,-1029 361.88,-1029 361.88,-1065" />
+<text xml:space="preserve" text-anchor="middle" x="284.88" y="-1041.17" font-family="Arial" font-size="16.00">Operating Systems</text>
+</a>
+</g>
+</g>
+
+<g id="edge184" class="edge">
+<title>n0-&gt;n132</title>
+<path fill="none" stroke="black" d="M89.97,-3435.81C97.88,-3318.11 143.01,-2652.14 187.5,-2110 221.16,-1699.81 268.96,-1201.24 281.02,-1076.4" />
+<polygon fill="black" stroke="black" points="284.48,-1076.99 281.96,-1066.69 277.52,-1076.31 284.48,-1076.99" />
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<g id="a_node3"><a xlink:href="#roadmap=devops&amp;topic=db_indexes" xlink:title="Indexes" data-topic="db_indexes" tabindex="-1" aria-label="Indexes">
+<polygon fill="none" stroke="black" points="565.75,-5660 492.75,-5660 492.75,-5624 565.75,-5624 565.75,-5660" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-5636.18" font-family="Arial" font-size="16.00">Indexes</text>
+</a>
+</g>
+</g>
+
+<g id="edge77" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="black" d="M285.98,-6028.72C287.35,-5967.66 300.45,-5769.04 410.25,-5669 429.27,-5651.67 457.1,-5644.74 480.95,-5642.23" />
+<polygon fill="black" stroke="black" points="481.09,-5645.73 490.78,-5641.44 480.53,-5638.75 481.09,-5645.73" />
+</g>
+
+<g id="node4" class="node">
+<title>n3</title>
+<g id="a_node4"><a xlink:href="#roadmap=devops&amp;topic=db_message_broker" xlink:title="Message Broker" data-topic="db_message_broker" tabindex="-1" aria-label="Message Broker">
+<polygon fill="none" stroke="black" points="596.12,-5714 462.38,-5714 462.38,-5678 596.12,-5678 596.12,-5714" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-5690.18" font-family="Arial" font-size="16.00">Message Broker</text>
+</a>
+</g>
+</g>
+
+<g id="edge83" class="edge">
+<title>n1-&gt;n3</title>
+<path fill="none" stroke="black" d="M298.56,-6028.62C338.48,-5970.81 461.67,-5792.42 509.24,-5723.54" />
+<polygon fill="black" stroke="black" points="512.02,-5725.66 514.83,-5715.44 506.26,-5721.68 512.02,-5725.66" />
+</g>
+
+<g id="node9" class="node">
+<title>n8</title>
+<g id="a_node9"><a xlink:href="#roadmap=devops&amp;topic=db_nosql" xlink:title="NOSQL" data-topic="db_nosql" tabindex="-1" aria-label="NOSQL">
+<polygon fill="none" stroke="black" points="565.38,-5957 493.12,-5957 493.12,-5921 565.38,-5921 565.38,-5957" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-5933.18" font-family="Arial" font-size="16.00">NOSQL</text>
+</a>
+</g>
+</g>
+
+<g id="edge81" class="edge">
+<title>n1-&gt;n8</title>
+<path fill="none" stroke="black" d="M327.27,-6028.56C370.45,-6009.31 437.97,-5979.23 482.66,-5959.32" />
+<polygon fill="black" stroke="black" points="483.85,-5962.62 491.56,-5955.35 481,-5956.22 483.85,-5962.62" />
+</g>
+
+<g id="node22" class="node">
+<title>n21</title>
+<g id="a_node22"><a xlink:href="#roadmap=devops&amp;topic=db_principles" xlink:title="Principles" data-topic="db_principles" tabindex="-1" aria-label="Principles">
+<polygon fill="none" stroke="black" points="572.5,-6065 486,-6065 486,-6029 572.5,-6029 572.5,-6065" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-6041.18" font-family="Arial" font-size="16.00">Principles</text>
+</a>
+</g>
+</g>
+
+<g id="edge79" class="edge">
+<title>n1-&gt;n21</title>
+<path fill="none" stroke="black" d="M331.75,-6047C372.35,-6047 431.65,-6047 474.47,-6047" />
+<polygon fill="black" stroke="black" points="474.3,-6050.5 484.3,-6047 474.3,-6043.5 474.3,-6050.5" />
+</g>
+
+<g id="node23" class="node">
+<title>n22</title>
+<g id="a_node23"><a xlink:href="#roadmap=devops&amp;topic=db_relational" xlink:title="Relational" data-topic="db_relational" tabindex="-1" aria-label="Relational">
+<polygon fill="none" stroke="black" points="573.25,-6173 485.25,-6173 485.25,-6137 573.25,-6137 573.25,-6173" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-6149.18" font-family="Arial" font-size="16.00">Relational</text>
+</a>
+</g>
+</g>
+
+<g id="edge80" class="edge">
+<title>n1-&gt;n22</title>
+<path fill="none" stroke="black" d="M327.27,-6065.44C368.57,-6083.85 432.14,-6112.18 476.7,-6132.03" />
+<polygon fill="black" stroke="black" points="475.09,-6135.14 485.65,-6136.02 477.94,-6128.75 475.09,-6135.14" />
+</g>
+
+<g id="node31" class="node">
+<title>n30</title>
+<g id="a_node31"><a xlink:href="#roadmap=devops&amp;topic=db_search" xlink:title="Search Engines" data-topic="db_search" tabindex="-1" aria-label="Search Engines">
+<polygon fill="none" stroke="black" points="594.25,-6227 464.25,-6227 464.25,-6191 594.25,-6191 594.25,-6227" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-6203.18" font-family="Arial" font-size="16.00">Search Engines</text>
+</a>
+</g>
+</g>
+
+<g id="edge82" class="edge">
+<title>n1-&gt;n30</title>
+<path fill="none" stroke="black" d="M297.19,-6065.09C316.55,-6094.47 358.98,-6152.26 410.25,-6182 423.14,-6189.48 437.95,-6194.89 452.62,-6198.8" />
+<polygon fill="black" stroke="black" points="451.76,-6202.19 462.3,-6201.15 453.41,-6195.39 451.76,-6202.19" />
+</g>
+
+<g id="node34" class="node">
+<title>n33</title>
+<g id="a_node34"><a xlink:href="#roadmap=devops&amp;topic=db_sql" xlink:title="SQL" data-topic="db_sql" tabindex="-1" aria-label="SQL">
+<polygon fill="none" stroke="black" points="556.25,-6281 502.25,-6281 502.25,-6245 556.25,-6245 556.25,-6281" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-6257.18" font-family="Arial" font-size="16.00">SQL</text>
+</a>
+</g>
+</g>
+
+<g id="edge76" class="edge">
+<title>n1-&gt;n33</title>
+<path fill="none" stroke="black" d="M292.52,-6065.46C307.3,-6103.74 346.69,-6191.87 410.25,-6236 433.95,-6252.45 466.15,-6259.02 490.94,-6261.58" />
+<polygon fill="black" stroke="black" points="490.32,-6265.04 500.58,-6262.39 490.91,-6258.06 490.32,-6265.04" />
+</g>
+
+<g id="node35" class="node">
+<title>n34</title>
+<g id="a_node35"><a xlink:href="#roadmap=devops&amp;topic=db_transactions" xlink:title="Transactions" data-topic="db_transactions" tabindex="-1" aria-label="Transactions">
+<polygon fill="none" stroke="black" points="583.38,-6335 475.12,-6335 475.12,-6299 583.38,-6299 583.38,-6335" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-6311.18" font-family="Arial" font-size="16.00">Transactions</text>
+</a>
+</g>
+</g>
+
+<g id="edge78" class="edge">
+<title>n1-&gt;n34</title>
+<path fill="none" stroke="black" d="M289.66,-6065.32C300.11,-6110.99 333.77,-6230.48 410.25,-6290 425.43,-6301.81 444.84,-6308.63 463.51,-6312.51" />
+<polygon fill="black" stroke="black" points="462.74,-6315.93 473.2,-6314.26 463.98,-6309.04 462.74,-6315.93" />
+</g>
+
+<g id="node5" class="node">
+<title>n4</title>
+<g id="a_node5"><a xlink:href="#roadmap=devops&amp;topic=db_message_broker_awssqs" xlink:title="Amazon Simple Queue Service" data-topic="db_message_broker_awssqs" tabindex="-1" aria-label="Amazon Simple Queue Service">
+<polygon fill="none" stroke="black" points="927.88,-5606 686.88,-5606 686.88,-5570 927.88,-5570 927.88,-5606" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5582.18" font-family="Arial" font-size="16.00">Amazon Simple Queue Service</text>
+</a>
+</g>
+</g>
+
+<g id="edge86" class="edge">
+<title>n3-&gt;n4</title>
+<path fill="none" stroke="black" d="M596.34,-5689.95C614.33,-5685.97 633.03,-5679.5 648.25,-5669 671.99,-5652.62 660.45,-5631.29 684.25,-5615 685.85,-5613.9 687.49,-5612.85 689.16,-5611.84" />
+<polygon fill="black" stroke="black" points="690.59,-5615.05 697.72,-5607.22 687.26,-5608.89 690.59,-5615.05" />
+</g>
+
+<g id="node6" class="node">
+<title>n5</title>
+<g id="a_node6"><a xlink:href="#roadmap=devops&amp;topic=db_message_broker_kafka" xlink:title="Kafka" data-topic="db_message_broker_kafka" tabindex="-1" aria-label="Kafka">
+<polygon fill="none" stroke="black" points="836,-5660 778.75,-5660 778.75,-5624 836,-5624 836,-5660" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5636.18" font-family="Arial" font-size="16.00">Kafka</text>
+</a>
+</g>
+</g>
+
+<g id="edge84" class="edge">
+<title>n3-&gt;n5</title>
+<path fill="none" stroke="black" d="M596.39,-5683.07C649.7,-5672.64 722.86,-5658.33 767.26,-5649.65" />
+<polygon fill="black" stroke="black" points="767.81,-5653.11 776.95,-5647.75 766.47,-5646.24 767.81,-5653.11" />
+</g>
+
+<g id="node7" class="node">
+<title>n6</title>
+<g id="a_node7"><a xlink:href="#roadmap=devops&amp;topic=db_message_broker_rabbit" xlink:title="RabbitMQ" data-topic="db_message_broker_rabbit" tabindex="-1" aria-label="RabbitMQ">
+<polygon fill="none" stroke="black" points="851.75,-5714 763,-5714 763,-5678 851.75,-5678 851.75,-5714" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5690.18" font-family="Arial" font-size="16.00">RabbitMQ</text>
+</a>
+</g>
+</g>
+
+<g id="edge85" class="edge">
+<title>n3-&gt;n6</title>
+<path fill="none" stroke="black" d="M596.39,-5696C643.7,-5696 706.63,-5696 751.23,-5696" />
+<polygon fill="black" stroke="black" points="751.21,-5699.5 761.21,-5696 751.21,-5692.5 751.21,-5699.5" />
+</g>
+
+<g id="node8" class="node">
+<title>n7</title>
+<g id="a_node8"><a xlink:href="#roadmap=devops&amp;topic=db_mysql" xlink:title="MySQL" data-topic="db_mysql" tabindex="-1" aria-label="MySQL">
+<polygon fill="none" stroke="black" points="1115.62,-6200 1045.62,-6200 1045.62,-6164 1115.62,-6164 1115.62,-6200" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-6176.18" font-family="Arial" font-size="16.00">MySQL</text>
+</a>
+</g>
+</g>
+
+<g id="node10" class="node">
+<title>n9</title>
+<g id="a_node10"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_base" xlink:title="BASE" data-topic="db_nosql_base" tabindex="-1" aria-label="BASE">
+<polygon fill="none" stroke="black" points="836.38,-5768 778.38,-5768 778.38,-5732 836.38,-5732 836.38,-5768" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5744.18" font-family="Arial" font-size="16.00">BASE</text>
+</a>
+</g>
+</g>
+
+<g id="edge97" class="edge">
+<title>n8-&gt;n9</title>
+<path fill="none" stroke="black" d="M542.15,-5920.56C565.19,-5886.45 619.38,-5813.64 684.25,-5777 709.55,-5762.71 741.77,-5755.98 766.76,-5752.82" />
+<polygon fill="black" stroke="black" points="766.97,-5756.31 776.53,-5751.73 766.2,-5749.36 766.97,-5756.31" />
+</g>
+
+<g id="node11" class="node">
+<title>n10</title>
+<g id="a_node11"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_cap" xlink:title="CAP Theorem" data-topic="db_nosql_cap" tabindex="-1" aria-label="CAP Theorem">
+<polygon fill="none" stroke="black" points="866,-5822 748.75,-5822 748.75,-5786 866,-5786 866,-5822" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5798.18" font-family="Arial" font-size="16.00">CAP Theorem</text>
+</a>
+</g>
+</g>
+
+<g id="edge96" class="edge">
+<title>n8-&gt;n10</title>
+<path fill="none" stroke="black" d="M550.56,-5920.73C578.58,-5896.52 631.65,-5854.15 684.25,-5831 700.79,-5823.72 719.49,-5818.32 737.2,-5814.34" />
+<polygon fill="black" stroke="black" points="737.81,-5817.79 746.87,-5812.3 736.37,-5810.94 737.81,-5817.79" />
+</g>
+
+<g id="node13" class="node">
+<title>n12</title>
+<g id="a_node13"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_colbase" xlink:title="Column base" data-topic="db_nosql_colbase" tabindex="-1" aria-label="Column base">
+<polygon fill="none" stroke="black" points="863,-5876 751.75,-5876 751.75,-5840 863,-5840 863,-5876" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5852.18" font-family="Arial" font-size="16.00">Column base</text>
+</a>
+</g>
+</g>
+
+<g id="edge100" class="edge">
+<title>n8-&gt;n12</title>
+<path fill="none" stroke="black" d="M565.65,-5925.23C596.61,-5913.51 642.97,-5896.76 684.25,-5885 702.24,-5879.88 721.94,-5875.15 740.18,-5871.12" />
+<polygon fill="black" stroke="black" points="740.8,-5874.57 749.83,-5869.03 739.32,-5867.73 740.8,-5874.57" />
+</g>
+
+<g id="node14" class="node">
+<title>n13</title>
+<g id="a_node14"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_colwidebase" xlink:title="Wide column base" data-topic="db_nosql_colwidebase" tabindex="-1" aria-label="Wide column base">
+<polygon fill="none" stroke="black" points="882.12,-5930 732.62,-5930 732.62,-5894 882.12,-5894 882.12,-5930" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5906.18" font-family="Arial" font-size="16.00">Wide column base</text>
+</a>
+</g>
+</g>
+
+<g id="edge101" class="edge">
+<title>n8-&gt;n13</title>
+<path fill="none" stroke="black" d="M565.78,-5935.53C604.8,-5931.71 668.84,-5925.45 721.04,-5920.34" />
+<polygon fill="black" stroke="black" points="721.21,-5923.84 730.82,-5919.39 720.52,-5916.88 721.21,-5923.84" />
+</g>
+
+<g id="node15" class="node">
+<title>n14</title>
+<g id="a_node15"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_doc" xlink:title="Document base" data-topic="db_nosql_doc" tabindex="-1" aria-label="Document base">
+<polygon fill="none" stroke="black" points="872,-5984 742.75,-5984 742.75,-5948 872,-5948 872,-5984" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5960.18" font-family="Arial" font-size="16.00">Document base</text>
+</a>
+</g>
+</g>
+
+<g id="edge99" class="edge">
+<title>n8-&gt;n14</title>
+<path fill="none" stroke="black" d="M565.78,-5942.47C607.33,-5946.54 677.24,-5953.37 731.03,-5958.63" />
+<polygon fill="black" stroke="black" points="730.45,-5962.09 740.74,-5959.58 731.13,-5955.13 730.45,-5962.09" />
+</g>
+
+<g id="node16" class="node">
+<title>n15</title>
+<g id="a_node16"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_graph" xlink:title="Graph database" data-topic="db_nosql_graph" tabindex="-1" aria-label="Graph database">
+<polygon fill="none" stroke="black" points="873.5,-6038 741.25,-6038 741.25,-6002 873.5,-6002 873.5,-6038" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6014.18" font-family="Arial" font-size="16.00">Graph database</text>
+</a>
+</g>
+</g>
+
+<g id="edge98" class="edge">
+<title>n8-&gt;n15</title>
+<path fill="none" stroke="black" d="M565.65,-5952.77C596.61,-5964.49 642.97,-5981.24 684.25,-5993 698.95,-5997.19 714.81,-6001.11 730.07,-6004.61" />
+<polygon fill="black" stroke="black" points="729.05,-6007.96 739.57,-6006.74 730.58,-6001.13 729.05,-6007.96" />
+</g>
+
+<g id="node21" class="node">
+<title>n20</title>
+<g id="a_node21"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_time" xlink:title="Time series" data-topic="db_nosql_time" tabindex="-1" aria-label="Time series">
+<polygon fill="none" stroke="black" points="857,-6092 757.75,-6092 757.75,-6056 857,-6056 857,-6092" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6068.18" font-family="Arial" font-size="16.00">Time series</text>
+</a>
+</g>
+</g>
+
+<g id="edge102" class="edge">
+<title>n8-&gt;n20</title>
+<path fill="none" stroke="black" d="M557.66,-5957.34C581.72,-5973.55 617.57,-5997.98 648.25,-6020 664.5,-6031.66 666.08,-6038.65 684.25,-6047 703.47,-6055.83 725.75,-6061.85 745.98,-6065.92" />
+<polygon fill="black" stroke="black" points="745.33,-6069.36 755.8,-6067.76 746.62,-6062.48 745.33,-6069.36" />
+</g>
+
+<g id="node12" class="node">
+<title>n11</title>
+<g id="a_node12"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_clickhouse" xlink:title="ClickHouse" data-topic="db_nosql_clickhouse" tabindex="-1" aria-label="ClickHouse">
+<polygon fill="none" stroke="black" points="1129.5,-5849 1031.75,-5849 1031.75,-5813 1129.5,-5813 1129.5,-5849" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-5825.18" font-family="Arial" font-size="16.00">ClickHouse</text>
+</a>
+</g>
+</g>
+
+<g id="edge107" class="edge">
+<title>n12-&gt;n11</title>
+<path fill="none" stroke="black" d="M863.27,-5852.54C908.89,-5848 973.67,-5841.55 1020.44,-5836.89" />
+<polygon fill="black" stroke="black" points="1020.51,-5840.4 1030.12,-5835.93 1019.82,-5833.44 1020.51,-5840.4" />
+</g>
+
+<g id="node20" class="node">
+<title>n19</title>
+<g id="a_node20"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_redis" xlink:title="Redis" data-topic="db_nosql_redis" tabindex="-1" aria-label="Redis">
+<polygon fill="none" stroke="black" points="1109.25,-5903 1052,-5903 1052,-5867 1109.25,-5867 1109.25,-5903" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-5879.18" font-family="Arial" font-size="16.00">Redis</text>
+</a>
+</g>
+</g>
+
+<g id="edge106" class="edge">
+<title>n12-&gt;n19</title>
+<path fill="none" stroke="black" d="M863.27,-5863.46C915.82,-5868.69 993.79,-5876.46 1040.37,-5881.09" />
+<polygon fill="black" stroke="black" points="1039.98,-5884.57 1050.28,-5882.08 1040.68,-5877.61 1039.98,-5884.57" />
+</g>
+
+<g id="node17" class="node">
+<title>n16</title>
+<g id="a_node17"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_mongo" xlink:title="MongoDB" data-topic="db_nosql_mongo" tabindex="-1" aria-label="MongoDB">
+<polygon fill="none" stroke="black" points="1124.25,-5984 1037,-5984 1037,-5948 1124.25,-5948 1124.25,-5984" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-5960.18" font-family="Arial" font-size="16.00">MongoDB</text>
+</a>
+</g>
+</g>
+
+<g id="edge105" class="edge">
+<title>n14-&gt;n16</title>
+<path fill="none" stroke="black" d="M872.31,-5966C918.9,-5966 981.32,-5966 1025.45,-5966" />
+<polygon fill="black" stroke="black" points="1025.31,-5969.5 1035.31,-5966 1025.31,-5962.5 1025.31,-5969.5" />
+</g>
+
+<g id="node18" class="node">
+<title>n17</title>
+<g id="a_node18"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_neo4j" xlink:title="Neo4j" data-topic="db_nosql_neo4j" tabindex="-1" aria-label="Neo4j">
+<polygon fill="none" stroke="black" points="1109.62,-6038 1051.62,-6038 1051.62,-6002 1109.62,-6002 1109.62,-6038" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-6014.18" font-family="Arial" font-size="16.00">Neo4j</text>
+</a>
+</g>
+</g>
+
+<g id="edge104" class="edge">
+<title>n15-&gt;n17</title>
+<path fill="none" stroke="black" d="M873.69,-6020C925.53,-6020 996.31,-6020 1039.94,-6020" />
+<polygon fill="black" stroke="black" points="1039.71,-6023.5 1049.71,-6020 1039.71,-6016.5 1039.71,-6023.5" />
+</g>
+
+<g id="node19" class="node">
+<title>n18</title>
+<g id="a_node19"><a xlink:href="#roadmap=devops&amp;topic=db_nosql_orient" xlink:title="OrientDB" data-topic="db_nosql_orient" tabindex="-1" aria-label="OrientDB">
+<polygon fill="none" stroke="black" points="1121.62,-6092 1039.62,-6092 1039.62,-6056 1121.62,-6056 1121.62,-6092" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-6068.18" font-family="Arial" font-size="16.00">OrientDB</text>
+</a>
+</g>
+</g>
+
+<g id="edge103" class="edge">
+<title>n15-&gt;n18</title>
+<path fill="none" stroke="black" d="M873.69,-6033C921.04,-6042.43 984.18,-6055 1028.01,-6063.72" />
+<polygon fill="black" stroke="black" points="1027.3,-6067.15 1037.79,-6065.67 1028.66,-6060.29 1027.3,-6067.15" />
+</g>
+
+<g id="node24" class="node">
+<title>n23</title>
+<g id="a_node24"><a xlink:href="#roadmap=devops&amp;topic=db_relational_acid" xlink:title="ACID" data-topic="db_relational_acid" tabindex="-1" aria-label="ACID">
+<polygon fill="none" stroke="black" points="834.38,-6146 780.38,-6146 780.38,-6110 834.38,-6110 834.38,-6146" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6122.18" font-family="Arial" font-size="16.00">ACID</text>
+</a>
+</g>
+</g>
+
+<g id="edge89" class="edge">
+<title>n22-&gt;n23</title>
+<path fill="none" stroke="black" d="M573.7,-6150.75C627.41,-6145.5 717.93,-6136.65 768.79,-6131.68" />
+<polygon fill="black" stroke="black" points="769.09,-6135.16 778.71,-6130.71 768.41,-6128.2 769.09,-6135.16" />
+</g>
+
+<g id="node25" class="node">
+<title>n24</title>
+<g id="a_node25"><a xlink:href="#roadmap=devops&amp;topic=db_relational_blocking" xlink:title="Blocking" data-topic="db_relational_blocking" tabindex="-1" aria-label="Blocking">
+<polygon fill="none" stroke="black" points="846.12,-6200 768.62,-6200 768.62,-6164 846.12,-6164 846.12,-6200" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6176.18" font-family="Arial" font-size="16.00">Blocking</text>
+</a>
+</g>
+</g>
+
+<g id="edge88" class="edge">
+<title>n22-&gt;n24</title>
+<path fill="none" stroke="black" d="M573.7,-6159.25C623.54,-6164.12 705.08,-6172.1 757.21,-6177.19" />
+<polygon fill="black" stroke="black" points="756.71,-6180.66 767,-6178.15 757.39,-6173.69 756.71,-6180.66" />
+</g>
+
+<g id="node27" class="node">
+<title>n26</title>
+<g id="a_node27"><a xlink:href="#roadmap=devops&amp;topic=db_relational_mvcc" xlink:title="Multiversion Concurrency\nControl" data-topic="db_relational_mvcc" tabindex="-1" aria-label="Multiversion Concurrency Control">
+<polygon fill="none" stroke="black" points="906.88,-6263.75 707.88,-6263.75 707.88,-6218.25 906.88,-6218.25 906.88,-6263.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6244.55" font-family="Arial" font-size="16.00">Multiversion Concurrency</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6225.8" font-family="Arial" font-size="16.00">Control</text>
+</a>
+</g>
+</g>
+
+<g id="edge87" class="edge">
+<title>n22-&gt;n26</title>
+<path fill="none" stroke="black" d="M573.72,-6160.48C596.64,-6164.47 624.8,-6171.13 648.25,-6182 666.39,-6190.41 666.24,-6200.3 684.25,-6209 688.41,-6211.01 692.72,-6212.91 697.12,-6214.69" />
+<polygon fill="black" stroke="black" points="695.52,-6217.83 706.11,-6218.13 698.01,-6211.29 695.52,-6217.83" />
+</g>
+
+<g id="node28" class="node">
+<title>n27</title>
+<g id="a_node28"><a xlink:href="#roadmap=devops&amp;topic=db_relational_oo" xlink:title="Object-oriented" data-topic="db_relational_oo" tabindex="-1" aria-label="Object-oriented">
+<polygon fill="none" stroke="black" points="870.88,-6318 743.88,-6318 743.88,-6282 870.88,-6282 870.88,-6318" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6294.18" font-family="Arial" font-size="16.00">Object-oriented</text>
+</a>
+</g>
+</g>
+
+<g id="edge90" class="edge">
+<title>n22-&gt;n27</title>
+<path fill="none" stroke="black" d="M573.66,-6155.33C598.11,-6157.67 627.76,-6164.41 648.25,-6182 681.25,-6210.33 651.15,-6244.79 684.25,-6273 697.8,-6284.55 715.19,-6291.47 732.58,-6295.54" />
+<polygon fill="black" stroke="black" points="731.4,-6298.87 741.89,-6297.42 732.79,-6292.01 731.4,-6298.87" />
+</g>
+
+<g id="edge95" class="edge">
+<title>n24-&gt;n7</title>
+<path fill="none" stroke="black" d="M846.38,-6182C895.58,-6182 981.26,-6182 1033.95,-6182" />
+<polygon fill="black" stroke="black" points="1033.79,-6185.5 1043.79,-6182 1033.79,-6178.5 1033.79,-6185.5" />
+</g>
+
+<g id="node26" class="node">
+<title>n25</title>
+<g id="a_node26"><a xlink:href="#roadmap=devops&amp;topic=db_relational_firebird" xlink:title="Firebird" data-topic="db_relational_firebird" tabindex="-1" aria-label="Firebird">
+<polygon fill="none" stroke="black" points="1116,-6254 1045.25,-6254 1045.25,-6218 1116,-6218 1116,-6254" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-6230.18" font-family="Arial" font-size="16.00">Firebird</text>
+</a>
+</g>
+</g>
+
+<g id="edge94" class="edge">
+<title>n26-&gt;n7</title>
+<path fill="none" stroke="black" d="M907.07,-6219.53C950.48,-6210.09 999.36,-6199.46 1033.99,-6191.93" />
+<polygon fill="black" stroke="black" points="1034.65,-6195.37 1043.67,-6189.82 1033.16,-6188.53 1034.65,-6195.37" />
+</g>
+
+<g id="edge91" class="edge">
+<title>n26-&gt;n25</title>
+<path fill="none" stroke="black" d="M907.07,-6239.18C950.35,-6238.38 999.06,-6237.49 1033.66,-6236.85" />
+<polygon fill="black" stroke="black" points="1033.38,-6240.35 1043.31,-6236.67 1033.25,-6233.35 1033.38,-6240.35" />
+</g>
+
+<g id="node29" class="node">
+<title>n28</title>
+<g id="a_node29"><a xlink:href="#roadmap=devops&amp;topic=db_relational_oracle" xlink:title="Oracle" data-topic="db_relational_oracle" tabindex="-1" aria-label="Oracle">
+<polygon fill="none" stroke="black" points="1112.62,-6308 1048.62,-6308 1048.62,-6272 1112.62,-6272 1112.62,-6308" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-6284.18" font-family="Arial" font-size="16.00">Oracle</text>
+</a>
+</g>
+</g>
+
+<g id="edge93" class="edge">
+<title>n26-&gt;n28</title>
+<path fill="none" stroke="black" d="M907.07,-6258.83C951.84,-6266.92 1002.43,-6276.06 1037.2,-6282.34" />
+<polygon fill="black" stroke="black" points="1036.4,-6285.75 1046.86,-6284.08 1037.64,-6278.86 1036.4,-6285.75" />
+</g>
+
+<g id="node30" class="node">
+<title>n29</title>
+<g id="a_node30"><a xlink:href="#roadmap=devops&amp;topic=db_relational_postgres" xlink:title="PostgreSQL" data-topic="db_relational_postgres" tabindex="-1" aria-label="PostgreSQL">
+<polygon fill="none" stroke="black" points="1132.5,-6362 1028.75,-6362 1028.75,-6326 1132.5,-6326 1132.5,-6362" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-6338.18" font-family="Arial" font-size="16.00">PostgreSQL</text>
+</a>
+</g>
+</g>
+
+<g id="edge92" class="edge">
+<title>n26-&gt;n29</title>
+<path fill="none" stroke="black" d="M907.35,-6261.04C915.47,-6264.43 923.31,-6268.38 930.5,-6273 951.76,-6286.65 945.09,-6303.59 966.5,-6317 981.66,-6326.5 999.87,-6332.65 1017.21,-6336.65" />
+<polygon fill="black" stroke="black" points="1016.46,-6340.06 1026.96,-6338.66 1017.88,-6333.21 1016.46,-6340.06" />
+</g>
+
+<g id="node32" class="node">
+<title>n31</title>
+<g id="a_node32"><a xlink:href="#roadmap=devops&amp;topic=db_search_elasticseaerch" xlink:title="Elasticseaerch" data-topic="db_search_elasticseaerch" tabindex="-1" aria-label="Elasticseaerch">
+<polygon fill="none" stroke="black" points="868.25,-6372 746.5,-6372 746.5,-6336 868.25,-6336 868.25,-6372" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6348.18" font-family="Arial" font-size="16.00">Elasticseaerch</text>
+</a>
+</g>
+</g>
+
+<g id="edge108" class="edge">
+<title>n30-&gt;n31</title>
+<path fill="none" stroke="black" d="M594.51,-6212.35C613.58,-6216.15 633.34,-6223.2 648.25,-6236 681.25,-6264.33 651.15,-6298.79 684.25,-6327 698.41,-6339.07 716.78,-6346.09 734.96,-6350.08" />
+<polygon fill="black" stroke="black" points="734.24,-6353.51 744.72,-6351.91 735.53,-6346.63 734.24,-6353.51" />
+</g>
+
+<g id="node33" class="node">
+<title>n32</title>
+<g id="a_node33"><a xlink:href="#roadmap=devops&amp;topic=db_search_sphinx" xlink:title="Sphinx" data-topic="db_search_sphinx" tabindex="-1" aria-label="Sphinx">
+<polygon fill="none" stroke="black" points="840.12,-6426 774.62,-6426 774.62,-6390 840.12,-6390 840.12,-6426" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-6402.18" font-family="Arial" font-size="16.00">Sphinx</text>
+</a>
+</g>
+</g>
+
+<g id="edge109" class="edge">
+<title>n30-&gt;n32</title>
+<path fill="none" stroke="black" d="M594.66,-6211.01C614.08,-6214.69 634,-6222.01 648.25,-6236 695.63,-6282.52 636.7,-6334.66 684.25,-6381 704.82,-6401.04 736.72,-6407.58 762.77,-6409.22" />
+<polygon fill="black" stroke="black" points="762.62,-6412.72 772.75,-6409.6 762.89,-6405.72 762.62,-6412.72" />
+</g>
+
+<g id="node37" class="node">
+<title>n36</title>
+<g id="a_node37"><a xlink:href="#roadmap=devops&amp;topic=dev_build" xlink:title="Build Systems" data-topic="dev_build" tabindex="-1" aria-label="Build Systems">
+<polygon fill="none" stroke="black" points="588.62,-4495 469.88,-4495 469.88,-4459 588.62,-4459 588.62,-4495" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-4471.18" font-family="Arial" font-size="16.00">Build Systems</text>
+</a>
+</g>
+</g>
+
+<g id="edge111" class="edge">
+<title>n35-&gt;n36</title>
+<path fill="none" stroke="black" d="M294.75,-4884.92C313.39,-4837.44 359.16,-4725.94 410.25,-4639 439.77,-4588.76 481.17,-4534.93 506.27,-4503.7" />
+<polygon fill="black" stroke="black" points="508.67,-4506.29 512.24,-4496.31 503.23,-4501.88 508.67,-4506.29" />
+</g>
+
+<g id="node42" class="node">
+<title>n41</title>
+<g id="a_node42"><a xlink:href="#roadmap=devops&amp;topic=dev_debugging" xlink:title="Debugging" data-topic="dev_debugging" tabindex="-1" aria-label="Debugging">
+<polygon fill="none" stroke="black" points="576.25,-4684 482.25,-4684 482.25,-4648 576.25,-4648 576.25,-4684" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-4660.18" font-family="Arial" font-size="16.00">Debugging</text>
+</a>
+</g>
+</g>
+
+<g id="edge116" class="edge">
+<title>n35-&gt;n41</title>
+<path fill="none" stroke="black" d="M306.02,-4885.19C330.18,-4858.09 372.19,-4811.8 410.25,-4774 439.56,-4744.89 474.64,-4713.15 498.9,-4691.66" />
+<polygon fill="black" stroke="black" points="501,-4694.48 506.18,-4685.24 496.37,-4689.23 501,-4694.48" />
+</g>
+
+<g id="node46" class="node">
+<title>n45</title>
+<g id="a_node46"><a xlink:href="#roadmap=devops&amp;topic=dev_deployment" xlink:title="Deployment" data-topic="dev_deployment" tabindex="-1" aria-label="Deployment">
+<polygon fill="none" stroke="black" points="580.38,-4819 478.12,-4819 478.12,-4783 580.38,-4783 580.38,-4819" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-4795.18" font-family="Arial" font-size="16.00">Deployment</text>
+</a>
+</g>
+</g>
+
+<g id="edge114" class="edge">
+<title>n35-&gt;n45</title>
+<path fill="none" stroke="black" d="M324.8,-4884.85C348.91,-4871.07 380.79,-4853.82 410.25,-4841 428.41,-4833.1 448.66,-4825.73 467.2,-4819.53" />
+<polygon fill="black" stroke="black" points="468.04,-4822.94 476.45,-4816.49 465.85,-4816.29 468.04,-4822.94" />
+</g>
+
+<g id="node49" class="node">
+<title>n48</title>
+<g id="a_node49"><a xlink:href="#roadmap=devops&amp;topic=dev_estimation" xlink:title="Estimations" data-topic="dev_estimation" tabindex="-1" aria-label="Estimations">
+<polygon fill="none" stroke="black" points="579.25,-4886 479.25,-4886 479.25,-4850 579.25,-4850 579.25,-4886" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-4862.18" font-family="Arial" font-size="16.00">Estimations</text>
+</a>
+</g>
+</g>
+
+<g id="edge115" class="edge">
+<title>n35-&gt;n48</title>
+<path fill="none" stroke="black" d="M374.41,-4893.39C405.43,-4888.27 439.53,-4882.64 467.73,-4877.99" />
+<polygon fill="black" stroke="black" points="468.24,-4881.45 477.54,-4876.37 467.1,-4874.54 468.24,-4881.45" />
+</g>
+
+<g id="node50" class="node">
+<title>n49</title>
+<g id="a_node50"><a xlink:href="#roadmap=devops&amp;topic=dev_management" xlink:title="Management" data-topic="dev_management" tabindex="-1" aria-label="Management">
+<polygon fill="none" stroke="black" points="584.5,-4967 474,-4967 474,-4931 584.5,-4931 584.5,-4967" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-4943.18" font-family="Arial" font-size="16.00">Management</text>
+</a>
+</g>
+</g>
+
+<g id="edge118" class="edge">
+<title>n35-&gt;n49</title>
+<path fill="none" stroke="black" d="M374.41,-4922.98C403.52,-4927.9 435.34,-4933.28 462.45,-4937.87" />
+<polygon fill="black" stroke="black" points="461.82,-4941.31 472.27,-4939.53 462.99,-4934.41 461.82,-4941.31" />
+</g>
+
+<g id="node56" class="node">
+<title>n55</title>
+<g id="a_node56"><a xlink:href="#roadmap=devops&amp;topic=dev_orchestration" xlink:title="Orchestration" data-topic="dev_orchestration" tabindex="-1" aria-label="Orchestration">
+<polygon fill="none" stroke="black" points="586,-5116 472.5,-5116 472.5,-5080 586,-5080 586,-5116" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-5092.18" font-family="Arial" font-size="16.00">Orchestration</text>
+</a>
+</g>
+</g>
+
+<g id="edge117" class="edge">
+<title>n35-&gt;n55</title>
+<path fill="none" stroke="black" d="M315.11,-4930.92C360.67,-4966.64 448.3,-5035.33 495.77,-5072.54" />
+<polygon fill="black" stroke="black" points="493.49,-5075.2 503.52,-5078.61 497.81,-5069.69 493.49,-5075.2" />
+</g>
+
+<g id="node61" class="node">
+<title>n60</title>
+<g id="a_node61"><a xlink:href="#roadmap=devops&amp;topic=dev_testing" xlink:title="Testing" data-topic="dev_testing" tabindex="-1" aria-label="Testing">
+<polygon fill="none" stroke="black" points="563.12,-5251 495.38,-5251 495.38,-5215 563.12,-5215 563.12,-5251" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-5227.18" font-family="Arial" font-size="16.00">Testing</text>
+</a>
+</g>
+</g>
+
+<g id="edge110" class="edge">
+<title>n35-&gt;n60</title>
+<path fill="none" stroke="black" d="M296.13,-4930.99C315.15,-4972.26 358.69,-5060.59 410.25,-5125 435.44,-5156.47 470.01,-5186.98 495.22,-5207.5" />
+<polygon fill="black" stroke="black" points="492.88,-5210.11 502.87,-5213.64 497.26,-5204.65 492.88,-5210.11" />
+</g>
+
+<g id="node64" class="node">
+<title>n63</title>
+<g id="a_node64"><a xlink:href="#roadmap=devops&amp;topic=dev_trackers" xlink:title="Bug tracking systems" data-topic="dev_trackers" tabindex="-1" aria-label="Bug tracking systems">
+<polygon fill="none" stroke="black" points="614.5,-5386 444,-5386 444,-5350 614.5,-5350 614.5,-5386" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-5362.18" font-family="Arial" font-size="16.00">Bug tracking systems</text>
+</a>
+</g>
+</g>
+
+<g id="edge112" class="edge">
+<title>n35-&gt;n63</title>
+<path fill="none" stroke="black" d="M289.99,-4931.15C301.28,-4990.13 336.92,-5149.2 410.25,-5260 432.23,-5293.21 466.61,-5323.1 492.6,-5342.97" />
+<polygon fill="black" stroke="black" points="490.44,-5345.73 500.54,-5348.92 494.64,-5340.12 490.44,-5345.73" />
+</g>
+
+<g id="node68" class="node">
+<title>n67</title>
+<g id="a_node68"><a xlink:href="#roadmap=devops&amp;topic=dev_version" xlink:title="Version Control" data-topic="dev_version" tabindex="-1" aria-label="Version Control">
+<polygon fill="none" stroke="black" points="592.38,-5494 466.12,-5494 466.12,-5458 592.38,-5458 592.38,-5494" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-5470.18" font-family="Arial" font-size="16.00">Version Control</text>
+</a>
+</g>
+</g>
+
+<g id="edge113" class="edge">
+<title>n35-&gt;n67</title>
+<path fill="none" stroke="black" d="M286.2,-4931.18C288.32,-5005.56 303.58,-5242.26 410.25,-5395 427.18,-5419.24 453.87,-5438.45 477.58,-5452.06" />
+<polygon fill="black" stroke="black" points="475.76,-5455.05 486.2,-5456.82 479.14,-5448.93 475.76,-5455.05" />
+</g>
+
+<g id="node38" class="node">
+<title>n37</title>
+<g id="a_node38"><a xlink:href="#roadmap=devops&amp;topic=dev_build_ant" xlink:title="Ant" data-topic="dev_build_ant" tabindex="-1" aria-label="Ant">
+<polygon fill="none" stroke="black" points="834.38,-4387 780.38,-4387 780.38,-4351 834.38,-4351 834.38,-4387" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4363.18" font-family="Arial" font-size="16.00">Ant</text>
+</a>
+</g>
+</g>
+
+<g id="edge148" class="edge">
+<title>n36-&gt;n37</title>
+<path fill="none" stroke="black" d="M559.55,-4458.55C589.75,-4440.27 638.72,-4412.67 684.25,-4396 711.76,-4385.93 744.2,-4378.97 768.72,-4374.65" />
+<polygon fill="black" stroke="black" points="769.3,-4378.1 778.58,-4372.98 768.14,-4371.2 769.3,-4378.1" />
+</g>
+
+<g id="node39" class="node">
+<title>n38</title>
+<g id="a_node39"><a xlink:href="#roadmap=devops&amp;topic=dev_build_gradle" xlink:title="Gradle" data-topic="dev_build_gradle" tabindex="-1" aria-label="Gradle">
+<polygon fill="none" stroke="black" points="839.75,-4441 775,-4441 775,-4405 839.75,-4405 839.75,-4441" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4417.18" font-family="Arial" font-size="16.00">Gradle</text>
+</a>
+</g>
+</g>
+
+<g id="edge149" class="edge">
+<title>n36-&gt;n38</title>
+<path fill="none" stroke="black" d="M588.81,-4465.55C641.06,-4455.33 716.35,-4440.61 763.26,-4431.43" />
+<polygon fill="black" stroke="black" points="763.92,-4434.87 773.06,-4429.51 762.58,-4428 763.92,-4434.87" />
+</g>
+
+<g id="node40" class="node">
+<title>n39</title>
+<g id="a_node40"><a xlink:href="#roadmap=devops&amp;topic=dev_build_make" xlink:title="Make" data-topic="dev_build_make" tabindex="-1" aria-label="Make">
+<polygon fill="none" stroke="black" points="835.25,-4495 779.5,-4495 779.5,-4459 835.25,-4459 835.25,-4495" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4471.18" font-family="Arial" font-size="16.00">Make</text>
+</a>
+</g>
+</g>
+
+<g id="edge146" class="edge">
+<title>n36-&gt;n39</title>
+<path fill="none" stroke="black" d="M588.81,-4477C642.84,-4477 721.51,-4477 767.96,-4477" />
+<polygon fill="black" stroke="black" points="767.81,-4480.5 777.81,-4477 767.81,-4473.5 767.81,-4480.5" />
+</g>
+
+<g id="node41" class="node">
+<title>n40</title>
+<g id="a_node41"><a xlink:href="#roadmap=devops&amp;topic=dev_build_maven" xlink:title="Maven" data-topic="dev_build_maven" tabindex="-1" aria-label="Maven">
+<polygon fill="none" stroke="black" points="839.75,-4549 775,-4549 775,-4513 839.75,-4513 839.75,-4549" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4525.18" font-family="Arial" font-size="16.00">Maven</text>
+</a>
+</g>
+</g>
+
+<g id="edge147" class="edge">
+<title>n36-&gt;n40</title>
+<path fill="none" stroke="black" d="M588.81,-4488.45C641.06,-4498.67 716.35,-4513.39 763.26,-4522.57" />
+<polygon fill="black" stroke="black" points="762.58,-4526 773.06,-4524.49 763.92,-4519.13 762.58,-4526" />
+</g>
+
+<g id="node43" class="node">
+<title>n42</title>
+<g id="a_node43"><a xlink:href="#roadmap=devops&amp;topic=dev_debugging_logging" xlink:title="Logging" data-topic="dev_debugging_logging" tabindex="-1" aria-label="Logging">
+<polygon fill="none" stroke="black" points="844.25,-4603 770.5,-4603 770.5,-4567 844.25,-4567 844.25,-4603" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4579.18" font-family="Arial" font-size="16.00">Logging</text>
+</a>
+</g>
+</g>
+
+<g id="edge123" class="edge">
+<title>n41-&gt;n42</title>
+<path fill="none" stroke="black" d="M576.62,-4648.11C606.95,-4636.81 647.6,-4622.44 684.25,-4612 708.64,-4605.06 736.19,-4598.83 758.94,-4594.11" />
+<polygon fill="black" stroke="black" points="759.44,-4597.58 768.54,-4592.15 758.04,-4590.72 759.44,-4597.58" />
+</g>
+
+<g id="node44" class="node">
+<title>n43</title>
+<g id="a_node44"><a xlink:href="#roadmap=devops&amp;topic=dev_debugging_monitoring" xlink:title="Monitoring" data-topic="dev_debugging_monitoring" tabindex="-1" aria-label="Monitoring">
+<polygon fill="none" stroke="black" points="853.25,-4657 761.5,-4657 761.5,-4621 853.25,-4621 853.25,-4657" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4633.18" font-family="Arial" font-size="16.00">Monitoring</text>
+</a>
+</g>
+</g>
+
+<g id="edge124" class="edge">
+<title>n41-&gt;n43</title>
+<path fill="none" stroke="black" d="M576.47,-4661.48C624.28,-4656.81 699,-4649.5 750.19,-4644.49" />
+<polygon fill="black" stroke="black" points="750.26,-4648 759.88,-4643.55 749.58,-4641.04 750.26,-4648" />
+</g>
+
+<g id="node45" class="node">
+<title>n44</title>
+<g id="a_node45"><a xlink:href="#roadmap=devops&amp;topic=dev_debugging_troubleshooting" xlink:title="Troubleshooting" data-topic="dev_debugging_troubleshooting" tabindex="-1" aria-label="Troubleshooting">
+<polygon fill="none" stroke="black" points="873.12,-4711 741.62,-4711 741.62,-4675 873.12,-4675 873.12,-4711" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4687.18" font-family="Arial" font-size="16.00">Troubleshooting</text>
+</a>
+</g>
+</g>
+
+<g id="edge122" class="edge">
+<title>n41-&gt;n44</title>
+<path fill="none" stroke="black" d="M576.47,-4670.52C618.34,-4674.61 680.85,-4680.73 730.12,-4685.54" />
+<polygon fill="black" stroke="black" points="729.58,-4689.01 739.87,-4686.5 730.26,-4682.04 729.58,-4689.01" />
+</g>
+
+<g id="node47" class="node">
+<title>n46</title>
+<g id="a_node47"><a xlink:href="#roadmap=devops&amp;topic=dev_deployment_cd" xlink:title="Continuous Delivery" data-topic="dev_deployment_cd" tabindex="-1" aria-label="Continuous Delivery">
+<polygon fill="none" stroke="black" points="887.75,-4765 727,-4765 727,-4729 887.75,-4729 887.75,-4765" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4741.18" font-family="Arial" font-size="16.00">Continuous Delivery</text>
+</a>
+</g>
+</g>
+
+<g id="edge132" class="edge">
+<title>n45-&gt;n46</title>
+<path fill="none" stroke="black" d="M580.57,-4791.16C618.15,-4783.81 670.52,-4773.57 715.37,-4764.8" />
+<polygon fill="black" stroke="black" points="715.97,-4768.25 725.11,-4762.89 714.62,-4761.38 715.97,-4768.25" />
+</g>
+
+<g id="node48" class="node">
+<title>n47</title>
+<g id="a_node48"><a xlink:href="#roadmap=devops&amp;topic=dev_deployment_ci" xlink:title="Continuous Integration" data-topic="dev_deployment_ci" tabindex="-1" aria-label="Continuous Integration">
+<polygon fill="none" stroke="black" points="896.75,-4819 718,-4819 718,-4783 896.75,-4783 896.75,-4819" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4795.18" font-family="Arial" font-size="16.00">Continuous Integration</text>
+</a>
+</g>
+</g>
+
+<g id="edge131" class="edge">
+<title>n45-&gt;n47</title>
+<path fill="none" stroke="black" d="M580.57,-4801C615.63,-4801 663.57,-4801 706.27,-4801" />
+<polygon fill="black" stroke="black" points="706.06,-4804.5 716.06,-4801 706.06,-4797.5 706.06,-4804.5" />
+</g>
+
+<g id="node70" class="node">
+<title>n104</title>
+<g id="a_node70"><a xlink:href="#roadmap=devops&amp;topic=management_estimation_poker" xlink:title="Planning Poker" data-topic="management_estimation_poker" tabindex="-1" aria-label="Planning Poker">
+<polygon fill="none" stroke="black" points="870.12,-4873 744.62,-4873 744.62,-4837 870.12,-4837 870.12,-4873" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4849.18" font-family="Arial" font-size="16.00">Planning Poker</text>
+</a>
+</g>
+</g>
+
+<g id="edge145" class="edge">
+<title>n48-&gt;n104</title>
+<path fill="none" stroke="black" d="M579.62,-4865.68C622.27,-4863.67 684.51,-4860.74 732.99,-4858.45" />
+<polygon fill="black" stroke="black" points="733.04,-4861.96 742.86,-4857.99 732.71,-4854.96 733.04,-4861.96" />
+</g>
+
+<g id="node51" class="node">
+<title>n50</title>
+<g id="a_node51"><a xlink:href="#roadmap=devops&amp;topic=dev_methodologies" xlink:title="Methodologies and Frameworks" data-topic="dev_methodologies" tabindex="-1" aria-label="Methodologies and Frameworks">
+<polygon fill="none" stroke="black" points="930.5,-4927 684.25,-4927 684.25,-4891 930.5,-4891 930.5,-4927" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4903.18" font-family="Arial" font-size="16.00">Methodologies and Frameworks</text>
+</a>
+</g>
+</g>
+
+<g id="edge133" class="edge">
+<title>n49-&gt;n50</title>
+<path fill="none" stroke="black" d="M584.8,-4941.1C610.25,-4937.41 641.76,-4932.85 672.96,-4928.33" />
+<polygon fill="black" stroke="black" points="673.07,-4931.85 682.47,-4926.95 672.07,-4924.92 673.07,-4931.85" />
+</g>
+
+<g id="node60" class="node">
+<title>n59</title>
+<g id="a_node60"><a xlink:href="#roadmap=devops&amp;topic=dev_paradigms" xlink:title="Paradigms and Models" data-topic="dev_paradigms" tabindex="-1" aria-label="Paradigms and Models">
+<polygon fill="none" stroke="black" points="898.25,-4981 716.5,-4981 716.5,-4945 898.25,-4945 898.25,-4981" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4957.18" font-family="Arial" font-size="16.00">Paradigms and Models</text>
+</a>
+</g>
+</g>
+
+<g id="edge134" class="edge">
+<title>n49-&gt;n59</title>
+<path fill="none" stroke="black" d="M584.8,-4951.77C619,-4953.5 664.13,-4955.79 704.74,-4957.85" />
+<polygon fill="black" stroke="black" points="704.39,-4961.33 714.55,-4958.34 704.74,-4954.34 704.39,-4961.33" />
+</g>
+
+<g id="node73" class="node">
+<title>n107</title>
+<g id="a_node73"><a xlink:href="#roadmap=devops&amp;topic=management_time" xlink:title="Time Management" data-topic="management_time" tabindex="-1" aria-label="Time Management">
+<polygon fill="none" stroke="black" points="882.5,-5035 732.25,-5035 732.25,-4999 882.5,-4999 882.5,-5035" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5011.18" font-family="Arial" font-size="16.00">Time Management</text>
+</a>
+</g>
+</g>
+
+<g id="edge135" class="edge">
+<title>n49-&gt;n107</title>
+<path fill="none" stroke="black" d="M584.99,-4964.18C614.34,-4972.17 651.19,-4981.95 684.25,-4990 696.04,-4992.87 708.51,-4995.78 720.79,-4998.56" />
+<polygon fill="black" stroke="black" points="719.99,-5001.97 730.51,-5000.75 721.52,-4995.14 719.99,-5001.97" />
+</g>
+
+<g id="node52" class="node">
+<title>n51</title>
+<g id="a_node52"><a xlink:href="#roadmap=devops&amp;topic=dev_methodologies_12factors" xlink:title="The Twelve-Factor App" data-topic="dev_methodologies_12factors" tabindex="-1" aria-label="The Twelve-Factor App">
+<polygon fill="none" stroke="black" points="1171.5,-4765 989.75,-4765 989.75,-4729 1171.5,-4729 1171.5,-4765" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-4741.18" font-family="Arial" font-size="16.00">The Twelve-Factor App</text>
+</a>
+</g>
+</g>
+
+<g id="edge144" class="edge">
+<title>n50-&gt;n51</title>
+<path fill="none" stroke="black" d="M919.05,-4890.58C923.11,-4888.04 926.95,-4885.2 930.5,-4882 968.09,-4848.13 929.19,-4808.18 966.5,-4774 970.48,-4770.36 974.86,-4767.18 979.51,-4764.41" />
+<polygon fill="black" stroke="black" points="980.8,-4767.68 988.07,-4759.98 977.58,-4761.47 980.8,-4767.68" />
+</g>
+
+<g id="node53" class="node">
+<title>n52</title>
+<g id="a_node53"><a xlink:href="#roadmap=devops&amp;topic=dev_methodologies_kanban" xlink:title="Kanban" data-topic="dev_methodologies_kanban" tabindex="-1" aria-label="Kanban">
+<polygon fill="none" stroke="black" points="1116.38,-4819 1044.88,-4819 1044.88,-4783 1116.38,-4783 1116.38,-4819" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-4795.18" font-family="Arial" font-size="16.00">Kanban</text>
+</a>
+</g>
+</g>
+
+<g id="edge142" class="edge">
+<title>n50-&gt;n52</title>
+<path fill="none" stroke="black" d="M915.69,-4890.5C920.87,-4888.01 925.84,-4885.19 930.5,-4882 954.3,-4865.71 942.83,-4844.49 966.5,-4828 985.95,-4814.45 1011.35,-4807.65 1033.16,-4804.26" />
+<polygon fill="black" stroke="black" points="1033.56,-4807.73 1043.01,-4802.94 1032.63,-4800.8 1033.56,-4807.73" />
+</g>
+
+<g id="node54" class="node">
+<title>n53</title>
+<g id="a_node54"><a xlink:href="#roadmap=devops&amp;topic=dev_methodologies_scrum" xlink:title="SCRUM" data-topic="dev_methodologies_scrum" tabindex="-1" aria-label="SCRUM">
+<polygon fill="none" stroke="black" points="1117.5,-4873 1043.75,-4873 1043.75,-4837 1117.5,-4837 1117.5,-4873" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-4849.18" font-family="Arial" font-size="16.00">SCRUM</text>
+</a>
+</g>
+</g>
+
+<g id="edge141" class="edge">
+<title>n50-&gt;n53</title>
+<path fill="none" stroke="black" d="M900.97,-4890.57C945.14,-4881.77 996.12,-4871.62 1032.28,-4864.43" />
+<polygon fill="black" stroke="black" points="1032.87,-4867.88 1041.99,-4862.49 1031.5,-4861.01 1032.87,-4867.88" />
+</g>
+
+<g id="node55" class="node">
+<title>n54</title>
+<g id="a_node55"><a xlink:href="#roadmap=devops&amp;topic=dev_methodologies_xp" xlink:title="Extreme Programming" data-topic="dev_methodologies_xp" tabindex="-1" aria-label="Extreme Programming">
+<polygon fill="none" stroke="black" points="1169.25,-4927 992,-4927 992,-4891 1169.25,-4891 1169.25,-4927" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-4903.18" font-family="Arial" font-size="16.00">Extreme Programming</text>
+</a>
+</g>
+</g>
+
+<g id="edge143" class="edge">
+<title>n50-&gt;n54</title>
+<path fill="none" stroke="black" d="M930.91,-4909C947.56,-4909 964.48,-4909 980.65,-4909" />
+<polygon fill="black" stroke="black" points="980.2,-4912.5 990.2,-4909 980.2,-4905.5 980.2,-4912.5" />
+</g>
+
+<g id="node57" class="node">
+<title>n56</title>
+<g id="a_node57"><a xlink:href="#roadmap=devops&amp;topic=dev_orchestration_ansible" xlink:title="Ansible" data-topic="dev_orchestration_ansible" tabindex="-1" aria-label="Ansible">
+<polygon fill="none" stroke="black" points="842,-5089 772.75,-5089 772.75,-5053 842,-5053 842,-5089" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5065.18" font-family="Arial" font-size="16.00">Ansible</text>
+</a>
+</g>
+</g>
+
+<g id="edge119" class="edge">
+<title>n55-&gt;n56</title>
+<path fill="none" stroke="black" d="M586.46,-5092.5C638.03,-5087.46 713.44,-5080.09 761.2,-5075.42" />
+<polygon fill="black" stroke="black" points="761.3,-5078.92 770.91,-5074.47 760.62,-5071.96 761.3,-5078.92" />
+</g>
+
+<g id="node58" class="node">
+<title>n57</title>
+<g id="a_node58"><a xlink:href="#roadmap=devops&amp;topic=dev_orchestration_k8s" xlink:title="Kubernetes" data-topic="dev_orchestration_k8s" tabindex="-1" aria-label="Kubernetes">
+<polygon fill="none" stroke="black" points="856.62,-5143 758.12,-5143 758.12,-5107 856.62,-5107 856.62,-5143" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5119.18" font-family="Arial" font-size="16.00">Kubernetes</text>
+</a>
+</g>
+</g>
+
+<g id="edge121" class="edge">
+<title>n55-&gt;n57</title>
+<path fill="none" stroke="black" d="M586.46,-5103.5C632.93,-5108.04 698.76,-5114.48 746.27,-5119.12" />
+<polygon fill="black" stroke="black" points="745.83,-5122.6 756.12,-5120.09 746.51,-5115.63 745.83,-5122.6" />
+</g>
+
+<g id="node59" class="node">
+<title>n58</title>
+<g id="a_node59"><a xlink:href="#roadmap=devops&amp;topic=dev_orchestration_puppet" xlink:title="Puppet" data-topic="dev_orchestration_puppet" tabindex="-1" aria-label="Puppet">
+<polygon fill="none" stroke="black" points="840.88,-5197 773.88,-5197 773.88,-5161 840.88,-5161 840.88,-5197" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5173.18" font-family="Arial" font-size="16.00">Puppet</text>
+</a>
+</g>
+</g>
+
+<g id="edge120" class="edge">
+<title>n55-&gt;n58</title>
+<path fill="none" stroke="black" d="M577.98,-5116.4C608.16,-5127.61 648.15,-5141.72 684.25,-5152 709.91,-5159.31 739.08,-5165.82 762.47,-5170.62" />
+<polygon fill="black" stroke="black" points="761.47,-5173.99 771.97,-5172.53 762.86,-5167.13 761.47,-5173.99" />
+</g>
+
+<g id="node71" class="node">
+<title>n105</title>
+<g id="a_node71"><a xlink:href="#roadmap=devops&amp;topic=management_paradigms_agile" xlink:title="Agile" data-topic="management_paradigms_agile" tabindex="-1" aria-label="Agile">
+<polygon fill="none" stroke="black" points="1107.62,-4981 1053.62,-4981 1053.62,-4945 1107.62,-4945 1107.62,-4981" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-4957.18" font-family="Arial" font-size="16.00">Agile</text>
+</a>
+</g>
+</g>
+
+<g id="edge136" class="edge">
+<title>n59-&gt;n105</title>
+<path fill="none" stroke="black" d="M898.7,-4963C947.51,-4963 1005.17,-4963 1042.05,-4963" />
+<polygon fill="black" stroke="black" points="1041.74,-4966.5 1051.74,-4963 1041.74,-4959.5 1041.74,-4966.5" />
+</g>
+
+<g id="node72" class="node">
+<title>n106</title>
+<g id="a_node72"><a xlink:href="#roadmap=devops&amp;topic=management_paradigms_waterfall" xlink:title="Waterfall" data-topic="management_paradigms_waterfall" tabindex="-1" aria-label="Waterfall">
+<polygon fill="none" stroke="black" points="1120.12,-5035 1041.12,-5035 1041.12,-4999 1120.12,-4999 1120.12,-5035" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-5011.18" font-family="Arial" font-size="16.00">Waterfall</text>
+</a>
+</g>
+</g>
+
+<g id="edge137" class="edge">
+<title>n59-&gt;n106</title>
+<path fill="none" stroke="black" d="M898.7,-4980.98C942.41,-4989.68 993.22,-4999.8 1029.85,-5007.09" />
+<polygon fill="black" stroke="black" points="1028.76,-5010.44 1039.25,-5008.96 1030.13,-5003.58 1028.76,-5010.44" />
+</g>
+
+<g id="node62" class="node">
+<title>n61</title>
+<g id="a_node62"><a xlink:href="#roadmap=devops&amp;topic=dev_testing_bdd" xlink:title="Behavior-driven development" data-topic="dev_testing_bdd" tabindex="-1" aria-label="Behavior-driven development">
+<polygon fill="none" stroke="black" points="920.75,-5251 694,-5251 694,-5215 920.75,-5215 920.75,-5251" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5227.18" font-family="Arial" font-size="16.00">Behavior-driven development</text>
+</a>
+</g>
+</g>
+
+<g id="edge126" class="edge">
+<title>n60-&gt;n61</title>
+<path fill="none" stroke="black" d="M563.56,-5233C593.31,-5233 638.82,-5233 682.42,-5233" />
+<polygon fill="black" stroke="black" points="682.24,-5236.5 692.24,-5233 682.24,-5229.5 682.24,-5236.5" />
+</g>
+
+<g id="node63" class="node">
+<title>n62</title>
+<g id="a_node63"><a xlink:href="#roadmap=devops&amp;topic=dev_testing_tdd" xlink:title="Test-driven development" data-topic="dev_testing_tdd" tabindex="-1" aria-label="Test-driven development">
+<polygon fill="none" stroke="black" points="903.88,-5305 710.88,-5305 710.88,-5269 903.88,-5269 903.88,-5305" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5281.18" font-family="Arial" font-size="16.00">Test-driven development</text>
+</a>
+</g>
+</g>
+
+<g id="edge125" class="edge">
+<title>n60-&gt;n62</title>
+<path fill="none" stroke="black" d="M563.56,-5239.51C597.49,-5246.15 651.91,-5256.79 700.63,-5266.32" />
+<polygon fill="black" stroke="black" points="699.93,-5269.75 710.42,-5268.23 701.27,-5262.88 699.93,-5269.75" />
+</g>
+
+<g id="node65" class="node">
+<title>n64</title>
+<g id="a_node65"><a xlink:href="#roadmap=devops&amp;topic=dev_trackers_jira" xlink:title="Jira" data-topic="dev_trackers_jira" tabindex="-1" aria-label="Jira">
+<polygon fill="none" stroke="black" points="834.38,-5359 780.38,-5359 780.38,-5323 834.38,-5323 834.38,-5359" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5335.18" font-family="Arial" font-size="16.00">Jira</text>
+</a>
+</g>
+</g>
+
+<g id="edge127" class="edge">
+<title>n63-&gt;n64</title>
+<path fill="none" stroke="black" d="M614.97,-5359.72C666.26,-5354.7 729.16,-5348.55 768.51,-5344.7" />
+<polygon fill="black" stroke="black" points="768.81,-5348.19 778.43,-5343.73 768.13,-5341.22 768.81,-5348.19" />
+</g>
+
+<g id="node66" class="node">
+<title>n65</title>
+<g id="a_node66"><a xlink:href="#roadmap=devops&amp;topic=dev_trackers_redmine" xlink:title="Redmine" data-topic="dev_trackers_redmine" tabindex="-1" aria-label="Redmine">
+<polygon fill="none" stroke="black" points="847.62,-5413 767.12,-5413 767.12,-5377 847.62,-5377 847.62,-5413" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5389.18" font-family="Arial" font-size="16.00">Redmine</text>
+</a>
+</g>
+</g>
+
+<g id="edge128" class="edge">
+<title>n63-&gt;n65</title>
+<path fill="none" stroke="black" d="M614.97,-5376.28C660.9,-5380.78 716.14,-5386.18 755.44,-5390.02" />
+<polygon fill="black" stroke="black" points="755.05,-5393.5 765.34,-5390.99 755.73,-5386.53 755.05,-5393.5" />
+</g>
+
+<g id="node67" class="node">
+<title>n66</title>
+<g id="a_node67"><a xlink:href="#roadmap=devops&amp;topic=dev_trackers_tfs" xlink:title="TFS" data-topic="dev_trackers_tfs" tabindex="-1" aria-label="TFS">
+<polygon fill="none" stroke="black" points="834.38,-5467 780.38,-5467 780.38,-5431 834.38,-5431 834.38,-5467" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5443.18" font-family="Arial" font-size="16.00">TFS</text>
+</a>
+</g>
+</g>
+
+<g id="edge129" class="edge">
+<title>n63-&gt;n66</title>
+<path fill="none" stroke="black" d="M577.98,-5386.4C608.16,-5397.61 648.15,-5411.72 684.25,-5422 712.25,-5429.97 744.41,-5437 768.7,-5441.88" />
+<polygon fill="black" stroke="black" points="767.97,-5445.31 778.46,-5443.81 769.33,-5438.44 767.97,-5445.31" />
+</g>
+
+<g id="node69" class="node">
+<title>n68</title>
+<g id="a_node69"><a xlink:href="#roadmap=devops&amp;topic=dev_version_git" xlink:title="Git" data-topic="dev_version_git" tabindex="-1" aria-label="Git">
+<polygon fill="none" stroke="black" points="834.38,-5521 780.38,-5521 780.38,-5485 834.38,-5485 834.38,-5521" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-5497.18" font-family="Arial" font-size="16.00">Git</text>
+</a>
+</g>
+</g>
+
+<g id="edge130" class="edge">
+<title>n67-&gt;n68</title>
+<path fill="none" stroke="black" d="M592.56,-5482.09C646.73,-5487.39 723.44,-5494.89 768.73,-5499.32" />
+<polygon fill="black" stroke="black" points="768.29,-5502.79 778.58,-5500.28 768.97,-5495.83 768.29,-5502.79" />
+</g>
+
+<g id="node74" class="node">
+<title>n108</title>
+<g id="a_node74"><a xlink:href="#roadmap=devops&amp;topic=management_time_gtd" xlink:title="Getting Things Done" data-topic="management_time_gtd" tabindex="-1" aria-label="Getting Things Done">
+<polygon fill="none" stroke="black" points="1162.88,-5089 998.38,-5089 998.38,-5053 1162.88,-5053 1162.88,-5089" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-5065.18" font-family="Arial" font-size="16.00">Getting Things Done</text>
+</a>
+</g>
+</g>
+
+<g id="edge139" class="edge">
+<title>n107-&gt;n108</title>
+<path fill="none" stroke="black" d="M882.85,-5031.83C915.12,-5038.25 953.23,-5045.84 987.27,-5052.61" />
+<polygon fill="black" stroke="black" points="986.19,-5055.97 996.68,-5054.49 987.56,-5049.1 986.19,-5055.97" />
+</g>
+
+<g id="node75" class="node">
+<title>n109</title>
+<g id="a_node75"><a xlink:href="#roadmap=devops&amp;topic=management_time_pareto" xlink:title="Pareto analysis" data-topic="management_time_pareto" tabindex="-1" aria-label="Pareto analysis">
+<polygon fill="none" stroke="black" points="1144.12,-5143 1017.12,-5143 1017.12,-5107 1144.12,-5107 1144.12,-5143" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-5119.18" font-family="Arial" font-size="16.00">Pareto analysis</text>
+</a>
+</g>
+</g>
+
+<g id="edge138" class="edge">
+<title>n107-&gt;n109</title>
+<path fill="none" stroke="black" d="M882.81,-5024.06C899.51,-5028.11 916.43,-5034.37 930.5,-5044 954.3,-5060.29 942.83,-5081.51 966.5,-5098 978.13,-5106.11 991.9,-5111.8 1005.75,-5115.79" />
+<polygon fill="black" stroke="black" points="1004.81,-5119.16 1015.37,-5118.26 1006.56,-5112.38 1004.81,-5119.16" />
+</g>
+
+<g id="node76" class="node">
+<title>n110</title>
+<g id="a_node76"><a xlink:href="#roadmap=devops&amp;topic=management_time_pomodoro" xlink:title="Pomodoro" data-topic="management_time_pomodoro" tabindex="-1" aria-label="Pomodoro">
+<polygon fill="none" stroke="black" points="1125.75,-5197 1035.5,-5197 1035.5,-5161 1125.75,-5161 1125.75,-5197" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-5173.18" font-family="Arial" font-size="16.00">Pomodoro</text>
+</a>
+</g>
+</g>
+
+<g id="edge140" class="edge">
+<title>n107-&gt;n110</title>
+<path fill="none" stroke="black" d="M882.92,-5021.02C900.2,-5025.11 917.35,-5032.15 930.5,-5044 968.09,-5077.87 929.19,-5117.82 966.5,-5152 982,-5166.2 1003.62,-5173.32 1023.8,-5176.76" />
+<polygon fill="black" stroke="black" points="1023.25,-5180.22 1033.64,-5178.15 1024.22,-5173.29 1023.25,-5180.22" />
+</g>
+
+<g id="node78" class="node">
+<title>n70</title>
+<g id="a_node78"><a xlink:href="#roadmap=devops&amp;topic=devops_automation" xlink:title="Automation and Scripting" data-topic="devops_automation" tabindex="-1" aria-label="Automation and Scripting">
+<polygon fill="none" stroke="black" points="627.62,-2867 430.88,-2867 430.88,-2831 627.62,-2831 627.62,-2867" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2843.18" font-family="Arial" font-size="16.00">Automation and Scripting</text>
+</a>
+</g>
+</g>
+
+<g id="edge150" class="edge">
+<title>n69-&gt;n70</title>
+<path fill="none" stroke="black" d="M288.59,-3435.88C298.34,-3373.93 335.12,-3165.89 410.25,-3011 435.54,-2958.86 477.87,-2905.99 504.37,-2875.41" />
+<polygon fill="black" stroke="black" points="506.76,-2877.99 510.72,-2868.17 501.49,-2873.38 506.76,-2877.99" />
+</g>
+
+<g id="node82" class="node">
+<title>n74</title>
+<g id="a_node82"><a xlink:href="#roadmap=devops&amp;topic=devops_cloud" xlink:title="Cloud Infrastructure" data-topic="devops_cloud" tabindex="-1" aria-label="Cloud Infrastructure">
+<polygon fill="none" stroke="black" points="608.12,-3056 450.38,-3056 450.38,-3020 608.12,-3020 608.12,-3056" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-3032.18" font-family="Arial" font-size="16.00">Cloud Infrastructure</text>
+</a>
+</g>
+</g>
+
+<g id="edge166" class="edge">
+<title>n69-&gt;n74</title>
+<path fill="none" stroke="black" d="M292.62,-3435.68C309.37,-3391.19 355.49,-3274.56 410.25,-3186 438.44,-3140.41 478.62,-3092.83 504.06,-3064.3" />
+<polygon fill="black" stroke="black" points="506.35,-3066.99 510.44,-3057.21 501.15,-3062.3 506.35,-3066.99" />
+</g>
+
+<g id="node86" class="node">
+<title>n78</title>
+<g id="a_node86"><a xlink:href="#roadmap=devops&amp;topic=devops_containers" xlink:title="Containers" data-topic="devops_containers" tabindex="-1" aria-label="Containers">
+<polygon fill="none" stroke="black" points="576.25,-3231 482.25,-3231 482.25,-3195 576.25,-3195 576.25,-3231" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-3207.18" font-family="Arial" font-size="16.00">Containers</text>
+</a>
+</g>
+</g>
+
+<g id="edge154" class="edge">
+<title>n69-&gt;n78</title>
+<path fill="none" stroke="black" d="M304.09,-3435.89C346.55,-3393.67 452.24,-3288.58 501.81,-3239.29" />
+<polygon fill="black" stroke="black" points="504.12,-3241.92 508.75,-3232.39 499.19,-3236.96 504.12,-3241.92" />
+</g>
+
+<g id="node90" class="node">
+<title>n82</title>
+<g id="a_node90"><a xlink:href="#roadmap=devops&amp;topic=devops_delivery" xlink:title="Delivery Pipelines" data-topic="devops_delivery" tabindex="-1" aria-label="Delivery Pipelines">
+<polygon fill="none" stroke="black" points="601.75,-3417 456.75,-3417 456.75,-3381 601.75,-3381 601.75,-3417" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-3393.18" font-family="Arial" font-size="16.00">Delivery Pipelines</text>
+</a>
+</g>
+</g>
+
+<g id="edge162" class="edge">
+<title>n69-&gt;n82</title>
+<path fill="none" stroke="black" d="M357.94,-3437.65C385.41,-3431.41 416.94,-3424.26 445.34,-3417.82" />
+<polygon fill="black" stroke="black" points="446.01,-3421.25 454.99,-3415.62 444.46,-3414.42 446.01,-3421.25" />
+</g>
+
+<g id="node94" class="node">
+<title>n86</title>
+<g id="a_node94"><a xlink:href="#roadmap=devops&amp;topic=devops_infrastructure" xlink:title="Infrastructure as Code" data-topic="devops_infrastructure" tabindex="-1" aria-label="Infrastructure as Code">
+<polygon fill="none" stroke="black" points="617.12,-3528 441.38,-3528 441.38,-3492 617.12,-3492 617.12,-3528" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-3504.18" font-family="Arial" font-size="16.00">Infrastructure as Code</text>
+</a>
+</g>
+</g>
+
+<g id="edge158" class="edge">
+<title>n69-&gt;n86</title>
+<path fill="none" stroke="black" d="M357.94,-3470.65C382.85,-3476.41 411.09,-3482.93 437.31,-3488.99" />
+<polygon fill="black" stroke="black" points="436.4,-3492.37 446.94,-3491.21 437.98,-3485.55 436.4,-3492.37" />
+</g>
+
+<g id="node98" class="node">
+<title>n90</title>
+<g id="a_node98"><a xlink:href="#roadmap=devops&amp;topic=devops_observability" xlink:title="Observability" data-topic="devops_observability" tabindex="-1" aria-label="Observability">
+<polygon fill="none" stroke="black" points="584.5,-3702 474,-3702 474,-3666 584.5,-3666 584.5,-3702" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-3678.18" font-family="Arial" font-size="16.00">Observability</text>
+</a>
+</g>
+</g>
+
+<g id="edge170" class="edge">
+<title>n69-&gt;n90</title>
+<path fill="none" stroke="black" d="M305.3,-3472.43C348.22,-3513.16 451.23,-3610.91 500.75,-3657.91" />
+<polygon fill="black" stroke="black" points="498.31,-3660.41 507.97,-3664.76 503.13,-3655.33 498.31,-3660.41" />
+</g>
+
+<g id="node102" class="node">
+<title>n94</title>
+<g id="a_node102"><a xlink:href="#roadmap=devops&amp;topic=devops_reliability" xlink:title="Site Reliability Engineering" data-topic="devops_reliability" tabindex="-1" aria-label="Site Reliability Engineering">
+<polygon fill="none" stroke="black" points="633.62,-3914 424.88,-3914 424.88,-3878 633.62,-3878 633.62,-3914" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-3890.18" font-family="Arial" font-size="16.00">Site Reliability Engineering</text>
+</a>
+</g>
+</g>
+
+<g id="edge174" class="edge">
+<title>n69-&gt;n94</title>
+<path fill="none" stroke="black" d="M293.9,-3472.44C312.71,-3515.19 361.68,-3624.01 410.25,-3711 442.34,-3768.46 484.85,-3832.62 509.11,-3868.27" />
+<polygon fill="black" stroke="black" points="506.06,-3870 514.59,-3876.29 511.84,-3866.05 506.06,-3870" />
+</g>
+
+<g id="node107" class="node">
+<title>n99</title>
+<g id="a_node107"><a xlink:href="#roadmap=devops&amp;topic=devops_security" xlink:title="Platform Security" data-topic="devops_security" tabindex="-1" aria-label="Platform Security">
+<polygon fill="none" stroke="black" points="598.75,-4170 459.75,-4170 459.75,-4134 598.75,-4134 598.75,-4170" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-4146.18" font-family="Arial" font-size="16.00">Platform Security</text>
+</a>
+</g>
+</g>
+
+<g id="edge179" class="edge">
+<title>n69-&gt;n99</title>
+<path fill="none" stroke="black" d="M289.25,-3472.34C301.28,-3536.05 344.87,-3753.2 410.25,-3923 439.29,-3998.42 486.12,-4081.45 511.16,-4123.78" />
+<polygon fill="black" stroke="black" points="508.13,-4125.54 516.26,-4132.34 514.15,-4121.96 508.13,-4125.54" />
+</g>
+
+<g id="node79" class="node">
+<title>n71</title>
+<g id="a_node79"><a xlink:href="#roadmap=devops&amp;topic=devops_automation_1" xlink:title="Shell scripting" data-topic="devops_automation_1" tabindex="-1" aria-label="Shell scripting">
+<polygon fill="none" stroke="black" points="866,-2783 748.75,-2783 748.75,-2747 866,-2747 866,-2783" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2759.18" font-family="Arial" font-size="16.00">Shell scripting</text>
+</a>
+</g>
+</g>
+
+<g id="edge151" class="edge">
+<title>n70-&gt;n71</title>
+<path fill="none" stroke="black" d="M575.19,-2830.51C605.61,-2818.46 646.92,-2802.98 684.25,-2792 701.42,-2786.95 720.18,-2782.36 737.74,-2778.44" />
+<polygon fill="black" stroke="black" points="737.99,-2781.97 747.02,-2776.42 736.5,-2775.13 737.99,-2781.97" />
+</g>
+
+<g id="node80" class="node">
+<title>n72</title>
+<g id="a_node80"><a xlink:href="#roadmap=devops&amp;topic=devops_automation_2" xlink:title="Python scripting" data-topic="devops_automation_2" tabindex="-1" aria-label="Python scripting">
+<polygon fill="none" stroke="black" points="873.12,-2837 741.62,-2837 741.62,-2801 873.12,-2801 873.12,-2837" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2813.18" font-family="Arial" font-size="16.00">Python scripting</text>
+</a>
+</g>
+</g>
+
+<g id="edge152" class="edge">
+<title>n70-&gt;n72</title>
+<path fill="none" stroke="black" d="M627.99,-2838.38C661.43,-2834.75 698.32,-2830.74 729.84,-2827.31" />
+<polygon fill="black" stroke="black" points="730.13,-2830.8 739.69,-2826.25 729.37,-2823.85 730.13,-2830.8" />
+</g>
+
+<g id="node81" class="node">
+<title>n73</title>
+<g id="a_node81"><a xlink:href="#roadmap=devops&amp;topic=devops_automation_3" xlink:title="Idempotency and error\nhandling" data-topic="devops_automation_3" tabindex="-1" aria-label="Idempotency and error handling">
+<polygon fill="none" stroke="black" points="896.75,-2900.75 718,-2900.75 718,-2855.25 896.75,-2855.25 896.75,-2900.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2881.55" font-family="Arial" font-size="16.00">Idempotency and error</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2862.8" font-family="Arial" font-size="16.00">handling</text>
+</a>
+</g>
+</g>
+
+<g id="edge153" class="edge">
+<title>n70-&gt;n73</title>
+<path fill="none" stroke="black" d="M627.99,-2859.27C653.4,-2861.93 680.8,-2864.81 706.32,-2867.49" />
+<polygon fill="black" stroke="black" points="705.7,-2870.95 716.01,-2868.51 706.44,-2863.98 705.7,-2870.95" />
+</g>
+
+<g id="node83" class="node">
+<title>n75</title>
+<g id="a_node83"><a xlink:href="#roadmap=devops&amp;topic=devops_cloud_1" xlink:title="Compute, storage, and\nvirtual networks" data-topic="devops_cloud_1" tabindex="-1" aria-label="Compute, storage, and virtual networks">
+<polygon fill="none" stroke="black" points="897.5,-2964.75 717.25,-2964.75 717.25,-2919.25 897.5,-2919.25 897.5,-2964.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2945.55" font-family="Arial" font-size="16.00">Compute, storage, and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2926.8" font-family="Arial" font-size="16.00">virtual networks</text>
+</a>
+</g>
+</g>
+
+<g id="edge167" class="edge">
+<title>n74-&gt;n75</title>
+<path fill="none" stroke="black" d="M570.2,-3019.61C600.95,-3005.9 644.74,-2987.32 684.25,-2974 691.3,-2971.62 698.62,-2969.32 706.03,-2967.1" />
+<polygon fill="black" stroke="black" points="706.84,-2970.51 715.46,-2964.35 704.88,-2963.79 706.84,-2970.51" />
+</g>
+
+<g id="node84" class="node">
+<title>n76</title>
+<g id="a_node84"><a xlink:href="#roadmap=devops&amp;topic=devops_cloud_2" xlink:title="Load balancing and\nautoscaling" data-topic="devops_cloud_2" tabindex="-1" aria-label="Load balancing and autoscaling">
+<polygon fill="none" stroke="black" points="886.25,-3028.75 728.5,-3028.75 728.5,-2983.25 886.25,-2983.25 886.25,-3028.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3009.55" font-family="Arial" font-size="16.00">Load balancing and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2990.8" font-family="Arial" font-size="16.00">autoscaling</text>
+</a>
+</g>
+</g>
+
+<g id="edge168" class="edge">
+<title>n74-&gt;n76</title>
+<path fill="none" stroke="black" d="M608.27,-3028.96C642.09,-3025.04 681.87,-3020.43 716.88,-3016.37" />
+<polygon fill="black" stroke="black" points="717.04,-3019.88 726.57,-3015.25 716.23,-3012.92 717.04,-3019.88" />
+</g>
+
+<g id="node85" class="node">
+<title>n77</title>
+<g id="a_node85"><a xlink:href="#roadmap=devops&amp;topic=devops_cloud_3" xlink:title="Availability zones and cost\nmanagement" data-topic="devops_cloud_3" tabindex="-1" aria-label="Availability zones and cost management">
+<polygon fill="none" stroke="black" points="911,-3092.75 703.75,-3092.75 703.75,-3047.25 911,-3047.25 911,-3092.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3073.55" font-family="Arial" font-size="16.00">Availability zones and cost</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3054.8" font-family="Arial" font-size="16.00">management</text>
+</a>
+</g>
+</g>
+
+<g id="edge169" class="edge">
+<title>n74-&gt;n77</title>
+<path fill="none" stroke="black" d="M608.27,-3047.04C634.32,-3050.06 663.9,-3053.49 692.12,-3056.76" />
+<polygon fill="black" stroke="black" points="691.43,-3060.2 701.77,-3057.88 692.24,-3053.25 691.43,-3060.2" />
+</g>
+
+<g id="node87" class="node">
+<title>n79</title>
+<g id="a_node87"><a xlink:href="#roadmap=devops&amp;topic=devops_containers_1" xlink:title="Images and registries" data-topic="devops_containers_1" tabindex="-1" aria-label="Images and registries">
+<polygon fill="none" stroke="black" points="893,-3147 721.75,-3147 721.75,-3111 893,-3111 893,-3147" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3123.18" font-family="Arial" font-size="16.00">Images and registries</text>
+</a>
+</g>
+</g>
+
+<g id="edge155" class="edge">
+<title>n78-&gt;n79</title>
+<path fill="none" stroke="black" d="M575.19,-3194.51C605.61,-3182.46 646.92,-3166.98 684.25,-3156 692.77,-3153.5 701.68,-3151.1 710.64,-3148.85" />
+<polygon fill="black" stroke="black" points="711.22,-3152.31 720.1,-3146.53 709.56,-3145.51 711.22,-3152.31" />
+</g>
+
+<g id="node88" class="node">
+<title>n80</title>
+<g id="a_node88"><a xlink:href="#roadmap=devops&amp;topic=devops_containers_2" xlink:title="Docker" data-topic="devops_containers_2" tabindex="-1" aria-label="Docker">
+<polygon fill="none" stroke="black" points="840.88,-3201 773.88,-3201 773.88,-3165 840.88,-3165 840.88,-3201" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3177.18" font-family="Arial" font-size="16.00">Docker</text>
+</a>
+</g>
+</g>
+
+<g id="edge156" class="edge">
+<title>n78-&gt;n80</title>
+<path fill="none" stroke="black" d="M576.47,-3207.98C628.17,-3202.36 711.32,-3193.33 762.19,-3187.8" />
+<polygon fill="black" stroke="black" points="762.39,-3191.3 771.95,-3186.74 761.63,-3184.34 762.39,-3191.3" />
+</g>
+
+<g id="node89" class="node">
+<title>n81</title>
+<g id="a_node89"><a xlink:href="#roadmap=devops&amp;topic=devops_containers_3" xlink:title="Container networking and\nstorage" data-topic="devops_containers_3" tabindex="-1" aria-label="Container networking and storage">
+<polygon fill="none" stroke="black" points="907.25,-3264.75 707.5,-3264.75 707.5,-3219.25 907.25,-3219.25 907.25,-3264.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3245.55" font-family="Arial" font-size="16.00">Container networking and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3226.8" font-family="Arial" font-size="16.00">storage</text>
+</a>
+</g>
+</g>
+
+<g id="edge157" class="edge">
+<title>n78-&gt;n81</title>
+<path fill="none" stroke="black" d="M576.47,-3217.85C609.09,-3221.28 654.25,-3226.02 695.9,-3230.4" />
+<polygon fill="black" stroke="black" points="695.44,-3233.87 705.76,-3231.43 696.18,-3226.91 695.44,-3233.87" />
+</g>
+
+<g id="node91" class="node">
+<title>n83</title>
+<g id="a_node91"><a xlink:href="#roadmap=devops&amp;topic=devops_delivery_1" xlink:title="Build, test, and artifact\npromotion" data-topic="devops_delivery_1" tabindex="-1" aria-label="Build, test, and artifact promotion">
+<polygon fill="none" stroke="black" points="895.62,-3328.75 719.12,-3328.75 719.12,-3283.25 895.62,-3283.25 895.62,-3328.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3309.55" font-family="Arial" font-size="16.00">Build, test, and artifact</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3290.8" font-family="Arial" font-size="16.00">promotion</text>
+</a>
+</g>
+</g>
+
+<g id="edge163" class="edge">
+<title>n82-&gt;n83</title>
+<path fill="none" stroke="black" d="M572.56,-3380.64C603.22,-3367.73 645.86,-3350.58 684.25,-3338 691.91,-3335.49 699.89,-3333.04 707.94,-3330.68" />
+<polygon fill="black" stroke="black" points="708.83,-3334.07 717.48,-3327.95 706.91,-3327.34 708.83,-3334.07" />
+</g>
+
+<g id="node92" class="node">
+<title>n84</title>
+<g id="a_node92"><a xlink:href="#roadmap=devops&amp;topic=devops_delivery_2" xlink:title="Rolling, blue-green, and\ncanary deployments" data-topic="devops_delivery_2" tabindex="-1" aria-label="Rolling, blue-green, and canary deployments">
+<polygon fill="none" stroke="black" points="901.25,-3392.75 713.5,-3392.75 713.5,-3347.25 901.25,-3347.25 901.25,-3392.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3373.55" font-family="Arial" font-size="16.00">Rolling, blue-green, and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3354.8" font-family="Arial" font-size="16.00">canary deployments</text>
+</a>
+</g>
+</g>
+
+<g id="edge164" class="edge">
+<title>n82-&gt;n84</title>
+<path fill="none" stroke="black" d="M602.08,-3391.46C632.51,-3388.26 668.58,-3384.47 701.87,-3380.98" />
+<polygon fill="black" stroke="black" points="701.96,-3384.49 711.54,-3379.96 701.23,-3377.52 701.96,-3384.49" />
+</g>
+
+<g id="node93" class="node">
+<title>n85</title>
+<g id="a_node93"><a xlink:href="#roadmap=devops&amp;topic=devops_delivery_3" xlink:title="Rollback and GitOps" data-topic="devops_delivery_3" tabindex="-1" aria-label="Rollback and GitOps">
+<polygon fill="none" stroke="black" points="890,-3447 724.75,-3447 724.75,-3411 890,-3411 890,-3447" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3423.18" font-family="Arial" font-size="16.00">Rollback and GitOps</text>
+</a>
+</g>
+</g>
+
+<g id="edge165" class="edge">
+<title>n82-&gt;n85</title>
+<path fill="none" stroke="black" d="M602.08,-3406.8C636.11,-3410.5 677.18,-3414.96 713.54,-3418.91" />
+<polygon fill="black" stroke="black" points="712.84,-3422.36 723.15,-3419.96 713.59,-3415.4 712.84,-3422.36" />
+</g>
+
+<g id="node95" class="node">
+<title>n87</title>
+<g id="a_node95"><a xlink:href="#roadmap=devops&amp;topic=devops_infrastructure_1" xlink:title="Terraform" data-topic="devops_infrastructure_1" tabindex="-1" aria-label="Terraform">
+<polygon fill="none" stroke="black" points="849.88,-3501 764.88,-3501 764.88,-3465 849.88,-3465 849.88,-3501" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3477.18" font-family="Arial" font-size="16.00">Terraform</text>
+</a>
+</g>
+</g>
+
+<g id="edge159" class="edge">
+<title>n86-&gt;n87</title>
+<path fill="none" stroke="black" d="M617.62,-3501.46C662.15,-3497.1 714.85,-3491.95 753.23,-3488.2" />
+<polygon fill="black" stroke="black" points="753.54,-3491.68 763.16,-3487.23 752.86,-3484.72 753.54,-3491.68" />
+</g>
+
+<g id="node96" class="node">
+<title>n88</title>
+<g id="a_node96"><a xlink:href="#roadmap=devops&amp;topic=devops_infrastructure_2" xlink:title="State and drift management" data-topic="devops_infrastructure_2" tabindex="-1" aria-label="State and drift management">
+<polygon fill="none" stroke="black" points="915.12,-3555 699.62,-3555 699.62,-3519 915.12,-3519 915.12,-3555" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3531.18" font-family="Arial" font-size="16.00">State and drift management</text>
+</a>
+</g>
+</g>
+
+<g id="edge160" class="edge">
+<title>n86-&gt;n88</title>
+<path fill="none" stroke="black" d="M617.62,-3518.54C639.99,-3520.73 664.42,-3523.12 688.06,-3525.43" />
+<polygon fill="black" stroke="black" points="687.42,-3528.89 697.72,-3526.38 688.1,-3521.92 687.42,-3528.89" />
+</g>
+
+<g id="node97" class="node">
+<title>n89</title>
+<g id="a_node97"><a xlink:href="#roadmap=devops&amp;topic=devops_infrastructure_3" xlink:title="Reusable modules and\ninfrastructure testing" data-topic="devops_infrastructure_3" tabindex="-1" aria-label="Reusable modules and infrastructure testing">
+<polygon fill="none" stroke="black" points="898.25,-3618.75 716.5,-3618.75 716.5,-3573.25 898.25,-3573.25 898.25,-3618.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3599.55" font-family="Arial" font-size="16.00">Reusable modules and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3580.8" font-family="Arial" font-size="16.00">infrastructure testing</text>
+</a>
+</g>
+</g>
+
+<g id="edge161" class="edge">
+<title>n86-&gt;n89</title>
+<path fill="none" stroke="black" d="M579.5,-3528.41C609.56,-3539.37 648.89,-3553.19 684.25,-3564 691.07,-3566.09 698.13,-3568.16 705.26,-3570.19" />
+<polygon fill="black" stroke="black" points="704.07,-3573.49 714.65,-3572.82 705.96,-3566.75 704.07,-3573.49" />
+</g>
+
+<g id="node99" class="node">
+<title>n91</title>
+<g id="a_node99"><a xlink:href="#roadmap=devops&amp;topic=devops_observability_1" xlink:title="Metrics, logs, and traces" data-topic="devops_observability_1" tabindex="-1" aria-label="Metrics, logs, and traces">
+<polygon fill="none" stroke="black" points="903.5,-3673 711.25,-3673 711.25,-3637 903.5,-3637 903.5,-3673" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3649.18" font-family="Arial" font-size="16.00">Metrics, logs, and traces</text>
+</a>
+</g>
+</g>
+
+<g id="edge171" class="edge">
+<title>n90-&gt;n91</title>
+<path fill="none" stroke="black" d="M584.8,-3678.27C617.56,-3674.83 660.36,-3670.33 699.61,-3666.21" />
+<polygon fill="black" stroke="black" points="699.75,-3669.72 709.33,-3665.19 699.02,-3662.76 699.75,-3669.72" />
+</g>
+
+<g id="node100" class="node">
+<title>n92</title>
+<g id="a_node100"><a xlink:href="#roadmap=devops&amp;topic=devops_observability_2" xlink:title="Dashboards and actionable\nalerts" data-topic="devops_observability_2" tabindex="-1" aria-label="Dashboards and actionable alerts">
+<polygon fill="none" stroke="black" points="914,-3736.75 700.75,-3736.75 700.75,-3691.25 914,-3691.25 914,-3736.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3717.55" font-family="Arial" font-size="16.00">Dashboards and actionable</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3698.8" font-family="Arial" font-size="16.00">alerts</text>
+</a>
+</g>
+</g>
+
+<g id="edge172" class="edge">
+<title>n90-&gt;n92</title>
+<path fill="none" stroke="black" d="M584.8,-3689.93C614.71,-3693.18 653,-3697.34 689.31,-3701.28" />
+<polygon fill="black" stroke="black" points="688.68,-3704.73 699,-3702.33 689.43,-3697.77 688.68,-3704.73" />
+</g>
+
+<g id="node101" class="node">
+<title>n93</title>
+<g id="a_node101"><a xlink:href="#roadmap=devops&amp;topic=devops_observability_3" xlink:title="OpenTelemetry" data-topic="devops_observability_3" tabindex="-1" aria-label="OpenTelemetry">
+<polygon fill="none" stroke="black" points="870.5,-3791 744.25,-3791 744.25,-3755 870.5,-3755 870.5,-3791" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3767.18" font-family="Arial" font-size="16.00">OpenTelemetry</text>
+</a>
+</g>
+</g>
+
+<g id="edge173" class="edge">
+<title>n90-&gt;n93</title>
+<path fill="none" stroke="black" d="M570.76,-3702.45C601.44,-3715.9 644.88,-3733.81 684.25,-3746 699.84,-3750.83 716.8,-3755.14 732.99,-3758.84" />
+<polygon fill="black" stroke="black" points="732.04,-3762.21 742.56,-3760.97 733.56,-3755.38 732.04,-3762.21" />
+</g>
+
+<g id="node103" class="node">
+<title>n95</title>
+<g id="a_node103"><a xlink:href="#roadmap=devops&amp;topic=devops_reliability_1" xlink:title="SLIs, SLOs, and error\nbudgets" data-topic="devops_reliability_1" tabindex="-1" aria-label="SLIs, SLOs, and error budgets">
+<polygon fill="none" stroke="black" points="893.38,-3854.75 721.38,-3854.75 721.38,-3809.25 893.38,-3809.25 893.38,-3854.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3835.55" font-family="Arial" font-size="16.00">SLIs, SLOs, and error</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3816.8" font-family="Arial" font-size="16.00">budgets</text>
+</a>
+</g>
+</g>
+
+<g id="edge175" class="edge">
+<title>n94-&gt;n95</title>
+<path fill="none" stroke="black" d="M609.75,-3877.57C641.09,-3870.31 677.39,-3861.9 710.19,-3854.29" />
+<polygon fill="black" stroke="black" points="710.75,-3857.76 719.7,-3852.09 709.17,-3850.94 710.75,-3857.76" />
+</g>
+
+<g id="node104" class="node">
+<title>n96</title>
+<g id="a_node104"><a xlink:href="#roadmap=devops&amp;topic=devops_reliability_2" xlink:title="Incident response and\npostmortems" data-topic="devops_reliability_2" tabindex="-1" aria-label="Incident response and postmortems">
+<polygon fill="none" stroke="black" points="895.25,-3918.75 719.5,-3918.75 719.5,-3873.25 895.25,-3873.25 895.25,-3918.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3899.55" font-family="Arial" font-size="16.00">Incident response and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3880.8" font-family="Arial" font-size="16.00">postmortems</text>
+</a>
+</g>
+</g>
+
+<g id="edge176" class="edge">
+<title>n94-&gt;n96</title>
+<path fill="none" stroke="black" d="M633.85,-3896C658.16,-3896 683.99,-3896 708.06,-3896" />
+<polygon fill="black" stroke="black" points="707.84,-3899.5 717.84,-3896 707.84,-3892.5 707.84,-3899.5" />
+</g>
+
+<g id="node105" class="node">
+<title>n97</title>
+<g id="a_node105"><a xlink:href="#roadmap=devops&amp;topic=devops_reliability_3" xlink:title="Backups and disaster\nrecovery" data-topic="devops_reliability_3" tabindex="-1" aria-label="Backups and disaster recovery">
+<polygon fill="none" stroke="black" points="893,-3982.75 721.75,-3982.75 721.75,-3937.25 893,-3937.25 893,-3982.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3963.55" font-family="Arial" font-size="16.00">Backups and disaster</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-3944.8" font-family="Arial" font-size="16.00">recovery</text>
+</a>
+</g>
+</g>
+
+<g id="edge177" class="edge">
+<title>n94-&gt;n97</title>
+<path fill="none" stroke="black" d="M609.75,-3914.43C641.24,-3921.72 677.72,-3930.18 710.64,-3937.81" />
+<polygon fill="black" stroke="black" points="709.65,-3941.17 720.19,-3940.02 711.23,-3934.36 709.65,-3941.17" />
+</g>
+
+<g id="node106" class="node">
+<title>n98</title>
+<g id="a_node106"><a xlink:href="#roadmap=devops&amp;topic=devops_reliability_4" xlink:title="Capacity planning and toil\nreduction" data-topic="devops_reliability_4" tabindex="-1" aria-label="Capacity planning and toil reduction">
+<polygon fill="none" stroke="black" points="908.38,-4046.75 706.38,-4046.75 706.38,-4001.25 908.38,-4001.25 908.38,-4046.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4027.55" font-family="Arial" font-size="16.00">Capacity planning and toil</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4008.8" font-family="Arial" font-size="16.00">reduction</text>
+</a>
+</g>
+</g>
+
+<g id="edge178" class="edge">
+<title>n94-&gt;n98</title>
+<path fill="none" stroke="black" d="M554.58,-3914.43C583.9,-3935.84 635.35,-3970.93 684.25,-3992 688.32,-3993.75 692.52,-3995.43 696.78,-3997.03" />
+<polygon fill="black" stroke="black" points="695.5,-4000.29 706.09,-4000.35 697.85,-3993.7 695.5,-4000.29" />
+</g>
+
+<g id="node108" class="node">
+<title>n100</title>
+<g id="a_node108"><a xlink:href="#roadmap=devops&amp;topic=devops_security_1" xlink:title="Least privilege and identity\nmanagement" data-topic="devops_security_1" tabindex="-1" aria-label="Least privilege and identity management">
+<polygon fill="none" stroke="black" points="911.75,-4110.75 703,-4110.75 703,-4065.25 911.75,-4065.25 911.75,-4110.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4091.55" font-family="Arial" font-size="16.00">Least privilege and identity</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4072.8" font-family="Arial" font-size="16.00">management</text>
+</a>
+</g>
+</g>
+
+<g id="edge180" class="edge">
+<title>n99-&gt;n100</title>
+<path fill="none" stroke="black" d="M599.22,-4136.02C628.28,-4129.28 662.84,-4121.27 695.33,-4113.74" />
+<polygon fill="black" stroke="black" points="695.83,-4117.21 704.78,-4111.55 694.25,-4110.4 695.83,-4117.21" />
+</g>
+
+<g id="node109" class="node">
+<title>n101</title>
+<g id="a_node109"><a xlink:href="#roadmap=devops&amp;topic=devops_security_2" xlink:title="Secrets and certificate\nmanagement" data-topic="devops_security_2" tabindex="-1" aria-label="Secrets and certificate management">
+<polygon fill="none" stroke="black" points="895.62,-4174.75 719.12,-4174.75 719.12,-4129.25 895.62,-4129.25 895.62,-4174.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4155.55" font-family="Arial" font-size="16.00">Secrets and certificate</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4136.8" font-family="Arial" font-size="16.00">management</text>
+</a>
+</g>
+</g>
+
+<g id="edge181" class="edge">
+<title>n99-&gt;n101</title>
+<path fill="none" stroke="black" d="M599.22,-4152C631.86,-4152 671.46,-4152 707.25,-4152" />
+<polygon fill="black" stroke="black" points="707.21,-4155.5 717.21,-4152 707.21,-4148.5 707.21,-4155.5" />
+</g>
+
+<g id="node110" class="node">
+<title>n102</title>
+<g id="a_node110"><a xlink:href="#roadmap=devops&amp;topic=devops_security_3" xlink:title="Dependency and image\nscanning" data-topic="devops_security_3" tabindex="-1" aria-label="Dependency and image scanning">
+<polygon fill="none" stroke="black" points="900.88,-4238.75 713.88,-4238.75 713.88,-4193.25 900.88,-4193.25 900.88,-4238.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4219.55" font-family="Arial" font-size="16.00">Dependency and image</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4200.8" font-family="Arial" font-size="16.00">scanning</text>
+</a>
+</g>
+</g>
+
+<g id="edge182" class="edge">
+<title>n99-&gt;n102</title>
+<path fill="none" stroke="black" d="M599.22,-4167.98C630.42,-4175.22 667.97,-4183.92 702.49,-4191.92" />
+<polygon fill="black" stroke="black" points="701.57,-4195.3 712.1,-4194.15 703.15,-4188.48 701.57,-4195.3" />
+</g>
+
+<g id="node111" class="node">
+<title>n103</title>
+<g id="a_node111"><a xlink:href="#roadmap=devops&amp;topic=devops_security_4" xlink:title="Software supply chain\nsecurity" data-topic="devops_security_4" tabindex="-1" aria-label="Software supply chain security">
+<polygon fill="none" stroke="black" points="894.5,-4302.75 720.25,-4302.75 720.25,-4257.25 894.5,-4257.25 894.5,-4302.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4283.55" font-family="Arial" font-size="16.00">Software supply chain</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-4264.8" font-family="Arial" font-size="16.00">security</text>
+</a>
+</g>
+</g>
+
+<g id="edge183" class="edge">
+<title>n99-&gt;n103</title>
+<path fill="none" stroke="black" d="M554.58,-4170.43C583.9,-4191.84 635.35,-4226.93 684.25,-4248 692.18,-4251.42 700.55,-4254.54 709.05,-4257.37" />
+<polygon fill="black" stroke="black" points="707.83,-4260.66 718.42,-4260.36 709.96,-4253.99 707.83,-4260.66" />
+</g>
+
+<g id="node113" class="node">
+<title>n112</title>
+<g id="a_node113"><a xlink:href="#roadmap=devops&amp;topic=net_auth" xlink:title="Authorization and\nAuthentication" data-topic="net_auth" tabindex="-1" aria-label="Authorization and Authentication">
+<polygon fill="none" stroke="black" points="600.25,-2255.75 458.25,-2255.75 458.25,-2210.25 600.25,-2210.25 600.25,-2255.75" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2236.55" font-family="Arial" font-size="16.00">Authorization and</text>
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2217.8" font-family="Arial" font-size="16.00">Authentication</text>
+</a>
+</g>
+</g>
+
+<g id="edge64" class="edge">
+<title>n111-&gt;n112</title>
+<path fill="none" stroke="black" d="M290.72,-2469.78C303.05,-2427.11 339.7,-2320.14 410.25,-2265 421.07,-2256.54 433.96,-2250.32 447.18,-2245.73" />
+<polygon fill="black" stroke="black" points="447.88,-2249.18 456.38,-2242.85 445.79,-2242.5 447.88,-2249.18" />
+</g>
+
+<g id="node119" class="node">
+<title>n118</title>
+<g id="a_node119"><a xlink:href="#roadmap=devops&amp;topic=net_dns" xlink:title="DNS" data-topic="net_dns" tabindex="-1" aria-label="DNS">
+<polygon fill="none" stroke="black" points="556.25,-2310 502.25,-2310 502.25,-2274 556.25,-2274 556.25,-2310" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2286.18" font-family="Arial" font-size="16.00">DNS</text>
+</a>
+</g>
+</g>
+
+<g id="edge61" class="edge">
+<title>n111-&gt;n118</title>
+<path fill="none" stroke="black" d="M293.96,-2469.61C310.41,-2434.43 351.31,-2357.67 410.25,-2319 434.11,-2303.35 465.85,-2296.7 490.41,-2293.91" />
+<polygon fill="black" stroke="black" points="490.69,-2297.4 500.31,-2292.98 490.03,-2290.44 490.69,-2297.4" />
+</g>
+
+<g id="node120" class="node">
+<title>n119</title>
+<g id="a_node120"><a xlink:href="#roadmap=devops&amp;topic=net_graphql" xlink:title="GraphQL" data-topic="net_graphql" tabindex="-1" aria-label="GraphQL">
+<polygon fill="none" stroke="black" points="570.62,-2364 487.88,-2364 487.88,-2328 570.62,-2328 570.62,-2364" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2340.18" font-family="Arial" font-size="16.00">GraphQL</text>
+</a>
+</g>
+</g>
+
+<g id="edge59" class="edge">
+<title>n111-&gt;n119</title>
+<path fill="none" stroke="black" d="M300.23,-2469.72C321.44,-2444 363.69,-2397.57 410.25,-2373 430.57,-2362.27 455.06,-2355.79 476.45,-2351.87" />
+<polygon fill="black" stroke="black" points="476.86,-2355.35 486.15,-2350.25 475.71,-2348.45 476.86,-2355.35" />
+</g>
+
+<g id="node121" class="node">
+<title>n120</title>
+<g id="a_node121"><a xlink:href="#roadmap=devops&amp;topic=net_grpc" xlink:title="gRPC" data-topic="net_grpc" tabindex="-1" aria-label="gRPC">
+<polygon fill="none" stroke="black" points="558.25,-2418 500.25,-2418 500.25,-2382 558.25,-2382 558.25,-2418" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2394.18" font-family="Arial" font-size="16.00">gRPC</text>
+</a>
+</g>
+</g>
+
+<g id="edge57" class="edge">
+<title>n111-&gt;n120</title>
+<path fill="none" stroke="black" d="M318.23,-2469.55C342.82,-2456.17 377.83,-2438.48 410.25,-2427 435.84,-2417.94 465.65,-2411.14 488.9,-2406.64" />
+<polygon fill="black" stroke="black" points="489.4,-2410.11 498.59,-2404.83 488.12,-2403.23 489.4,-2410.11" />
+</g>
+
+<g id="node122" class="node">
+<title>n121</title>
+<g id="a_node122"><a xlink:href="#roadmap=devops&amp;topic=net_osi" xlink:title="Open Systems Interconnection\nmodel" data-topic="net_osi" tabindex="-1" aria-label="Open Systems Interconnection model">
+<polygon fill="none" stroke="black" points="648.25,-2481.75 410.25,-2481.75 410.25,-2436.25 648.25,-2436.25 648.25,-2481.75" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2462.55" font-family="Arial" font-size="16.00">Open Systems Interconnection</text>
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2443.8" font-family="Arial" font-size="16.00">model</text>
+</a>
+</g>
+</g>
+
+<g id="edge56" class="edge">
+<title>n111-&gt;n121</title>
+<path fill="none" stroke="black" d="M359.91,-2479.14C372.31,-2477.66 385.49,-2476.08 398.8,-2474.49" />
+<polygon fill="black" stroke="black" points="398.99,-2477.99 408.5,-2473.33 398.15,-2471.04 398.99,-2477.99" />
+</g>
+
+<g id="node123" class="node">
+<title>n122</title>
+<g id="a_node123"><a xlink:href="#roadmap=devops&amp;topic=net_protocols" xlink:title="Protocols" data-topic="net_protocols" tabindex="-1" aria-label="Protocols">
+<polygon fill="none" stroke="black" points="571,-2536 487.5,-2536 487.5,-2500 571,-2500 571,-2536" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2512.18" font-family="Arial" font-size="16.00">Protocols</text>
+</a>
+</g>
+</g>
+
+<g id="edge62" class="edge">
+<title>n111-&gt;n122</title>
+<path fill="none" stroke="black" d="M359.91,-2497.16C397.44,-2501.81 442.1,-2507.34 475.99,-2511.53" />
+<polygon fill="black" stroke="black" points="475.19,-2514.96 485.55,-2512.71 476.05,-2508.01 475.19,-2514.96" />
+</g>
+
+<g id="node130" class="node">
+<title>n129</title>
+<g id="a_node130"><a xlink:href="#roadmap=devops&amp;topic=net_restapi" xlink:title="REST API" data-topic="net_restapi" tabindex="-1" aria-label="REST API">
+<polygon fill="none" stroke="black" points="572.88,-2590 485.62,-2590 485.62,-2554 572.88,-2554 572.88,-2590" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2566.18" font-family="Arial" font-size="16.00">REST API</text>
+</a>
+</g>
+</g>
+
+<g id="edge58" class="edge">
+<title>n111-&gt;n129</title>
+<path fill="none" stroke="black" d="M321.01,-2506.45C345.49,-2518.72 379.21,-2534.46 410.25,-2545 430.72,-2551.95 453.8,-2557.68 474.08,-2562.04" />
+<polygon fill="black" stroke="black" points="473.35,-2565.46 483.86,-2564.07 474.78,-2558.61 473.35,-2565.46" />
+</g>
+
+<g id="node131" class="node">
+<title>n130</title>
+<g id="a_node131"><a xlink:href="#roadmap=devops&amp;topic=net_soap" xlink:title="SOAP" data-topic="net_soap" tabindex="-1" aria-label="SOAP">
+<polygon fill="none" stroke="black" points="559.38,-2644 499.12,-2644 499.12,-2608 559.38,-2608 559.38,-2644" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2620.18" font-family="Arial" font-size="16.00">SOAP</text>
+</a>
+</g>
+</g>
+
+<g id="edge60" class="edge">
+<title>n111-&gt;n130</title>
+<path fill="none" stroke="black" d="M301.09,-2506.47C322.7,-2531.43 364.74,-2575.49 410.25,-2599 434.21,-2611.38 463.8,-2618.13 487.35,-2621.79" />
+<polygon fill="black" stroke="black" points="486.83,-2625.25 497.22,-2623.18 487.8,-2618.32 486.83,-2625.25" />
+</g>
+
+<g id="node132" class="node">
+<title>n131</title>
+<g id="a_node132"><a xlink:href="#roadmap=devops&amp;topic=net_websocket" xlink:title="Websocket" data-topic="net_websocket" tabindex="-1" aria-label="Websocket">
+<polygon fill="none" stroke="black" points="577.38,-2698 481.12,-2698 481.12,-2662 577.38,-2662 577.38,-2698" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-2674.18" font-family="Arial" font-size="16.00">Websocket</text>
+</a>
+</g>
+</g>
+
+<g id="edge63" class="edge">
+<title>n111-&gt;n131</title>
+<path fill="none" stroke="black" d="M294.34,-2506.49C311.17,-2541.08 352.3,-2615.45 410.25,-2653 427.8,-2664.37 449.54,-2670.98 469.56,-2674.82" />
+<polygon fill="black" stroke="black" points="468.85,-2678.24 479.29,-2676.47 470.02,-2671.34 468.85,-2678.24" />
+</g>
+
+<g id="node114" class="node">
+<title>n113</title>
+<g id="a_node114"><a xlink:href="#roadmap=devops&amp;topic=net_auth_authentication" xlink:title="Authentication" data-topic="net_auth_authentication" tabindex="-1" aria-label="Authentication">
+<polygon fill="none" stroke="black" points="866.75,-2158 748,-2158 748,-2122 866.75,-2122 866.75,-2158" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2134.18" font-family="Arial" font-size="16.00">Authentication</text>
+</a>
+</g>
+</g>
+
+<g id="edge72" class="edge">
+<title>n112-&gt;n113</title>
+<path fill="none" stroke="black" d="M577.91,-2209.82C607.9,-2195.94 647.7,-2178.76 684.25,-2167 700.95,-2161.63 719.28,-2156.96 736.54,-2153.08" />
+<polygon fill="black" stroke="black" points="737.19,-2156.52 746.22,-2150.97 735.7,-2149.68 737.19,-2156.52" />
+</g>
+
+<g id="node115" class="node">
+<title>n114</title>
+<g id="a_node115"><a xlink:href="#roadmap=devops&amp;topic=net_auth_authorization" xlink:title="Authorization" data-topic="net_auth_authorization" tabindex="-1" aria-label="Authorization">
+<polygon fill="none" stroke="black" points="862.62,-2212 752.12,-2212 752.12,-2176 862.62,-2176 862.62,-2212" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2188.18" font-family="Arial" font-size="16.00">Authorization</text>
+</a>
+</g>
+</g>
+
+<g id="edge71" class="edge">
+<title>n112-&gt;n114</title>
+<path fill="none" stroke="black" d="M600.64,-2223.06C643.67,-2216.98 698.36,-2209.26 740.53,-2203.3" />
+<polygon fill="black" stroke="black" points="740.88,-2206.79 750.29,-2201.92 739.9,-2199.85 740.88,-2206.79" />
+</g>
+
+<g id="node116" class="node">
+<title>n115</title>
+<g id="a_node116"><a xlink:href="#roadmap=devops&amp;topic=net_auth_cookie" xlink:title="Cookie" data-topic="net_auth_cookie" tabindex="-1" aria-label="Cookie">
+<polygon fill="none" stroke="black" points="840.5,-2266 774.25,-2266 774.25,-2230 840.5,-2230 840.5,-2266" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2242.18" font-family="Arial" font-size="16.00">Cookie</text>
+</a>
+</g>
+</g>
+
+<g id="edge75" class="edge">
+<title>n112-&gt;n115</title>
+<path fill="none" stroke="black" d="M600.64,-2236.82C651.72,-2239.6 719.22,-2243.27 762.72,-2245.63" />
+<polygon fill="black" stroke="black" points="762.37,-2249.11 772.54,-2246.16 762.75,-2242.12 762.37,-2249.11" />
+</g>
+
+<g id="node117" class="node">
+<title>n116</title>
+<g id="a_node117"><a xlink:href="#roadmap=devops&amp;topic=net_auth_jwt" xlink:title="JWT" data-topic="net_auth_jwt" tabindex="-1" aria-label="JWT">
+<polygon fill="none" stroke="black" points="834.38,-2320 780.38,-2320 780.38,-2284 834.38,-2284 834.38,-2320" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2296.18" font-family="Arial" font-size="16.00">JWT</text>
+</a>
+</g>
+</g>
+
+<g id="edge74" class="edge">
+<title>n112-&gt;n116</title>
+<path fill="none" stroke="black" d="M600.47,-2251.97C616.19,-2256.24 632.8,-2260.76 648.25,-2265 664.26,-2269.4 668.14,-2270.98 684.25,-2275 712.5,-2282.04 744.65,-2289.11 768.87,-2294.25" />
+<polygon fill="black" stroke="black" points="768.09,-2297.66 778.59,-2296.3 769.53,-2290.81 768.09,-2297.66" />
+</g>
+
+<g id="node118" class="node">
+<title>n117</title>
+<g id="a_node118"><a xlink:href="#roadmap=devops&amp;topic=net_auth_oauth" xlink:title="OAuth" data-topic="net_auth_oauth" tabindex="-1" aria-label="OAuth">
+<polygon fill="none" stroke="black" points="838.25,-2374 776.5,-2374 776.5,-2338 838.25,-2338 838.25,-2374" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2350.18" font-family="Arial" font-size="16.00">OAuth</text>
+</a>
+</g>
+</g>
+
+<g id="edge73" class="edge">
+<title>n112-&gt;n117</title>
+<path fill="none" stroke="black" d="M600.65,-2242.43C617.48,-2247.18 634.52,-2254.31 648.25,-2265 674,-2285.05 658.03,-2309.56 684.25,-2329 707.47,-2346.22 739.56,-2352.83 765.02,-2355.21" />
+<polygon fill="black" stroke="black" points="764.46,-2358.68 774.69,-2355.92 764.97,-2351.7 764.46,-2358.68" />
+</g>
+
+<g id="node124" class="node">
+<title>n123</title>
+<g id="a_node124"><a xlink:href="#roadmap=devops&amp;topic=net_protocols_http" xlink:title="HTTP" data-topic="net_protocols_http" tabindex="-1" aria-label="HTTP">
+<polygon fill="none" stroke="black" points="836,-2428 778.75,-2428 778.75,-2392 836,-2392 836,-2428" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2404.18" font-family="Arial" font-size="16.00">HTTP</text>
+</a>
+</g>
+</g>
+
+<g id="edge68" class="edge">
+<title>n122-&gt;n123</title>
+<path fill="none" stroke="black" d="M571.25,-2516.12C595.45,-2513.28 625.67,-2506.57 648.25,-2491 671.99,-2474.62 660.45,-2453.29 684.25,-2437 708.65,-2420.3 741.64,-2413.73 767.18,-2411.23" />
+<polygon fill="black" stroke="black" points="767.13,-2414.75 776.82,-2410.47 766.58,-2407.77 767.13,-2414.75" />
+</g>
+
+<g id="node125" class="node">
+<title>n124</title>
+<g id="a_node125"><a xlink:href="#roadmap=devops&amp;topic=net_protocols_ip" xlink:title="IP" data-topic="net_protocols_ip" tabindex="-1" aria-label="IP">
+<polygon fill="none" stroke="black" points="834.38,-2482 780.38,-2482 780.38,-2446 834.38,-2446 834.38,-2482" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2458.18" font-family="Arial" font-size="16.00">IP</text>
+</a>
+</g>
+</g>
+
+<g id="edge65" class="edge">
+<title>n122-&gt;n124</title>
+<path fill="none" stroke="black" d="M571.29,-2509.97C624.67,-2499.53 717.18,-2481.44 768.8,-2471.35" />
+<polygon fill="black" stroke="black" points="769.46,-2474.79 778.6,-2469.43 768.11,-2467.92 769.46,-2474.79" />
+</g>
+
+<g id="node126" class="node">
+<title>n125</title>
+<g id="a_node126"><a xlink:href="#roadmap=devops&amp;topic=net_protocols_ssl" xlink:title="SSL" data-topic="net_protocols_ssl" tabindex="-1" aria-label="SSL">
+<polygon fill="none" stroke="black" points="834.38,-2536 780.38,-2536 780.38,-2500 834.38,-2500 834.38,-2536" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2512.18" font-family="Arial" font-size="16.00">SSL</text>
+</a>
+</g>
+</g>
+
+<g id="edge70" class="edge">
+<title>n122-&gt;n125</title>
+<path fill="none" stroke="black" d="M571.29,-2518C624.67,-2518 717.18,-2518 768.8,-2518" />
+<polygon fill="black" stroke="black" points="768.57,-2521.5 778.57,-2518 768.57,-2514.5 768.57,-2521.5" />
+</g>
+
+<g id="node127" class="node">
+<title>n126</title>
+<g id="a_node127"><a xlink:href="#roadmap=devops&amp;topic=net_protocols_tcp" xlink:title="TCP" data-topic="net_protocols_tcp" tabindex="-1" aria-label="TCP">
+<polygon fill="none" stroke="black" points="834.38,-2590 780.38,-2590 780.38,-2554 834.38,-2554 834.38,-2590" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2566.18" font-family="Arial" font-size="16.00">TCP</text>
+</a>
+</g>
+</g>
+
+<g id="edge66" class="edge">
+<title>n122-&gt;n126</title>
+<path fill="none" stroke="black" d="M571.29,-2526.03C624.67,-2536.47 717.18,-2554.56 768.8,-2564.65" />
+<polygon fill="black" stroke="black" points="768.11,-2568.08 778.6,-2566.57 769.46,-2561.21 768.11,-2568.08" />
+</g>
+
+<g id="node128" class="node">
+<title>n127</title>
+<g id="a_node128"><a xlink:href="#roadmap=devops&amp;topic=net_protocols_tls" xlink:title="TLS" data-topic="net_protocols_tls" tabindex="-1" aria-label="TLS">
+<polygon fill="none" stroke="black" points="834.38,-2644 780.38,-2644 780.38,-2608 834.38,-2608 834.38,-2644" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2620.18" font-family="Arial" font-size="16.00">TLS</text>
+</a>
+</g>
+</g>
+
+<g id="edge69" class="edge">
+<title>n122-&gt;n127</title>
+<path fill="none" stroke="black" d="M571.25,-2519.88C595.45,-2522.72 625.67,-2529.43 648.25,-2545 671.99,-2561.38 660.45,-2582.71 684.25,-2599 709.27,-2616.12 743.32,-2622.6 769.11,-2624.95" />
+<polygon fill="black" stroke="black" points="768.59,-2628.42 778.81,-2625.65 769.09,-2621.44 768.59,-2628.42" />
+</g>
+
+<g id="node129" class="node">
+<title>n128</title>
+<g id="a_node129"><a xlink:href="#roadmap=devops&amp;topic=net_protocols_udp" xlink:title="UDP" data-topic="net_protocols_udp" tabindex="-1" aria-label="UDP">
+<polygon fill="none" stroke="black" points="834.38,-2698 780.38,-2698 780.38,-2662 834.38,-2662 834.38,-2698" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2674.18" font-family="Arial" font-size="16.00">UDP</text>
+</a>
+</g>
+</g>
+
+<g id="edge67" class="edge">
+<title>n122-&gt;n128</title>
+<path fill="none" stroke="black" d="M571.46,-2517.7C596.51,-2519.66 627.55,-2526.22 648.25,-2545 685.72,-2579 646.66,-2619.13 684.25,-2653 707.09,-2673.57 742.01,-2679.65 768.67,-2680.97" />
+<polygon fill="black" stroke="black" points="768.29,-2684.46 778.38,-2681.24 768.48,-2677.47 768.29,-2684.46" />
+</g>
+
+<g id="node134" class="node">
+<title>n133</title>
+<g id="a_node134"><a xlink:href="#roadmap=devops&amp;topic=os_filesystem" xlink:title="File Systems and Persistence" data-topic="os_filesystem" tabindex="-1" aria-label="File Systems and Persistence">
+<polygon fill="none" stroke="black" points="644.12,-153 414.38,-153 414.38,-117 644.12,-117 644.12,-153" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-129.18" font-family="Arial" font-size="16.00">File Systems and Persistence</text>
+</a>
+</g>
+</g>
+
+<g id="edge19" class="edge">
+<title>n132-&gt;n133</title>
+<path fill="none" stroke="black" d="M287.41,-1028.59C296.27,-924.6 342.95,-410.21 410.25,-268 430.62,-224.95 469.31,-185.48 496.82,-160.91" />
+<polygon fill="black" stroke="black" points="498.97,-163.69 504.19,-154.47 494.36,-158.42 498.97,-163.69" />
+</g>
+
+<g id="node138" class="node">
+<title>n137</title>
+<g id="a_node138"><a xlink:href="#roadmap=devops&amp;topic=os_foundations" xlink:title="Kernel and User Space" data-topic="os_foundations" tabindex="-1" aria-label="Kernel and User Space">
+<polygon fill="none" stroke="black" points="620.5,-313 438,-313 438,-277 620.5,-277 620.5,-313" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-289.18" font-family="Arial" font-size="16.00">Kernel and User Space</text>
+</a>
+</g>
+</g>
+
+<g id="edge1" class="edge">
+<title>n132-&gt;n137</title>
+<path fill="none" stroke="black" d="M285.83,-1028.53C286.39,-949.95 296.02,-637.45 410.25,-418 430.75,-378.62 467.75,-343.15 494.87,-320.53" />
+<polygon fill="black" stroke="black" points="496.95,-323.36 502.48,-314.32 492.52,-317.93 496.95,-323.36" />
+</g>
+
+<g id="node141" class="node">
+<title>n140</title>
+<g id="a_node141"><a xlink:href="#roadmap=devops&amp;topic=os_io" xlink:title="Input and Output" data-topic="os_io" tabindex="-1" aria-label="Input and Output">
+<polygon fill="none" stroke="black" points="597.62,-463 460.88,-463 460.88,-427 597.62,-427 597.62,-463" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-439.18" font-family="Arial" font-size="16.00">Input and Output</text>
+</a>
+</g>
+</g>
+
+<g id="edge23" class="edge">
+<title>n132-&gt;n140</title>
+<path fill="none" stroke="black" d="M289.63,-1028.83C302.11,-970.25 345.09,-781.82 410.25,-637 438.18,-574.93 482.64,-508.56 508.26,-472.4" />
+<polygon fill="black" stroke="black" points="510.81,-474.85 513.78,-464.68 505.12,-470.78 510.81,-474.85" />
+</g>
+
+<g id="node145" class="node">
+<title>n144</title>
+<g id="a_node145"><a xlink:href="#roadmap=devops&amp;topic=os_linux" xlink:title="Linux Administration and\nDiagnostics" data-topic="os_linux" tabindex="-1" aria-label="Linux Administration and Diagnostics">
+<polygon fill="none" stroke="black" points="625.75,-691.75 432.75,-691.75 432.75,-646.25 625.75,-646.25 625.75,-691.75" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-672.55" font-family="Arial" font-size="16.00">Linux Administration and</text>
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-653.8" font-family="Arial" font-size="16.00">Diagnostics</text>
+</a>
+</g>
+</g>
+
+<g id="edge45" class="edge">
+<title>n132-&gt;n144</title>
+<path fill="none" stroke="black" d="M293.8,-1028.62C311.84,-987.63 358.43,-886.24 410.25,-809 436.94,-769.22 473.09,-727.76 498.32,-700.39" />
+<polygon fill="black" stroke="black" points="500.83,-702.83 505.07,-693.12 495.7,-698.07 500.83,-702.83" />
+</g>
+
+<g id="node150" class="node">
+<title>n149</title>
+<g id="a_node150"><a xlink:href="#roadmap=devops&amp;topic=os_memory" xlink:title="Memory Management" data-topic="os_memory" tabindex="-1" aria-label="Memory Management">
+<polygon fill="none" stroke="black" points="616,-854 442.5,-854 442.5,-818 616,-818 616,-854" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-830.17" font-family="Arial" font-size="16.00">Memory Management</text>
+</a>
+</g>
+</g>
+
+<g id="edge13" class="edge">
+<title>n132-&gt;n149</title>
+<path fill="none" stroke="black" d="M306.96,-1028.64C350.2,-991 449.02,-904.97 498.66,-861.76" />
+<polygon fill="black" stroke="black" points="500.66,-864.66 505.9,-855.46 496.06,-859.38 500.66,-864.66" />
+</g>
+
+<g id="node156" class="node">
+<title>n155</title>
+<g id="a_node156"><a xlink:href="#roadmap=devops&amp;topic=os_processes" xlink:title="Processes and Threads" data-topic="os_processes" tabindex="-1" aria-label="Processes and Threads">
+<polygon fill="none" stroke="black" points="622.75,-1065 435.75,-1065 435.75,-1029 622.75,-1029 622.75,-1065" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1041.17" font-family="Arial" font-size="16.00">Processes and Threads</text>
+</a>
+</g>
+</g>
+
+<g id="edge4" class="edge">
+<title>n132-&gt;n155</title>
+<path fill="none" stroke="black" d="M362.23,-1047C381.78,-1047 403.15,-1047 423.85,-1047" />
+<polygon fill="black" stroke="black" points="423.75,-1050.5 433.75,-1047 423.75,-1043.5 423.75,-1050.5" />
+</g>
+
+<g id="node165" class="node">
+<title>n164</title>
+<g id="a_node165"><a xlink:href="#roadmap=devops&amp;topic=os_protection" xlink:title="Protection and Access\nControl" data-topic="os_protection" tabindex="-1" aria-label="Protection and Access Control">
+<polygon fill="none" stroke="black" points="617.5,-1291.75 441,-1291.75 441,-1246.25 617.5,-1246.25 617.5,-1291.75" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1272.55" font-family="Arial" font-size="16.00">Protection and Access</text>
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1253.8" font-family="Arial" font-size="16.00">Control</text>
+</a>
+</g>
+</g>
+
+<g id="edge27" class="edge">
+<title>n132-&gt;n164</title>
+<path fill="none" stroke="black" d="M305.71,-1065.17C347.18,-1103.15 443.44,-1191.32 494.71,-1238.28" />
+<polygon fill="black" stroke="black" points="492.28,-1240.8 502.02,-1244.97 497.01,-1235.64 492.28,-1240.8" />
+</g>
+
+<g id="node168" class="node">
+<title>n167</title>
+<g id="a_node168"><a xlink:href="#roadmap=devops&amp;topic=os_shell" xlink:title="Shells and Command-Line\nFundamentals" data-topic="os_shell" tabindex="-1" aria-label="Shells and Command-Line Fundamentals">
+<polygon fill="none" stroke="black" points="632.5,-1505.75 426,-1505.75 426,-1460.25 632.5,-1460.25 632.5,-1505.75" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1486.55" font-family="Arial" font-size="16.00">Shells and Command-Line</text>
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1467.8" font-family="Arial" font-size="16.00">Fundamentals</text>
+</a>
+</g>
+</g>
+
+<g id="edge39" class="edge">
+<title>n132-&gt;n167</title>
+<path fill="none" stroke="black" d="M293.9,-1065.24C312.68,-1107.52 361.62,-1215.12 410.25,-1301 440.78,-1354.91 480.81,-1414.7 505.52,-1450.55" />
+<polygon fill="black" stroke="black" points="502.63,-1452.52 511.2,-1458.75 508.38,-1448.54 502.63,-1452.52" />
+</g>
+
+<g id="node174" class="node">
+<title>n173</title>
+<g id="a_node174"><a xlink:href="#roadmap=devops&amp;topic=os_types" xlink:title="Operating System\nCharacteristics" data-topic="os_types" tabindex="-1" aria-label="Operating System Characteristics">
+<polygon fill="none" stroke="black" points="602.12,-1795.75 456.38,-1795.75 456.38,-1750.25 602.12,-1750.25 602.12,-1795.75" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1776.55" font-family="Arial" font-size="16.00">Operating System</text>
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1757.8" font-family="Arial" font-size="16.00">Characteristics</text>
+</a>
+</g>
+</g>
+
+<g id="edge50" class="edge">
+<title>n132-&gt;n173</title>
+<path fill="none" stroke="black" d="M289.55,-1065.19C302.55,-1128.41 348.95,-1344.07 410.25,-1515 440.09,-1598.19 486.07,-1691.51 510.9,-1739.89" />
+<polygon fill="black" stroke="black" points="507.77,-1741.45 515.46,-1748.73 513.99,-1738.24 507.77,-1741.45" />
+</g>
+
+<g id="node180" class="node">
+<title>n179</title>
+<g id="a_node180"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization" xlink:title="Virtualization" data-topic="os_virtualization" tabindex="-1" aria-label="Virtualization">
+<polygon fill="none" stroke="black" points="583.75,-2005 474.75,-2005 474.75,-1969 583.75,-1969 583.75,-2005" />
+<text xml:space="preserve" text-anchor="middle" x="529.25" y="-1981.17" font-family="Arial" font-size="16.00">Virtualization</text>
+</a>
+</g>
+</g>
+
+<g id="edge30" class="edge">
+<title>n132-&gt;n179</title>
+<path fill="none" stroke="black" d="M286.14,-1065.34C287.97,-1151.68 302.05,-1525.14 410.25,-1805 433.4,-1864.88 478.04,-1925.71 505.29,-1959.68" />
+<polygon fill="black" stroke="black" points="502.5,-1961.8 511.53,-1967.35 507.93,-1957.38 502.5,-1961.8" />
+</g>
+
+<g id="node135" class="node">
+<title>n134</title>
+<g id="a_node135"><a xlink:href="#roadmap=devops&amp;topic=os_filesystem_durability" xlink:title="Writeback, Journaling, and\nCrash Recovery" data-topic="os_filesystem_durability" tabindex="-1" aria-label="Writeback, Journaling, and Crash Recovery">
+<polygon fill="none" stroke="black" points="911.38,-61.75 703.38,-61.75 703.38,-16.25 911.38,-16.25 911.38,-61.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-42.55" font-family="Arial" font-size="16.00">Writeback, Journaling, and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-23.8" font-family="Arial" font-size="16.00">Crash Recovery</text>
+</a>
+</g>
+</g>
+
+<g id="edge22" class="edge">
+<title>n133-&gt;n134</title>
+<path fill="none" stroke="black" d="M570.2,-116.61C600.95,-102.9 644.74,-84.32 684.25,-71 689.9,-69.1 695.72,-67.24 701.62,-65.43" />
+<polygon fill="black" stroke="black" points="702.27,-68.89 710.86,-62.68 700.27,-62.18 702.27,-68.89" />
+</g>
+
+<g id="node136" class="node">
+<title>n135</title>
+<g id="a_node136"><a xlink:href="#roadmap=devops&amp;topic=os_filesystem_layout" xlink:title="Files, Directories, Mounts,\nand Links" data-topic="os_filesystem_layout" tabindex="-1" aria-label="Files, Directories, Mounts, and Links">
+<polygon fill="none" stroke="black" points="909.12,-125.75 705.62,-125.75 705.62,-80.25 909.12,-80.25 909.12,-125.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-106.55" font-family="Arial" font-size="16.00">Files, Directories, Mounts,</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-87.8" font-family="Arial" font-size="16.00">and Links</text>
+</a>
+</g>
+</g>
+
+<g id="edge20" class="edge">
+<title>n133-&gt;n135</title>
+<path fill="none" stroke="black" d="M644.55,-121.75C660.95,-119.85 677.8,-117.9 694.16,-116" />
+<polygon fill="black" stroke="black" points="694.35,-119.51 703.88,-114.88 693.55,-112.55 694.35,-119.51" />
+</g>
+
+<g id="node137" class="node">
+<title>n136</title>
+<g id="a_node137"><a xlink:href="#roadmap=devops&amp;topic=os_filesystem_permissions" xlink:title="File Ownership and\nPermissions" data-topic="os_filesystem_permissions" tabindex="-1" aria-label="File Ownership and Permissions">
+<polygon fill="none" stroke="black" points="885.12,-189.75 729.62,-189.75 729.62,-144.25 885.12,-144.25 885.12,-189.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-170.55" font-family="Arial" font-size="16.00">File Ownership and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-151.8" font-family="Arial" font-size="16.00">Permissions</text>
+</a>
+</g>
+</g>
+
+<g id="edge21" class="edge">
+<title>n133-&gt;n136</title>
+<path fill="none" stroke="black" d="M644.55,-148.25C669.03,-151.08 694.54,-154.04 717.87,-156.74" />
+<polygon fill="black" stroke="black" points="717.3,-160.2 727.63,-157.87 718.1,-153.25 717.3,-160.2" />
+</g>
+
+<g id="node139" class="node">
+<title>n138</title>
+<g id="a_node139"><a xlink:href="#roadmap=devops&amp;topic=os_foundations_interrupts" xlink:title="Interrupts, Exceptions, and\nTimers" data-topic="os_foundations_interrupts" tabindex="-1" aria-label="Interrupts, Exceptions, and Timers">
+<polygon fill="none" stroke="black" points="911.75,-253.75 703,-253.75 703,-208.25 911.75,-208.25 911.75,-253.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-234.55" font-family="Arial" font-size="16.00">Interrupts, Exceptions, and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-215.8" font-family="Arial" font-size="16.00">Timers</text>
+</a>
+</g>
+</g>
+
+<g id="edge3" class="edge">
+<title>n137-&gt;n138</title>
+<path fill="none" stroke="black" d="M609.75,-276.57C636.45,-270.39 666.74,-263.37 695.4,-256.72" />
+<polygon fill="black" stroke="black" points="695.87,-260.21 704.82,-254.54 694.29,-253.39 695.87,-260.21" />
+</g>
+
+<g id="node140" class="node">
+<title>n139</title>
+<g id="a_node140"><a xlink:href="#roadmap=devops&amp;topic=os_foundations_modes" xlink:title="Privilege Levels and System\nCalls" data-topic="os_foundations_modes" tabindex="-1" aria-label="Privilege Levels and System Calls">
+<polygon fill="none" stroke="black" points="917.38,-317.75 697.38,-317.75 697.38,-272.25 917.38,-272.25 917.38,-317.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-298.55" font-family="Arial" font-size="16.00">Privilege Levels and System</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-279.8" font-family="Arial" font-size="16.00">Calls</text>
+</a>
+</g>
+</g>
+
+<g id="edge2" class="edge">
+<title>n137-&gt;n139</title>
+<path fill="none" stroke="black" d="M620.66,-295C641.42,-295 663.82,-295 685.64,-295" />
+<polygon fill="black" stroke="black" points="685.46,-298.5 695.46,-295 685.46,-291.5 685.46,-298.5" />
+</g>
+
+<g id="node142" class="node">
+<title>n141</title>
+<g id="a_node142"><a xlink:href="#roadmap=devops&amp;topic=os_io_buffering" xlink:title="Buffering and Caching" data-topic="os_io_buffering" tabindex="-1" aria-label="Buffering and Caching">
+<polygon fill="none" stroke="black" points="895.25,-372 719.5,-372 719.5,-336 895.25,-336 895.25,-372" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-348.18" font-family="Arial" font-size="16.00">Buffering and Caching</text>
+</a>
+</g>
+</g>
+
+<g id="edge25" class="edge">
+<title>n140-&gt;n141</title>
+<path fill="none" stroke="black" d="M569.1,-426.61C599.82,-412.62 644.08,-393.68 684.25,-381 691.94,-378.57 699.96,-376.28 708.07,-374.14" />
+<polygon fill="black" stroke="black" points="708.86,-377.55 717.68,-371.69 707.12,-370.77 708.86,-377.55" />
+</g>
+
+<g id="node143" class="node">
+<title>n142</title>
+<g id="a_node143"><a xlink:href="#roadmap=devops&amp;topic=os_io_descriptors" xlink:title="File Descriptors and Device\nI/O" data-topic="os_io_descriptors" tabindex="-1" aria-label="File Descriptors and Device I/O">
+<polygon fill="none" stroke="black" points="914.38,-435.75 700.38,-435.75 700.38,-390.25 914.38,-390.25 914.38,-435.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-416.55" font-family="Arial" font-size="16.00">File Descriptors and Device</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-397.8" font-family="Arial" font-size="16.00">I/O</text>
+</a>
+</g>
+</g>
+
+<g id="edge24" class="edge">
+<title>n140-&gt;n142</title>
+<path fill="none" stroke="black" d="M597.8,-437.17C625.17,-434 657.6,-430.24 688.63,-426.65" />
+<polygon fill="black" stroke="black" points="688.95,-430.13 698.48,-425.5 688.14,-423.18 688.95,-430.13" />
+</g>
+
+<g id="node144" class="node">
+<title>n143</title>
+<g id="a_node144"><a xlink:href="#roadmap=devops&amp;topic=os_io_readiness" xlink:title="Blocking, Nonblocking I/O,\nand Readiness" data-topic="os_io_readiness" tabindex="-1" aria-label="Blocking, Nonblocking I/O, and Readiness">
+<polygon fill="none" stroke="black" points="910.62,-499.75 704.12,-499.75 704.12,-454.25 910.62,-454.25 910.62,-499.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-480.55" font-family="Arial" font-size="16.00">Blocking, Nonblocking I/O,</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-461.8" font-family="Arial" font-size="16.00">and Readiness</text>
+</a>
+</g>
+</g>
+
+<g id="edge26" class="edge">
+<title>n140-&gt;n143</title>
+<path fill="none" stroke="black" d="M597.8,-452.83C626.29,-456.13 660.26,-460.07 692.43,-463.79" />
+<polygon fill="black" stroke="black" points="691.88,-467.25 702.22,-464.93 692.69,-460.3 691.88,-467.25" />
+</g>
+
+<g id="node146" class="node">
+<title>n145</title>
+<g id="a_node146"><a xlink:href="#roadmap=devops&amp;topic=os_linux_processes" xlink:title="Process and CPU Inspection\n(ps, top)" data-topic="os_linux_processes" tabindex="-1" aria-label="Process and CPU Inspection (ps, top)">
+<polygon fill="none" stroke="black" points="918.5,-563.75 696.25,-563.75 696.25,-518.25 918.5,-518.25 918.5,-563.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-544.55" font-family="Arial" font-size="16.00">Process and CPU Inspection</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-525.8" font-family="Arial" font-size="16.00">(ps, top)</text>
+</a>
+</g>
+</g>
+
+<g id="edge47" class="edge">
+<title>n144-&gt;n145</title>
+<path fill="none" stroke="black" d="M561.15,-645.82C591.19,-624.25 638.82,-592.57 684.25,-573 688.32,-571.25 692.52,-569.57 696.78,-567.97" />
+<polygon fill="black" stroke="black" points="697.85,-571.3 706.09,-564.65 695.5,-564.71 697.85,-571.3" />
+</g>
+
+<g id="node147" class="node">
+<title>n146</title>
+<g id="a_node147"><a xlink:href="#roadmap=devops&amp;topic=os_linux_resources" xlink:title="Memory, Disk Space, and I/O\n(vmstat, df, du, iostat)" data-topic="os_linux_resources" tabindex="-1" aria-label="Memory, Disk Space, and I/O (vmstat, df, du, iostat)">
+<polygon fill="none" stroke="black" points="920.38,-627.75 694.38,-627.75 694.38,-582.25 920.38,-582.25 920.38,-627.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-608.55" font-family="Arial" font-size="16.00">Memory, Disk Space, and I/O</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-589.8" font-family="Arial" font-size="16.00">(vmstat, df, du, iostat)</text>
+</a>
+</g>
+</g>
+
+<g id="edge48" class="edge">
+<title>n144-&gt;n146</title>
+<path fill="none" stroke="black" d="M626.05,-646.8C648.4,-641.61 672.4,-636.05 695.35,-630.73" />
+<polygon fill="black" stroke="black" points="696.1,-634.15 705.05,-628.49 694.51,-627.33 696.1,-634.15" />
+</g>
+
+<g id="node148" class="node">
+<title>n147</title>
+<g id="a_node148"><a xlink:href="#roadmap=devops&amp;topic=os_linux_services" xlink:title="Service Lifecycle and Logs\n(systemd)" data-topic="os_linux_services" tabindex="-1" aria-label="Service Lifecycle and Logs (systemd)">
+<polygon fill="none" stroke="black" points="912.12,-691.75 702.62,-691.75 702.62,-646.25 912.12,-646.25 912.12,-691.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-672.55" font-family="Arial" font-size="16.00">Service Lifecycle and Logs</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-653.8" font-family="Arial" font-size="16.00">(systemd)</text>
+</a>
+</g>
+</g>
+
+<g id="edge46" class="edge">
+<title>n144-&gt;n147</title>
+<path fill="none" stroke="black" d="M626.05,-669C647.01,-669 669.4,-669 691.03,-669" />
+<polygon fill="black" stroke="black" points="690.75,-672.5 700.75,-669 690.75,-665.5 690.75,-672.5" />
+</g>
+
+<g id="node149" class="node">
+<title>n148</title>
+<g id="a_node149"><a xlink:href="#roadmap=devops&amp;topic=os_linux_tracing" xlink:title="System Call Tracing (strace)" data-topic="os_linux_tracing" tabindex="-1" aria-label="System Call Tracing (strace)">
+<polygon fill="none" stroke="black" points="917,-746 697.75,-746 697.75,-710 917,-710 917,-746" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-722.17" font-family="Arial" font-size="16.00">System Call Tracing (strace)</text>
+</a>
+</g>
+</g>
+
+<g id="edge49" class="edge">
+<title>n144-&gt;n148</title>
+<path fill="none" stroke="black" d="M626.05,-689.47C652.88,-695.2 682.07,-701.44 709,-707.19" />
+<polygon fill="black" stroke="black" points="707.99,-710.56 718.5,-709.22 709.46,-703.71 707.99,-710.56" />
+</g>
+
+<g id="node152" class="node">
+<title>n151</title>
+<g id="a_node152"><a xlink:href="#roadmap=devops&amp;topic=os_memory_allocation" xlink:title="Allocation: Stack and Heap" data-topic="os_memory_allocation" tabindex="-1" aria-label="Allocation: Stack and Heap">
+<polygon fill="none" stroke="black" points="912.5,-800 702.25,-800 702.25,-764 912.5,-764 912.5,-800" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-776.17" font-family="Arial" font-size="16.00">Allocation: Stack and Heap</text>
+</a>
+</g>
+</g>
+
+<g id="edge18" class="edge">
+<title>n149-&gt;n151</title>
+<path fill="none" stroke="black" d="M616.48,-819.14C643.3,-813.89 673.18,-808.05 701.14,-802.58" />
+<polygon fill="black" stroke="black" points="701.54,-806.07 710.68,-800.71 700.2,-799.2 701.54,-806.07" />
+</g>
+
+<g id="node155" class="node">
+<title>n154</title>
+<g id="a_node155"><a xlink:href="#roadmap=devops&amp;topic=os_memory_virtual" xlink:title="Virtual Memory" data-topic="os_memory_virtual" tabindex="-1" aria-label="Virtual Memory">
+<polygon fill="none" stroke="black" points="869.75,-854 745,-854 745,-818 869.75,-818 869.75,-854" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-830.17" font-family="Arial" font-size="16.00">Virtual Memory</text>
+</a>
+</g>
+</g>
+
+<g id="edge14" class="edge">
+<title>n149-&gt;n154</title>
+<path fill="none" stroke="black" d="M616.48,-836C654.03,-836 697.57,-836 733.48,-836" />
+<polygon fill="black" stroke="black" points="733.34,-839.5 743.34,-836 733.34,-832.5 733.34,-839.5" />
+</g>
+
+<g id="node151" class="node">
+<title>n150</title>
+<g id="a_node151"><a xlink:href="#roadmap=devops&amp;topic=os_memory_address" xlink:title="Address Spaces and Memory\nMapping" data-topic="os_memory_address" tabindex="-1" aria-label="Address Spaces and Memory Mapping">
+<polygon fill="none" stroke="black" points="1194.75,-794.75 966.5,-794.75 966.5,-749.25 1194.75,-749.25 1194.75,-794.75" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-775.55" font-family="Arial" font-size="16.00">Address Spaces and Memory</text>
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-756.8" font-family="Arial" font-size="16.00">Mapping</text>
+</a>
+</g>
+</g>
+
+<g id="node153" class="node">
+<title>n152</title>
+<g id="a_node153"><a xlink:href="#roadmap=devops&amp;topic=os_memory_paging" xlink:title="Paging, Page Faults, and\nSwapping" data-topic="os_memory_paging" tabindex="-1" aria-label="Paging, Page Faults, and Swapping">
+<polygon fill="none" stroke="black" points="1179.38,-858.75 981.88,-858.75 981.88,-813.25 1179.38,-813.25 1179.38,-858.75" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-839.55" font-family="Arial" font-size="16.00">Paging, Page Faults, and</text>
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-820.8" font-family="Arial" font-size="16.00">Swapping</text>
+</a>
+</g>
+</g>
+
+<g id="node154" class="node">
+<title>n153</title>
+<g id="a_node154"><a xlink:href="#roadmap=devops&amp;topic=os_memory_translation" xlink:title="Page Tables and Translation\nLookaside Buffers" data-topic="os_memory_translation" tabindex="-1" aria-label="Page Tables and Translation Lookaside Buffers">
+<polygon fill="none" stroke="black" points="1191,-922.75 970.25,-922.75 970.25,-877.25 1191,-877.25 1191,-922.75" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-903.55" font-family="Arial" font-size="16.00">Page Tables and Translation</text>
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-884.8" font-family="Arial" font-size="16.00">Lookaside Buffers</text>
+</a>
+</g>
+</g>
+
+<g id="edge15" class="edge">
+<title>n154-&gt;n150</title>
+<path fill="none" stroke="black" d="M869.95,-822.71C889.35,-818.44 910.84,-813.61 930.5,-809 945.59,-805.46 961.51,-801.62 977.1,-797.8" />
+<polygon fill="black" stroke="black" points="977.49,-801.31 986.36,-795.53 975.82,-794.52 977.49,-801.31" />
+</g>
+
+<g id="edge16" class="edge">
+<title>n154-&gt;n152</title>
+<path fill="none" stroke="black" d="M869.93,-836C899.56,-836 935.99,-836 970.13,-836" />
+<polygon fill="black" stroke="black" points="970.1,-839.5 980.1,-836 970.1,-832.5 970.1,-839.5" />
+</g>
+
+<g id="edge17" class="edge">
+<title>n154-&gt;n153</title>
+<path fill="none" stroke="black" d="M869.95,-849.29C889.35,-853.56 910.84,-858.39 930.5,-863 945.59,-866.54 961.51,-870.38 977.1,-874.2" />
+<polygon fill="black" stroke="black" points="975.82,-877.48 986.36,-876.47 977.49,-870.69 975.82,-877.48" />
+</g>
+
+<g id="node158" class="node">
+<title>n157</title>
+<g id="a_node158"><a xlink:href="#roadmap=devops&amp;topic=os_processes_ipc" xlink:title="IPC: Pipes, Shared Memory,\nand Message Queues" data-topic="os_processes_ipc" tabindex="-1" aria-label="IPC: Pipes, Shared Memory, and Message Queues">
+<polygon fill="none" stroke="black" points="916.62,-917.75 698.12,-917.75 698.12,-872.25 916.62,-872.25 916.62,-917.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-898.55" font-family="Arial" font-size="16.00">IPC: Pipes, Shared Memory,</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-879.8" font-family="Arial" font-size="16.00">and Message Queues</text>
+</a>
+</g>
+</g>
+
+<g id="edge11" class="edge">
+<title>n155-&gt;n157</title>
+<path fill="none" stroke="black" d="M548.45,-1028.7C575.64,-1002.38 629.56,-954.04 684.25,-927 687.39,-925.45 690.62,-923.96 693.9,-922.55" />
+<polygon fill="black" stroke="black" points="695.2,-925.8 703.17,-918.81 692.59,-919.3 695.2,-925.8" />
+</g>
+
+<g id="node159" class="node">
+<title>n158</title>
+<g id="a_node159"><a xlink:href="#roadmap=devops&amp;topic=os_processes_lifecycle" xlink:title="Process Creation, Execution,\nand Exit" data-topic="os_processes_lifecycle" tabindex="-1" aria-label="Process Creation, Execution, and Exit">
+<polygon fill="none" stroke="black" points="919.62,-981.75 695.12,-981.75 695.12,-936.25 919.62,-936.25 919.62,-981.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-962.55" font-family="Arial" font-size="16.00">Process Creation, Execution,</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-943.8" font-family="Arial" font-size="16.00">and Exit</text>
+</a>
+</g>
+</g>
+
+<g id="edge10" class="edge">
+<title>n155-&gt;n158</title>
+<path fill="none" stroke="black" d="M577.39,-1028.58C607.67,-1017.06 648,-1002.31 684.25,-991 690.42,-989.08 696.78,-987.17 703.22,-985.31" />
+<polygon fill="black" stroke="black" points="703.98,-988.73 712.64,-982.62 702.06,-982 703.98,-988.73" />
+</g>
+
+<g id="node160" class="node">
+<title>n159</title>
+<g id="a_node160"><a xlink:href="#roadmap=devops&amp;topic=os_processes_multithreading" xlink:title="Concurrency and Parallelism" data-topic="os_processes_multithreading" tabindex="-1" aria-label="Concurrency and Parallelism">
+<polygon fill="none" stroke="black" points="918.88,-1036 695.88,-1036 695.88,-1000 918.88,-1000 918.88,-1036" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1012.17" font-family="Arial" font-size="16.00">Concurrency and Parallelism</text>
+</a>
+</g>
+</g>
+
+<g id="edge7" class="edge">
+<title>n155-&gt;n159</title>
+<path fill="none" stroke="black" d="M622.96,-1037.26C642.66,-1035.19 663.74,-1032.98 684.34,-1030.82" />
+<polygon fill="black" stroke="black" points="684.64,-1034.3 694.22,-1029.78 683.91,-1027.34 684.64,-1034.3" />
+</g>
+
+<g id="node161" class="node">
+<title>n160</title>
+<g id="a_node161"><a xlink:href="#roadmap=devops&amp;topic=os_processes_scheduling" xlink:title="CPU Scheduling and Context\nSwitching" data-topic="os_processes_scheduling" tabindex="-1" aria-label="CPU Scheduling and Context Switching">
+<polygon fill="none" stroke="black" points="920,-1099.75 694.75,-1099.75 694.75,-1054.25 920,-1054.25 920,-1099.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1080.55" font-family="Arial" font-size="16.00">CPU Scheduling and Context</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1061.8" font-family="Arial" font-size="16.00">Switching</text>
+</a>
+</g>
+</g>
+
+<g id="edge6" class="edge">
+<title>n155-&gt;n160</title>
+<path fill="none" stroke="black" d="M622.96,-1057.07C642.26,-1059.17 662.89,-1061.41 683.1,-1063.61" />
+<polygon fill="black" stroke="black" points="682.44,-1067.06 692.76,-1064.66 683.2,-1060.1 682.44,-1067.06" />
+</g>
+
+<g id="node162" class="node">
+<title>n161</title>
+<g id="a_node162"><a xlink:href="#roadmap=devops&amp;topic=os_processes_signals" xlink:title="Signals and Process\nTermination" data-topic="os_processes_signals" tabindex="-1" aria-label="Signals and Process Termination">
+<polygon fill="none" stroke="black" points="889.25,-1163.75 725.5,-1163.75 725.5,-1118.25 889.25,-1118.25 889.25,-1163.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1144.55" font-family="Arial" font-size="16.00">Signals and Process</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1125.8" font-family="Arial" font-size="16.00">Termination</text>
+</a>
+</g>
+</g>
+
+<g id="edge12" class="edge">
+<title>n155-&gt;n161</title>
+<path fill="none" stroke="black" d="M571.88,-1065.43C602.57,-1078.6 645.53,-1096.19 684.25,-1109 693.88,-1112.19 704.01,-1115.26 714.16,-1118.17" />
+<polygon fill="black" stroke="black" points="713.12,-1121.51 723.69,-1120.85 715.01,-1114.77 713.12,-1121.51" />
+</g>
+
+<g id="node164" class="node">
+<title>n163</title>
+<g id="a_node164"><a xlink:href="#roadmap=devops&amp;topic=os_processes_threads" xlink:title="Thread Lifecycle and Shared\nAddress Space" data-topic="os_processes_threads" tabindex="-1" aria-label="Thread Lifecycle and Shared Address Space">
+<polygon fill="none" stroke="black" points="918.88,-1227.75 695.88,-1227.75 695.88,-1182.25 918.88,-1182.25 918.88,-1227.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1208.55" font-family="Arial" font-size="16.00">Thread Lifecycle and Shared</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1189.8" font-family="Arial" font-size="16.00">Address Space</text>
+</a>
+</g>
+</g>
+
+<g id="edge5" class="edge">
+<title>n155-&gt;n163</title>
+<path fill="none" stroke="black" d="M547.37,-1065.35C574.02,-1092.82 628.22,-1144.47 684.25,-1173 687.32,-1174.57 690.48,-1176.06 693.7,-1177.49" />
+<polygon fill="black" stroke="black" points="692.19,-1180.65 702.77,-1181.23 694.86,-1174.18 692.19,-1180.65" />
+</g>
+
+<g id="node157" class="node">
+<title>n156</title>
+<g id="a_node157"><a xlink:href="#roadmap=devops&amp;topic=os_processes_failures" xlink:title="Race Conditions and\nDeadlocks" data-topic="os_processes_failures" tabindex="-1" aria-label="Race Conditions and Deadlocks">
+<polygon fill="none" stroke="black" points="1163.62,-1013.75 997.62,-1013.75 997.62,-968.25 1163.62,-968.25 1163.62,-1013.75" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-994.55" font-family="Arial" font-size="16.00">Race Conditions and</text>
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-975.8" font-family="Arial" font-size="16.00">Deadlocks</text>
+</a>
+</g>
+</g>
+
+<g id="edge9" class="edge">
+<title>n159-&gt;n156</title>
+<path fill="none" stroke="black" d="M919.09,-1006.98C941.42,-1004.76 964.69,-1002.44 986.35,-1000.28" />
+<polygon fill="black" stroke="black" points="986.4,-1003.8 996.01,-999.32 985.71,-996.83 986.4,-1003.8" />
+</g>
+
+<g id="node163" class="node">
+<title>n162</title>
+<g id="a_node163"><a xlink:href="#roadmap=devops&amp;topic=os_processes_sync" xlink:title="Locks, Semaphores, and\nCondition Variables" data-topic="os_processes_sync" tabindex="-1" aria-label="Locks, Semaphores, and Condition Variables">
+<polygon fill="none" stroke="black" points="1178.25,-1077.75 983,-1077.75 983,-1032.25 1178.25,-1032.25 1178.25,-1077.75" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1058.55" font-family="Arial" font-size="16.00">Locks, Semaphores, and</text>
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1039.8" font-family="Arial" font-size="16.00">Condition Variables</text>
+</a>
+</g>
+</g>
+
+<g id="edge8" class="edge">
+<title>n159-&gt;n162</title>
+<path fill="none" stroke="black" d="M919.09,-1033.1C936.4,-1035.46 954.26,-1037.9 971.51,-1040.25" />
+<polygon fill="black" stroke="black" points="970.86,-1043.7 981.24,-1041.58 971.8,-1036.76 970.86,-1043.7" />
+</g>
+
+<g id="node166" class="node">
+<title>n165</title>
+<g id="a_node166"><a xlink:href="#roadmap=devops&amp;topic=os_protection_identity" xlink:title="Users, Groups, and Least\nPrivilege" data-topic="os_protection_identity" tabindex="-1" aria-label="Users, Groups, and Least Privilege">
+<polygon fill="none" stroke="black" points="907.62,-1291.75 707.12,-1291.75 707.12,-1246.25 907.62,-1246.25 907.62,-1291.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1272.55" font-family="Arial" font-size="16.00">Users, Groups, and Least</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1253.8" font-family="Arial" font-size="16.00">Privilege</text>
+</a>
+</g>
+</g>
+
+<g id="edge28" class="edge">
+<title>n164-&gt;n165</title>
+<path fill="none" stroke="black" d="M618,-1269C642.62,-1269 669.72,-1269 695.5,-1269" />
+<polygon fill="black" stroke="black" points="695.33,-1272.5 705.33,-1269 695.33,-1265.5 695.33,-1272.5" />
+</g>
+
+<g id="node167" class="node">
+<title>n166</title>
+<g id="a_node167"><a xlink:href="#roadmap=devops&amp;topic=os_protection_isolation" xlink:title="Process Isolation and Access\nChecks" data-topic="os_protection_isolation" tabindex="-1" aria-label="Process Isolation and Access Checks">
+<polygon fill="none" stroke="black" points="921.12,-1355.75 693.62,-1355.75 693.62,-1310.25 921.12,-1310.25 921.12,-1355.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1336.55" font-family="Arial" font-size="16.00">Process Isolation and Access</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1317.8" font-family="Arial" font-size="16.00">Checks</text>
+</a>
+</g>
+</g>
+
+<g id="edge29" class="edge">
+<title>n164-&gt;n166</title>
+<path fill="none" stroke="black" d="M618,-1289.34C642.59,-1295.04 669.66,-1301.31 695.41,-1307.28" />
+<polygon fill="black" stroke="black" points="694.35,-1310.63 704.88,-1309.48 695.93,-1303.81 694.35,-1310.63" />
+</g>
+
+<g id="node169" class="node">
+<title>n168</title>
+<g id="a_node169"><a xlink:href="#roadmap=devops&amp;topic=os_shell_bash" xlink:title="Bash" data-topic="os_shell_bash" tabindex="-1" aria-label="Bash">
+<polygon fill="none" stroke="black" points="834.38,-1410 780.38,-1410 780.38,-1374 834.38,-1374 834.38,-1410" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1386.17" font-family="Arial" font-size="16.00">Bash</text>
+</a>
+</g>
+</g>
+
+<g id="edge43" class="edge">
+<title>n167-&gt;n168</title>
+<path fill="none" stroke="black" d="M579.7,-1459.83C609.51,-1446.53 648.49,-1430.29 684.25,-1419 712.19,-1410.18 744.6,-1403.16 769.01,-1398.49" />
+<polygon fill="black" stroke="black" points="769.62,-1401.94 778.81,-1396.66 768.34,-1395.05 769.62,-1401.94" />
+</g>
+
+<g id="node170" class="node">
+<title>n169</title>
+<g id="a_node170"><a xlink:href="#roadmap=devops&amp;topic=os_shell_expansion" xlink:title="Quoting, Expansion, and\nEnvironment Variables" data-topic="os_shell_expansion" tabindex="-1" aria-label="Quoting, Expansion, and Environment Variables">
+<polygon fill="none" stroke="black" points="904.25,-1473.75 710.5,-1473.75 710.5,-1428.25 904.25,-1428.25 904.25,-1473.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1454.55" font-family="Arial" font-size="16.00">Quoting, Expansion, and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1435.8" font-family="Arial" font-size="16.00">Environment Variables</text>
+</a>
+</g>
+</g>
+
+<g id="edge40" class="edge">
+<title>n167-&gt;n169</title>
+<path fill="none" stroke="black" d="M632.68,-1471.13C654.24,-1468.63 677.05,-1465.99 698.8,-1463.47" />
+<polygon fill="black" stroke="black" points="699.03,-1466.96 708.56,-1462.34 698.22,-1460.01 699.03,-1466.96" />
+</g>
+
+<g id="node171" class="node">
+<title>n170</title>
+<g id="a_node171"><a xlink:href="#roadmap=devops&amp;topic=os_shell_jobs" xlink:title="Exit Status, Signals, and\nJob Control" data-topic="os_shell_jobs" tabindex="-1" aria-label="Exit Status, Signals, and Job Control">
+<polygon fill="none" stroke="black" points="903.12,-1537.75 711.62,-1537.75 711.62,-1492.25 903.12,-1492.25 903.12,-1537.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1518.55" font-family="Arial" font-size="16.00">Exit Status, Signals, and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1499.8" font-family="Arial" font-size="16.00">Job Control</text>
+</a>
+</g>
+</g>
+
+<g id="edge42" class="edge">
+<title>n167-&gt;n170</title>
+<path fill="none" stroke="black" d="M632.68,-1494.87C654.73,-1497.43 678.1,-1500.13 700.29,-1502.71" />
+<polygon fill="black" stroke="black" points="699.59,-1506.15 709.92,-1503.82 700.39,-1499.19 699.59,-1506.15" />
+</g>
+
+<g id="node172" class="node">
+<title>n171</title>
+<g id="a_node172"><a xlink:href="#roadmap=devops&amp;topic=os_shell_pipelines" xlink:title="Pipelines and Redirection" data-topic="os_shell_pipelines" tabindex="-1" aria-label="Pipelines and Redirection">
+<polygon fill="none" stroke="black" points="907.25,-1592 707.5,-1592 707.5,-1556 907.25,-1556 907.25,-1592" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1568.17" font-family="Arial" font-size="16.00">Pipelines and Redirection</text>
+</a>
+</g>
+</g>
+
+<g id="edge41" class="edge">
+<title>n167-&gt;n171</title>
+<path fill="none" stroke="black" d="M579.7,-1506.17C609.51,-1519.47 648.49,-1535.71 684.25,-1547 690.48,-1548.97 696.94,-1550.85 703.48,-1552.63" />
+<polygon fill="black" stroke="black" points="702.52,-1556 713.08,-1555.15 704.3,-1549.23 702.52,-1556" />
+</g>
+
+<g id="node173" class="node">
+<title>n172</title>
+<g id="a_node173"><a xlink:href="#roadmap=devops&amp;topic=os_shell_zsh" xlink:title="Zsh" data-topic="os_shell_zsh" tabindex="-1" aria-label="Zsh">
+<polygon fill="none" stroke="black" points="834.38,-1646 780.38,-1646 780.38,-1610 834.38,-1610 834.38,-1646" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1622.17" font-family="Arial" font-size="16.00">Zsh</text>
+</a>
+</g>
+</g>
+
+<g id="edge44" class="edge">
+<title>n167-&gt;n172</title>
+<path fill="none" stroke="black" d="M553.39,-1506.06C581.76,-1532.99 632.49,-1576.9 684.25,-1601 711.1,-1613.5 744.01,-1620.34 768.9,-1624.01" />
+<polygon fill="black" stroke="black" points="768.18,-1627.45 778.56,-1625.32 769.12,-1620.51 768.18,-1627.45" />
+</g>
+
+<g id="node175" class="node">
+<title>n174</title>
+<g id="a_node175"><a xlink:href="#roadmap=devops&amp;topic=os_types_batch" xlink:title="Workload: Batch Processing" data-topic="os_types_batch" tabindex="-1" aria-label="Workload: Batch Processing">
+<polygon fill="none" stroke="black" points="917,-1700 697.75,-1700 697.75,-1664 917,-1664 917,-1700" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1676.17" font-family="Arial" font-size="16.00">Workload: Batch Processing</text>
+</a>
+</g>
+</g>
+
+<g id="edge51" class="edge">
+<title>n173-&gt;n174</title>
+<path fill="none" stroke="black" d="M579.7,-1749.83C609.51,-1736.53 648.49,-1720.29 684.25,-1709 690.48,-1707.03 696.94,-1705.15 703.48,-1703.37" />
+<polygon fill="black" stroke="black" points="704.3,-1706.77 713.08,-1700.85 702.52,-1700 704.3,-1706.77" />
+</g>
+
+<g id="node176" class="node">
+<title>n175</title>
+<g id="a_node176"><a xlink:href="#roadmap=devops&amp;topic=os_types_distributed" xlink:title="Coordination: Distributed\nSystems" data-topic="os_types_distributed" tabindex="-1" aria-label="Coordination: Distributed Systems">
+<polygon fill="none" stroke="black" points="904.25,-1763.75 710.5,-1763.75 710.5,-1718.25 904.25,-1718.25 904.25,-1763.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1744.55" font-family="Arial" font-size="16.00">Coordination: Distributed</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1725.8" font-family="Arial" font-size="16.00">Systems</text>
+</a>
+</g>
+</g>
+
+<g id="edge53" class="edge">
+<title>n173-&gt;n175</title>
+<path fill="none" stroke="black" d="M602.44,-1764.63C631.88,-1761.22 666.55,-1757.2 698.87,-1753.46" />
+<polygon fill="black" stroke="black" points="699.15,-1756.95 708.68,-1752.32 698.35,-1750 699.15,-1756.95" />
+</g>
+
+<g id="node177" class="node">
+<title>n176</title>
+<g id="a_node177"><a xlink:href="#roadmap=devops&amp;topic=os_types_network" xlink:title="Connectivity: Network\nOperating Systems" data-topic="os_types_network" tabindex="-1" aria-label="Connectivity: Network Operating Systems">
+<polygon fill="none" stroke="black" points="893.38,-1827.75 721.38,-1827.75 721.38,-1782.25 893.38,-1782.25 893.38,-1827.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1808.55" font-family="Arial" font-size="16.00">Connectivity: Network</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1789.8" font-family="Arial" font-size="16.00">Operating Systems</text>
+</a>
+</g>
+</g>
+
+<g id="edge54" class="edge">
+<title>n173-&gt;n176</title>
+<path fill="none" stroke="black" d="M602.44,-1781.37C635.24,-1785.17 674.52,-1789.72 709.82,-1793.81" />
+<polygon fill="black" stroke="black" points="709.28,-1797.27 719.62,-1794.95 710.09,-1790.32 709.28,-1797.27" />
+</g>
+
+<g id="node178" class="node">
+<title>n177</title>
+<g id="a_node178"><a xlink:href="#roadmap=devops&amp;topic=os_types_realtime" xlink:title="Timing: Real-Time Guarantees" data-topic="os_types_realtime" tabindex="-1" aria-label="Timing: Real-Time Guarantees">
+<polygon fill="none" stroke="black" points="925.25,-1882 689.5,-1882 689.5,-1846 925.25,-1846 925.25,-1882" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1858.17" font-family="Arial" font-size="16.00">Timing: Real-Time Guarantees</text>
+</a>
+</g>
+</g>
+
+<g id="edge55" class="edge">
+<title>n173-&gt;n177</title>
+<path fill="none" stroke="black" d="M579.7,-1796.17C609.51,-1809.47 648.49,-1825.71 684.25,-1837 690.48,-1838.97 696.94,-1840.85 703.48,-1842.63" />
+<polygon fill="black" stroke="black" points="702.52,-1846 713.08,-1845.15 704.3,-1839.23 702.52,-1846" />
+</g>
+
+<g id="node179" class="node">
+<title>n178</title>
+<g id="a_node179"><a xlink:href="#roadmap=devops&amp;topic=os_types_time_sharing" xlink:title="Workload: Interactive\nTime-Sharing" data-topic="os_types_time_sharing" tabindex="-1" aria-label="Workload: Interactive Time-Sharing">
+<polygon fill="none" stroke="black" points="891.5,-1945.75 723.25,-1945.75 723.25,-1900.25 891.5,-1900.25 891.5,-1945.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1926.55" font-family="Arial" font-size="16.00">Workload: Interactive</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1907.8" font-family="Arial" font-size="16.00">Time-Sharing</text>
+</a>
+</g>
+</g>
+
+<g id="edge52" class="edge">
+<title>n173-&gt;n178</title>
+<path fill="none" stroke="black" d="M554.06,-1796.19C582.68,-1822.83 633.27,-1866.06 684.25,-1891 693.05,-1895.3 702.49,-1899.08 712.1,-1902.38" />
+<polygon fill="black" stroke="black" points="710.94,-1905.69 721.54,-1905.45 713.1,-1899.03 710.94,-1905.69" />
+</g>
+
+<g id="node183" class="node">
+<title>n182</title>
+<g id="a_node183"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_level" xlink:title="OS-Level Virtualization and\nContainers" data-topic="os_virtualization_level" tabindex="-1" aria-label="OS-Level Virtualization and Containers">
+<polygon fill="none" stroke="black" points="913.62,-2009.75 701.12,-2009.75 701.12,-1964.25 913.62,-1964.25 913.62,-2009.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1990.55" font-family="Arial" font-size="16.00">OS-Level Virtualization and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-1971.8" font-family="Arial" font-size="16.00">Containers</text>
+</a>
+</g>
+</g>
+
+<g id="edge31" class="edge">
+<title>n179-&gt;n182</title>
+<path fill="none" stroke="black" d="M584.15,-1987C614.23,-1987 652.93,-1987 689.59,-1987" />
+<polygon fill="black" stroke="black" points="689.37,-1990.5 699.37,-1987 689.37,-1983.5 689.37,-1990.5" />
+</g>
+
+<g id="node186" class="node">
+<title>n185</title>
+<g id="a_node186"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_x86" xlink:title="Hardware Virtualization and\nHypervisors" data-topic="os_virtualization_x86" tabindex="-1" aria-label="Hardware Virtualization and Hypervisors">
+<polygon fill="none" stroke="black" points="914.38,-2073.75 700.38,-2073.75 700.38,-2028.25 914.38,-2028.25 914.38,-2073.75" />
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2054.55" font-family="Arial" font-size="16.00">Hardware Virtualization and</text>
+<text xml:space="preserve" text-anchor="middle" x="807.38" y="-2035.8" font-family="Arial" font-size="16.00">Hypervisors</text>
+</a>
+</g>
+</g>
+
+<g id="edge35" class="edge">
+<title>n179-&gt;n185</title>
+<path fill="none" stroke="black" d="M584.15,-1999.49C615.85,-2006.84 657.13,-2016.41 695.5,-2025.3" />
+<polygon fill="black" stroke="black" points="694.22,-2028.6 704.75,-2027.45 695.8,-2021.78 694.22,-2028.6" />
+</g>
+
+<g id="node181" class="node">
+<title>n180</title>
+<g id="a_node181"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_cgroups" xlink:title="Linux Control Groups" data-topic="os_virtualization_cgroups" tabindex="-1" aria-label="Linux Control Groups">
+<polygon fill="none" stroke="black" points="1165.12,-1793 996.12,-1793 996.12,-1757 1165.12,-1757 1165.12,-1793" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1769.17" font-family="Arial" font-size="16.00">Linux Control Groups</text>
+</a>
+</g>
+</g>
+
+<g id="node182" class="node">
+<title>n181</title>
+<g id="a_node182"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_guests" xlink:title="Hosts, Guests, and Virtual\nHardware" data-topic="os_virtualization_guests" tabindex="-1" aria-label="Hosts, Guests, and Virtual Hardware">
+<polygon fill="none" stroke="black" points="1182.75,-1964.75 978.5,-1964.75 978.5,-1919.25 1182.75,-1919.25 1182.75,-1964.75" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1945.55" font-family="Arial" font-size="16.00">Hosts, Guests, and Virtual</text>
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1926.8" font-family="Arial" font-size="16.00">Hardware</text>
+</a>
+</g>
+</g>
+
+<g id="edge33" class="edge">
+<title>n182-&gt;n180</title>
+<path fill="none" stroke="black" d="M914.01,-1967.91C920.02,-1964.29 925.6,-1960.02 930.5,-1955 979.27,-1904.99 917.18,-1851.48 966.5,-1802 972.01,-1796.48 978.43,-1792 985.36,-1788.39" />
+<polygon fill="black" stroke="black" points="986.77,-1791.6 994.46,-1784.31 983.9,-1785.21 986.77,-1791.6" />
+</g>
+
+<g id="node184" class="node">
+<title>n183</title>
+<g id="a_node184"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_level_docker" xlink:title="Docker" data-topic="os_virtualization_level_docker" tabindex="-1" aria-label="Docker">
+<polygon fill="none" stroke="black" points="1114.12,-1847 1047.12,-1847 1047.12,-1811 1114.12,-1811 1114.12,-1847" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1823.17" font-family="Arial" font-size="16.00">Docker</text>
+</a>
+</g>
+</g>
+
+<g id="edge34" class="edge">
+<title>n182-&gt;n183</title>
+<path fill="none" stroke="black" d="M913.92,-1966.9C919.88,-1963.52 925.48,-1959.58 930.5,-1955 965.1,-1923.46 931.55,-1887.16 966.5,-1856 985.26,-1839.27 1012.52,-1832.43 1035.58,-1829.81" />
+<polygon fill="black" stroke="black" points="1035.68,-1833.32 1045.34,-1828.95 1035.07,-1826.34 1035.68,-1833.32" />
+</g>
+
+<g id="node185" class="node">
+<title>n184</title>
+<g id="a_node185"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_namespaces" xlink:title="Linux Namespaces" data-topic="os_virtualization_namespaces" tabindex="-1" aria-label="Linux Namespaces">
+<polygon fill="none" stroke="black" points="1157.62,-1901 1003.62,-1901 1003.62,-1865 1157.62,-1865 1157.62,-1901" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1877.17" font-family="Arial" font-size="16.00">Linux Namespaces</text>
+</a>
+</g>
+</g>
+
+<g id="edge32" class="edge">
+<title>n182-&gt;n184</title>
+<path fill="none" stroke="black" d="M913.89,-1964.16C919.68,-1961.45 925.26,-1958.4 930.5,-1955 951.98,-1941.05 944.87,-1923.72 966.5,-1910 974.47,-1904.95 983.29,-1900.84 992.4,-1897.5" />
+<polygon fill="black" stroke="black" points="993.36,-1900.87 1001.75,-1894.4 991.15,-1894.23 993.36,-1900.87" />
+</g>
+
+<g id="edge36" class="edge">
+<title>n185-&gt;n181</title>
+<path fill="none" stroke="black" d="M914.49,-2027.88C920.07,-2025.23 925.45,-2022.28 930.5,-2019 951.98,-2005.05 945.16,-1988.16 966.5,-1974 968.35,-1972.77 970.25,-1971.59 972.18,-1970.46" />
+<polygon fill="black" stroke="black" points="973.64,-1973.64 980.82,-1965.85 970.35,-1967.47 973.64,-1973.64" />
+</g>
+
+<g id="node187" class="node">
+<title>n186</title>
+<g id="a_node187"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_x86_virtualbox" xlink:title="VirtualBox" data-topic="os_virtualization_x86_virtualbox" tabindex="-1" aria-label="VirtualBox">
+<polygon fill="none" stroke="black" points="1125.38,-2019 1035.88,-2019 1035.88,-1983 1125.38,-1983 1125.38,-2019" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-1995.17" font-family="Arial" font-size="16.00">VirtualBox</text>
+</a>
+</g>
+</g>
+
+<g id="edge37" class="edge">
+<title>n185-&gt;n186</title>
+<path fill="none" stroke="black" d="M914.8,-2031.38C952.21,-2024.49 992.73,-2017.02 1024.23,-2011.21" />
+<polygon fill="black" stroke="black" points="1024.72,-2014.68 1033.92,-2009.42 1023.45,-2007.8 1024.72,-2014.68" />
+</g>
+
+<g id="node188" class="node">
+<title>n187</title>
+<g id="a_node188"><a xlink:href="#roadmap=devops&amp;topic=os_virtualization_x86_vmware" xlink:title="VMware ESXi" data-topic="os_virtualization_x86_vmware" tabindex="-1" aria-label="VMware ESXi">
+<polygon fill="none" stroke="black" points="1137.75,-2073 1023.5,-2073 1023.5,-2037 1137.75,-2037 1137.75,-2073" />
+<text xml:space="preserve" text-anchor="middle" x="1080.62" y="-2049.18" font-family="Arial" font-size="16.00">VMware ESXi</text>
+</a>
+</g>
+</g>
+
+<g id="edge38" class="edge">
+<title>n185-&gt;n187</title>
+<path fill="none" stroke="black" d="M914.8,-2052.57C947.43,-2053.05 982.42,-2053.57 1011.73,-2054" />
+<polygon fill="black" stroke="black" points="1011.52,-2057.5 1021.58,-2054.14 1011.63,-2050.5 1011.52,-2057.5" />
+</g>
+</g>
+</svg>
