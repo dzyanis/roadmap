@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
+    <article lang="en">
+        <title>AWS Well-Architected Framework</title>
+        <url>https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html</url>
+        <tags>
+            <tag>aws</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS overview</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html</url>
+        <tags>
+            <tag>aws_foundations</tag>
+            <tag>aws_foundations_locations</tag>
+            <tag>aws_foundations_accounts</tag>
+            <tag>aws_foundations_responsibility</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS shared responsibility model</title>
+        <url>https://aws.amazon.com/compliance/shared-responsibility-model/</url>
+        <tags>
+            <tag>aws_foundations_responsibility</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Organizations concepts</title>
+        <url>https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html</url>
+        <tags>
+            <tag>aws_foundations_accounts</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS security pillar</title>
+        <url>https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html</url>
+        <tags>
+            <tag>aws_security</tag>
+            <tag>aws_security_iam</tag>
+            <tag>aws_security_federation</tag>
+            <tag>aws_security_kms</tag>
+            <tag>aws_security_secrets</tag>
+            <tag>aws_security_audit</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>IAM best practices</title>
+        <url>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html</url>
+        <tags>
+            <tag>aws_security_iam</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>IAM Identity Center</title>
+        <url>https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html</url>
+        <tags>
+            <tag>aws_security_federation</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS KMS concepts</title>
+        <url>https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html</url>
+        <tags>
+            <tag>aws_security_kms</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Secrets Manager</title>
+        <url>https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html</url>
+        <tags>
+            <tag>aws_security_secrets</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS CloudTrail</title>
+        <url>https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html</url>
+        <tags>
+            <tag>aws_security_audit</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Amazon VPC concepts</title>
+        <url>https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html</url>
+        <tags>
+            <tag>aws_network</tag>
+            <tag>aws_network_vpc</tag>
+            <tag>aws_network_connectivity</tag>
+            <tag>aws_network_dns</tag>
+            <tag>aws_network_balance</tag>
+            <tag>aws_network_edge</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Amazon Route 53</title>
+        <url>https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html</url>
+        <tags>
+            <tag>aws_network_dns</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Elastic Load Balancing</title>
+        <url>https://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html</url>
+        <tags>
+            <tag>aws_network_balance</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Amazon CloudFront</title>
+        <url>https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html</url>
+        <tags>
+            <tag>aws_network_edge</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS compute choices</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/aws-overview/compute-services.html</url>
+        <tags>
+            <tag>aws_compute</tag>
+            <tag>aws_compute_ec2</tag>
+            <tag>aws_compute_containers</tag>
+            <tag>aws_compute_lambda</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Containers on AWS</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/aws-overview/containers.html</url>
+        <tags>
+            <tag>aws_compute_containers</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Lambda overview and compute choices</title>
+        <url>https://docs.aws.amazon.com/lambda/latest/dg/welcome.html</url>
+        <tags>
+            <tag>aws_compute_lambda</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS storage choices</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html</url>
+        <tags>
+            <tag>aws_storage</tag>
+            <tag>aws_storage_s3</tag>
+            <tag>aws_storage_ebs</tag>
+            <tag>aws_storage_efs</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>S3 lifecycle management</title>
+        <url>https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html</url>
+        <tags>
+            <tag>aws_storage_s3</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS database choices</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html</url>
+        <tags>
+            <tag>aws_data</tag>
+            <tag>aws_data_rds</tag>
+            <tag>aws_data_dynamo</tag>
+            <tag>aws_data_cache</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS application integration</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/aws-overview/application-integration.html</url>
+        <tags>
+            <tag>aws_integration</tag>
+            <tag>aws_integration_sns</tag>
+            <tag>aws_integration_events</tag>
+            <tag>aws_integration_workflow</tag>
+            <tag>aws_integration_retries</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>SQS: queue semantics and reliable consumers</title>
+        <url>https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html</url>
+        <tags>
+            <tag>db_message_broker_awssqs</tag>
+            <tag>aws_integration_retries</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS reliability pillar</title>
+        <url>https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html</url>
+        <tags>
+            <tag>aws_operations</tag>
+            <tag>aws_operations_zones</tag>
+            <tag>aws_operations_scale</tag>
+            <tag>aws_operations_observe</tag>
+            <tag>aws_operations_backup</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Amazon CloudWatch</title>
+        <url>https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html</url>
+        <tags>
+            <tag>aws_operations_observe</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Backup</title>
+        <url>https://docs.aws.amazon.com/aws-backup/latest/devguide/whatisbackup.html</url>
+        <tags>
+            <tag>aws_operations_backup</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS operational excellence pillar</title>
+        <url>https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/welcome.html</url>
+        <tags>
+            <tag>aws_governance</tag>
+            <tag>aws_governance_iac</tag>
+            <tag>aws_governance_policies</tag>
+            <tag>aws_governance_cost</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS CloudFormation</title>
+        <url>https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html</url>
+        <tags>
+            <tag>aws_governance_iac</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Service control policies</title>
+        <url>https://docs.aws.amazon.com/organizations/latest/userguide/orgs_manage_policies_scps.html</url>
+        <tags>
+            <tag>aws_governance_policies</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS cost optimization pillar</title>
+        <url>https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html</url>
+        <tags>
+            <tag>aws_governance_cost</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Config</title>
+        <url>https://docs.aws.amazon.com/config/latest/developerguide/WhatIsConfig.html</url>
+        <tags>
+            <tag>aws_governance_policies</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Budgets</title>
+        <url>https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html</url>
+        <tags>
+            <tag>aws_governance_cost</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Disaster recovery options on AWS</title>
+        <url>https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-options-in-the-cloud.html</url>
+        <tags>
+            <tag>aws_advanced</tag>
+            <tag>aws_advanced_dr</tag>
+            <tag>aws_advanced_hybrid</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS Direct Connect</title>
+        <url>https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html</url>
+        <tags>
+            <tag>aws_advanced_hybrid</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>AWS CDK: infrastructure through CloudFormation</title>
+        <url>https://docs.aws.amazon.com/cdk/v2/guide/home.html</url>
+        <tags><tag>aws_governance_iac</tag></tags>
+    </article>
+    <article lang="en">
+        <title>AWS Regions and Availability Zones</title>
+        <url>https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html</url>
+        <tags><tag>aws_foundations_locations</tag><tag>aws_operations_zones</tag></tags>
+    </article>
+</materials>

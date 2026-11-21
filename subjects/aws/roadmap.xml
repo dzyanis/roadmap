@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlgraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/roadmap.xsd">
+    <graph id="aws">
+        <node id="aws" label="AWS platform choices"/>
+        <node id="aws_foundations" label="1. Cloud foundations"/>
+        <node id="aws_foundations_locations" label="Regions, Availability Zones and service scope"/>
+        <node id="aws_foundations_accounts" label="Accounts, Organizations and environment boundaries"/>
+        <node id="aws_foundations_responsibility" label="Shared responsibility and managed-service boundaries"/>
+        <node id="aws_security" label="2. Identity and data protection"/>
+        <node id="aws_security_iam" label="IAM roles, policies and least privilege"/>
+        <node id="aws_security_federation" label="IAM Identity Center and temporary credentials"/>
+        <node id="aws_security_kms" label="KMS encryption and key permissions"/>
+        <node id="aws_security_secrets" label="Secrets Manager and rotation"/>
+        <node id="aws_security_audit" label="CloudTrail audit events and accountability"/>
+        <node id="aws_network" label="3. Networking and delivery"/>
+        <node id="aws_network_vpc" label="VPC subnets, routes, security groups and NACLs"/>
+        <node id="aws_network_connectivity" label="Internet/NAT gateways, endpoints and VPN choices"/>
+        <node id="aws_network_dns" label="Route 53 DNS and health-based routing"/>
+        <node id="aws_network_balance" label="Elastic Load Balancing and health checks"/>
+        <node id="aws_network_edge" label="CloudFront edge caching and origin protection"/>
+        <node id="aws_compute" label="4. Compute selection"/>
+        <node id="aws_compute_ec2" label="EC2: virtual machines and operational control"/>
+        <node id="aws_compute_containers" label="ECS versus EKS; Fargate versus node management"/>
+        <node id="aws_compute_lambda" label="Lambda: event-driven functions and execution limits"/>
+        <node id="aws_storage" label="5. Storage selection"/>
+        <node id="aws_storage_s3" label="S3: object storage, versioning and lifecycle"/>
+        <node id="aws_storage_ebs" label="EBS: block storage tied to Availability Zones"/>
+        <node id="aws_storage_efs" label="EFS: shared file storage and access patterns"/>
+        <node id="aws_data" label="6. Data services and access patterns"/>
+        <node id="aws_data_rds" label="RDS and Aurora: relational transactions"/>
+        <node id="aws_data_dynamo" label="DynamoDB: keys, access patterns and capacity"/>
+        <node id="aws_data_cache" label="ElastiCache: latency and cache consistency"/>
+        <node id="aws_integration" label="7. Integration and workflows"/>
+        <node id="aws_integration_sns" label="SNS: publish/subscribe fan-out"/>
+        <node id="aws_integration_events" label="EventBridge: event routing and integration"/>
+        <node id="aws_integration_workflow" label="Step Functions: workflow coordination"/>
+        <node id="aws_integration_retries" label="Retries, idempotency and dead-letter handling"/>
+        <node id="aws_operations" label="8. Reliability and operations"/>
+        <node id="aws_operations_zones" label="Multi-AZ design and failure isolation"/>
+        <node id="aws_operations_scale" label="Auto Scaling, health signals and quotas"/>
+        <node id="aws_operations_observe" label="CloudWatch metrics, logs and alarms"/>
+        <node id="aws_operations_backup" label="AWS Backup, snapshots and restore tests"/>
+        <node id="aws_governance" label="9. Delivery, governance and cost"/>
+        <node id="aws_governance_iac" label="CloudFormation and CDK: repeatable environments"/>
+        <node id="aws_governance_policies" label="Organizations SCPs and Config compliance checks"/>
+        <node id="aws_governance_cost" label="Budgets, Cost Explorer, tagging and lifecycle costs"/>
+        <node id="aws_advanced" label="Further study: multi-Region and hybrid design"/>
+        <node id="aws_advanced_dr" label="Backup/restore, pilot light and warm standby"/>
+        <node id="aws_advanced_hybrid" label="Direct Connect and hybrid network tradeoffs"/>
+        <edge id="edge_aws_aws_foundations" source="aws" target="aws_foundations"/>
+        <edge id="edge_aws_foundations_aws_foundations_locations" source="aws_foundations" target="aws_foundations_locations"/>
+        <edge id="edge_aws_foundations_aws_foundations_accounts" source="aws_foundations" target="aws_foundations_accounts"/>
+        <edge id="edge_aws_foundations_aws_foundations_responsibility" source="aws_foundations" target="aws_foundations_responsibility"/>
+        <edge id="edge_aws_aws_security" source="aws" target="aws_security"/>
+        <edge id="edge_aws_security_aws_security_iam" source="aws_security" target="aws_security_iam"/>
+        <edge id="edge_aws_security_aws_security_federation" source="aws_security" target="aws_security_federation"/>
+        <edge id="edge_aws_security_aws_security_kms" source="aws_security" target="aws_security_kms"/>
+        <edge id="edge_aws_security_aws_security_secrets" source="aws_security" target="aws_security_secrets"/>
+        <edge id="edge_aws_security_aws_security_audit" source="aws_security" target="aws_security_audit"/>
+        <edge id="edge_aws_aws_network" source="aws" target="aws_network"/>
+        <edge id="edge_aws_network_aws_network_vpc" source="aws_network" target="aws_network_vpc"/>
+        <edge id="edge_aws_network_aws_network_connectivity" source="aws_network" target="aws_network_connectivity"/>
+        <edge id="edge_aws_network_aws_network_dns" source="aws_network" target="aws_network_dns"/>
+        <edge id="edge_aws_network_aws_network_balance" source="aws_network" target="aws_network_balance"/>
+        <edge id="edge_aws_network_aws_network_edge" source="aws_network" target="aws_network_edge"/>
+        <edge id="edge_aws_aws_compute" source="aws" target="aws_compute"/>
+        <edge id="edge_aws_compute_aws_compute_ec2" source="aws_compute" target="aws_compute_ec2"/>
+        <edge id="edge_aws_compute_aws_compute_containers" source="aws_compute" target="aws_compute_containers"/>
+        <edge id="edge_aws_compute_aws_compute_lambda" source="aws_compute" target="aws_compute_lambda"/>
+        <edge id="edge_aws_aws_storage" source="aws" target="aws_storage"/>
+        <edge id="edge_aws_storage_aws_storage_s3" source="aws_storage" target="aws_storage_s3"/>
+        <edge id="edge_aws_storage_aws_storage_ebs" source="aws_storage" target="aws_storage_ebs"/>
+        <edge id="edge_aws_storage_aws_storage_efs" source="aws_storage" target="aws_storage_efs"/>
+        <edge id="edge_aws_aws_data" source="aws" target="aws_data"/>
+        <edge id="edge_aws_data_aws_data_rds" source="aws_data" target="aws_data_rds"/>
+        <edge id="edge_aws_data_aws_data_dynamo" source="aws_data" target="aws_data_dynamo"/>
+        <edge id="edge_aws_data_aws_data_cache" source="aws_data" target="aws_data_cache"/>
+        <edge id="edge_aws_aws_integration" source="aws" target="aws_integration"/>
+        <edge id="edge_aws_integration_aws_integration_sns" source="aws_integration" target="aws_integration_sns"/>
+        <edge id="edge_aws_integration_aws_integration_events" source="aws_integration" target="aws_integration_events"/>
+        <edge id="edge_aws_integration_aws_integration_workflow" source="aws_integration" target="aws_integration_workflow"/>
+        <edge id="edge_aws_integration_aws_integration_retries" source="aws_integration" target="aws_integration_retries"/>
+        <edge id="edge_aws_integration_db_message_broker_awssqs" source="aws_integration" target="db_message_broker_awssqs"/>
+        <edge id="edge_aws_aws_operations" source="aws" target="aws_operations"/>
+        <edge id="edge_aws_operations_aws_operations_zones" source="aws_operations" target="aws_operations_zones"/>
+        <edge id="edge_aws_operations_aws_operations_scale" source="aws_operations" target="aws_operations_scale"/>
+        <edge id="edge_aws_operations_aws_operations_observe" source="aws_operations" target="aws_operations_observe"/>
+        <edge id="edge_aws_operations_aws_operations_backup" source="aws_operations" target="aws_operations_backup"/>
+        <edge id="edge_aws_aws_governance" source="aws" target="aws_governance"/>
+        <edge id="edge_aws_governance_aws_governance_iac" source="aws_governance" target="aws_governance_iac"/>
+        <edge id="edge_aws_governance_aws_governance_policies" source="aws_governance" target="aws_governance_policies"/>
+        <edge id="edge_aws_governance_aws_governance_cost" source="aws_governance" target="aws_governance_cost"/>
+        <edge id="edge_aws_aws_advanced" source="aws" target="aws_advanced"/>
+        <edge id="edge_aws_advanced_aws_advanced_dr" source="aws_advanced" target="aws_advanced_dr"/>
+        <edge id="edge_aws_advanced_aws_advanced_hybrid" source="aws_advanced" target="aws_advanced_hybrid"/>
+    </graph>
+    <include filepath="../databases/fragments/sqs.xml"/>
+</xmlgraph>

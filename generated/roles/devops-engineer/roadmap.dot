@@ -302,6 +302,10 @@ digraph roadmap {
 	net_auth_oauth [ label="OAuth" ];
 	net_auth_jwt [ label="JWT" ];
 	net_auth_cookie [ label="Cookie" ];
+	db_distributed_replication [ label="Replication and replication lag" ];
+	db_distributed_sharding [ label="Partitioning and sharding" ];
+	db_distributed_consistency [ label="Consistency and availability tradeoffs" ];
+	db_message_broker_awssqs [ label="Amazon Simple Queue Service" ];
 	db [ label="Databases" ];
 	db_principles [ label="Data modeling" ];
 	db_principles_keys [ label="Keys, constraints and relationships" ];
@@ -328,9 +332,6 @@ digraph roadmap {
 	db_relational_blocking [ label="Locking and contention" ];
 	db_deadlocks [ label="Deadlocks and transaction retries" ];
 	db_distributed [ label="Distributed data" ];
-	db_distributed_replication [ label="Replication and replication lag" ];
-	db_distributed_sharding [ label="Partitioning and sharding" ];
-	db_distributed_consistency [ label="Consistency and availability tradeoffs" ];
 	db_nosql_cap [ label="CAP under network partitions" ];
 	db_nosql_base [ label="BASE and eventual consistency" ];
 	db_operations [ label="Operations and recovery" ];
@@ -372,7 +373,6 @@ digraph roadmap {
 	db_message_broker [ label="Message brokers and delivery semantics" ];
 	db_message_broker_kafka [ label="Kafka" ];
 	db_message_broker_rabbit [ label="RabbitMQ" ];
-	db_message_broker_awssqs [ label="Amazon Simple Queue Service" ];
 	dev_orchestration_k8s [ label="Kubernetes" ];
 	dev [ label="Software Development Processes" ];
 	dev_testing [ label="Testing" ];
@@ -415,6 +415,8 @@ digraph roadmap {
 	dev_build_ant [ label="Ant" ];
 	dev_build_gradle [ label="Gradle" ];
 	devops_containers_1 [ label="Images and registries" ];
+	devops_reliability_1 [ label="SLIs, SLOs, and error budgets" ];
+	devops_reliability_3 [ label="Backups and disaster recovery" ];
 	devops [ label="DevOps Practices" ];
 	devops_automation [ label="Automation and Scripting" ];
 	devops_automation_1 [ label="Shell scripting" ];
@@ -440,9 +442,7 @@ digraph roadmap {
 	devops_observability_2 [ label="Dashboards and actionable alerts" ];
 	devops_observability_3 [ label="OpenTelemetry" ];
 	devops_reliability [ label="Site Reliability Engineering" ];
-	devops_reliability_1 [ label="SLIs, SLOs, and error budgets" ];
 	devops_reliability_2 [ label="Incident response and postmortems" ];
-	devops_reliability_3 [ label="Backups and disaster recovery" ];
 	devops_reliability_4 [ label="Capacity planning and toil reduction" ];
 	devops_security [ label="Platform Security" ];
 	devops_security_1 [ label="Least privilege and identity management" ];

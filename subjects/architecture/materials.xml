@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../schemas/materials.xsd">
+    <article lang="en">
+        <title>arc42 architecture documentation guide</title>
+        <url>https://docs.arc42.org/home/</url>
+        <tags>
+            <tag>arch</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>arc42 quality requirements</title>
+        <url>https://docs.arc42.org/section-10/</url>
+        <tags>
+            <tag>arch_requirements</tag>
+            <tag>arch_requirements_constraints</tag>
+            <tag>arch_requirements_scenarios</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>arc42 architecture decisions</title>
+        <url>https://docs.arc42.org/section-9/</url>
+        <tags>
+            <tag>arch_decisions</tag>
+            <tag>arch_decisions_context</tag>
+            <tag>arch_decisions_adr</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>C4 system context diagrams</title>
+        <url>https://c4model.com/diagrams/system-context</url>
+        <tags>
+            <tag>arch_decisions_context</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Google SRE: addressing cascading failures</title>
+        <url>https://sre.google/sre-book/addressing-cascading-failures/</url>
+        <tags>
+            <tag>arch_reliability</tag>
+            <tag>arch_reliability_failure</tag>
+            <tag>arch_reliability_timeouts</tag>
+            <tag>arch_reliability_recovery</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Google SRE: service level objectives</title>
+        <url>https://sre.google/sre-book/service-level-objectives/</url>
+        <tags>
+            <tag>devops_reliability_1</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Google SRE: data integrity and recovery</title>
+        <url>https://sre.google/sre-book/data-integrity/</url>
+        <tags>
+            <tag>arch_reliability_recovery</tag>
+            <tag>devops_reliability_3</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Google SRE: handling overload</title>
+        <url>https://sre.google/sre-book/handling-overload/</url>
+        <tags>
+            <tag>arch_scale</tag>
+            <tag>arch_scale_capacity</tag>
+            <tag>arch_scale_cache</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Cassandra: partitioning, replication and consistency</title>
+        <url>https://cassandra.apache.org/doc/latest/cassandra/architecture/dynamo.html</url>
+        <tags>
+            <tag>db_distributed_replication</tag>
+            <tag>db_distributed_sharding</tag>
+            <tag>db_distributed_consistency</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Cache-aside pattern</title>
+        <url>https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside</url>
+        <tags>
+            <tag>arch_scale_cache</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Queue-based load leveling pattern</title>
+        <url>https://learn.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling</url>
+        <tags>
+            <tag>arch_integration</tag>
+            <tag>arch_integration_queues</tag>
+            <tag>arch_integration_delivery</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>OWASP threat modeling</title>
+        <url>https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html</url>
+        <tags>
+            <tag>arch_security</tag>
+            <tag>arch_security_identity</tag>
+            <tag>arch_security_data</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>Google SRE: eliminating toil</title>
+        <url>https://sre.google/sre-book/eliminating-toil/</url>
+        <tags>
+            <tag>arch_economics</tag>
+            <tag>arch_economics_tco</tag>
+            <tag>arch_economics_managed</tag>
+        </tags>
+    </article>
+    <article lang="en">
+        <title>FinOps framework: business value and cost ownership</title>
+        <url>https://www.finops.org/framework/</url>
+        <tags>
+            <tag>arch_economics</tag>
+            <tag>arch_economics_tco</tag>
+        </tags>
+    </article>
+</materials>

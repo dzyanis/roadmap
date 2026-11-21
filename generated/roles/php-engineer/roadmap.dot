@@ -309,6 +309,10 @@ digraph roadmap {
 	cs_architecture_oop_encapsulation [ label="Encapsulation" ];
 	cs_architecture_oop_inheritance [ label="Inheritance" ];
 	cs_architecture_oop_polymorphism [ label="Polymorphism" ];
+	db_distributed_replication [ label="Replication and replication lag" ];
+	db_distributed_sharding [ label="Partitioning and sharding" ];
+	db_distributed_consistency [ label="Consistency and availability tradeoffs" ];
+	db_message_broker_awssqs [ label="Amazon Simple Queue Service" ];
 	db [ label="Databases" ];
 	db_principles [ label="Data modeling" ];
 	db_principles_keys [ label="Keys, constraints and relationships" ];
@@ -335,9 +339,6 @@ digraph roadmap {
 	db_relational_blocking [ label="Locking and contention" ];
 	db_deadlocks [ label="Deadlocks and transaction retries" ];
 	db_distributed [ label="Distributed data" ];
-	db_distributed_replication [ label="Replication and replication lag" ];
-	db_distributed_sharding [ label="Partitioning and sharding" ];
-	db_distributed_consistency [ label="Consistency and availability tradeoffs" ];
 	db_nosql_cap [ label="CAP under network partitions" ];
 	db_nosql_base [ label="BASE and eventual consistency" ];
 	db_operations [ label="Operations and recovery" ];
@@ -379,7 +380,6 @@ digraph roadmap {
 	db_message_broker [ label="Message brokers and delivery semantics" ];
 	db_message_broker_kafka [ label="Kafka" ];
 	db_message_broker_rabbit [ label="RabbitMQ" ];
-	db_message_broker_awssqs [ label="Amazon Simple Queue Service" ];
 	net_dns [ label="DNS" ];
 	net_protocols_ip [ label="IP" ];
 	net_protocols_tcp [ label="TCP" ];

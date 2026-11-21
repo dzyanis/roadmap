@@ -1,6 +1,6 @@
 # Roadmap Core
 
-Roadmap Core is a collection of software engineering knowledge maps and learning resources, maintained as code. It combines reusable subject graphs into roadmaps for Go Engineer, Java Engineer, PHP Engineer, Python Engineer, Ruby Engineer, DevOps Engineer, Kubernetes, and Data Structures and Algorithms, then generates diagrams and Markdown guides.
+Roadmap Core is a collection of software engineering knowledge maps and learning resources, maintained as code. It combines reusable subject graphs into roadmaps for Go Engineer, Java Engineer, PHP Engineer, Python Engineer, Ruby Engineer, DevOps Engineer, AWS Solutions Architect, Kubernetes, and Data Structures and Algorithms, then generates diagrams and Markdown guides.
 
 The project helps developers plan their learning and gives mentors and teams a shared reference for discussing skills. Common subjects—such as databases, networking, and operating systems—live in one place. Updating a shared subject and rebuilding updates every roadmap that includes it, so teams can review changes through Git and pull requests.
 
@@ -18,6 +18,7 @@ Open a diagram to browse the topics, or a learning guide to find resources attac
 | Python Engineer | [SVG](generated/roles/python-engineer/roadmap.svg) · [PNG](generated/roles/python-engineer/roadmap.png) | [Materials](generated/roles/python-engineer/guide.md) | [XML](roadmaps/roles/python-engineer/roadmap.xml) · [DOT](generated/roles/python-engineer/roadmap.dot) |
 | Ruby Engineer | [SVG](generated/roles/ruby-engineer/roadmap.svg) · [PNG](generated/roles/ruby-engineer/roadmap.png) | [Materials](generated/roles/ruby-engineer/guide.md) | [XML](roadmaps/roles/ruby-engineer/roadmap.xml) · [DOT](generated/roles/ruby-engineer/roadmap.dot) |
 | DevOps Engineer | [SVG](generated/roles/devops-engineer/roadmap.svg) · [PNG](generated/roles/devops-engineer/roadmap.png) | [Materials](generated/roles/devops-engineer/guide.md) | [XML](roadmaps/roles/devops-engineer/roadmap.xml) · [DOT](generated/roles/devops-engineer/roadmap.dot) |
+| AWS Solutions Architect | [SVG](generated/roles/aws-solutions-architect/roadmap.svg) · [PNG](generated/roles/aws-solutions-architect/roadmap.png) | [Materials](generated/roles/aws-solutions-architect/guide.md) · [Practice](roadmaps/roles/aws-solutions-architect/README.md) | [XML](roadmaps/roles/aws-solutions-architect/roadmap.xml) · [DOT](generated/roles/aws-solutions-architect/roadmap.dot) |
 | Kubernetes | [SVG](generated/technologies/kubernetes/roadmap.svg) · [PNG](generated/technologies/kubernetes/roadmap.png) | [Materials](generated/technologies/kubernetes/guide.md) · [Practice](roadmaps/technologies/kubernetes/README.md) | [XML](roadmaps/technologies/kubernetes/roadmap.xml) · [DOT](generated/technologies/kubernetes/roadmap.dot) |
 | Data Structures and Algorithms | [SVG](generated/foundations/data-structures-algorithms/roadmap.svg) · [PNG](generated/foundations/data-structures-algorithms/roadmap.png) | [Materials](generated/foundations/data-structures-algorithms/guide.md) | [XML](roadmaps/foundations/data-structures-algorithms/roadmap.xml) · [DOT](generated/foundations/data-structures-algorithms/roadmap.dot) |
 
@@ -69,7 +70,7 @@ sudo apt-get update
 sudo apt-get install python3 graphviz make libxml2-utils
 ```
 
-Clone the repository and build all eight roadmaps:
+Clone the repository and build all nine roadmaps:
 
 ```bash
 git clone https://github.com/dzyanis/roadmap.git
@@ -79,7 +80,7 @@ make all
 
 Outputs are written to `generated/<category>/<name>/`. Builds are incremental: unchanged outputs are skipped, and missing outputs are regenerated. Shared subject changes trigger rebuilds across roadmaps.
 
-To build one roadmap, use `make go-engineer`, `make java-engineer`, `make php-engineer`, `make python-engineer`, `make ruby-engineer`, `make devops-engineer`, `make kubernetes`, or `make data-structures-algorithms`. Legacy commands `make go`, `make golang`, `make java`, `make php`, `make python`, `make ruby`, `make devops`, and `make cs` remain aliases. Category-qualified targets such as `make roles/go-engineer` are also supported.
+To build one roadmap, use `make go-engineer`, `make java-engineer`, `make php-engineer`, `make python-engineer`, `make ruby-engineer`, `make devops-engineer`, `make kubernetes`, `make aws-solutions-architect`, or `make data-structures-algorithms`. Legacy commands `make go`, `make golang`, `make java`, `make php`, `make python`, `make ruby`, `make devops`, and `make cs` remain aliases. Category-qualified targets such as `make roles/go-engineer` are also supported.
 
 To remove the generated outputs and rebuild everything:
 
