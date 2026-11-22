@@ -104,6 +104,42 @@ class PipelineTests(unittest.TestCase):
         self.assertIsNone(shared['resources'][1]['translation'])
         self.assertTrue(all(edge['type'] == 'contains' for edge in data['edges']))
 
+    def test_relationship_types_keep_the_outline_separate(self):
+        source = self.subject.read_text().replace('</graph>', """
+            <edge id="reverse" source="shared" target="a" type="prerequisite"/>
+            <edge id="orphan-shared" source="orphan" target="shared" type="prerequisite"/>
+            <edge id="related-1" source="a" target="orphan" type="related-to"/>
+            <edge id="related-2" source="orphan" target="shared" type="related-to"/>
+            <edge id="related-3" source="shared" target="a" type="related-to"/>
+        </graph>""")
+        self.subject.write_text(source)
+        graph = self.load()
+        self.assertEqual(graph.nodes['a'].childrenids, ('shared',))
+        self.assertEqual(graph.nodes['shared'].childrenids, ())
+        markdown, dot, output = io.StringIO(), io.StringIO(), io.StringIO()
+        write_md(graph, markdown)
+        write_dot(graph, dot)
+        write_json(graph, output)
+        self.assertEqual(markdown.getvalue().count('### Shared λ\n'), 2)
+        self.assertNotIn('Orphan', markdown.getvalue())
+        self.assertIn('shared->a [style=dashed, label="learn first"', dot.getvalue())
+        self.assertIn('orphan->shared [style=dotted, dir=none, label="related"', dot.getvalue())
+        data = json.loads(output.getvalue())
+        self.assertEqual(data['schema_version'], 2)
+        self.assertEqual(len(data['edges']), 9)
+        self.assertIn({'id': 'related-2', 'source': 'orphan', 'target': 'shared',
+                       'type': 'related-to'}, data['edges'])
+
+    def test_prerequisite_loop_fails(self):
+        source = self.subject.read_text().replace('</graph>', """
+            <edge id="first" source="a" target="b" type="prerequisite"/>
+            <edge id="second" source="b" target="shared" type="prerequisite"/>
+            <edge id="third" source="shared" target="a" type="prerequisite"/>
+        </graph>""")
+        self.subject.write_text(source)
+        with self.assertRaisesRegex(ValueError, 'prerequisite roadmap cycle'):
+            self.load()
+
     def test_json_is_deterministic_across_runs_and_checkout_locations(self):
         first, second, relocated = io.StringIO(), io.StringIO(), io.StringIO()
         write_json(self.load(), first)
@@ -127,7 +163,7 @@ class PipelineTests(unittest.TestCase):
             (self.subject, 'target="shared"', 'target="absent"', 'unknown target'),
             (self.subject, 'source="a" target="shared"', 'source="shared" target="b"', 'roadmap cycle'),
             (self.subject, 'id="orphan"', 'id="a"', 'duplicate node ID'),
-            (self.subject, 'id="a-shared"', 'id="a-shared" type="related-to"', 'type'),
+            (self.subject, 'id="a-shared"', 'id="a-shared" type="requires"', 'requires'),
             (self.resources, '<tag>shared</tag>', '<tag>absent</tag>', 'material tag'),
             (self.resources, 'lang="en"', '', 'lang'),
             (self.graph, '<include filepath="../../../subjects/example/roadmap.xml"/>',

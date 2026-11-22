@@ -74,9 +74,13 @@ topic and edge, including disconnected components. Legacy `xmlg2dot.py` and
 `xmlg2md.py` commands remain available; the graph-only DOT command does not load
 materials. Subject-only prototypes may omit the root. JSON/Markdown require one.
 
-## JSON version 1
+## JSON version 2
 
-The machine-readable contract is [graph-v1.schema.json](../schemas/graph-v1.schema.json).
+New exports use [graph-v2.schema.json](../schemas/graph-v2.schema.json), even when all links
+are `contains`. The website builder and viewer also read existing
+[version 1 files](../schemas/graph-v1.schema.json), which contain only `contains` links.
+The builder fails on unsupported versions. The viewer shows a load error when
+it receives an unsupported version.
 `schema_version` is an integer; consumers must reject unsupported versions.
 Changes to required fields, field meanings, ID rules, or supported edge types
 require a new contract version. Generated JSON is UTF-8, two-space indented,
@@ -88,7 +92,7 @@ sequence. DOT/Markdown continue to use XML ordering.
 
 | JSON field | Contract |
 | --- | --- |
-| `schema_version` | `1`. |
+| `schema_version` | `2`. |
 | `roadmap.id` | Stable public roadmap key such as `roles/go-engineer`. |
 | `roadmap.label` | Root topic's label, suitable for a roadmap selector. |
 | `roadmap.root` | ID of a topic in `topics`. Existing roadmap roots remain `backend`. |
@@ -97,7 +101,7 @@ sequence. DOT/Markdown continue to use XML ordering.
 | `topics[].subjects` | Declaring subject directory ID, including nested fragments; empty for topics declared in the roadmap itself. This is provenance, not inferred ancestry. |
 | `topics[].resources[]` | `type`, `title`, `url`, `language`, `description`, `translation`. Resources tagged to several topics appear under each. |
 | `translation` | `null`, or an object containing `language` and `url`. |
-| `edges[]` | Objects with original XML `id`, `source`, `target`, and `type: "contains"`. Every endpoint references an exported topic. |
+| `edges[]` | Objects with original XML `id`, `source`, `target`, and `type` (`contains`, `prerequisite`, or `related-to`). Every endpoint references an exported topic. |
 
 Topic and edge IDs are unique within a roadmap, not across roadmaps. A topic's
 identity for website state is `(roadmap.id, topic.id)`. A viewer can use links
@@ -116,27 +120,34 @@ empty tags. The XSD still requires the title, URL, tags, and language fields.
 JSON strings are data: HTML consumers must escape text and apply their URL policy
 when rendering links.
 
-## Relationship semantics and planned extension
+## Links between topics
 
-Existing untyped XML edges are **contains**: `source` is the broader parent topic,
-`target` is an included subtopic. They express the current learning outline, not
-a claim that the source must be learned first. Shared descendants and parallel
-edges with distinct IDs remain valid. All current edges must be acyclic.
+Set the optional `type` on an XML edge. Existing edges without a type
+mean `contains`. The loader rejects unknown types.
 
-The following extension is deliberately separate from this compatibility refactor:
+```xml
+<edge id="sql_joins" source="sql" target="joins"/>
+<edge id="tables_joins" source="tables" target="joins" type="prerequisite"/>
+<edge id="joins_keys" source="joins" target="foreign_keys" type="related-to"/>
+```
 
-| Type | Direction and meaning | Cycle rule |
-| --- | --- | --- |
-| `contains` | Broader topic → contained subtopic. Legacy edges default to this type. | Reject cycles in the containment subgraph. |
-| `prerequisite` | Required topic → topic that depends on it. | Reject cycles in the prerequisite subgraph. |
-| `related-to` | Symmetric association; source/target record the declaration, not ordering. | Cycles allowed. |
+SQL includes Joins. Learn Tables before Joins. You can explore Foreign keys
+from Joins, or Joins from Foreign keys, using the single link shown above.
+The model keeps the source and target in the order written.
 
-The follow-up must add an optional XML edge `type`, reject unknown types, validate
-each directed type independently, and retain all edges in the model. A mixed
-contains/prerequisite cycle is not itself a same-type cycle; cross-type policy
-must be explicit rather than applying a blanket DAG check. Markdown must traverse
-only containment edges; other relations need a separate presentation. Related
-edges must never enter recursive outline traversal. Tests must cover valid related
-cycles, invalid containment/prerequisite cycles, mixed-type cycles, and legacy XML.
-The JSON version must advance before exposing richer edge types. Implementation
-is tracked in [#46](https://github.com/dzyanis/roadmap/issues/46).
+The loader checks `contains` and `prerequisite` for loops separately.
+For example, Query tuning can contain Query plans, and Query plans can be a
+prerequisite for Query tuning. Each kind of link is valid on its own.
+A triangle of `related-to` links is valid too. Two parent topics can share
+a subtopic, and parallel edges with different IDs are allowed.
+
+| Output | Contains | Prerequisite | Related to |
+| --- | --- | --- | --- |
+| Markdown guide | Adds the target under the source in the outline | Omitted | Omitted |
+| DOT and Graphviz prototype | Solid arrow | Dashed arrow labeled “learn first” | Dotted line labeled “related” |
+| Mermaid prototype and comparison | Solid arrow | Dotted arrow labeled “learn first” | Line labeled “related” |
+| D2 comparison | Arrow | Arrow labeled “learn first” | Line labeled “related” |
+| Website | Arrow and “Part of” or “Includes” | Dashed arrow and “Learn first” or “Learn next” | Dotted line and “Related topics” at both ends |
+
+The website lays out topics using containment links. The Mermaid preview
+shows all three types in the diagram and lists them separately in topic details.

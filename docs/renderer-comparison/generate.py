@@ -10,7 +10,15 @@ REPOSITORY = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPOSITORY / 'tools'))
 
 from pipeline import load_roadmap
-from xmlg2dot import dot_string
+from xmlg2dot import EDGE_ATTRIBUTES, dot_string
+from xmlgraph import CONTAINS, PREREQUISITE, RELATED_TO
+
+MERMAID_LINKS = {CONTAINS: '-->', PREREQUISITE: '-. learn first .->', RELATED_TO: '---|related|'}
+D2_LINKS = {
+    CONTAINS: ('->', ''),
+    PREREQUISITE: ('->', ': learn first'),
+    RELATED_TO: ('--', ': related'),
+}
 
 
 def export(xml, output, grouped):
@@ -56,11 +64,12 @@ def export(xml, output, grouped):
     for edge in roadmap.edges.values():
         source_group, source = ids[edge.source]
         target_group, target = ids[edge.target]
-        dot.append(f'  {source} -> {target};')
-        mermaid.append(f'  {source} --> {target}')
+        dot.append(f'  {source} -> {target}{EDGE_ATTRIBUTES[edge.type]};')
+        mermaid.append(f'  {source} {MERMAID_LINKS[edge.type]} {target}')
         d2_source = f'{source_group}.{source}' if source_group else source
         d2_target = f'{target_group}.{target}' if target_group else target
-        d2.append(f'{d2_source} -> {d2_target}')
+        connector, label = D2_LINKS[edge.type]
+        d2.append(f'{d2_source} {connector} {d2_target}{label}')
     for nodes in groups.values():
         for identifier, _, url in nodes:
             if url:

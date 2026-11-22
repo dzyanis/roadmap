@@ -1,4 +1,4 @@
-"""Version 1 JSON contract. No renderer-specific fields or local file paths."""
+"""Version 2 JSON contract. No renderer-specific fields or local file paths."""
 
 import json
 
@@ -19,7 +19,7 @@ def graph_data(roadmap):
     if roadmap.root not in roadmap.nodes:
         raise ValueError('JSON export requires a valid root topic')
     return {
-        'schema_version': 1,
+        'schema_version': 2,
         'roadmap': {'id': roadmap.id, 'label': roadmap.nodes[roadmap.root].label,
                     'root': roadmap.root},
         'subjects': list(roadmap.subjects),

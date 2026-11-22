@@ -5,13 +5,19 @@ from graphlib import CycleError, TopologicalSorter
 from xmlincludes import load_xml
 
 
+CONTAINS = 'contains'
+PREREQUISITE = 'prerequisite'
+RELATED_TO = 'related-to'
+EDGE_TYPES = (CONTAINS, PREREQUISITE, RELATED_TO)
+
+
 class Edge:
-    def __init__(self, edge_id, source, target, filepath):
+    def __init__(self, edge_id, source, target, filepath, edge_type=CONTAINS):
         self.id = edge_id
         self.source = source
         self.target = target
         self.filepath = filepath
-        self.type = 'contains'
+        self.type = edge_type
 
 
 class Node:
@@ -35,7 +41,7 @@ class Roadmap:
         self._load_from_file(filepath, (), nodes, edges)
 
         # Connect edges only after all included files have been loaded.
-        topology = TopologicalSorter()
+        topologies = {kind: TopologicalSorter() for kind in (CONTAINS, PREREQUISITE)}
         for edge in edges.values():
             for endpoint in ('source', 'target'):
                 node_id = getattr(edge, endpoint)
@@ -43,17 +49,20 @@ class Roadmap:
                     raise ValueError(
                         f'{edge.filepath}: Edge {edge.id!r} references unknown '
                         f'{endpoint} node {node_id!r}')
-            topology.add(edge.target, edge.source)
-        try:
-            topology.prepare()
-        except CycleError as error:
-            cycle = ' -> '.join(error.args[1])
-            raise ValueError(f'{filepath}: roadmap cycle: {cycle}') from error
+            if edge.type in topologies:
+                topologies[edge.type].add(edge.target, edge.source)
+        for kind, topology in topologies.items():
+            try:
+                topology.prepare()
+            except CycleError as error:
+                cycle = ' -> '.join(error.args[1])
+                raise ValueError(f'{filepath}: {kind} roadmap cycle: {cycle}') from error
 
         for node in nodes.values():
             node.childrenids.clear()
         for edge in edges.values():
-            nodes[edge.source].childrenids.append(edge.target)
+            if edge.type == CONTAINS:
+                nodes[edge.source].childrenids.append(edge.target)
         self.nodes = nodes
         self.edges = edges
 
@@ -70,8 +79,11 @@ class Roadmap:
                     if element_id in edges:
                         raise ValueError(f'{filepath}: duplicate edge ID {element_id!r} '
                                          f'(first defined in {edges[element_id].filepath})')
+                    edge_type = element.get('type', CONTAINS)
+                    if edge_type not in EDGE_TYPES:
+                        raise ValueError(f'{filepath}: edge {element_id!r} has unknown type {edge_type!r}')
                     edges[element_id] = Edge(element_id, element.get('source'),
-                                             element.get('target'), filepath)
+                                             element.get('target'), filepath, edge_type)
                 elif element.tag == 'node':
                     if element_id in nodes:
                         raise ValueError(f'{filepath}: duplicate node ID {element_id!r} '

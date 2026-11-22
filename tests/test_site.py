@@ -64,9 +64,27 @@ class SiteTests(unittest.TestCase):
             self.assertNotIn('const DATA = \'/', text)
 
     def test_rejects_unsupported_schema(self):
-        self.write_graph('roles/example', graph(schema_version=2))
+        self.write_graph('roles/example', graph(schema_version=3))
         with self.assertRaisesRegex(ValueError, 'unsupported schema_version'):
             build_site.build(self.directory / 'site', generated=self.generated)
+
+    def test_typed_edges_require_version_two(self):
+        data = graph(schema_version=2)
+        data['edges'].extend([
+            {'id': 'prereq', 'source': 'db', 'target': 'backend', 'type': 'prerequisite'},
+            {'id': 'related', 'source': 'backend', 'target': 'db', 'type': 'related-to'},
+        ])
+        self.write_graph('roles/example', data)
+        output = self.directory / 'site'
+        build_site.build(output, generated=self.generated)
+        self.assertEqual(json.loads((output / 'data/roles/example.json').read_text()), data)
+        data['schema_version'] = 1
+        with self.assertRaisesRegex(ValueError, "unsupported type 'prerequisite'"):
+            build_site.validate(data, 'roles/example')
+        data['schema_version'] = 2
+        data['edges'][1]['type'] = 'requires'
+        with self.assertRaisesRegex(ValueError, "unsupported type 'requires'"):
+            build_site.validate(data, 'roles/example')
 
     def test_rejects_edges_to_unknown_topics(self):
         data = graph(edges=[{'id': 'x', 'source': 'backend', 'target': 'missing', 'type': 'contains'}])

@@ -15,7 +15,16 @@
         <xs:attribute name="label" type="xs:string" use="required"/>
     </xs:complexType>
 
+    <xs:simpleType name="edge-type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="contains"/>
+            <xs:enumeration value="prerequisite"/>
+            <xs:enumeration value="related-to"/>
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:complexType name="edge">
+        <xs:attribute name="type" type="edge-type" default="contains"/>
         <xs:attribute name="id" type="xs:string" use="required"/>
         <xs:attribute name="source" type="xs:string" use="required"/>
         <xs:attribute name="target" type="xs:string" use="required"/>

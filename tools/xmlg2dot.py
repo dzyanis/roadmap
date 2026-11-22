@@ -3,6 +3,7 @@
 import argparse
 import re
 from pipeline import load_roadmap
+from xmlgraph import CONTAINS, PREREQUISITE, RELATED_TO
 
 
 DOT_KEYWORDS = {'node', 'edge', 'graph', 'digraph', 'subgraph', 'strict'}
@@ -20,10 +21,18 @@ def dot_id(text):
     return dot_string(text)
 
 
+EDGE_ATTRIBUTES = {
+    CONTAINS: '',
+    PREREQUISITE: ' [style=dashed, label="learn first", constraint=false]',
+    RELATED_TO: ' [style=dotted, dir=none, label="related", constraint=false]',
+}
+
+
 def write_dot(roadmap, output):
     output.write('digraph roadmap {\n\trankdir=LR;\n')
     for edge in roadmap.edges.values():
-        output.write(f'\t{dot_id(edge.source)}->{dot_id(edge.target)};\n')
+        attributes = EDGE_ATTRIBUTES[edge.type]
+        output.write(f'\t{dot_id(edge.source)}->{dot_id(edge.target)}{attributes};\n')
     for node in roadmap.nodes.values():
         output.write(f'\t{dot_id(node.id)} [ label={dot_string(node.label)} ];\n')
     output.write('}\n')
