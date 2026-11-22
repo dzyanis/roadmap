@@ -43,7 +43,7 @@ class BuildTests(unittest.TestCase):
                     self.assertTrue((data / 'roadmap.dot').read_text().startswith('digraph roadmap {'))
                     self.assertTrue((data / 'guide.md').read_text().startswith('# '))
                     graph = json.loads((data / 'graph.json').read_text())
-                    self.assertEqual(graph['schema_version'], 1)
+                    self.assertEqual(graph['schema_version'], 2)
                     self.assertEqual(graph['roadmap']['id'], roadmap.parent.relative_to(workspace / 'roadmaps').as_posix())
                     self.assertEqual(graph['roadmap']['root'], 'backend')
                     topics = {topic['id'] for topic in graph['topics']}

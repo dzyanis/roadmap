@@ -19,7 +19,10 @@ REPO = HERE.parents[2]
 sys.path.insert(0, str(REPO / 'tools'))
 from pipeline import load_roadmap
 from graphjson import graph_data
-from xmlg2dot import dot_string
+from xmlg2dot import EDGE_ATTRIBUTES, dot_string
+from xmlgraph import CONTAINS, PREREQUISITE, RELATED_TO
+
+MERMAID_LINKS = {CONTAINS: '-->', PREREQUISITE: '-. learn first .->', RELATED_TO: '---|related|'}
 
 CANDIDATE = 'mermaid'
 INPUTS = {
@@ -65,7 +68,7 @@ def baseline(graph, key):
                          f'URL={dot_string(topic_link(key, node.id))}];')
         lines.append('}')
     for edge in graph.edges.values():
-        lines.append(f'{ids[edge.source]} -> {ids[edge.target]};')
+        lines.append(f'{ids[edge.source]} -> {ids[edge.target]}{EDGE_ATTRIBUTES[edge.type]};')
     return '\n'.join(lines + ['}']) + '\n'
 
 
@@ -85,7 +88,7 @@ def candidate_source(graph, key):
             lines.append(f'{ids[node.id]}["{label(wrapped(node.label))}"]')
         lines.append('end')
     for edge in graph.edges.values():
-        lines.append(f'{ids[edge.source]} --> {ids[edge.target]}')
+        lines.append(f'{ids[edge.source]} {MERMAID_LINKS[edge.type]} {ids[edge.target]}')
     for node in graph.nodes.values():
         lines.append(f'click {ids[node.id]} href "{topic_link(key, node.id)}"')
     return '\n'.join(lines) + '\n'

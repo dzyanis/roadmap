@@ -97,7 +97,12 @@
 
   async function loadRoadmap(id) {
     if (!state.cache.has(id)) {
-      state.cache.set(id, fetchJSON(`${DATA}${id}.json`));
+      state.cache.set(id, fetchJSON(`${DATA}${id}.json`).then((graph) => {
+        if (![1, 2].includes(graph.schema_version)) {
+          throw new Error(`Unsupported graph version ${graph.schema_version}.`);
+        }
+        return graph;
+      }));
     }
     return state.cache.get(id);
   }
@@ -126,7 +131,7 @@
       data: { id: topic.id, label: topic.label, color: topicColor(topic) },
     }));
     const edges = graph.edges.map((edge) => ({
-      data: { id: edge.id, source: edge.source, target: edge.target },
+      data: { id: edge.id, source: edge.source, target: edge.target, type: edge.type },
     }));
     return [...nodes, ...edges];
   }
@@ -172,6 +177,16 @@
         'target-arrow-color': '#9ca3af',
         'arrow-scale': 0.9,
       },
+    },
+    {
+      selector: 'edge[type = "prerequisite"]',
+      style: { 'line-style': 'dashed', label: 'Learn first', 'font-size': 10,
+        'text-background-color': '#fff', 'text-background-opacity': 1 },
+    },
+    {
+      selector: 'edge[type = "related-to"]',
+      style: { 'line-style': 'dotted', 'target-arrow-shape': 'none', label: 'Related', 'font-size': 10,
+        'text-background-color': '#fff', 'text-background-opacity': 1 },
     },
     { selector: '.hit', style: { 'background-color': '#fef08a' } },
     { selector: '.neighbor', style: { 'border-width': 5 } },
@@ -219,7 +234,8 @@
       autoungrabify: true,
       boxSelectionEnabled: false,
     });
-    cy.layout(layoutOptions()).run();
+    // Place nodes using the outline. Other links can point across it in any direction.
+    cy.nodes().union(cy.edges('[type = "contains"]')).layout(layoutOptions()).run();
     cy.on('tap', 'node', (event) => selectTopic(event.target.id(), { source: 'graph' }));
     cy.on('tap', (event) => {
       if (event.target === cy) clearSelection();
@@ -270,8 +286,8 @@
     const node = state.cy.getElementById(id);
     if (source !== 'graph') focusNode(node);
     writeHash();
-    const parents = node.incomers('node').length;
-    const children = node.outgoers('node').length;
+    const parents = neighbors(node, 'contains', 'target').length;
+    const children = neighbors(node, 'contains', 'source').length;
     announce(`${topic.label}. ${parents} parent topics, ${children} subtopics, ${topic.resources.length} learning resources.`);
     if (moveFocus) document.getElementById('topic-title')?.focus({ preventScroll: true });
   }
@@ -315,10 +331,22 @@
     return el('li', null, {}, children);
   }
 
+  function neighbors(node, type, endpoint) {
+    const ids = new Set();
+    node.connectedEdges().forEach((edge) => {
+      if (edge.data('type') !== type) return;
+      const source = edge.data('source');
+      const target = edge.data('target');
+      if (endpoint !== 'target' && source === node.id()) ids.add(target);
+      if (endpoint !== 'source' && target === node.id()) ids.add(source);
+    });
+    return [...ids].map((id) => state.topics.get(id));
+  }
+
   function renderCard(topic) {
     const node = state.cy.getElementById(topic.id);
-    const parents = node.incomers('node').map((n) => state.topics.get(n.id()));
-    const children = node.outgoers('node').map((n) => state.topics.get(n.id()));
+    const parents = neighbors(node, 'contains', 'target');
+    const children = neighbors(node, 'contains', 'source');
     const sort = (list) => list.sort((a, b) => a.label.localeCompare(b.label));
     const subject = topic.subjects.length ? prettify(topic.subjects[0]) : 'Roadmap root';
 
@@ -336,6 +364,12 @@
       ? relationList(sort(children))
       : el('p', 'No subtopics.')];
 
+    const extraSections = [
+      ['Learn first', neighbors(node, 'prerequisite', 'target')],
+      ['Learn next', neighbors(node, 'prerequisite', 'source')],
+      ['Related topics', neighbors(node, 'related-to')],
+    ].flatMap(([label, topics]) => topics.length ? [el('h3', label), relationList(sort(topics))] : []);
+
     const resourceSection = [resources];
     if (topic.resources.length) {
       resourceSection.push(el('ul', null, { class: 'resource-list' },
@@ -344,7 +378,7 @@
       resourceSection.push(el('p', 'No learning resources are attached to this topic yet.'));
     }
 
-    ui.card.replaceChildren(title, subjectLine, ...parentSection, ...childSection, ...resourceSection);
+    ui.card.replaceChildren(title, subjectLine, ...parentSection, ...childSection, ...extraSections, ...resourceSection);
   }
 
   /* ---------- outline and search ---------- */

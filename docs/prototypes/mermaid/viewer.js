@@ -60,8 +60,17 @@ function choose(id, focus = true, updateUrl = true) {
     if (resource.description) element('p', resource.description, li);
     if (resource.translation) safeLink(resource.translation.url, ` Translation (${resource.translation.language})`, li);
   }
-  for (const [title, source, target] of [['Parents','target','source'],['Next topics','source','target']]) {
-    const ids = [...new Set(graph.edges.filter(e => e[source] === id).map(e => e[target]))];
+  const incoming = (type) => graph.edges.filter(e => e.type === type && e.target === id).map(e => e.source);
+  const outgoing = (type) => graph.edges.filter(e => e.type === type && e.source === id).map(e => e.target);
+  const sections = [
+    ['Parents', incoming('contains')],
+    ['Subtopics', outgoing('contains')],
+    ['Learn first', incoming('prerequisite')],
+    ['Learn next', outgoing('prerequisite')],
+    ['Related topics', [...incoming('related-to'), ...outgoing('related-to')]],
+  ];
+  for (const [title, topics] of sections) {
+    const ids = [...new Set(topics)];
     if (!ids.length) continue;
     element('h3', title, details);
     for (const related of ids) {
@@ -102,6 +111,7 @@ async function load(fromHash = false) {
   try {
     const [data, source] = await Promise.all([checkedFetch(`${key}.json`, 'json'), checkedFetch(`${key}-${layout}.svg`, 'text')]);
     if (token !== request) return;
+    if (![1, 2].includes(data.schema_version)) throw new Error(`Unsupported graph version ${data.schema_version}.`);
     const parsed = new DOMParser().parseFromString(source,'image/svg+xml');
     if (parsed.querySelector('parsererror')) throw new Error('Invalid diagram SVG');
     graph = data; svg = document.importNode(parsed.documentElement,true);

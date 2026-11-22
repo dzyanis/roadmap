@@ -132,7 +132,7 @@ Generated files are committed so readers can browse roadmaps directly on GitHub.
 ## Tools and design notes
 
 - [XML graph parser](tools/xmlgraph.py) and [materials parser](tools/materials.py): load and combine source files.
-- [Shared graph loader](tools/pipeline.py), [JSON schema](schemas/graph-v1.schema.json), and [pipeline/exporter guide](docs/graph-pipeline.md): define the validated model, versioned JSON contract, and how to add exporters.
+- [Shared graph loader](tools/pipeline.py), [JSON schema](schemas/graph-v2.schema.json), and [pipeline/exporter guide](docs/graph-pipeline.md): define the validated model, versioned JSON contract, and how to add exporters.
 - [DOT converter](tools/xmlg2dot.py) and [Markdown converter](tools/xmlg2md.py): generate graph descriptions and learning guides.
 - [Validator](tools/validate.py), [graph schema](schemas/roadmap.xsd), and [materials schema](schemas/materials.xsd): define and check the input format.
 - [Makefile](Makefile), [export driver](tools/export.py), and [build script](tools/build.sh): coordinate generation of all five output formats from one assembled model.

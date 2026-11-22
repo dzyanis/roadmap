@@ -12,17 +12,20 @@ import json
 import shutil
 from pathlib import Path
 
+from xmlgraph import CONTAINS, EDGE_TYPES
+
 REPOSITORY = Path(__file__).resolve().parents[1]
 SOURCE = REPOSITORY / 'site'
 GENERATED = REPOSITORY / 'generated'
 SHELL_FILES = ('index.html', 'app.js', 'style.css')
-SCHEMA_VERSION = 1
+EDGE_TYPES_BY_VERSION = {1: (CONTAINS,), 2: EDGE_TYPES}
 
 
 def validate(graph, roadmap_id):
     """Reject data the viewer cannot render safely before anything is published."""
-    if graph.get('schema_version') != SCHEMA_VERSION:
-        raise ValueError(f'{roadmap_id}: unsupported schema_version {graph.get("schema_version")!r}')
+    version = graph.get('schema_version')
+    if type(version) is not int or version not in EDGE_TYPES_BY_VERSION:
+        raise ValueError(f'{roadmap_id}: unsupported schema_version {version!r}')
     if graph['roadmap']['id'] != roadmap_id:
         raise ValueError(f'{roadmap_id}: graph declares roadmap id {graph["roadmap"]["id"]!r}')
     topics = set()
@@ -41,6 +44,9 @@ def validate(graph, roadmap_id):
     if root not in topics:
         raise ValueError(f'{roadmap_id}: root {root!r} is not a topic')
     for edge in graph['edges']:
+        if edge.get('type') not in EDGE_TYPES_BY_VERSION[version]:
+            raise ValueError(f'{roadmap_id}: edge {edge["id"]!r} has unsupported type {edge.get("type")!r} '
+                             f'for schema_version {version}')
         for endpoint in (edge['source'], edge['target']):
             if endpoint not in topics:
                 raise ValueError(f'{roadmap_id}: edge {edge["id"]!r} references unknown topic {endpoint!r}')
